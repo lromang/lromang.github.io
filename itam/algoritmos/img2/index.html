@@ -1,0 +1,578 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css'>
+    
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='//d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js' type='text/javascript'></script>
+    <script src='//nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart12585fd15d5f' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart12585fd15d5f()
+    });
+    function drawchart12585fd15d5f(){  
+      var opts = {
+ "dom": "chart12585fd15d5f",
+"width":    800,
+"height":    400,
+"x": "size",
+"y": "time",
+"group": "class",
+"type": "lineChart",
+"id": "chart12585fd15d5f" 
+},
+        data = [
+ {
+ "time":  0.00297904015,
+"class": "Mezcla",
+"size":            200 
+},
+{
+ "time":  0.00662899017,
+"class": "Mezcla",
+"size":            300 
+},
+{
+ "time":   0.0105829239,
+"class": "Mezcla",
+"size":            400 
+},
+{
+ "time":   0.0146489143,
+"class": "Mezcla",
+"size":            500 
+},
+{
+ "time":   0.0194449425,
+"class": "Mezcla",
+"size":            600 
+},
+{
+ "time":   0.0237178802,
+"class": "Mezcla",
+"size":            700 
+},
+{
+ "time":   0.0283410549,
+"class": "Mezcla",
+"size":            800 
+},
+{
+ "time":   0.0335650444,
+"class": "Mezcla",
+"size":            900 
+},
+{
+ "time":   0.0370550156,
+"class": "Mezcla",
+"size":           1000 
+},
+{
+ "time":   0.0408399105,
+"class": "Mezcla",
+"size":           1100 
+},
+{
+ "time":   0.0390679836,
+"class": "Mezcla",
+"size":           1200 
+},
+{
+ "time":   0.0410199165,
+"class": "Mezcla",
+"size":           1300 
+},
+{
+ "time":   0.0452928543,
+"class": "Mezcla",
+"size":           1400 
+},
+{
+ "time":   0.0498070717,
+"class": "Mezcla",
+"size":           1500 
+},
+{
+ "time":   0.0536761284,
+"class": "Mezcla",
+"size":           1600 
+},
+{
+ "time":   0.0580120087,
+"class": "Mezcla",
+"size":           1700 
+},
+{
+ "time":   0.0615408421,
+"class": "Mezcla",
+"size":           1800 
+},
+{
+ "time":   0.0661981106,
+"class": "Mezcla",
+"size":           1900 
+},
+{
+ "time":   0.0703361034,
+"class": "Mezcla",
+"size":           2000 
+},
+{
+ "time":   0.0740098953,
+"class": "Mezcla",
+"size":           2100 
+},
+{
+ "time":   0.0776731968,
+"class": "Mezcla",
+"size":           2200 
+},
+{
+ "time":   0.0824351311,
+"class": "Mezcla",
+"size":           2300 
+},
+{
+ "time":   0.0859930515,
+"class": "Mezcla",
+"size":           2400 
+},
+{
+ "time":   0.0909669399,
+"class": "Mezcla",
+"size":           2500 
+},
+{
+ "time":   0.0955460072,
+"class": "Mezcla",
+"size":           2600 
+},
+{
+ "time":   0.0994298458,
+"class": "Mezcla",
+"size":           2700 
+},
+{
+ "time":    0.104682922,
+"class": "Mezcla",
+"size":           2800 
+},
+{
+ "time":    0.110224009,
+"class": "Mezcla",
+"size":           2900 
+},
+{
+ "time":    0.113367081,
+"class": "Mezcla",
+"size":           3000 
+},
+{
+ "time":    0.118511915,
+"class": "Mezcla",
+"size":           3100 
+},
+{
+ "time":    0.123142004,
+"class": "Mezcla",
+"size":           3200 
+},
+{
+ "time":    0.126514912,
+"class": "Mezcla",
+"size":           3300 
+},
+{
+ "time":    0.130553007,
+"class": "Mezcla",
+"size":           3400 
+},
+{
+ "time":    0.135787964,
+"class": "Mezcla",
+"size":           3500 
+},
+{
+ "time":    0.140367031,
+"class": "Mezcla",
+"size":           3600 
+},
+{
+ "time":    0.143663883,
+"class": "Mezcla",
+"size":           3700 
+},
+{
+ "time":    0.149879932,
+"class": "Mezcla",
+"size":           3800 
+},
+{
+ "time":    0.153409958,
+"class": "Mezcla",
+"size":           3900 
+},
+{
+ "time":     0.15741992,
+"class": "Mezcla",
+"size":           4000 
+},
+{
+ "time":    0.163535118,
+"class": "Mezcla",
+"size":           4100 
+},
+{
+ "time":    0.166409969,
+"class": "Mezcla",
+"size":           4200 
+},
+{
+ "time":    0.172474146,
+"class": "Mezcla",
+"size":           4300 
+},
+{
+ "time":    0.176016092,
+"class": "Mezcla",
+"size":           4400 
+},
+{
+ "time":    0.182991982,
+"class": "Mezcla",
+"size":           4500 
+},
+{
+ "time":     0.18584609,
+"class": "Mezcla",
+"size":           4600 
+},
+{
+ "time":    0.190966129,
+"class": "Mezcla",
+"size":           4700 
+},
+{
+ "time":    0.195460081,
+"class": "Mezcla",
+"size":           4800 
+},
+{
+ "time":    0.200871944,
+"class": "Mezcla",
+"size":           4900 
+},
+{
+ "time":  0.00517201424,
+"class": "Inserción",
+"size":            200 
+},
+{
+ "time":   0.0219080448,
+"class": "Inserción",
+"size":            300 
+},
+{
+ "time":   0.0433218479,
+"class": "Inserción",
+"size":            400 
+},
+{
+ "time":   0.0804650784,
+"class": "Inserción",
+"size":            500 
+},
+{
+ "time":    0.133974075,
+"class": "Inserción",
+"size":            600 
+},
+{
+ "time":    0.170688868,
+"class": "Inserción",
+"size":            700 
+},
+{
+ "time":    0.232023954,
+"class": "Inserción",
+"size":            800 
+},
+{
+ "time":     0.31705308,
+"class": "Inserción",
+"size":            900 
+},
+{
+ "time":    0.397310972,
+"class": "Inserción",
+"size":           1000 
+},
+{
+ "time":    0.465019941,
+"class": "Inserción",
+"size":           1100 
+},
+{
+ "time":    0.548426867,
+"class": "Inserción",
+"size":           1200 
+},
+{
+ "time":    0.649202108,
+"class": "Inserción",
+"size":           1300 
+},
+{
+ "time":    0.787328005,
+"class": "Inserción",
+"size":           1400 
+},
+{
+ "time":    0.889554977,
+"class": "Inserción",
+"size":           1500 
+},
+{
+ "time":     1.00923204,
+"class": "Inserción",
+"size":           1600 
+},
+{
+ "time":     1.16519594,
+"class": "Inserción",
+"size":           1700 
+},
+{
+ "time":     1.32996702,
+"class": "Inserción",
+"size":           1800 
+},
+{
+ "time":     1.49899411,
+"class": "Inserción",
+"size":           1900 
+},
+{
+ "time":     1.65285707,
+"class": "Inserción",
+"size":           2000 
+},
+{
+ "time":     1.79661298,
+"class": "Inserción",
+"size":           2100 
+},
+{
+ "time":     2.00889993,
+"class": "Inserción",
+"size":           2200 
+},
+{
+ "time":     2.22908998,
+"class": "Inserción",
+"size":           2300 
+},
+{
+ "time":     2.38246703,
+"class": "Inserción",
+"size":           2400 
+},
+{
+ "time":     2.63352895,
+"class": "Inserción",
+"size":           2500 
+},
+{
+ "time":     2.83800983,
+"class": "Inserción",
+"size":           2600 
+},
+{
+ "time":     3.08086991,
+"class": "Inserción",
+"size":           2700 
+},
+{
+ "time":     3.35744691,
+"class": "Inserción",
+"size":           2800 
+},
+{
+ "time":     3.63037992,
+"class": "Inserción",
+"size":           2900 
+},
+{
+ "time":     3.84458089,
+"class": "Inserción",
+"size":           3000 
+},
+{
+ "time":     4.09154105,
+"class": "Inserción",
+"size":           3100 
+},
+{
+ "time":     4.43824601,
+"class": "Inserción",
+"size":           3200 
+},
+{
+ "time":     4.56086397,
+"class": "Inserción",
+"size":           3300 
+},
+{
+ "time":     4.96425605,
+"class": "Inserción",
+"size":           3400 
+},
+{
+ "time":     5.23550701,
+"class": "Inserción",
+"size":           3500 
+},
+{
+ "time":     5.48599505,
+"class": "Inserción",
+"size":           3600 
+},
+{
+ "time":     5.88836193,
+"class": "Inserción",
+"size":           3700 
+},
+{
+ "time":     6.27476311,
+"class": "Inserción",
+"size":           3800 
+},
+{
+ "time":       6.613096,
+"class": "Inserción",
+"size":           3900 
+},
+{
+ "time":     6.92507815,
+"class": "Inserción",
+"size":           4000 
+},
+{
+ "time":     7.22368908,
+"class": "Inserción",
+"size":           4100 
+},
+{
+ "time":      7.6275599,
+"class": "Inserción",
+"size":           4200 
+},
+{
+ "time":     8.06729507,
+"class": "Inserción",
+"size":           4300 
+},
+{
+ "time":     8.45459104,
+"class": "Inserción",
+"size":           4400 
+},
+{
+ "time":     8.92664886,
+"class": "Inserción",
+"size":           4500 
+},
+{
+ "time":     9.26075602,
+"class": "Inserción",
+"size":           4600 
+},
+{
+ "time":     9.43391395,
+"class": "Inserción",
+"size":           4700 
+},
+{
+ "time":      10.086236,
+"class": "Inserción",
+"size":           4800 
+},
+{
+ "time":     10.5431991,
+"class": "Inserción",
+"size":           4900 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        chart.xAxis
+  .axisLabel("Tamaño arreglo")
+  .width(    62)
+
+        
+        
+        chart.yAxis
+  .axisLabel("Tiempo")
+  .width(    62)
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>

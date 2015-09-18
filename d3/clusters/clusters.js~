@@ -1,0 +1,36 @@
+// Código para hacer clusters y nubes de palabras
+// Datos
+var data = [{
+    clust1: {
+	word1{
+	    word:"rana",
+	    freq:10
+	},
+	word2{
+	    word:"lagartija",
+	    freq:10
+	},
+	word3{
+	    word:"serpiente",
+	    freq:10
+	},
+	word4{
+	    word:"cocodrilo",
+	    freq:10
+	},
+	word5{
+	    word:"caiman",
+	    freq:10
+	}
+    },
+    clust2: {},
+    clust3: {},
+    clust4: {}
+}]
+// Márgenes y variables globales
+var margin = {top:40,
+	      left:40,
+	      right:40,
+	      bottom:40},
+    h = window.innerHeight,
+    w = window.innerWidth,

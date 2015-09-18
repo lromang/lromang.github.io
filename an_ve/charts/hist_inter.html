@@ -1,0 +1,1114 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.css'>
+    
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='//d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.15-beta/nv.d3.min.js' type='text/javascript'></script>
+    <script src='//nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart26a03090bfc8' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart26a03090bfc8()
+    });
+    function drawchart26a03090bfc8(){  
+      var opts = {
+ "dom": "chart26a03090bfc8",
+"width":    800,
+"height":    400,
+"x": "servicio",
+"y": "V1",
+"group": "inter",
+"type": "multiBarChart",
+"id": "chart26a03090bfc8" 
+},
+        data = [
+ {
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Tijuana",
+"inter": false,
+"V1":  7.21666203597 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Punta Colonet",
+"inter": false,
+"V1": 4.043506362601 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Ensenada-Tijuana",
+"inter": false,
+"V1": 3.504998015895 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Tijuana-Ensenada",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tijuana-Ensenada",
+"inter": false,
+"V1": 5.221955918462 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tijuana-La Rumorosa",
+"inter": false,
+"V1": 6.313361972563 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Tijuana-La Rumorosa",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Tijuana",
+"inter": true,
+"V1": 21.13001167294 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mexicali-La Rumorosa",
+"inter": false,
+"V1": 7.069622628543 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Felipe-La Venta",
+"inter": false,
+"V1": 6.168331662922 
+},
+{
+ "servicio": "Primeros Auxilios",
+"tramo": "Mexicali-La Rumorosa",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Tijuana-Ensenada",
+"inter": false,
+"V1": 2.379680545069 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Mexicali-La Venta",
+"inter": false,
+"V1": 2.379680545069 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Tijuana",
+"inter": false,
+"V1": 4.831169118387 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mexicali-La Venta",
+"inter": false,
+"V1": 6.089409932609 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": false,
+"V1": 4.472189774201 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Jose  del Cabo - Buenavista",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "San Luis Río Colorado-Los Vidrios",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Primeros Auxilios",
+"tramo": "Mexicali-La Rumorosa",
+"inter": true,
+"V1": 2.805595730838 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Mexicali-La Rumorosa",
+"inter": false,
+"V1": 2.918188891775 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Mexicali-La Rumorosa",
+"inter": false,
+"V1": 2.761758297544 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Mexicali-La Venta",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": true,
+"V1": 7.876302984272 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Ensenada-Tijuana",
+"inter": true,
+"V1": 8.893528051123 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Luis Río Colorado-Los Vidrios",
+"inter": false,
+"V1": 4.759361090137 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Quintín-Guayaquil",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Felipe-La Venta",
+"inter": true,
+"V1": 20.69137914335 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tecate-La Rumorosa",
+"inter": false,
+"V1": 4.275069454903 
+},
+{
+ "servicio": "Accidente",
+"tramo": "San Luis Río Colorado-Los Vidrios",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Mexicali-La Venta",
+"inter": false,
+"V1": 2.137534727452 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Mexicali-La Rumorosa",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mexicali-La Rumorosa",
+"inter": true,
+"V1": 20.22681158428 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Punta Colonet",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Mexicali-La Rumorosa",
+"inter": true,
+"V1": 5.611191461676 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Tijuana",
+"inter": true,
+"V1": 10.05795548724 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Mexicali-La Rumorosa",
+"inter": false,
+"V1": 2.584411916714 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Loreto-Mulegé",
+"inter": false,
+"V1": 2.918188891775 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "La Paz-Buenavista",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Loreto-Constitución",
+"inter": false,
+"V1": 2.761758297544 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "La Paz-Constitución",
+"inter": false,
+"V1": 2.918188891775 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Santa Rosalía-Guerrero Negro",
+"inter": false,
+"V1": 2.761758297544 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "La Paz-Entronque El Pescadero",
+"inter": false,
+"V1": 2.918188891775 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Guanajuato-Apaseo El Grande",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Puerto Vallarta-Las Varas",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tlajomulco-Tapalpa",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Uruapan-Cuatro_Caminos",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tepic-Entronque Rosamorada",
+"inter": false,
+"V1":  3.30026664425 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Tepic-Entronque Rosamorada",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Querértaro-Palmillas",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mazatlán-El Palmito Autopista",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Culiacán-Guasave-Los Mochis",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mazatlán-La Concha Autopista",
+"inter": false,
+"V1": 2.761758297544 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mazatlán-El Palmito Libre",
+"inter": false,
+"V1": 2.379680545069 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Entronque La Cruz-Mazatlán",
+"inter": false,
+"V1": 3.762861472575 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Obregón-Guaymas",
+"inter": false,
+"V1": 3.838774990956 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Caborca-Sonoyta",
+"inter": false,
+"V1": 5.084914354712 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Caborca-Santa Ana",
+"inter": false,
+"V1": 4.377283337662 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Puerto Peñasco-Los Vidrios",
+"inter": false,
+"V1": 2.918188891775 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Hermosillo-Guaymas",
+"inter": false,
+"V1":  4.32715946456 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Hermosillo-Santa Ana",
+"inter": false,
+"V1": 4.275069454903 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Tijuana-La Rumorosa",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Jose del Cabo- El pescadero",
+"inter": false,
+"V1": 2.761758297544 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Durango-Puente Baluarte",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mérida-Chichen Itzá-Valladolid",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Guerrero Negro-Rancho Chapala",
+"inter": false,
+"V1": 3.762861472575 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "San Felipe-La Venta",
+"inter": true,
+"V1": 5.611191461676 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tijuana-La Rumorosa",
+"inter": true,
+"V1": 6.514391550329 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mexicali-La Venta",
+"inter": true,
+"V1": 2.805595730838 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Ensenada-Tijuana",
+"inter": true,
+"V1": 6.514391550329 
+},
+{
+ "servicio": "Primeros Auxilios",
+"tramo": "Ensenada-Tijuana",
+"inter": true,
+"V1": 2.805595730838 
+},
+{
+ "servicio": "Primeros Auxilios",
+"tramo": "La Paz-Buenavista",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Saltillo-Libramiento Norponiente",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Gómez Palacio-Caseta Yerbaniz",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Guadalajara-San Juan de los Lagos",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Guadalajara-Ixtlán del Río",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Toluca-México Libre",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tepic-Ixtlan del Río",
+"inter": false,
+"V1": 2.379680545069 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Oaxaca-Tepelmeme",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Puerto Peñasco-Los Vidrios",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Obregón-Guaymas",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "San Luis Río Colorado-Los Vidrios",
+"inter": true,
+"V1": 4.446764025561 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Ensenada-Tijuana",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "San Felipe-La Venta",
+"inter": false,
+"V1": 2.584411916714 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Mexicali-La Rumorosa",
+"inter": true,
+"V1": 4.446764025561 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Héroes de la Independencia",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Héroes de la Independencia",
+"inter": true,
+"V1": 4.446764025561 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Tecate-La Rumorosa",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Santa Rosalia-Limite Municipal Loreto",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Santa Rosalía-Guerrero Negro",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Saltillo-Paila",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Manzanillo-Ciudad Guzmán",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Morelia-Celaya",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Morelia-Caseta_Contepec",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Morelia-Entronque_Uruapan",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Culiacán-Entronque La Cruz",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Obregón-Estación Masiaca",
+"inter": false,
+"V1":  3.30026664425 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Obregón-Estación Masiaca",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Puerto Peñasco-Los Vidrios",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Zacatecas-Fresnillo-Las Palmas",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Cancún-Tulum",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Tecate-La Rumorosa",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "San Felipe-La Venta",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "La Paz-Playas",
+"inter": false,
+"V1": 1.841172198362 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Lazaro_Cardenas-Cuatro_Caminos",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mazatlán-El Espinal",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Tijuana-La Rumorosa",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tecate-La Rumorosa",
+"inter": true,
+"V1": 4.446764025561 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Guerrero Negro-Rancho Chapala",
+"inter": false,
+"V1": 1.459094445887 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Guerrero Negro-Rancho Chapala",
+"inter": true,
+"V1": 2.805595730838 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tijuana-Ensenada",
+"inter": true,
+"V1": 2.805595730838 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Morelia-Encuandureo",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tepic-Las Varas-Chapalilla",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tlaxcala-San Marcos",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Xalapa-Coatepec-Veracruz",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Saltillo-Parras",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Gómez Palacio-Caseta Ceballos",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Guanajuato-Entronque Lagos de Moreno",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Hermosillo-Guaymas",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Culiacán-Entronque La Cruz",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Caborca-Sonoyta",
+"inter": true,
+"V1": 4.446764025561 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Ensenada-Ruta del Vino",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Primeros Auxilios",
+"tramo": "San Felipe-La Venta",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Primeros Auxilios",
+"tramo": "Ensenada-Tijuana",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Tecate-La Rumorosa",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Ensenada-Héroes de la Independencia",
+"inter": true,
+"V1": 7.252359756399 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Ensenada-Punta Colonet",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "La Paz-Constitución",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Guanajuato-Apaseo El Grande",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tlajomulco-Ocotlán-Periférico-Tala",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Tepic-Entronque Rosamorada",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tepic-Entronque Rosamorada",
+"inter": true,
+"V1": 4.446764025561 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Entronque La Cruz-Mazatlán",
+"inter": true,
+"V1": 7.252359756399 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Entronque La Cruz-Mazatlán",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mazatlán-La Concha Libre",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Entronque La Cruz-Mazatlán",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Mazatlán-La Concha Autopista",
+"inter": true,
+"V1": 5.611191461676 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Caborca-Santa Ana",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Accidente",
+"tramo": "Obregón-Guaymas",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Nogales-Santa Ana",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Hermosillo-Santa Ana",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Aguascalientes-Tepatitlán",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Toluca-Atlacomulco",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Entronque La Cruz-Mazatlán",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "San Felipe-La Venta",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Tecate-La Rumorosa",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Campeche-Sabancuy",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "México-Caseta Francisco Velasco",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Arrastre",
+"tramo": "Guanajuato-Entronque Lagos de Moreno",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Tepotzotlán-San_Juan_del_Río",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tlajomulco-Chapala-Aeropuerto",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Tepic-Rosamorada Libre",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Caborca-Sonoyta",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Caborca-Santa Ana",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Accidente",
+"tramo": "San Felipe-La Venta",
+"inter": false,
+"V1": 0.9205860991812 
+},
+{
+ "servicio": "Accidente",
+"tramo": "La Paz-Entronque El Pescadero",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Loreto-Mulegé",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Puerto Ángel-El Coyul",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Zacatecas-Cosío",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Puente Mezcala-Caseta Palo Blanco",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Cuautla-Atlixco-Puebla",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Hermosillo-Guaymas",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "Obregón-Guaymas",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "Durango-Puente Baluarte",
+"inter": true,
+"V1":              0 
+},
+{
+ "servicio": "Asistencia Mec",
+"tramo": "México-Lerma",
+"inter": false,
+"V1":              0 
+},
+{
+ "servicio": "Informacion Tur",
+"tramo": "La Paz-Entronque El Pescadero",
+"inter": true,
+"V1":              0 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        
+
+        
+        
+        
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>

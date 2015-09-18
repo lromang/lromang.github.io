@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Galería de D3</h1>
+    <p>Un conjunto de visualizaciones que realicé en mi camino a aprender <a href="http://d3js.org/"><strong>D3.js</strong></p></a>
+    <br>
+    <hr>
+    <h2>Burbujas</h2>
+    <h4>¿Puedes eliminar las burbujas amarillas?</h4>
+    <br>
+    <p style="width: 600px;text-align:justify">El objetivo de este gráfico fue jugar un poco con los conceptos de escalas, colores y eventos simples. Pasa tu mouse por encima de las burbujas y trata de eliminar todas las de color amarillo! Cuidado, que no será tan fácil como crees...</p>
+    <iframe src="bubbles.html" width="900" height="400" frameborder="0" scrolling="no" style="overflow:hidden"></iframe>
+  </body>
+</html>

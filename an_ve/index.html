@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proyecto:Angeles Verdes</title>
+    <style>
+h1 {
+        color:#4c2f79;
+         text-align: justify;
+}
+h2 {
+        color:#4c2f79;
+         text-align: justify;
+}
+h3 {
+        color:#757575;
+        text-align: justify;
+}
+h4{
+        color:#757575;
+        text-align: justify;
+}
+h5{
+        color:#4c2f79;
+        text-align: justify;
+        font-weight:900;
+}
+h6{
+        color:#C51162;
+        text-align: justify;
+}
+div {
+        text-align:justify;
+        text-justify:inter-word;
+}
+hr{
+        border-width:4px;
+        color:#1A237E;
+}
+p{
+    color:#212121;
+}
+br{
+        line-height:100%;
+}
+body{
+    margin: 0 auto;
+    font-family: Georgia, Palatino, serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 860px;
+    padding: 30px;
+    margin-left: 24px;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+p, ul, ol {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 540px;
+    text-align: justify;
+}
+a:link {
+    color: #4c2f79;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #4c2f79;
+  stroke-opacity: .6;
+}
+.boxed {
+  border: 1px solid #9E9E9E ;
+  background-color: #EEEEEE;
+}
+emphy{
+   color: #4c2f79;
+   font-weight:900;
+}
+.emphy:hover{
+color:#00E676 !important;
+}
+
+</style>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+    <script type="text/javascript" src="public/lib/jQuery/dist/jquery.js"></script>
+    <script type="text/javascript" src="public/lib/d3/d3.js"></script>
+<!--    <script>
+      $(function(){
+      $(emphy).hover(function(){
+      $(this).style(color,'#00E676')
+      })
+      })();
+    </script>-->
+</head>
+<body>
+<h1>Análisis estadístico, predictivo y modelado<br> de incidentes, carreteras y recorridos</h1>
+<hr>
+<h3>Introducción</h3>
+<p>En este proyecto implementamos un flujo de trabajo de <emphy class="emphy">análisis de datos</emphy> que involucra diversos procesos. El contenido podría resumirse en tres etapas básicas. Estas son:</p>
+<ol>
+    <li>Obtención y procesaimento de datos</li>
+    <li>Análisis exploratorio y visualización</li>
+    <li>Análisis predictivo</li>
+    <li>Modelo de asignación</li>
+</ol>
+
+<p>A lo largo de todas las etapas se utilizaron diversas herramientas tanto <emphy class="emphy">estadísticas</emphy> como <emphy class="emphy">computacionales</emphy> para llevar a cabo el almacenamiento y explotación de datos de la manera más <emphy class="emphy">eficiente</emphy> posible. Los lenguajes de programación que se utilizaron en las diversas etapas del proceso son los siguientes:</p>
+
+<ol>
+  <li><strong>Procesamiento</strong> R, bash.
+  <li><strong>Almacenamiento</strong> PostgreSQL.
+  <li><strong>Explotación</strong> R.
+  <li><strong>Visualización</strong> R, JavaScript.    
+</ol>
+
+<hr>
+<h3>Obtención y procesamiento de datos</h3>
+
+<p>Los datos que se utilizarón en este análisis provienen de cuatro fuentes distintas, y se refieren a cuatro fenómenos distintos. Por un lado se utilizó la base de <a href="http://www3.inegi.org.mx/sistemas/biblioteca/ficha.aspx?upc=702825278724">Red Nacional de Caminos</a> para explorar las características intrínsecas de cada carretera sin importar si hubo o no un incidente. Dichas características involucran longitud del trayecto o curvatura. A continuación se utilizó la base <a href="http://busca.datos.gob.mx/#/conjuntos/servicios-de-auxilio-turistico-de-la-corporacion-angeles-verdes">Servicios de Auxílio Turístico de la Corporación Ángeles Verdes</a> para identificar las variables con las cuales se asocian los distintos incidentes que ocurren a lo largo de las carreteras que cubre la corporación <emphy class="emphy">Ángeles Verdes</emphy> esta base involucra variables más específicias como tipo de servicio prestado, número de turistas atendidos, estado de procedencia, velocidad máxima permitida en la autopista, tipo de vegetación, clima, etc. Además de esto se utilizó la base de <a href="http://www.sct.gob.mx/fileadmin/DireccionesGrales/DGST/Datos-Viales-2014/40_ESTACIONES_PERMANENTES.pdf">Tránsito Promedio Diario Anual</a> para ponderar las observaciones por el número de automóviles circulando en cada autopista y de esta manera evitar resultados espuerios debidos a la <emphy class="emphy">alta correlación</emphy> entre número de accidentes y número total de coches circulando. Finalmente se utilizó una base de datos con los registros de los recorridos diarios por parte de las unidades de <emphy class="emphy">Ángeles Verdes</emphy> comprendiendo el periodo de <emphy class="emphy">2014-05-22 08:22:34</emphy> a <emphy class="emphy">2014-12-31 22:43:53</emphy> y las rutas <emphy class="emphy">Tepic - Puerto Vallarta, Tijuana - Ensenada, Tepic - Mazatlan, México - Querétaro e Irapuato - León</emphy></p>
+
+<h4>Incorporación de datos de circulación, curvatura e intersecciones</h4>
+
+<p>Cómo se mencionó en la sección anterior, es de fundamental importancia ponderar el número de observaciones de incidentes por el número de automóviles que circulan por dicha zona. Para esto se utilizó la base de <a href="http://www.sct.gob.mx/fileadmin/DireccionesGrales/DGST/Datos-Viales-2014/40_ESTACIONES_PERMANENTES.pdf">Tránsito Promedio Diario Anual</a>, la primera dificultad que se observa es que dicha base no contiene todas las coordenadas de todas las carreteras utilizadas en el análisis. La interrogante inmediata es ¿Cómo asignar a cada punto la circulación diaria promedio? Para resolver esta cuestión, utilizamos un algoritmo de predicción conocido como k vecinos más cercanos o (knn) por sus siglas en inglés para asignar la circulación de cada punto tomando como referencia la circulación promedio de los k (3 en este caso) puntos más cercanos.</p>
+
+
+<strong><h5>Mapa de circulación promedio diaria</h5></strong>
+
+<iframe src="./charts/circ.html" width="595" height="380" style="border:none"></iframe>
+
+
+<p>Ahora bien, después de llevar a cabo un análisis exploratorio preliminar sobre el fenómeno de los incidentes automovilísticos, se encontró que gran parte de estos ocurren en intersecciones de caminos, además de esto parece razonable suponer que la curvatura de las carreteras es otra variable que pudiera ser de utilidad para la predicción de los mismos. En vista de esto, se incorporó a la base de datos un <emph>proxy</emph> de la curvatura de una carretera y una variable binaria que indica si dicha carretera está o no en una intersección</p>
+
+<p> Como <emph>proxy</emph> para la curvatura de un punto utilizamos el ángulo que este forma con entre el siguiente punto y el inmediato anterior esto lo llevamos a cabo utilizando la siguiente fórmula: <div lang="latex">\theta = atan2(sin\Delta\lambda cos\phi_2, cos\phi_1 sin\phi_2 - sin\phi_1 cos\phi_2 cos \Delta\lambda)</div>
+  <br>
+La razón por la cual esta fórmula funciona es muy intuitiva.
+</p>
+
+<strong><h5>Mapa de curvatura promedio</h5></strong>
+
+<iframe src="./charts/curv_chart.html" width="595" height="380" style="border:none"></iframe>
+
+<p>Para verificar que esta manera de medir curvatura tiene sentido, veamos un punto que muestra como con alta curvatura y uno con baja.</p>
+
+<strong><h5>Mapa de punto con alta curvatura</h5></strong>
+
+<iframe src="./charts/curvy_zoom.html" width="595" height="380" style="border:none"></iframe>
+
+<strong><h5>Mapa de punto con baja curvatura</h5></strong>
+
+<iframe src="./charts/flaty_zoom.html" width="595" height="380" style="border:none"></iframe>
+
+<br>
+<hr>
+
+<h3>Análisis exploratorio y visualización</h3>
+
+<p>Esta sección se divide en dos, por un lado, tenemos el análisis de la base de accidentes y por otro el de la base de recorridos.
+
+  El objetivo del análisis exploratorio de la base de accidentes es identificar que variables pueden ser útiles para caracterizar este fenómeno, de tal forma que sean utilizadas para la elaboración de un algoritmo de predicción más preciso y parsimonioso.
+
+Por otra parte, el análisis que se llevará a cabo en la base de datos de recorridos tiene como finalidad identificar el patrón de patrullaje que se lleva a cabo hoy en día y estudiar como se comporta este en comparación con la dinámica de incidentes.
+</p>
+
+<h4>Accidentes</h4>
+
+<p>Para que los resultados puedan ser aplicados en la realidad y para hacer énfasis en la necesidad de llevara a cabo registros por hora de los incidentes atendidos, el análisis exploratorio se llevará a cabo con una muestra que contiene los registros de horas y no con la base oficial  <a href="http://busca.datos.gob.mx/#/conjuntos/servicios-de-auxilio-turistico-de-la-corporacion-angeles-verdes">Servicios de Auxílio Turístico de la Corporación Ángeles Verdes</a>.
+
+  El intervalo de tiempo que cubre esta base va desde <emphy class="emphy">2014-01-01 01:01:01</emphy> a <emphy class="emphy">2014-08-31 19:35:00</emphy> para comenzar el análisis podemos ver si existe una componente temporal con respecto al día del año.
+</p>
+
+
+<strong><h5>Calendario de incidentes</h5></strong>
+
+ <iframe src="./charts/cal_acc.html" width="1095" height="450" style="border:none"></iframe>
+  
+<p>Cómo vemos, parece ser que existe una componente temporal, pues hay un número inusual de accidentes en los  meses de abril y diciembre, esto puede deberse a que es periodo de vacaciones y por ende hay un mayor número de automóviles circulando en esas épocas. Hagamos una visualización un poco más detallada, en donde interactuen las variables de curvatura, circulación promedio diaria, número de turistas atendidos y número de accidentes a lo largo del tiempo con tal de entender más a fondo las dinámicas subyacentes. </p>
+
+<strong><h5>Interacción temporal de variables</h5></strong>
+
+<iframe src="./charts/chart.html" width="600" height="430" style="border:none"></iframe>
+
+<p>Al correr el tiempo, vemos que en el mes de abril surge un patrón inusual con respecto al resto de los otros meses, el número de accidentes aumenta junto con la curvatura de una manera que no parece ser aleatoria (en el resto de los meses esta relación es aproximadamente uniforme aunque bien siempre hay una pequeña correlación positiva). Además, notamos que el tamaño de los puntos es pequeño, lo que indica que no estamos viendo este fenómeno por causa de una mayor circulación en esas zonas. Esto nos da incentivos para estudiar la relación existente entre el número de <emphy class="emphy">incidentes</emphy> y la <emphy class="emphy">curvatura</emphy> de la carretera. En el gráfico siguiente, comparamos el número de accidentes promedio contra la curvatura promedio por tramo de carretera.</p>
+
+<strong><h5>Media de accidentes contra curvatura media</h5></strong>
+
+<iframe src="./charts/bubble_mean.html" width="600" height="450" style="border:none"></iframe>
+
+<p>Al observar el gráfico, vemos que a pesar de lo que hubieramos esperado, no parece haber relación alguna. Esto es razonable pues al estudiar la curvatura media de las carreteras introducimos un sesgo importante (largos tramos de recta pueden anular o aminorar los efectos de tramos cortos de curvas pronunciadas). Grafiquemos pues las curvatura máxima en lugar del promedio.</p>
+
+<strong><h5>Media de accidentes contra curvatura máxima</h5></strong>
+
+<iframe src="./charts/bubble_max.html" width="600" height="450" style="border:none"></iframe>
+
+<p>Encontramos justo lo que esperabamos, un <emphy class="emphy">alto grado de curvatura</emphy> esta asociado con un <emphy class="emphy">mayor número de incidentes</emphy>. Las carreteras donde esta relación se maximiza son: <emphy class="emphy">Ensenada - Tijuana, Mexicali - La Rumorosa y San Felipe - La Venta</emphy>. <!--Ahora bien, parece razonable estudiar el fenómeno de las intersecciones de carreteras (es necesario ponderar los resultados por el número de interesecciones)</p>
+
+<strong><h5>Número ponderado de servicios por tipo de camino (intersección o no)</h5></strong>
+
+<iframe src="./charts/hist_inter.html" width="800" height="530" style="border:none"></iframe>
+
+<p>Vemos que en efecto, hay un mayor número de incidentes en intersecciones que fuera de estas.</p>-->
+
+<h4>Recorridos</h4>
+
+<p>Antes de estudiar particularidades de los recorridos, es conveniente observar el total de rutas de patrullaje que se recorren actualmente junto con los accidentes que se han registrado.</p>
+
+<strong><h5>Rutas de patrullaje</h5></strong>
+
+<iframe width="559" height="520" frameborder="0" src="https://lromang.cartodb.com/viz/37cc2fea-3ae3-11e5-a5d1-0e4fddd5de28/embed_map"></iframe>
+
+<iframe width="559" height="520" style="border:none" src="https://carlosccorr.cartodb.com/viz/5d682506-268e-11e5-ab01-0e9d821ea90d/embed_map"></iframe>
+<br>
+<hr>
+<h3>Análisis predictivo</h3>
+
+
+<br>
+<hr>
+<h3>Modelo de asignación</h3>
+
+</body>
+</html>
+
+
