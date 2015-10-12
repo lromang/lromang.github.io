@@ -23,6 +23,9 @@
         .tick{
             fill: #2962ff;
         }
+         iframe {
+            overflow: hidden;
+        }
         body{
             background-color: #ffffff;
         }
@@ -34,8 +37,8 @@
 
 </div>
 <svg id="gaussianContainerCruve" width="1000" height="500"></svg>
-<script>
-    
+
+  <script>
     
 //wtf global to remove
     var toolTipElement = document.getElementById("toolTip");
@@ -304,8 +307,12 @@
 
     }
 
-    drawGaussianCurve();
+  drawGaussianCurve();
+
 </script>
+  
+
+
 </body>
 </html>
 
