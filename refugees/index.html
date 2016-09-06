@@ -36,7 +36,7 @@ map.on('load', function () {
         "data": {
          "type": "FeatureCollection",
   "features": [
-    {
+    /*{
                 "type": "Feature",
                 "properties": {
                     "description": "<strong>Esc. Telesecundaria No. 29 Profra. Carmen Fisher</strong><p> Camino del Conejo, Col. Lomas del Sol I, Pedregal, Cabo San Lucas, B.C.S., Mexico</p>",
@@ -156,7 +156,7 @@ map.on('load', function () {
                     "type": "Point",
                     "coordinates": [-109.709881, 23.073307]
                 }
-            },
+            },*/
         {
             "type": "Feature",
             "geometry": {
@@ -317,6 +317,7 @@ map.on('load', function () {
                 ]
             },
             "properties": {
+
                 "OBJECTID": "1",
                 "ZONA": "Potencial",
                 "AREA_KM_": 412619.761909,
@@ -2923,12 +2924,22 @@ map.on('load', function () {
     });
 
     map.addLayer({
+        /*
         "id": "places",
         "type": "symbol",
         "source": "places",
         "layout": {
             "icon-image": "{icon}-15",
             "icon-allow-overlap": true
+        }
+        */
+        'id': 'route',
+        'type': 'fill',
+        'source': 'places',
+        'layout': {},
+        'paint': {
+            'fill-color': '#088',
+            'fill-opacity': 0.8
         }
     });
 });
