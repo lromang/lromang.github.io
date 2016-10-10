@@ -225,19 +225,19 @@ a.down-in{
 }
 .work-grid{
 	float: left;
-	width: 50%;
+	width: 40%;
 	margin: 0.5%;
 	position:relative;
 }
 .work-grid1{
-	width: 47.9%;
+	width: 40.9%;
 	margin: 0.5% 0% 0.5% 0.5%;
 }
 .work-grid2{
-	width: 23%;
+	width: 33%;
 }
 .work-grid3{
-	width: 24%;
+	width: 14%;
 	float: right;
 	margin: 0.5%;
 }
