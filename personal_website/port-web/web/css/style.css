@@ -881,6 +881,9 @@ b.yellow{
 ul.social-ic-icons li.twitter a span{
 	background-position: -102px -7px;
 }
+ul.social-ic-icons li.github a span{
+	background-position: -102px -7px;
+}
 ul.social-ic-icons li.dribble a span{
 	background-position: -143px -54px;
 }
@@ -897,6 +900,9 @@ ul.social-ic-icons li.dribble a span:hover{
 	background-position: -143px -9px;
 }
 ul.social-ic-icons li.linked a span:hover{
+	background-position: -178px -7px;
+}
+ul.social-ic-icons li.github a span:hover{
 	background-position: -178px -7px;
 }
 ul.social-ic-icons li.behance a span:hover{
