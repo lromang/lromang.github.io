@@ -127,7 +127,9 @@ h2,h3,h4,h5,h6,p{
 }
 /*----*/
 .banner{
-	background:url(../images/banner.jpg) 0px 0px no-repeat;
+    background:url(../images/usa.jpg) 0px -100px no-repeat;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
 	width:100%;
 	min-height:600px;
 	display:block;
@@ -142,7 +144,7 @@ h2,h3,h4,h5,h6,p{
 }
 .banner h2{
 	font-size: 4em;
-	color: #fff;
+	color: black;
 	font-weight: 100;
 	width: 61%;
 	margin: 0 auto;
@@ -179,6 +181,12 @@ a.arrow{
 	color:#000;
 	font-size:2.8em;
 	font-weight: 300;
+}
+.me-img{
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    width:20%;
 }
 .about p{
 	color:#000;
