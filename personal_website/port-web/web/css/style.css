@@ -127,11 +127,11 @@ h2,h3,h4,h5,h6,p{
 }
 /*----*/
 .banner{
-    background:url(../images/usa.jpg) 0px -200px no-repeat;
+    background:url(../images/usa.jpg) 0px -100px no-repeat;
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
     width:100%;
-    min-height:700px;
+    min-height:800px;
     display:block;
     background-size:cover;
     text-align:center;
