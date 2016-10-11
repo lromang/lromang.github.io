@@ -1,0 +1,45 @@
+{
+  "nodes":[
+    {"id":"MarioT", "group":1, "value":5},
+    {"id":"Sergio", "group":1, "value":2},
+    {"id":"Armando", "group":1, "value":3},
+    {"id":"Mike", "group":1,  "value":3},
+    {"id":"MarioB", "group":2,  "value":2},
+    {"id":"Fer", "group":2,  "value":5},
+    {"id":"Ante", "group":2,  "value":2},
+    {"id":"Matthias", "group":3,  "value":4},
+    {"id":"Siddha", "group":3,  "value":4},
+    {"id":"Salvador", "group":3,   "value":1},
+    {"id":"Incera", "group":4, "value":2},
+    {"id":"Karel", "group":4, "value":3},
+    {"id":"José", "group":4, "value":2},
+    {"id":"Nestor", "group":4, "value":1},
+    {"id":"Luis", "group":5, "value":6}
+  ],
+  "links":[
+  {"source": "MarioT", "target": "Luis", "value": 6},
+  {"source": "Sergio", "target": "Luis", "value": 2},
+  {"source": "Armando", "target": "Luis", "value": 3},
+  {"source": "Armando", "target": "Sergio", "value": 4},
+  {"source": "Sergio", "target": "MarioT", "value": 2},
+  {"source": "Mike", "target": "Sergio", "value": 1},
+  {"source": "Mike", "target": "Luis", "value": 5},
+  {"source": "Luis", "target": "MarioB", "value": 2},
+  {"source": "Luis", "target": "Fer", "value": 5},
+  {"source": "Fer", "target": "Ante", "value": 3},
+  {"source": "Luis", "target": "Ante", "value": 3},
+  {"source": "Mike", "target": "Ante", "value": 2},
+  {"source": "Fer", "target": "Matthias", "value": 5},
+  {"source": "Matthias", "target": "Siddha", "value": 6},
+  {"source": "Matthias", "target": "Salvador", "value": 2},
+  {"source": "Salvador", "target": "Fer", "value": 3},
+  {"source": "Luis", "target": "Salvador", "value": 1},
+  {"source": "Luis", "target": "Siddha", "value": 4},
+  {"source": "Luis", "target": "Incera", "value": 3},
+  {"source": "Incera", "target": "José", "value": 5},
+  {"source": "José", "target": "Karel", "value": 3},
+  {"source": "Karel", "target": "Nestor", "value": 10},
+  {"source": "Nestor", "target": "Luis", "value": 1}
+  ]
+  }
+  

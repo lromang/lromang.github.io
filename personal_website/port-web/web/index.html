@@ -33,7 +33,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						});
 					});
 					</script>
-					<!----start-top-nav-script---->
+<!----start-top-nav-script---->
+<style>
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+</style>
 </head>
 <body> 
 <!--header-->
@@ -326,22 +339,23 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-d3.json("./data/miserables.json", function(error, graph) {
+d3.json("./data/network.json", function(error, graph) {
   if (error) throw error;
 
   var link = svg.append("g")
-      .attr("class", "links")
-    .selectAll("line")
-    .data(graph.links)
-    .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+.attr("class", "links")
+.selectAll("line")
+.data(graph.links)
+.enter().append("line")
+.attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+.attr("color", "black");
 
-  var node = svg.append("g")
-      .attr("class", "nodes")
+var node = svg.append("g")
+.attr("class", "nodes")
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", 5)
+      .attr("r", function(d){return d.value;})
       .attr("fill", function(d) { return color(d.group); })
       .call(d3.drag()
           .on("start", dragstarted)
