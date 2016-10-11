@@ -130,17 +130,17 @@ h2,h3,h4,h5,h6,p{
     background:url(../images/usa.jpg) 0px -100px no-repeat;
     -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
     filter: grayscale(100%);
-	width:100%;
-	min-height:600px;
-	display:block;
-	background-size:cover;
-	text-align:center;
-	position:relative;
+    width:100%;
+    min-height:600px;
+    display:block;
+    background-size:cover;
+    text-align:center;
+    position:relative;
 }
 .banner-matter{
-	position:absolute;
-	top:10em;
-	width:100%;
+    position:absolute;
+    top:10em;
+    width:100%;
 }
 .banner h2{
 	font-size: 4em;
@@ -152,24 +152,24 @@ h2,h3,h4,h5,h6,p{
 	line-height: 1.2em;
 }
 a.down{
-	text-decoration: none;
-	color: #fff;
-	background: #f44336;
-	padding: 0.6em 1em;
-	font-size: 1.2em;
-	border-radius: 6px;
-	-webkit-border-radius: 6px;
-	-o-border-radius: 6px;
-	-moz-border-radius: 6px;
-	-ms-border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: #f44336;
+    padding: 0.6em 1em;
+    font-size: 1.2em;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
 }
 a.down:hover{
 	background:#9C2820;
 }
 a.arrow{
-	position: absolute;
-	bottom: 49px;
-	left: 54em;
+    position: absolute;
+    bottom: 49px;
+    /*left: 54em;*/
 }
 /*--content--*/
 .about{
