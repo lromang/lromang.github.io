@@ -253,6 +253,11 @@ a.down-in{
         position:relative;
 }
 
+.work-grid6{
+    float:left;
+    width: 40.9%;
+    margin: 0.5% 0% 0.5% 0.5%;
+}
 .work-on{
 	margin-top: 3.5%;
 }
