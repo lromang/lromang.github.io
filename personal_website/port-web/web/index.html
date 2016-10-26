@@ -337,7 +337,7 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
+    .force("center", d3.forceCenter(width / 5, height / 5));
 
 d3.json("./data/network.json", function(error, graph) {
   if (error) throw error;
@@ -355,7 +355,7 @@ var node = svg.append("g")
     .selectAll("circle")
     .data(graph.nodes)
     .enter().append("circle")
-      .attr("r", function(d){return d.value*5;})
+      .attr("r", function(d){return d.value * 5;})
       .attr("fill", function(d) { return color(d.group); })
       .call(d3.drag()
           .on("start", dragstarted)
@@ -380,8 +380,8 @@ var node = svg.append("g")
         .attr("y2", function(d) { return d.target.y; });
 
     node
-        .attr("cx", function(d) { return d.x*5; })
-        .attr("cy", function(d) { return d.y*5; });
+        .attr("cx", function(d) { return d.x; })
+        .attr("cy", function(d) { return d.y; });
   }
 });
 
