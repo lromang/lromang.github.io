@@ -374,10 +374,10 @@ var node = svg.append("g")
 
   function ticked() {
     link
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+        .attr("x1", function(d) { return d.source.x*3; })
+        .attr("y1", function(d) { return d.source.y*2; })
+        .attr("x2", function(d) { return d.target.x*4; })
+        .attr("y2", function(d) { return d.target.y*5; });
 
     node
         .attr("cx", function(d) { return d.x; })
