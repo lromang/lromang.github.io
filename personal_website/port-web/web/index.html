@@ -356,11 +356,7 @@ var force = d3.layout.force()
     .gravity(0)
     .charge(0)
     .on("tick", tick)
-    .start()
-    .on('mouseover', function(d){
-      d3.select(this).style({opacity:'0.8'});
-    };
-);
+    .start();
 
 var svg = d3.select("svg")
     .attr("width", width)
