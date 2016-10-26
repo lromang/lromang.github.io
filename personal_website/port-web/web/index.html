@@ -331,7 +331,7 @@ var width = 960,
     height = 500,
     padding = 1.5, // separation between same-color circles
     clusterPadding = 6, // separation between different-color circles
-    maxRadius = 12;
+    maxRadius = 20;
 
 var n = 30, // total number of circles
     m = 5; // number of distinct clusters
@@ -356,7 +356,10 @@ var force = d3.layout.force()
     .gravity(0)
     .charge(0)
     .on("tick", tick)
-    .start();
+    .start()
+    .on('mouseover', function(d){
+    var nodeSelection = d3.select(this).style({opacity:'0.8'});
+});
 
 var svg = d3.select("svg")
     .attr("width", width)
