@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.37.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA';
+
+var v1 = new mapboxgl.LngLat(-99.133209, 19.432608);
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    zoom: 12,
+    center: v1
+});
+
+map.on('load', () => {
+    map.loadImage('https://raw.githubusercontent.com/mxabierto/amberProtocol/master/public/images/refugio_activo.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('shelter', image);
+        map.addLayer({
+            "id": "points",
+            "type": "symbol",
+            "source": {
+                "type": "geojson",
+                "data": {
+                    "type": "FeatureCollection",
+                    "features": [{
+                      "type": "Feature",
+                      "properties":{"id":0},
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-99.133209, 19.432608]
+                        }
+                    },{
+                      "type": "Feature",
+                      "properties":{"id":1},
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-99.433209, 19.632608]
+                        }
+                    }]
+                }
+            },
+            "layout": {
+                "icon-image": "shelter",
+                "icon-size": 0.12
+            }
+        });
+    });
+   map.addLayer({
+        'id': 'maine',
+        'type': 'fill',
+        'source': {
+            'type': 'geojson',
+            'data': {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Polygon',
+                  'coordinates':[[[-104.8732411977835,22.048092380892136],
+                              [-101.3576161977835, 19.37657634658423],
+                              [-103.31318223994458,17.521616236596255],
+                              [-106.87275255244458, 20.656556811094998],
+                              [-104.8732411977835, 22.048092380892136]]]
+
+                }
+            }
+        },
+        'layout': {},
+        'paint': {
+            'fill-color': '#088',
+            'fill-opacity': 0.8
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>
