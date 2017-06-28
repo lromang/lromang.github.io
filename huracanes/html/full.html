@@ -42,10 +42,28 @@ map.on('load', () => {
         'source': 'inundaciones',
         'layout': {},
         'paint': {
-            'fill-color': '#00E676',
+'fill-color': {
+'property': 'VULNERABIL',
+'type':'categorical',
+stops: [['ND', '#fff'],
+['MEDIA', '#FF6D00'],
+['ALTA', '#f00']]
+},
             'fill-opacity': 0.8
         }
 });
+
+  map.addLayer({
+        'id': 'inundaciones-contorno',
+        'type': 'line',
+        'source': 'inundaciones',
+        'layout': {},
+        'paint': {
+            'line-color': '#fff',
+            'line-width': 2
+        }
+});
+
 
 //Deslizamientos  laderas
   map.addSource("laderas", {
@@ -60,7 +78,7 @@ map.on('load', () => {
         'source': 'laderas',
         'layout': {},
         'paint': {
-            'fill-color': '#FF9800',
+            'fill-color': '#00E676',
             'fill-opacity': 0.8
         }
 });
