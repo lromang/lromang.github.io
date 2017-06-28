@@ -28,6 +28,11 @@ var map = new mapboxgl.Map({
 });
 
 map.on('load', () => {
+  map.addSource("risk", {
+        "type": "geojson",
+        "data": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=3&f=geojson"
+  });
+
     map.loadImage('https://raw.githubusercontent.com/mxabierto/amberProtocol/master/public/images/refugio_activo.png', (error, image) => {
         if (error) throw error;
         map.addImage('shelter', image);
@@ -62,23 +67,9 @@ map.on('load', () => {
         });
     });
    map.addLayer({
-        'id': 'maine',
+        'id': 'tormenta',
         'type': 'fill',
-        'source': {
-            'type': 'geojson',
-            'data': {
-                'type': 'Feature',
-                'geometry': {
-                    'type': 'Polygon',
-                  'coordinates':[[[-104.8732411977835,22.048092380892136],
-                              [-101.3576161977835, 19.37657634658423],
-                              [-103.31318223994458,17.521616236596255],
-                              [-106.87275255244458, 20.656556811094998],
-                              [-104.8732411977835, 22.048092380892136]]]
-
-                }
-            }
-        },
+        'source': 'risk',
         'layout': {},
         'paint': {
             'fill-color': '#088',

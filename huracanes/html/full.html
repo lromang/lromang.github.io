@@ -28,6 +28,24 @@ var map = new mapboxgl.Map({
 });
 
 map.on('load', () => {
+
+//Deslizamientos  laderas
+  map.addSource("laderas", {
+        "type": "geojson",
+        "data": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=3&f=geojson"
+  });
+
+   map.addLayer({
+        'id': 'laderas',
+        'type': 'fill',
+        'source': 'laderas',
+        'layout': {},
+        'paint': {
+            'fill-color': '#FF9800',
+            'fill-opacity': 0.8
+        }
+});
+
     map.loadImage('https://raw.githubusercontent.com/mxabierto/amberProtocol/master/public/images/refugio_activo.png', (error, image) => {
         if (error) throw error;
         map.addImage('shelter', image);
