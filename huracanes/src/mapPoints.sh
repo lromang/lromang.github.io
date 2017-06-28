@@ -34,7 +34,7 @@ sed '$ s/.$//' ../html/body.html > ../html/aux.html
 cat ../html/aux.html > ../html/body.html
 rm ../html/aux.html
 ## Add end of polygon
-echo ']]}}},"layout": {},"paint": {"fill-color": "#088","fill-opacity": 0.8}});});' >> ../html/body.html
+echo ']]}}},"layout": {},"paint": {"fill-color": "#9C27B0","fill-opacity": 0.8}});});' >> ../html/body.html
 
 ## Pas to full
 cat ../html/head.html >> ../html/full.html
