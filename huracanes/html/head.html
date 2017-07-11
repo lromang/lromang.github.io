@@ -144,6 +144,29 @@ stops: [['ND', '#FFEB3B'],
         }
 });
 
+
+// --------------------------------------------------
+
+//Hospitales
+  map.addSource("hospitales", {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/hospitals/hospitales_clinicas_consultorios_refugios.geojson"
+  });
+
+map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/hospitales.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('hospital', image);
+map.addLayer({
+'id': 'hospitales',
+'type':'symbol',
+'source':'hospitales',
+'layout':{"icon-image": "hospital", "icon-size": 0.02}
+})})
+
+
+
+// --------------------------------------------------
+
 //Deslizamientos  laderas
   map.addSource("laderas", {
         "type": "geojson",
