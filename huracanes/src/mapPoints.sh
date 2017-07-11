@@ -39,7 +39,7 @@ sed '$ s/.$//' ../html/body.html > ../html/aux.html
 cat ../html/aux.html > ../html/body.html
 rm ../html/aux.html
 ## Add end of polygon
-echo ']]}}},"layout": {},"paint": {"fill-color": "#76FF03","fill-opacity": 0.8}});});' >> ../html/body.html
+echo ']]}}},"layout": {},"paint": {"fill-color": "#64DD17","fill-opacity": 0.8}});});' >> ../html/body.html
 
 ## Pas to full
 cat ../html/head.html >> ../html/full.html

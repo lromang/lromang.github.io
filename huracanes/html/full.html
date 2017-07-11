@@ -89,10 +89,10 @@
 <div id='inun-legend' class='legend'>
   <h4>Código de colores</h4>
   <div><span style='background-color: #FFEB3B'></span>Riesgo inundación: ND</div>
-  <div><span style='background-color: #FF6D00'></span>Riesgo inundación: Medio</div>
-  <div><span style='background-color: #F00'></span>Riesgo inundación: Alto</div>
+  <div><span style='background-color: #FF9800'></span>Riesgo inundación: Medio</div>
+  <div><span style='background-color: #D50000'></span>Riesgo inundación: Alto</div>
   <div><span style='background-color: #0D47A1'></span>Riesgo deslizamiento</div>
-  <div><span style='background-color: #76FF03'></span>Polígono de riesgo</div>
+  <div><span style='background-color: #64DD17'></span>Polígono de riesgo</div>
 </div>
 
 <script>
@@ -126,8 +126,8 @@ map.on('load', () => {
 'property': 'VULNERABIL',
 'type':'categorical',
 stops: [['ND', '#FFEB3B'],
-['MEDIA', '#FF6D00'],
-['ALTA', '#f00']]
+['MEDIA', '#FF9800'],
+['ALTA', '#D50000']]
 },
             'fill-opacity': 0.6
         }
@@ -3921,7 +3921,7 @@ map.addLayer({
 [-105.9466552734375,20.478481600090564],
 [-105.4193115234375,19.590844152960923],
 [-103.7713623046875,18.750309813140653]
-]]}}},"layout": {},"paint": {"fill-color": "#76FF03","fill-opacity": 0.8}});});
+]]}}},"layout": {},"paint": {"fill-color": "#64DD17","fill-opacity": 0.8}});});
 
 var popup = new mapboxgl.Popup({
         closeButton: false,

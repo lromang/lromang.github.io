@@ -89,10 +89,10 @@
 <div id='inun-legend' class='legend'>
   <h4>Código de colores</h4>
   <div><span style='background-color: #FFEB3B'></span>Riesgo inundación: ND</div>
-  <div><span style='background-color: #FF6D00'></span>Riesgo inundación: Medio</div>
-  <div><span style='background-color: #F00'></span>Riesgo inundación: Alto</div>
+  <div><span style='background-color: #FF9800'></span>Riesgo inundación: Medio</div>
+  <div><span style='background-color: #D50000'></span>Riesgo inundación: Alto</div>
   <div><span style='background-color: #0D47A1'></span>Riesgo deslizamiento</div>
-  <div><span style='background-color: #76FF03'></span>Polígono de riesgo</div>
+  <div><span style='background-color: #64DD17'></span>Polígono de riesgo</div>
 </div>
 
 <script>
@@ -126,8 +126,8 @@ map.on('load', () => {
 'property': 'VULNERABIL',
 'type':'categorical',
 stops: [['ND', '#FFEB3B'],
-['MEDIA', '#FF6D00'],
-['ALTA', '#f00']]
+['MEDIA', '#FF9800'],
+['ALTA', '#D50000']]
 },
             'fill-opacity': 0.6
         }
