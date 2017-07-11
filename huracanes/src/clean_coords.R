@@ -48,21 +48,48 @@ suppressPackageStartupMessages(library(foreign))
 ## ----------------------------------------
 ## Read in data
 ## ----------------------------------------
-data   <- read.csv('../data/refugios.csv',
+data   <- read.csv('../data/pacific_refugios.csv',
                   stringsAsFactors = FALSE)
 
+## ----------------------------------------
 ## Extract relevant data
-coords <- data[,c(2,25,24,27,28)]
+## ----------------------------------------
+## - NomVial
+## - NomAsen
+## - NomLoc
+## - NomMun
+## - NomEnt
+## - Lat
+## - Lon
+## ----------------------------------------
+coords <- dplyr::select(data,
+                       nominm,
+                       nomvial,
+                       tipovial,
+                       nomasen,
+                       nom_loc,
+                       nom_mun,
+                       nom_ent,
+                       lon,
+                       lat)
+## coords <- data[,c(2,25,24,27,28)]
 ## Only clean lon
-## bad_lon <- !str_detect(data$lon, '^-[0-9]+\\.[0-9]')
-## bad_lat <- !str_detect(data$lat, '^[0-9]+\\.[0-9]')
-
+## ----------------------------------------
+## Only coords with adequate format
+## ----------------------------------------
+coords$lon <- str_replace(coords$lon, ',', '.') %>%
+   readr::parse_number()
+coords$lat <- str_replace(coords$lat, ',', '.') %>%
+    readr::parse_number()
 coords <- coords[str_detect(coords$lon,
                            '^-[0-9]+\\.[0-9]'),]
 ## Only clean lat
 coords <- coords[str_detect(coords$lat,
                            '^[0-9]+\\.[0-9]'),]
 
+## ----------------------------------------
+## Only coords within Mexico's boundaries
+## ----------------------------------------
 ## Read in Mexico's state division and change
 ## projection
 mex_state <- readOGR("../data/estate/",
@@ -94,15 +121,26 @@ for(i in 1:nrow(coords)){
 ## Filter only inside mexico
 coords <- coords[inside, ]
 ## Clean nomin nomvial
-coords$nominm    <- str_replace_all(coords$nominm, '[^[[:alpha:]] ]', '')
-coords$nomvial   <- str_replace_all(coords$nomvial, '[^[[:alpha:]] ]', '')
-coords$tipovial  <- str_replace_all(coords$tipovial, '[^[[:alpha:]] ]', '')
-
+coords$nomvial   <- iconv(str_replace_all(coords$nomvial, '[^[[:alpha:]] ]', ''),
+                         from = "UTF-8", to = "UTF-8")
+coords$tipovial  <- iconv(str_replace_all(coords$tipovial, '[^[[:alpha:]] ]', ''),
+                         from = "UTF-8", to = "UTF-8")
+coords$nominm    <- iconv(str_replace_all(coords$nominm, '[^[[:alpha:]] ]', ''),
+                          from = "UTF-8", to = "UTF-8")
+coords$nomasen   <- iconv(str_replace_all(coords$nomasen, '[^[[:alpha:]] ]', ''),
+                         from = "UTF-8", to = "UTF-8")
+coords$nom_loc   <- iconv(str_replace_all(coords$nom_loc, '[^[[:alpha:]] ]', ''),
+                         from = "UTF-8", to = "UTF-8")
+coords$nom_mun   <- iconv(str_replace_all(coords$nom_mun, '[^[[:alpha:]] ]', ''),
+                         from = "UTF-8", to = "UTF-8")
+coords$nom_ent   <- iconv(str_replace_all(coords$nom_ent, '[^[[:alpha:]] ]', ''),
+                         from = "UTF-8", to = "UTF-8")
 ## Save data as tsv
 write.table(coords,
-            '../data/clean_coords.tsv',
+            '../data/clean_coords_test.tsv',
             sep = '\t',
-            row.names = FALSE)
+            row.names = FALSE,
+            fileEncoding  = 'UTF-8')
 
 
 data$bad_lat <- bad_lat
