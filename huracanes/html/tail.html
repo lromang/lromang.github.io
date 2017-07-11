@@ -22,14 +22,16 @@ var popup = new mapboxgl.Popup({
 
 
 var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone' ];
+var toggleableLayerNames = ['Inundaciones', 'Ladreas', 'Polígono CAP'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
-    var id = toggleableLayerIds[i];
+                    var id = toggleableLayerIds[i];
+                    var name = toggleableLayerNames[i];
 
     var link = document.createElement('a');
     link.href = '#';
     link.className = 'active';
-    link.textContent = id;
+    link.textContent = name;
 
     link.onclick = function (e) {
         var clickedLayer = this.textContent;

@@ -117,7 +117,7 @@ map.on('load', () => {
 
 
    map.addLayer({
-        'id': 'inundaciones',
+'id': 'inundaciones',
         'type': 'fill',
         'source': 'inundaciones',
         'layout': {},
@@ -152,7 +152,7 @@ stops: [['ND', '#FFEB3B'],
 
 
    map.addLayer({
-        'id': 'laderas',
+'id': 'laderas',
         'type': 'fill',
         'source': 'laderas',
         'layout': {},
@@ -3946,14 +3946,16 @@ var popup = new mapboxgl.Popup({
 
 
 var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone' ];
+var toggleableLayerNames = ['Inundaciones', 'Ladreas', 'Polígono CAP'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
-    var id = toggleableLayerIds[i];
+                    var id = toggleableLayerIds[i];
+                    var name = toggleableLayerNames[i];
 
     var link = document.createElement('a');
     link.href = '#';
     link.className = 'active';
-    link.textContent = id;
+    link.textContent = name;
 
     link.onclick = function (e) {
         var clickedLayer = this.textContent;
