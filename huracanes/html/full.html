@@ -160,7 +160,7 @@ map.addLayer({
 'id': 'hospitales',
 'type':'symbol',
 'source':'hospitales',
-'layout':{"icon-image": "hospital", "icon-size": 0.05}
+'layout':{"icon-image": "hospital", "icon-size": 0.02}
 })})
 
 
@@ -185,7 +185,7 @@ map.addLayer({
         }
 });
 
-    map.loadImage('https://raw.githubusercontent.com/mxabierto/amberProtocol/master/public/images/refugio_activo.png', (error, image) => {
+    map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/refugio_activo.png', (error, image) => {
         if (error) throw error;
         map.addImage('shelter', image);
         map.addLayer({
@@ -3968,8 +3968,8 @@ var popup = new mapboxgl.Popup({
 });
 
 
-var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone' ];
-var toggleableLayerNames = ['Inundaciones', 'Ladreas', 'Polígono CAP'];
+var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points'];
+var toggleableLayerNames = ['Inundaciones', 'Ladreas', 'Polígono CAP', 'Hospitales', 'Refugios'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
                     var id = toggleableLayerIds[i];
