@@ -8,11 +8,15 @@ do
     echo $ids
     coords=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}")
     nomin=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $1}')
-    lon=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $2}' | sed 's/"//g')
-    lat=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}' | sed 's/"//g')
-    tipovial=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $4}')
-    nomvial=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $5}')
-    echo '{"type": "Feature","properties":{"id": ' $ids ', "nomin":' $nomin ', "tipovial": ' $tipovial ', "nomvial": ' $nomvial ', "description": "<strong>Refugio:</strong><p>'$(echo $nomin  | sed 's/"//g')'</p><strong>Vialidad:</strong><p>'$(echo $nomvial  | sed 's/"//g')'</p><strong>Tipo vialidad:</strong><p>'$(echo $tipovial  | sed 's/"//g')'</p>"}, "geometry": { "type": "Point","coordinates": [' $lon ',' $lat ']}},' >> ../html/body.html
+    nomvial=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $2}')
+    tipovial=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
+    nomasen=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $4}')
+    nom_loc=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $5}')
+    nom_mun=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $6}')
+    nom_ent=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $7}')
+    lon=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $8}' | sed 's/"//g')
+    lat=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $9}' | sed 's/"//g')
+    echo '{"type": "Feature","properties":{"id": ' $ids ', "nomin":' $nomin ', "tipovial": ' $tipovial ', "nomvial": ' $nomvial ', "nomasen": ' $nomasen ', "nomloc":  ' $nom_loc ', "nommun": ' $nom_mun ', "noment": ' $nom_ent ', "description": "<strong>Refugio:</strong><p>'$(echo $nomin  | sed 's/"//g')'</p><strong>Vialidad:</strong><p>'$(echo $nomvial  | sed 's/"//g')'</p><strong>Asentamiento:</strong><p>'$(echo $nomasen  | sed 's/"//g')'</p><strong>Localidad:</strong><p>'$(echo $nom_loc  | sed 's/"//g')'</p><strong>Tipo vialidad:</strong><p>'$(echo $tipovial  | sed 's/"//g')'</p>"}, "geometry": { "type": "Point","coordinates": [' $lon ',' $lat ']}},' >> ../html/body.html
     ids=$((ids + 1))
 done
 ## Remove last comma

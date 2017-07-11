@@ -136,16 +136,17 @@ coords$nom_mun   <- iconv(str_replace_all(coords$nom_mun, '[^[[:alpha:]] ]', '')
 coords$nom_ent   <- iconv(str_replace_all(coords$nom_ent, '[^[[:alpha:]] ]', ''),
                          from = "UTF-8", to = "UTF-8")
 ## Save data as tsv
+coords <- na.omit(coords)
 write.table(coords,
-            '../data/clean_coords_test.tsv',
+            '../data/clean_coords.tsv',
             sep = '\t',
             row.names = FALSE,
             fileEncoding  = 'UTF-8')
 
 
-data$bad_lat <- bad_lat
-data$bad_lon <- bad_lon
-data$outside <- !inside
-write.csv(data,
-            '../data/errors.csv',
-            row.names = FALSE)
+## data$bad_lat <- bad_lat
+## data$bad_lon <- bad_lon
+## data$outside <- !inside
+## write.csv(data,
+##            '../data/errors.csv',
+##            row.names = FALSE)
