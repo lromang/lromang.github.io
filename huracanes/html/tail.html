@@ -22,16 +22,16 @@ var popup = new mapboxgl.Popup({
 
 
 var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points'];
-var toggleableLayerNames = ['Inundaciones', 'Ladreas', 'Polígono CAP', 'Hospitales', 'Refugios'];
+var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono CAP', 'Hospitales', 'Refugios'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
-                    var id = toggleableLayerIds[i];
+                    var id   = toggleableLayerIds[i];
                     var name = toggleableLayerNames[i];
 
     var link = document.createElement('a');
     link.href = '#';
     link.className = 'active';
-                    link.textContent = name;
+                    link.textContent = id;
                     link.value = id;
 
     link.onclick = function (e) {
@@ -50,7 +50,8 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
         }
     };
 
-    var layers = document.getElementById('menu');
+                    var layers = document.getElementById('menu');
+                    link.textContent = name;
     layers.appendChild(link);
 }
 
