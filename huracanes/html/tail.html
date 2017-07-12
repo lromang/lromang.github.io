@@ -4,6 +4,18 @@ var popup = new mapboxgl.Popup({
         closeOnClick: false
     });
 
+map.on('mouseenter', 'hospitales', function(e){
+map.getCanvas().style.cursor = 'pointer';
+popup.setLngLat(e.features[0].geometry.coordinates)
+.setHTML(e.features[0].properties.nom_estab + '\n' + e.features[0].properties.per_ocu + '\n' + e.features[0].properties.nom_vial + '\n' +  e.features[0].properties.numero_ext)
+.addTo(map);
+});
+
+map.on('mouseleave', 'hospitales', function(){
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+})
+
     map.on('mouseenter', 'points', function(e) {
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';

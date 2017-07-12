@@ -160,7 +160,7 @@ map.addLayer({
 'id': 'hospitales',
 'type':'symbol',
 'source':'hospitales',
-'layout':{"icon-image": "hospital", "icon-size": 0.05}
+'layout':{"icon-image": "hospital", "icon-size": 0.02}
 })})
 
 
@@ -3950,6 +3950,18 @@ var popup = new mapboxgl.Popup({
         closeButton: false,
         closeOnClick: false
     });
+
+map.on('mouseenter', 'hospitales', function(e){
+map.getCanvas().style.cursor = 'pointer';
+popup.setLngLat(e.features[0].geometry.coordinates)
+.setHTML(e.features[0].properties.nom_estab + '\n' + e.features[0].properties.per_ocu + '\n' + e.features[0].properties.nom_vial + '\n' +  e.features[0].properties.numero_ext)
+.addTo(map);
+});
+
+map.on('mouseleave', 'hospitales', function(){
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+})
 
     map.on('mouseenter', 'points', function(e) {
         // Change the cursor style as a UI indicator.
