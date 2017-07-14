@@ -81,11 +81,25 @@
     width: 10px;
 }
 
-</style>
+.add_info {
+    background-color: #fff;
+    border-radius: 3px;
+    bottom: 30px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.10);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+}
+
+
+  </style>
 
 <nav id="menu"></nav>
 <div id='map'></div>
 
+<div class="add_info"><p id="contents"><strong>Elaboró</strong> <span>Alex Ramírez Olvera</span> <strong>Revisó</strong> <span>Jesús Carachure Bautista </span> <strong>semáforo</strong> <span>orange</span> <strong>categoría</strong> <span>Huracán categoría I</span> <strong>distancia</strong> <span>lessthan500km</span> <strong>trayectoria</strong> <strong>layer:Google:Region:0.1</strong> <span>el Pacífico</span> <strong>WEA</strong> <span>NO</span></p></div>
 <div id='inun-legend' class='legend'>
   <h4>Código de colores</h4>
   <div><span style='background-color: #FFEB3B'></span>Riesgo inundación: ND</div>
@@ -196,6 +210,7 @@ map.addLayer({
                 "data": {
                     "type": "FeatureCollection",
                     "features": [
+
 {"type": "Feature","properties":{"id":  0 , "nomin": "Centro Comunitario" , "tipovial":  "Carretera" , "nomvial":  "MexicaliTijuana" , "nomasen":  "Col Luis Echeverria" , "nomloc":   "" , "nommun":  "Tecate" , "noment":  "Baja California" , "description": "<strong>Refugio:</strong><p>Centro Comunitario</p><strong>Vialidad:</strong><p>MexicaliTijuana</p><strong>Asentamiento:</strong><p>Col Luis Echeverria</p><strong>Localidad:</strong><p></p><strong>Tipo vialidad:</strong><p>Carretera</p>"}, "geometry": { "type": "Point","coordinates": [ -116.251375 , 32.4843 ]}},
 {"type": "Feature","properties":{"id":  1 , "nomin": "Club de la Alegria" , "tipovial":  "Carretera" , "nomvial":  "TecateEnsenada" , "nomasen":  "Nueva Colonia Hindu" , "nomloc":   "" , "nommun":  "Tecate" , "noment":  "Baja California" , "description": "<strong>Refugio:</strong><p>Club de la Alegria</p><strong>Vialidad:</strong><p>TecateEnsenada</p><strong>Asentamiento:</strong><p>Nueva Colonia Hindu</p><strong>Localidad:</strong><p></p><strong>Tipo vialidad:</strong><p>Carretera</p>"}, "geometry": { "type": "Point","coordinates": [ -117.040803 , 32.488228 ]}},
 {"type": "Feature","properties":{"id":  2 , "nomin": "Desayunador Comunitario" , "tipovial":  "Carretera" , "nomvial":  "MexicaliTijuana" , "nomasen":  "La Rumorosa" , "nomloc":   "" , "nommun":  "Tecate" , "noment":  "Baja California" , "description": "<strong>Refugio:</strong><p>Desayunador Comunitario</p><strong>Vialidad:</strong><p>MexicaliTijuana</p><strong>Asentamiento:</strong><p>La Rumorosa</p><strong>Localidad:</strong><p></p><strong>Tipo vialidad:</strong><p>Carretera</p>"}, "geometry": { "type": "Point","coordinates": [ -117.032128 , 32.536759 ]}},
@@ -3926,7 +3941,24 @@ map.addLayer({
 ]}},"layout": {"icon-image": "shelter", "icon-size": 0.12}});});
 map.addLayer({
         "id": "dangerZone","type": "fill","source": {"type": "geojson", "data": {"type": "Feature","geometry": {"type": "Polygon","coordinates":[[
-[,]
+[-103.7713623046875,18.750309813140653],
+[-103.6505126953125,19.238549860797406],
+[-103.5186767578125,19.993998469485504],
+[-103.7164306640625,21.105000275382064],
+[-103.9691162109375,21.60636531720339],
+[-104.5184326171875,22.167057857886153],
+[-104.9029541015625,22.847070687839068],
+[-105.5181884765625,23.12015362169561],
+[-105.9466552734375,23.765236889758675],
+[-106.2982177734375,24.12670195868167],
+[-106.9354248046875,24.066528197726853],
+[-107.1771240234375,23.895882703682627],
+[-105.8917236328125,22.522705703482455],
+[-105.7598876953125,21.80030805097259],
+[-105.4412841796875,21.022982546427425],
+[-105.9466552734375,20.478481600090564],
+[-105.4193115234375,19.590844152960923],
+[-103.7713623046875,18.750309813140653]
 ]]}}},"layout": {},"paint": {"fill-color": "#64DD17","fill-opacity": 0.8}});});
 
 var popup = new mapboxgl.Popup({
