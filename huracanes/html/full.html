@@ -99,7 +99,7 @@
 <nav id="menu"></nav>
 <div id='map'></div>
 
-<div class="add_info"><p id="contents"><strong>Elaboró</strong><br><span>Alex Ramírez Olvera</span><br><strong>Revisó</strong><br><span>Jaime Albarrán Ascencio </span><br><strong>semáforo</strong><br><span>undefined</span><br><strong>categoría</strong><br><span>Huracán categoría II</span><br><strong>distancia</strong><br><span>morethan500km</span><br><strong>trayectoria</strong><br><strong>layer:Google:Region:0.1</strong><br><span>el Pacífico</span><br><strong>WEA</strong><br><span>NO</span></p></div>
+<div class="add_info"><p id="contents"><strong>Elaboró</strong><br><span>Alex Ramírez Olvera</span><br><strong>Revisó</strong><br><span>Jaime Albarrán Ascencio </span><br><strong>semáforo</strong><br><span>orange</span><br><strong>categoría</strong><br><span>Huracán categoría I</span><br><strong>distancia</strong><br><span>lessthan500km</span><br><strong>trayectoria</strong><br><span>A 460 km al sur-suroeste de Punta San Telmo, Mich., y a 525 km al sur de Manzanillo, Col.</span><br><strong>layer:Google:Region:0.1</strong><br><span>el Pacífico</span><br><strong>WEA</strong><br><span>NO</span></p></div>
 <div id='inun-legend' class='legend'>
   <h4>Código de colores</h4>
   <div><span style='background-color: #FFEB3B'></span>Riesgo inundación: ND</div>
@@ -3941,7 +3941,18 @@ map.addLayer({
 ]}},"layout": {"icon-image": "shelter", "icon-size": 0.12}});});
 map.addLayer({
         "id": "dangerZone","type": "fill","source": {"type": "geojson", "data": {"type": "Feature","geometry": {"type": "Polygon","coordinates":[[
-[,]
+[-98.50341796875,16.46769474828897],
+[-98.85498046875,17.51834418785222],
+[-100.61279296875,18.396230138028827],
+[-102.01904296875,19.062117883514652],
+[-103.33740234375,20.05593126519445],
+[-105.22705078125,20.262197124246534],
+[-105.84228515625,20.262197124246534],
+[-105.40283203125,18.979025953255267],
+[-102.81005859375,17.5602465032949],
+[-100.56884765625,16.762467717941604],
+[-98.94287109375,16.214674588248542],
+[-98.50341796875,16.46769474828897]
 ]]}}},"layout": {},"paint": {"fill-color": "#64DD17","fill-opacity": 0.8}});});
 
 var popup = new mapboxgl.Popup({
