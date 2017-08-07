@@ -99,7 +99,7 @@
 <nav id="menu"></nav>
 <div id='map'></div>
 
-<div class="add_info"><p id="contents"><strong>Elaboró</strong><br><span>Alex Ramírez Olvera</span><br><strong>Revisó</strong><br><span>Jaime Albarrán Ascencio </span><br><strong>semáforo</strong><br><span>yellow</span><br><strong>categoría</strong><br><span>Depresión Tropical</span><br><strong>distancia</strong><br><span>morethan500km</span><br><strong>trayectoria</strong><br><span>A 1,980 km al oeste de Cabo San Lucas, B.C.S.</span><br><strong>layer:Google:Region:0.1</strong><br><span>el Pacífico</span><br><strong>WEA</strong><br><span>NO</span></p></div>
+<div class="add_info"><p id="contents"><strong>Elaboró</strong><br><span>Alex Ramírez Olvera </span><br><strong>Revisó</strong><br><span>Jaime Albarrán Ascencio </span><br><strong>semáforo</strong><br><span>red</span><br><strong>categoría</strong><br><span>Tormenta Tropical</span><br><strong>distancia</strong><br><span>lessthan500km</span><br><strong>trayectoria</strong><br><span>A 255 km al este-sureste de Puerto Costa Maya, Q. Roo, y a 310 km al este de Chetumal, Q. Roo</span><br><strong>layer:Google:Region:0.1</strong><br><span>el Atlántico</span><br><strong>WEA</strong><br><span>NO</span></p></div>
 <div id='inun-legend' class='legend'>
   <h4>Código de colores</h4>
   <div><span style='background-color: #FFEB3B'></span>Riesgo inundación: ND</div>
@@ -3941,7 +3941,38 @@ map.addLayer({
 ]}},"layout": {"icon-image": "shelter", "icon-size": 0.12}});});
 map.addLayer({
         "id": "dangerZone","type": "fill","source": {"type": "geojson", "data": {"type": "Feature","geometry": {"type": "Polygon","coordinates":[[
-[,]
+[-88.26553344726562,18.46918890441719],
+[-88.02658081054688,18.31802573200145],
+[-88.04580688476562,17.861132899477624],
+[-87.93869018554688,17.824530276925003],
+[-87.51434326171875,18.58377568837094],
+[-87.40997314453125,19.238549860797406],
+[-87.18475341796875,20.27765605633712],
+[-86.85516357421875,20.220965779522302],
+[-86.62445068359375,20.58650982399772],
+[-86.69586181640625,21.60636531720339],
+[-88.37677001953125,21.79010705980787],
+[-90.35430908203125,21.171606338272724],
+[-90.82122802734375,20.267350272759373],
+[-90.82122802734375,19.32669491605546],
+[-91.69464111328125,18.87510275035649],
+[-92.72186279296875,18.630629930377246],
+[-92.95806884765625,18.458768120015126],
+[-92.58453369140625,17.675427818339383],
+[-92.26043701171875,16.85186245321658],
+[-91.33209228515625,16.657243645360776],
+[-91.16729736328125,16.99375545289456],
+[-91.44195556640625,17.23525150539053],
+[-91.44744873046875,17.292953983910063],
+[-90.98602294921875,17.28246396789921],
+[-91.01348876953125,17.83237432956752],
+[-89.17877197265625,17.84283252904802],
+[-89.14031982421875,18.06231230454674],
+[-88.89862060546875,18.057089766648648],
+[-88.58551025390625,18.474399059267128],
+[-88.38775634765625,18.562947442888312],
+[-88.30535888671875,18.500447458475094],
+[-88.26553344726562,18.46918890441719]
 ]]}}},"layout": {},"paint": {"fill-color": "#64DD17","fill-opacity": 0.8}});});
 
 var popup = new mapboxgl.Popup({
