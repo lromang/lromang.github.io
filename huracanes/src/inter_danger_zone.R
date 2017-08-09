@@ -83,7 +83,10 @@ coords <- coords[str_detect(coords$lat,
 ## Danger zone
 ## ----------------------------------------
 
-## Read in data
+## Generate polygon
+system('./getPolygon.sh')
+
+## Read in polygon
 danger_zone  <- readLines('polygon.txt') %>%
     str_split(' ')
 danger_zone  <- ldply(danger_zone[[1]],
@@ -98,21 +101,32 @@ danger_zone_p   <- Polygon(danger_zone)
 danger_zone_ps  <- Polygons(list(danger_zone_p), 1)
 danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
 
-## ----------------------------------------
+###########################################
 ## Intersect
-## ----------------------------------------
+###########################################
+
+## Function
+get_inside <- function(data){
+    ## Data=  lon, lat (no NA)
+    inside <- c()
+    for(i in 1:nrow(data)){
+        prov_coords              <- data.frame(data[i, ])
+        coordinates(prov_coords) <- c('lon', 'lat')
+        proj4string(prov_coords) <- proj4string(danger_zone_sps)
+        ## Inside
+        inside[i] <- !is.na(over(prov_coords,
+                                as(danger_zone_sps,
+                                   'SpatialPolygons')))
+    }
+    inside
+}
+
+## Shelter
 shelter_coords <- dplyr::select(coords, lon, lat) %>%
     na.omit()
-inside <- c()
-for(i in 1:nrow(shelter_coords)){
-    prov_coords                      <- data.frame(shelter_coords[i, ])
-    coordinates(prov_coords)         <- c('lon', 'lat')
-    proj4string(prov_coords) <- proj4string(danger_zone_sps)
-    ## Inside
-    inside[i] <- !is.na(over(prov_coords,
-                            as(danger_zone_sps,
-                               'SpatialPolygons')))
-}
+inside_shelter <- get_inside(shelter_coords)
+
+## Hospitals
 
 ## -----------------------------------------
 ## Save results
