@@ -159,12 +159,11 @@ inside_shelter  <- get_inside(shelter_coords)
 ## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
-proj4string(hospital) <- proj4string(danger_zone_sps)
-hospital_inter        <- raster::intersect(hospital,
+proj4string(hospitals) <- proj4string(danger_zone_sps)
+hospital_inter         <- raster::intersect(hospitals,
                                           danger_zone_sps)
-hospital_geojson      <- geojson_json(hospital_inter)
+hospital_geojson       <- geojson_json(hospital_inter)
 geojson_write(hospital_geojson, file = '../inter_data/hospital_inside.geojson')
-
 
 ## ----------------------------------------
 ## Flods
@@ -194,31 +193,4 @@ write.table(coords[inside_shelter, ],
             '../inter_data/shelters_inside.tsv',
             sep = '\t',
             row.names = FALSE,
-            fileEncoding  = 'UTF-8')
-
-## Hospitals
-inside_hospitals          <- hospitals
-inside_hospitals$features <- inside_hospitals$features[inside_hospital]
-df_hospitals       <- ldply(inside_hospitals$features,
-                           function(t) t <- if(length(t$properties$nom_estab) > 0 &&
-                                              length(t$properties$nom_vial)  > 0 &&
-                                              length(t$properties$per_ocu)   > 0 &&
-                                              length(t$properties$lat)       > 0 &&
-                                              length(t$properties$lon)   > 0
-                                              ){
-                               c(t$properties$nom_estab,
-                                 t$properties$nom_vial,
-                                 t$properties$per_ocu,
-                                 t$properties$lat,
-                                 t$properties$lon)
-                                           }else{
-                                               c(NA, NA, NA, NA, NA)
-                                           }
-                           )
-df_hospitals       <- na.omit(df_hospitals)
-names(df_hospitals) <- c('nom_estab', 'nom_vial', 'per_ocu', 'lat', 'lon')
-write.table(df_hospitals,
-            '../inter_data/hospitals_inside.tsv',
-            sep           = '\t',
-            row.names     = FALSE,
             fileEncoding  = 'UTF-8')
