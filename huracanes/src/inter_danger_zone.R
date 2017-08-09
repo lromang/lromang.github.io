@@ -56,6 +56,28 @@ suppressPackageStartupMessages(library(foreign))
 ## ----------------------------------------
 shelters <- read.csv('../data/pacific_refugios.csv',
                     stringsAsFactors = FALSE)
+## Coords
+coords <- dplyr::select(shelters,
+                       nominm,
+                       nomvial,
+                       tipovial,
+                       nomasen,
+                       nom_loc,
+                       nom_mun,
+                       nom_ent,
+                       lon,
+                       lat)
+## Only coords with adequate format
+coords$lon <- str_replace(coords$lon, ',', '.') %>%
+   readr::parse_number()
+coords$lat <- str_replace(coords$lat, ',', '.') %>%
+    readr::parse_number()
+coords <- coords[str_detect(coords$lon,
+                           '^-[0-9]+\\.[0-9]'),]
+## Only clean lat
+coords <- coords[str_detect(coords$lat,
+                           '^[0-9]+\\.[0-9]'),]
+
 
 ## ----------------------------------------
 ## Danger zone
@@ -65,8 +87,10 @@ shelters <- read.csv('../data/pacific_refugios.csv',
 danger_zone  <- readLines('polygon.txt') %>%
     str_split(' ')
 danger_zone  <- ldply(danger_zone[[1]],
-                     function(t) t <- c(readr::parse_number(str_split(t, ',')[[1]][2]),
-                                       readr::parse_number(str_split(t, ',')[[1]][1])))
+                     function(t) t <- c(readr::parse_number(str_split(t,
+                                                                     ',')[[1]][2]),
+                                       readr::parse_number(str_split(t,
+                                                                     ',')[[1]][1])))
 names(danger_zone) <- c('lon', 'lat')
 
 ## Make polygon
@@ -77,3 +101,24 @@ danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
 ## ----------------------------------------
 ## Intersect
 ## ----------------------------------------
+shelter_coords <- dplyr::select(coords, lon, lat) %>%
+    na.omit()
+inside <- c()
+for(i in 1:nrow(shelter_coords)){
+    prov_coords                      <- data.frame(shelter_coords[i, ])
+    coordinates(prov_coords)         <- c('lon', 'lat')
+    proj4string(prov_coords) <- proj4string(danger_zone_sps)
+    ## Inside
+    inside[i] <- !is.na(over(prov_coords,
+                            as(danger_zone_sps,
+                               'SpatialPolygons')))
+}
+
+## -----------------------------------------
+## Save results
+## ----------------------------------------
+write.table(coords[inside, ],
+            '../data/clean_coords_inside.tsv',
+            sep = '\t',
+            row.names = FALSE,
+            fileEncoding  = 'UTF-8')
