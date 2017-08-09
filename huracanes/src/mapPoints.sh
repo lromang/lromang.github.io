@@ -9,8 +9,7 @@ do
     coords=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}")
     nomin=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $1}')
     nomvial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $2}')
-    ##tipovial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
-    tipovial='NA'
+    tipovial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
     nomasen=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $4}')
     nom_loc=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $5}')
     nom_mun=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $6}')
