@@ -64,7 +64,7 @@ clean_text <- function(text){
     text <- text                    %>%
         removeNumbers()            %>%
         tolower()                  %>%
-        removePunctuation()        %>%
+        ## removePunctuation()        %>%
         str_replace_all("\t","")   %>%
         iconv("UTF-8","ASCII","")
     text
@@ -73,6 +73,11 @@ clean_text <- function(text){
 ## Gulf
 gulf     <- read.csv('../data/golfo.csv',
                     stringsAsFactors = FALSE)
+names(gulf) <- c('numext','nom_mun', 'nomasen', 'tipoasen',
+                'calve_mun', 'cap_alb', 'numextalf', 'camino',
+                'cp', 'lon', 'nom_loc', 'nomvial', 'lat', 'cont_tel',
+                'clave_edo', 'tipoinm', 'nominm', 'carretera', 'nom_ent',
+                'resp_mbox', 'resp_tel')
 ## Gulf coords
 gulf_coords <- dplyr::select(gulf,
                             nominm,
@@ -100,7 +105,7 @@ coords <- dplyr::select(shelters,
                        lon,
                        lat)
 ## Merge data
-## coords <- rbind(coords, gulf_coords)
+coords <- rbind(coords, gulf_coords)
 
 ## Only coords with adequate format
 coords$lon <- str_replace(coords$lon, ',', '.') %>%
@@ -115,7 +120,7 @@ coords <- coords[str_detect(coords$lat,
                            '^[0-9]+\\.[0-9]'),]
 
 ## Clean_cols
-## coords[,1:7] <- apply(coords[,1:7], 2, function(t)t <- clean_text(t))
+coords[,1:7] <- apply(coords[,1:7], 2, function(t)t <- clean_text(t))
 
 
 ## ----------------------------------------
