@@ -75,9 +75,10 @@ coords$lon <- str_replace(coords$lon, ',', '.') %>%
    readr::parse_number()
 coords$lat <- str_replace(coords$lat, ',', '.') %>%
     readr::parse_number()
+## Clean Lon
 coords <- coords[str_detect(coords$lon,
                            '^-[0-9]+\\.[0-9]'),]
-## Only clean lat
+## Clean Lat
 coords <- coords[str_detect(coords$lat,
                            '^[0-9]+\\.[0-9]'),]
 
@@ -107,7 +108,7 @@ danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
 ## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
-hospital <- readOGR('../hospitals/hospitales_clinicas_consultorios_refugios.geojson',
+hospitals <- readOGR('../hospitals/hospitales_clinicas_consultorios_refugios.geojson',
                'OGRGeoJSON',
                verbose = FALSE)
 
