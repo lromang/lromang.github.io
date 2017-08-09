@@ -113,6 +113,13 @@ hospitals_coords <- ldply(hospitals[[3]],
                                            t[[2]]$latitud))
 names(hospitals_coords) <- c('lon', 'lat')
 
+## ----------------------------------------
+## Inundaciones
+## ----------------------------------------
+flod <- readOGR('../inundaciones/flods.geojson',
+               'OGRGeoJSON',
+               verbose = FALSE)
+
 ###########################################
 ## Intersect
 ###########################################
@@ -146,6 +153,21 @@ inside_shelter  <- get_inside(shelter_coords)
 ## Hospitals
 ## ----------------------------------------
 inside_hospital <- get_inside(hospitals_coords)
+
+## ----------------------------------------
+## Flods
+## ----------------------------------------
+proj4string(flod) <- proj4string(danger_zone_sps)
+flod_inter        <- raster::intersect(flod,
+                                      danger_zone_sps)
+
+flod_geojson      <- geojson_json(flod_inter)
+geojson_write(flod_geojson, file = '../inter_data/flod_inside.geojson')
+
+## ----------------------------------------
+## Glide
+## ----------------------------------------
+
 
 ###########################################
 ## Save data
