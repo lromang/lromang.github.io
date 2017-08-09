@@ -34,6 +34,7 @@ suppressPackageStartupMessages(library(maptools))
 suppressPackageStartupMessages(library(spatstat))
 suppressPackageStartupMessages(library(rgeos))
 suppressPackageStartupMessages(library(rgdal))
+suppressPackageStartupMessages(library(geojsonio))
 ## Gráficas
 suppressPackageStartupMessages(library(ggplot2))
 ## Otros
@@ -101,11 +102,21 @@ danger_zone_p   <- Polygon(danger_zone)
 danger_zone_ps  <- Polygons(list(danger_zone_p), 1)
 danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
 
+## ----------------------------------------
+## Hospitals
+## ----------------------------------------
+hospitals <- geojson_read('../hospitals/hospitales_clinicas_consultorios_refugios.geojson')
+hospitals_coords <- ldply(hospitals[[3]],
+                         function(t) t <- c(t[[2]]$longitud,
+                                           t[[2]]$latitud))
+names(hospitals_coords) <- c('lon', 'lat')
 ###########################################
 ## Intersect
 ###########################################
 
-## Function
+## ----------------------------------------
+## Intersect function
+## ----------------------------------------
 get_inside <- function(data){
     ## Data=  lon, lat (no NA)
     inside <- c()
@@ -121,16 +132,21 @@ get_inside <- function(data){
     inside
 }
 
-## Shelter
-shelter_coords <- dplyr::select(coords, lon, lat) %>%
-    na.omit()
-inside_shelter <- get_inside(shelter_coords)
-
-## Hospitals
-
-## -----------------------------------------
-## Save results
 ## ----------------------------------------
+## Shelters
+## ----------------------------------------
+shelter_coords  <- dplyr::select(coords, lon, lat) %>%
+    na.omit()
+inside_shelter  <- get_inside(shelter_coords)
+
+## ----------------------------------------
+## Hospitals
+## ----------------------------------------
+inside_hospital <- get_inside(hospitals_coords)
+
+###########################################
+## Save data
+###########################################
 write.table(coords[inside, ],
             '../data/clean_coords_inside.tsv',
             sep = '\t',
