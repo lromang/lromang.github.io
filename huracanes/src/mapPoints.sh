@@ -24,7 +24,7 @@ sed '$ s/.$//' ../html/body.html > ../html/aux.html
 cat ../html/aux.html > ../html/body.html
 rm ../html/aux.html
 ## Add end of points
-echo ']}},"layout": {"icon-image": "shelter", "icon-size": 0.8}});});' >> ../html/body.html
+echo ']}},"layout": {"icon-image": "shelter", "icon-size": 1}});});' >> ../html/body.html
 ## Add head of polygon
 echo   'map.addLayer({
         "id": "dangerZone","type": "fill","source": {"type": "geojson", "data": {"type": "Feature","geometry": {"type": "Polygon","coordinates":[[' >> ../html/body.html
