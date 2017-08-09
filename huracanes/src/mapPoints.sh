@@ -16,6 +16,7 @@ do
     nom_ent=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $7}')
     lon=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $8}' | sed 's/"//g')
     lat=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $9}' | sed 's/"//g')
+
     echo '{"type": "Feature","properties":{"id": ' $ids ', "nomin":' $nomin ', "tipovial": ' $tipovial ', "nomvial": ' $nomvial ', "nomasen": ' $nomasen ', "nomloc":  ' $nom_loc ', "nommun": ' $nom_mun ', "noment": ' $nom_ent ', "description": "<strong>Refugio:</strong><p>'$(echo $nomin  | sed 's/"//g')'</p><strong>Vialidad:</strong><p>'$(echo $nomvial  | sed 's/"//g')'</p><strong>Asentamiento:</strong><p>'$(echo $nomasen  | sed 's/"//g')'</p><strong>Localidad:</strong><p>'$(echo $nom_loc  | sed 's/"//g')'</p><strong>Tipo vialidad:</strong><p>'$(echo $tipovial  | sed 's/"//g')'</p>"}, "geometry": { "type": "Point","coordinates": [' $lon ',' $lat ']}},' >> ../html/body.html
     ids=$((ids + 1))
 done
