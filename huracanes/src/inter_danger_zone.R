@@ -1,3 +1,5 @@
+#! /usr/bin/Rscript
+
 ##########################################
 ##
 ## Luis Manuel Román García
@@ -150,7 +152,7 @@ inside_hospital <- get_inside(hospitals_coords)
 ###########################################
 
 ## Shelters
-write.table(coords[inside, ],
+write.table(coords[inside_shelter, ],
             '../inter_data/shelters_inside.tsv',
             sep = '\t',
             row.names = FALSE,
@@ -158,6 +160,27 @@ write.table(coords[inside, ],
 
 ## Hospitals
 inside_hospitals          <- hospitals
-inside_hospitals$features <- inside_hospitalshospitals$features[inside_hospital]
+inside_hospitals$features <- inside_hospitals$features[inside_hospital]
 df_hospitals       <- ldply(inside_hospitals$features,
-                           function(t) t <- t$features)
+                           function(t) t <- if(length(t$properties$nom_estab) > 0 &&
+                                              length(t$properties$nom_vial)  > 0 &&
+                                              length(t$properties$per_ocu)   > 0 &&
+                                              length(t$properties$lat)       > 0 &&
+                                              length(t$properties$lon)   > 0
+                                              ){
+                               c(t$properties$nom_estab,
+                                 t$properties$nom_vial,
+                                 t$properties$per_ocu,
+                                 t$properties$lat,
+                                 t$properties$lon)
+                                           }else{
+                                               c(NA, NA, NA, NA, NA)
+                                           }
+                           )
+df_hospitals       <- na.omit(df_hospitals)
+names(df_hospitals) <- c('nom_estab', 'nom_vial', 'per_ocu', 'lat', 'lon')
+write.table(df_hospitals,
+            '../inter_data/hospitals_inside.tsv',
+            sep           = '\t',
+            row.names     = FALSE,
+            fileEncoding  = 'UTF-8')
