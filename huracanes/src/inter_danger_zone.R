@@ -82,7 +82,6 @@ coords <- coords[str_detect(coords$lon,
 coords <- coords[str_detect(coords$lat,
                            '^[0-9]+\\.[0-9]'),]
 
-
 ## ----------------------------------------
 ## Danger zone
 ## ----------------------------------------
@@ -152,8 +151,8 @@ get_inside <- function(data){
 ## ----------------------------------------
 ## Shelters
 ## ----------------------------------------
-shelter_coords  <- dplyr::select(coords, lon, lat) %>%
-    na.omit()
+coords          <- na.omit(coords)
+shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
 
 ## ----------------------------------------
