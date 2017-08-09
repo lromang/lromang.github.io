@@ -9,14 +9,14 @@ do
     coords=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}")
     nomin=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $1}')
     nomvial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $2}')
-    tipoasen=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
+    tipovial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
     nomasen=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $4}')
     nom_loc=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $5}')
     nom_mun=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $6}')
     nom_ent=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $7}')
     lon=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $8}' | sed 's/"//g')
     lat=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $9}' | sed 's/"//g')
-    echo '{"type": "Feature","properties":{"id": ' $ids ', "nomin":' $nomin ', "tipoasen": ' $nomasen ', "nomvial": ' $nomvial ', "nomasen": ' $nomasen ', "nomloc":  ' $nom_loc ', "nommun": ' $nom_mun ', "noment": ' $nom_ent ', "description": "<strong>Refugio:</strong><p>'$(echo $nomin  | sed 's/"//g')'</p><strong>Vialidad:</strong><p>'$(echo $nomvial  | sed 's/"//g')'</p><strong>Asentamiento:</strong><p>'$(echo $nomasen  | sed 's/"//g')'</p><strong>Localidad:</strong><p>'$(echo $nom_loc  | sed 's/"//g')'</p><strong>Tipo asentamiento:</strong><p>'$(echo $tipoasen  | sed 's/"//g')'</p>"}, "geometry": { "type": "Point","coordinates": [' $lon ',' $lat ']}},' >> ../html/body.html
+    echo '{"type": "Feature","properties":{"id": ' $ids ', "nomin":' $nomin ', "tipovial": ' $tipovial ', "nomvial": ' $nomvial ', "nomasen": ' $nomasen ', "nomloc":  ' $nom_loc ', "nommun": ' $nom_mun ', "noment": ' $nom_ent ', "description": "<strong>Refugio:</strong><p>'$(echo $nomin  | sed 's/"//g')'</p><strong>Vialidad:</strong><p>'$(echo $nomvial  | sed 's/"//g')'</p><strong>Asentamiento:</strong><p>'$(echo $nomasen  | sed 's/"//g')'</p><strong>Localidad:</strong><p>'$(echo $nom_loc  | sed 's/"//g')'</p><strong>Tipo vialidad:</strong><p>'$(echo $tipovial  | sed 's/"//g')'</p>"}, "geometry": { "type": "Point","coordinates": [' $lon ',' $lat ']}},' >> ../html/body.html
     ids=$((ids + 1))
 done
 ## Remove last comma
