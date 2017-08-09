@@ -25,6 +25,7 @@ suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(tidyr))
 ## Manejo de cadenas de caracteres
 suppressPackageStartupMessages(library(stringr))
+suppressPackageStartupMessages(library(tm))
 ## Manejo de data frames
 suppressPackageStartupMessages(library(data.table))
 ## Predicción
@@ -58,6 +59,17 @@ suppressPackageStartupMessages(library(foreign))
 ## Shelters
 ## ----------------------------------------
 
+## Clean text
+clean_text <- function(text){
+    text <- text                    %>%
+        removeNumbers()            %>%
+        tolower()                  %>%
+        ## removePunctuation()        %>%
+        str_replace_all("\t","")   %>%
+        iconv("UTF-8","ASCII","")
+    text
+}
+
 ## Gulf
 gulf     <- read.csv('../data/golfo.csv',
                     stringsAsFactors = FALSE)
@@ -90,7 +102,6 @@ coords <- dplyr::select(shelters,
 ## Merge data
 coords <- rbind(coords, gulf_coords)
 
-
 ## Only coords with adequate format
 coords$lon <- str_replace(coords$lon, ',', '.') %>%
    readr::parse_number()
@@ -102,6 +113,10 @@ coords <- coords[str_detect(coords$lon,
 ## Clean Lat
 coords <- coords[str_detect(coords$lat,
                            '^[0-9]+\\.[0-9]'),]
+
+## Clean_cols
+coords[,1:7] <- apply(coords[,1:7], 2, function(t)t <- clean_text(t))
+
 
 ## ----------------------------------------
 ## Danger zone
@@ -207,6 +222,7 @@ geojson_write(glide_geojson, file = '../inter_data/glide_inside.geojson')
 ###########################################
 ## Save data
 ###########################################
+
 
 ## Shelters
 write.table(coords[inside_shelter, ],
