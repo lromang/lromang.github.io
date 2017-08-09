@@ -142,11 +142,3 @@ write.table(coords,
             sep = '\t',
             row.names = FALSE,
             fileEncoding  = 'UTF-8')
-
-
-## data$bad_lat <- bad_lat
-## data$bad_lon <- bad_lon
-## data$outside <- !inside
-## write.csv(data,
-##            '../data/errors.csv',
-##            row.names = FALSE)
