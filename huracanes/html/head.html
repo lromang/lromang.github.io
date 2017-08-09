@@ -126,7 +126,7 @@ map.on('load', () => {
 //Inundaciones
   map.addSource("inundaciones", {
         "type": "geojson",
-        "data": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=5&f=geojson"
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/flod_inside.geojson"
   });
 
 
@@ -164,7 +164,7 @@ stops: [['ND', '#FFEB3B'],
 //Hospitales
   map.addSource("hospitales", {
         "type": "geojson",
-        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/hospitals/hospitales_clinicas_consultorios_refugios.geojson"
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/hospital_inside.geojson"
   });
 
 map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/hospitales.png', (error, image) => {
@@ -184,7 +184,7 @@ map.addLayer({
 //Deslizamientos  laderas
   map.addSource("laderas", {
         "type": "geojson",
-        "data": "http://servicios1.cenapred.unam.mx:6080/arcgis/rest/services/ANR/GoogleCrisis/MapServer/exts/GeoJSONServer/GeoJSON?query=1=1&layer=3&f=geojson"
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/glide_inside.geojson"
   });
 
 

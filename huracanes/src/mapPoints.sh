@@ -3,19 +3,19 @@
 rm ../html/body.html
 rm ../html/full.html
 ids=0
-for rows in $(seq 2 $(wc -l ../data/clean_coords.tsv | sed 's/[^0-9]//g'))
+for rows in $(seq 2 $(wc -l ../inter_data/shelters_inside.tsv | sed 's/[^0-9]//g'))
 do
     echo $ids
-    coords=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}")
-    nomin=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $1}')
-    nomvial=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $2}')
-    tipovial=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
-    nomasen=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $4}')
-    nom_loc=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $5}')
-    nom_mun=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $6}')
-    nom_ent=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $7}')
-    lon=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $8}' | sed 's/"//g')
-    lat=$(cat ../data/clean_coords.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $9}' | sed 's/"//g')
+    coords=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}")
+    nomin=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $1}')
+    nomvial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $2}')
+    tipovial=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $3}')
+    nomasen=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $4}')
+    nom_loc=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $5}')
+    nom_mun=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $6}')
+    nom_ent=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $7}')
+    lon=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $8}' | sed 's/"//g')
+    lat=$(cat ../inter_data/shelters_inside.tsv | awk -F '\t' "FNR == $rows {print}" | awk -F '\t' '{print $9}' | sed 's/"//g')
     echo '{"type": "Feature","properties":{"id": ' $ids ', "nomin":' $nomin ', "tipovial": ' $tipovial ', "nomvial": ' $nomvial ', "nomasen": ' $nomasen ', "nomloc":  ' $nom_loc ', "nommun": ' $nom_mun ', "noment": ' $nom_ent ', "description": "<strong>Refugio:</strong><p>'$(echo $nomin  | sed 's/"//g')'</p><strong>Vialidad:</strong><p>'$(echo $nomvial  | sed 's/"//g')'</p><strong>Asentamiento:</strong><p>'$(echo $nomasen  | sed 's/"//g')'</p><strong>Localidad:</strong><p>'$(echo $nom_loc  | sed 's/"//g')'</p><strong>Tipo vialidad:</strong><p>'$(echo $tipovial  | sed 's/"//g')'</p>"}, "geometry": { "type": "Point","coordinates": [' $lon ',' $lat ']}},' >> ../html/body.html
     ids=$((ids + 1))
 done
@@ -47,7 +47,7 @@ echo ']]}}},"layout": {},"paint": {"fill-color": "#64DD17","fill-opacity": 0.8}}
 ## Add aditional info
 add_param=$(curl $lastUpdate | grep -Eo '<(value(Name)?>)[^<]+</\1'| sed -e 's/valueName/strong/g' -e 's/value/span/g')
 ## <div class="add_info"><p id="contents"></p></div>
-add_p='<div class="add_info"><p id="contents">'$add_param'</p></div>'
+## add_p='<div class="add_info"><p id="contents">'$add_param'</p></div>'
 ## echo '$( document ).ready(function() {document.getElementById("contents").append("'$add_param'");});' >> ../html/body.html
 cat ../html/upper_head.html >> ../html/full.html
 echo $add_p | sed 's/> </><br></g' >> ../html/full.html
