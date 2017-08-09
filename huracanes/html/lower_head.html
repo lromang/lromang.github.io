@@ -10,12 +10,12 @@
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ29ibXgxNSIsImEiOiJjaWZpaTl2eGtibDBjcnNtN3NqdW1wN25xIn0.yxAJmrmgXO_IaXuI1lckYA';
 
-var v1 = new mapboxgl.LngLat(-99.137084, 19.426472);
+var v1 = new mapboxgl.LngLat(-96.620732, 19.879809);
 
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    zoom: 7,
+    zoom: 6,
     center: v1
 });
 
@@ -72,7 +72,7 @@ map.addLayer({
 'id': 'hospitales',
 'type':'symbol',
 'source':'hospitales',
-'layout':{"icon-image": "hospital", "icon-size": .08}
+'layout':{"icon-image": "hospital", "icon-size": .09}
 })})
 
 
