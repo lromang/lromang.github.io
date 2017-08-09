@@ -57,19 +57,40 @@ suppressPackageStartupMessages(library(foreign))
 ## ----------------------------------------
 ## Shelters
 ## ----------------------------------------
+
+## Gulf
+gulf     <- read.csv('../data/golfo.csv',
+                    stringsAsFactors = FALSE)
+## Gulf coords
+gulf_coords <- dplyr::select(gulf,
+                            nominm,
+                            nomvial,
+                            tipoasen,
+                            nomasen,
+                            nom_loc,
+                            nom_mun,
+                            nom_ent,
+                            lon,
+                            lat)
+
+## Pacific
 shelters <- read.csv('../data/pacific_refugios.csv',
                     stringsAsFactors = FALSE)
-## Coords
+## Pacific Coords
 coords <- dplyr::select(shelters,
                        nominm,
                        nomvial,
-                       tipovial,
+                       tipoasen,
                        nomasen,
                        nom_loc,
                        nom_mun,
                        nom_ent,
                        lon,
                        lat)
+## Merge data
+coords <- rbind(coords, gulf_coords)
+
+
 ## Only coords with adequate format
 coords$lon <- str_replace(coords$lon, ',', '.') %>%
    readr::parse_number()
