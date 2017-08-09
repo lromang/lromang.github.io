@@ -117,7 +117,7 @@ var v1 = new mapboxgl.LngLat(-99.137084, 19.426472);
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    zoom: 4,
+    zoom: 9,
     center: v1
 });
 
@@ -174,7 +174,7 @@ map.addLayer({
 'id': 'hospitales',
 'type':'symbol',
 'source':'hospitales',
-'layout':{"icon-image": "hospital", "icon-size": 0.8}
+'layout':{"icon-image": "hospital", "icon-size": .08}
 })})
 
 
@@ -341,7 +341,7 @@ map.addLayer({
 {"type": "Feature","properties":{"id":  127 , "nomin": "SALON SOCIAL TEMAZCALTEZI" , "tipovial":  "" , "nomvial":  "JUNTO AL PARQUE JUAREZ CENTRO DE LA POBLACION" , "nomasen":  "" , "nomloc":   "" , "nommun":  "SAN MIGUEL SOYALTEPEC" , "noment":  "Oaxaca" , "description": "<strong>Refugio:</strong><p>SALON SOCIAL TEMAZCALTEZI</p><strong>Vialidad:</strong><p>JUNTO AL PARQUE JUAREZ CENTRO DE LA POBLACION</p><strong>Asentamiento:</strong><p></p><strong>Localidad:</strong><p></p><strong>Tipo vialidad:</strong><p></p>"}, "geometry": { "type": "Point","coordinates": [ -96.403172 , 18.239831 ]}},
 {"type": "Feature","properties":{"id":  128 , "nomin": "SALON SOCIAL DEL MUNICIPIO SANTA MARIA JACATEPEC" , "tipovial":  "" , "nomvial":  "AVENIDA INDEPENDENCIA SIN NUMERO A UN COSTADO DEL PALACIO MUNICIPAL CENTRO DE LA POBLACION." , "nomasen":  "" , "nomloc":   "" , "nommun":  "SANTA MARIA JACATEPEC" , "noment":  "Oaxaca" , "description": "<strong>Refugio:</strong><p>SALON SOCIAL DEL MUNICIPIO SANTA MARIA JACATEPEC</p><strong>Vialidad:</strong><p>AVENIDA INDEPENDENCIA SIN NUMERO A UN COSTADO DEL PALACIO MUNICIPAL CENTRO DE LA POBLACION.</p><strong>Asentamiento:</strong><p></p><strong>Localidad:</strong><p></p><strong>Tipo vialidad:</strong><p></p>"}, "geometry": { "type": "Point","coordinates": [ -96.210047 , 17.860566 ]}},
 {"type": "Feature","properties":{"id":  129 , "nomin": "GIMNACIO MUNICIPAL" , "tipovial":  "Calle" , "nomvial":  "LAZARO CARDENAS S/N BARRIO CENTRO" , "nomasen":  "BARRIO CENTRO" , "nomloc":   "" , "nommun":  "SANTO DOMINGO INGENIO" , "noment":  "Oaxaca" , "description": "<strong>Refugio:</strong><p>GIMNACIO MUNICIPAL</p><strong>Vialidad:</strong><p>LAZARO CARDENAS S/N BARRIO CENTRO</p><strong>Asentamiento:</strong><p>BARRIO CENTRO</p><strong>Localidad:</strong><p></p><strong>Tipo vialidad:</strong><p>Calle</p>"}, "geometry": { "type": "Point","coordinates": [ -96.114197 , 18.082648 ]}}
-]}},"layout": {"icon-image": "shelter", "icon-size": 1}});});
+]}},"layout": {"icon-image": "shelter", "icon-size": .7}});});
 map.addLayer({
         "id": "dangerZone","type": "fill","source": {"type": "geojson", "data": {"type": "Feature","geometry": {"type": "Polygon","coordinates":[[
 [-99.64374857023358,23.13117228982175],
@@ -389,7 +389,7 @@ map.on('mouseleave', 'hospitales', function(){
 
 
 var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points'];
-var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono CAP', 'Hospitales', 'Refugios'];
+var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono riesgo', 'Hospitales', 'Refugios'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
                     var id   = toggleableLayerIds[i];
