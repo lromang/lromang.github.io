@@ -100,7 +100,7 @@ coords <- dplyr::select(shelters,
                        lon,
                        lat)
 ## Merge data
-coords <- rbind(coords, gulf_coords)
+## coords <- rbind(coords, gulf_coords)
 
 ## Only coords with adequate format
 coords$lon <- str_replace(coords$lon, ',', '.') %>%
@@ -115,7 +115,7 @@ coords <- coords[str_detect(coords$lat,
                            '^[0-9]+\\.[0-9]'),]
 
 ## Clean_cols
-coords[,1:7] <- apply(coords[,1:7], 2, function(t)t <- clean_text(t))
+## coords[,1:7] <- apply(coords[,1:7], 2, function(t)t <- clean_text(t))
 
 
 ## ----------------------------------------
