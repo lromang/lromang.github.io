@@ -110,6 +110,7 @@ hospitals_coords <- ldply(hospitals[[3]],
                          function(t) t <- c(t[[2]]$longitud,
                                            t[[2]]$latitud))
 names(hospitals_coords) <- c('lon', 'lat')
+
 ###########################################
 ## Intersect
 ###########################################
@@ -147,8 +148,16 @@ inside_hospital <- get_inside(hospitals_coords)
 ###########################################
 ## Save data
 ###########################################
+
+## Shelters
 write.table(coords[inside, ],
-            '../data/clean_coords_inside.tsv',
+            '../inter_data/shelters_inside.tsv',
             sep = '\t',
             row.names = FALSE,
             fileEncoding  = 'UTF-8')
+
+## Hospitals
+inside_hospitals          <- hospitals
+inside_hospitals$features <- inside_hospitalshospitals$features[inside_hospital]
+df_hospitals       <- ldply(inside_hospitals$features,
+                           function(t) t <- t$features)
