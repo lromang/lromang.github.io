@@ -69,7 +69,10 @@ danger_zone  <- ldply(danger_zone[[1]],
                                        readr::parse_number(str_split(t, ',')[[1]][1])))
 names(danger_zone) <- c('lon', 'lat')
 
-
+## Make polygon
+danger_zone_p   <- Polygon(danger_zone)
+danger_zone_ps  <- Polygons(list(danger_zone_p), 1)
+danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
 
 ## ----------------------------------------
 ## Intersect
