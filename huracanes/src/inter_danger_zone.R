@@ -65,6 +65,7 @@ clean_text <- function(text){
         removeNumbers()            %>%
         tolower()                  %>%
         ## removePunctuation()        %>%
+        str_replace_all('\\n',"")  %>%
         str_replace_all("\t","")   %>%
         iconv("UTF-8","ASCII","")
     text
