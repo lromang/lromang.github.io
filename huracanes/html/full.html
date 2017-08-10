@@ -2143,7 +2143,7 @@ var popup = new mapboxgl.Popup({
 map.on('mouseenter', 'hospitales', function(e){
 map.getCanvas().style.cursor = 'pointer';
 popup.setLngLat(e.features[0].geometry.coordinates)
-.setHTML(e.features[0].properties.nom_estab + '\n' + e.features[0].properties.per_ocu + '\n' + e.features[0].properties.nom_vial + '\n' +  e.features[0].properties.numero_ext)
+.setHTML('<p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.nom_estab + '</p><br><p><strong>Capacidad: </strong>' + e.features[0].properties.per_ocu + '</p><br><p><strong>Nombre vialidad: </strong>' + e.features[0].properties.nom_vial + '</p><br><p><strong>Número exterior: </strong>' +  e.features[0].properties.numero_ext + '</p>')
 .addTo(map);
 });
 
