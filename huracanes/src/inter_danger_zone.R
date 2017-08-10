@@ -74,16 +74,12 @@ clean_text <- function(text){
 ## Gulf
 gulf     <- read.csv('../data/golfo.csv',
                     stringsAsFactors = FALSE)
-names(gulf) <- c('numext','nom_mun', 'nomasen', 'tipoasen',
-                'calve_mun', 'cap_alb', 'numextalf', 'camino',
-                'cp', 'lon', 'nom_loc', 'nomvial', 'lat', 'cont_tel',
-                'clave_edo', 'tipoinm', 'nominm', 'carretera', 'nom_ent',
-                'resp_mbox', 'resp_tel')
+
 ## Gulf coords
 gulf_coords <- dplyr::select(gulf,
                             nominm,
                             nomvial,
-                            tipoasen,
+                            tipoinm,
                             nomasen,
                             nom_loc,
                             nom_mun,
@@ -98,7 +94,7 @@ shelters <- read.csv('../data/pacific_refugios.csv',
 coords <- dplyr::select(shelters,
                        nominm,
                        nomvial,
-                       tipoasen,
+                       tipoinm,
                        nomasen,
                        nom_loc,
                        nom_mun,
