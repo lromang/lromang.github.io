@@ -7,7 +7,7 @@ var popup = new mapboxgl.Popup({
 map.on('mouseenter', 'hospitales', function(e){
 map.getCanvas().style.cursor = 'pointer';
 popup.setLngLat(e.features[0].geometry.coordinates)
-.setHTML('<h1>Hospital</h1><hr><p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.nom_estab + '</p><p><strong>Capacidad: </strong>' + e.features[0].properties.per_ocu + '</p><p><strong>Nombre vialidad: </strong>' + e.features[0].properties.nom_vial + '</p><p><strong>Número exterior: </strong>' +  e.features[0].properties.numero_ext + '</p>')
+.setHTML('<h1>Hospital</h1><hr><p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.nom_estab + '</p><p><strong>Capacidad: </strong>' + e.features[0].properties.per_ocu + '</p><p><strong>Tipo asentamiento: </strong>' + e.features[0].properties.tipo_asent + '</p><p><strong>Nombre asentamiento: </strong>' + e.features[0].properties.nomb_asent + '</p><p><strong>Nombre vialidad: </strong>' + e.features[0].properties.nom_vial + '</p><p><strong>Número exterior: </strong>' +  e.features[0].properties.numero_ext + '</p><p><strong>Teléfono: </strong>' + e.features[0].properties.telefono + '</p>')
 .addTo(map);
 });
 
