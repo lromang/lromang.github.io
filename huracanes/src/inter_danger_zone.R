@@ -194,6 +194,7 @@ coords          <- na.omit(coords)
 shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
 
+
 ## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
