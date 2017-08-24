@@ -189,6 +189,7 @@ get_inside <- function(data){
 ## ----------------------------------------
 ## Shelters
 ## ----------------------------------------
+print('---- SHELTERS -----')
 coords          <- na.omit(coords)
 shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
@@ -196,6 +197,7 @@ inside_shelter  <- get_inside(shelter_coords)
 ## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
+print('---- HOSPITALS -----')
 proj4string(hospitals) <- proj4string(danger_zone_sps)
 hospital_inter         <- raster::intersect(hospitals,
                                           danger_zone_sps)
@@ -205,9 +207,19 @@ geojson_write(hospital_geojson, file = '../inter_data/hospital_inside.geojson')
 ## ----------------------------------------
 ## Flods
 ## ----------------------------------------
+print('---- FLODS -----')
 proj4string(flod) <- proj4string(danger_zone_sps)
+## Correct self intersect
+flod              <- gBuffer(flod, byid=TRUE, width=0)
+danger_zone_sps   <- gBuffer(danger_zone_sps, byid=TRUE, width=0)
+## Intersect
 flod_inter        <- raster::intersect(flod,
                                       danger_zone_sps)
+## If no Inter
+if(class(flod_inter) == "NULL"){
+    flod_inter    <- flod
+}
+
 flod_geojson      <- geojson_json(flod_inter)
 geojson_write(flod_geojson, file = '../inter_data/flod_inside.geojson')
 
@@ -215,8 +227,16 @@ geojson_write(flod_geojson, file = '../inter_data/flod_inside.geojson')
 ## Glide
 ## ----------------------------------------
 proj4string(glide) <- proj4string(danger_zone_sps)
+## Correct self intersect
+glide              <- gBuffer(glide, byid=TRUE, width=0)
+danger_zone_sps    <- gBuffer(danger_zone_sps, byid=TRUE, width=0)
+## Intersect
 glide_inter        <- raster::intersect(glide,
-                                      danger_zone_sps)
+                                       danger_zone_sps)
+## If no Inter
+if(class(glide_inter) == "NULL"){
+    glide_inter    <- glide
+}
 glide_geojson      <- geojson_json(glide_inter)
 geojson_write(glide_geojson, file = '../inter_data/glide_inside.geojson')
 

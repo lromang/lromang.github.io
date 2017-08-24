@@ -35,7 +35,7 @@ lastUpdate="https://correo1.conagua.gob.mx/Feedsmn16/"$(curl https://correo1.con
 ## lastUpdate="https://correo1.conagua.gob.mx/Feedsmn16/avisossmn-ciclontropical-2127_cap.xml"
 ## Echo Update
 echo $lastUpdate > 'lastUpdate.txt'
-polygon=$(curl $lastUpdate | grep -o '<polygon>.*</polygon>'| grep -Eo '>.*<' | sed -r 's/(<|>)//g')
+polygon=$(curl $lastUpdate | grep -o '<polygon>.*</polygon>'| sed -e 's$</.*$$g' -e 's$<polygon>$$g' | sed -r 's/(<|>)//g')
 echo $polygon > 'polygon.txt'
 echo $polygon | sed 's/ /\n/g' | awk -F ',' '{print "["$2","$1"],"}' >> ../html/body.html
 ## Remove last comma
