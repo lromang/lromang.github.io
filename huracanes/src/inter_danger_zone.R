@@ -217,7 +217,7 @@ flod_inter        <- raster::intersect(flod,
                                       danger_zone_sps)
 ## If no Inter
 if(class(flod_inter) == "NULL"){
-    flod_inter    <- flod
+    flod_inter    <- c()
 }
 
 flod_geojson      <- geojson_json(flod_inter)
@@ -235,7 +235,7 @@ glide_inter        <- raster::intersect(glide,
                                        danger_zone_sps)
 ## If no Inter
 if(class(glide_inter) == "NULL"){
-    glide_inter    <- glide
+    glide_inter    <- c()
 }
 glide_geojson      <- geojson_json(glide_inter)
 geojson_write(glide_geojson, file = '../inter_data/glide_inside.geojson')
