@@ -106,6 +106,9 @@
 "centro de atencin mltiple jean piaget"	"justo sierra"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.651286	25.037831
 "prim. plutarco elias calles"	"josefa ortiz de domnguez"	"escuela"	"urbano"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.776908	25.262461
 "repblica de cuba"	"emilio portes gil"	"escuela"	"rural"	"puerto adolfo lopez mateos"	"comondu"	"baja california sur"	-112.109881	25.190339
+"prim. juan domnguez cota"	"domicilio conocido"	"escuela"	"rural"	"las barrancas"	"comondu"	"baja california sur"	-112.198167	26.002194
+"prim. jos ma. morelos y pavn"	" de noviembre"	"escuela"	"rural"	"la purisima"	"comondu"	"baja california sur"	-112.074311	26.188703
+"estado de puebla"	"ramos milln"	"escuela"	"rural"	"san isidro"	"comondu"	"baja california sur"	-112.041986	26.205689
 "domingo carballo flix"	"morelos & josefa ortiz de domnguez"	"escuela"	"urbano"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.780878	25.260804
 " de mayo"	"culiacan"	"escuela"	"rural"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.844808	25.396389
 "emiliano zapata"	"domicilio conocido"	"escuela"	"rural"	"la poza"	"comondu"	"baja california sur"	-112.026086	25.768903
@@ -118,6 +121,7 @@
 "secundaria tcnica no. "	"mariano abasolo"	"escuela"	"urbano"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.774739	25.257778
 "secundaria tcnica no. "	"puerto mazatln"	"escuela"	"rural"	"puerto san carlos"	"comondu"	"baja california sur"	-112.107269	24.785642
 "secundaria tcnica no. "	"-mar."	"escuela"	"rural"	"ley federal de aguas #"	"comondu"	"baja california sur"	-111.637292	25.334619
+"secundaria tcnica no. "	"ao de juarez"	"escuela"	"rural"	"san isidro"	"comondu"	"baja california sur"	-112.046347	26.202447
 "cobach no. "	"lic. antonio lvarez rico"	"escuela"	"urbano"	"cd.constitucion"	"comondu"	"baja california sur"	-111.652614	25.026336
 "civilizadores de b.c.s."	"comercio"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.346672	26.018339
 "juan felipe lagos"	"clodomiro cota"	"escuela"	"urbano"	"zaragoza"	"loreto"	"baja california sur"	-111.340208	26.001792
@@ -131,5 +135,24 @@
 "uabcs campus loreto"	"calle independencia"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.347633	26.011975
 "centro de estudios de bachillerato"	"mayorga"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.354003	26.010369
 "cren"	"salvatierra"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.348758	26.007139
+"miguel hidalgo"	"mineral santa martha"	"escuela"	"urbano"	"santa rosalia"	"mulege"	"baja california sur"	-112.271686	27.344308
+"benito jarez"	"vicente guerrero"	"escuela"	"urbano"	"santa rosalia"	"mulege"	"baja california sur"	-112.271725	27.336106
+"cuauhtemoc"	"manuel f. montoya"	"escuela"	"urbano"	"santa rosalia"	"mulege"	"baja california sur"	-112.267892	27.336114
+"jess lpez gastelum"	"alberto alvarado aramburo"	"escuela"	"urbano"	"nueva santa rosalia"	"mulege"	"baja california sur"	-112.259119	27.324022
+"antonio f. delgado"	"a. l. amao"	"escuela"	"urbano"	"santa rosalia"	"mulege"	"baja california sur"	-112.2732	27.333344
+"braulio rodrguez"	"j. canet"	"escuela"	"urbano"	"santa rosalia"	"mulege"	"baja california sur"	-111.981347	26.893803
+"vicente guerrero"	"venustiano carranza"	"escuela"	"urbano"	"san ignacio"	"mulege"	"baja california sur"	-112.894953	27.281828
+"gertrudis bocanegra"	"domicilio conocido"	"escuela"	"rural"	"san lino, san ignacio"	"mulege"	"baja california sur"	-112.908233	27.297242
+"albergue escolarjuan gutierrez lugue"	"domicilio conocido"	"escuela"	"rural"	"san jose de magdalena"	"mulege"	"baja california sur"	-112.236086	27.061269
+"santos degollado"	"domicilio conocido"	"escuela"	"rural"	"chula vista, san ignacio"	"mulege"	"baja california sur"	-112.910375	27.296106
+"paralelo "	"domicilio conocido"	"escuela"	"rural"	"gustavo diaz ordaz"	"mulege"	"baja california sur"	-113.457233	27.643239
+"estado de michoacn"	"campo fisher"	"escuela"	"rural"	"punta abreojos"	"mulege"	"baja california sur"	-113.575003	26.708033
+"venustiano carranza"	"buzos"	"escuela"	"rural"	"bahia asuncion"	"mulege"	"baja california sur"	-114.294086	27.145347
+"progreso"	"caracol"	"escuela"	"rural"	"la bocana"	"mulege"	"baja california sur"	-113.713669	26.7975
+" de noviembre"	"domicilio conocido"	"escuela"	"rural"	"san francisco de la sierra"	"mulege"	"baja california sur"	-112.928617	27.632369
 "albergue escolar victoriano martnez"	"domicilio conocido"	"escuela"	"rural"	"santa martha"	"mulege"	"baja california sur"	-111.028405	25.45169
+"albergue escolar manuela r. de jess"	"domicilio conocido"	"escuela"	"rural"	"santa agueda"	"mulege"	"baja california sur"	-112.348689	27.26045
+"angel fort amador"	"romero rubio"	"escuela"	"urbano"	"guerrero negro"	"mulege"	"baja california sur"	-111.981119	26.890614
+"manuel pineda"	"domicilio conocido"	"escuela"	"urbano"	"h. de mulege"	"mulege"	"baja california sur"	-111.981072	26.888897
+"cobach no. "	"emilio carranza"	"escuela"	"urbano"	"santa rosalia"	"mulege"	"baja california sur"	-112.268036	27.336156
 "cet del mar"	""	"escuela"	"urbano"	"guerrero negro"	"mulege"	"baja california sur"	-110.341956	24.141874
