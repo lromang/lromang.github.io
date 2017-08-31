@@ -125,7 +125,7 @@ coords[,1:7] <- apply(coords[,1:7], 2, function(t)t <- clean_text(t))
 ## ----------------------------------------
 
 ## Generate polygon
-system('./getPolygon.sh')
+## system('./getPolygon.sh')
 
 ## Read in polygon
 danger_zone  <- readLines('polygon.txt') %>%
