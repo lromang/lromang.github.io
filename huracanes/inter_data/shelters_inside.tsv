@@ -1,47 +1,135 @@
 "nominm"	"nomvial"	"tipoinm"	"nomasen"	"nom_loc"	"nom_mun"	"nom_ent"	"lon"	"lat"
-"primaria francisco villa"	"domicilio conocido"	"escuela"	"modelo"	"modelo"	"abasolo"	"tamaulipas"	-98.188323	26.000876
-"primaria doctor gabino barrera"	"ro conchos"	"escuela"	"los comales"	"comales"	"camargo"	"tamaulipas"	-98.920517	26.182194
-"templo magdiel"	"dcima quinta entre lpez mateos y daz ordaz"	"otro"	"colonia sarh"	"ciudad gustavo daz ordaz"	"gustavo daz ordaz"	"tamaulipas"	-98.602071	26.228406
-"iglesia sagrado corazn"	"ro bravo"	"otro"	"valadeces"	"valadeces"	"gustavo daz ordaz"	"tamaulipas"	-98.67615	26.230465
-"primaria  de noviembre"	"riberea -venecia k.m. "	"escuela"	"venecia"	"venecia"	"gustavo daz ordaz"	"tamaulipas"	-98.558066	26.205582
-"primaria leona vicario"	"riberea k.m. "	"escuela"	"congregacin valadeces"	"valadeces"	"gustavo daz ordaz"	"tamaulipas"	-98.679848	26.234042
-"primaria  de mayo"	" de mayo y prolongacin hidalgo sur"	"escuela"	"industrial"	"ciudad gustavo daz ordaz"	"gustavo daz ordaz"	"tamaulipas"	-98.590365	26.213712
-"centro de convenciones mundo nuevo"	"pedro crdenas km. "	"otro"	"expo fiesta norte"	"heroica matamoros"	"matamoros"	"tamaulipas"	-97.513331	25.828109
-"alberca ingeniero eduardo chvez"	"guatemala entre santos degollado y lauro villar modelo"	"recreativo"	"modelo"	"heroica matamoros"	"matamoros"	"tamaulipas"	-97.497391	25.8775
-" comit regional campesino"	" gonzlez y morelos"	"otro"	"zona centro"	"heroica matamoros"	"matamoros"	"tamaulipas"	-97.512402	25.878299
-"instituto tecnolgico de matamoros"	"lauro villar km . esquina con gregorio garza flores"	"escuela"	"tecnologico"	"heroica matamoros"	"matamoros"	"tamaulipas"	-97.453397	25.843449
-"gimnasio multidisciplinario"	"pedro crdenas km. . esquina con marte r gmez"	"otro"	"expo fiesta norte"	"heroica matamoros"	"matamoros"	"tamaulipas"	-97.514885	25.82592
-"gimnasio de la universidad autnoma de tamaulipas"	"elas pia y boulevard del maestro"	"otro"	"narciso mendoza"	"reynosa"	"reynosa"	"tamaulipas"	-98.312928	26.07055
-"cetis "	"lvaro obregn"	"escuela"	"antonio j. bermdez"	"reynosa"	"reynosa"	"tamaulipas"	-98.290631	26.059434
-"universidad autnoma de tamaulipas"	"reynosa - san fernando, lateral sur del canal rodhe"	"escuela"	"arcoris"	"reynosa"	"reynosa"	"tamaulipas"	-98.275807	26.029393
-"universidad tamaulipeca"	"escobedo"	"escuela"	"zona centro"	"reynosa"	"reynosa"	"tamaulipas"	-98.282511	26.088875
-"gimnasio de la universidad mxico americana del norte (uman)"	" esquina con primera"	"otro"	"el crculo"	"reynosa"	"reynosa"	"tamaulipas"	-98.272583	26.076953
-"primaria praxedis guerrero matutino"	"cristal y marrn"	"escuela"	"arcoris"	"reynosa"	"reynosa"	"tamaulipas"	-98.270833	26.025536
-"instituto internacional de estudios superiores"	"tiburcio garza zamora"	"escuela"	"el crculo"	"reynosa"	"reynosa"	"tamaulipas"	-98.270022	26.076636
-"primaria mxico"	"hroes de la reforma tlaxiaco y montealban"	"escuela"	"benito jurez"	"reynosa"	"reynosa"	"tamaulipas"	-98.285208	26.015156
-"secundaria "	"olivo"	"escuela"	"jara china norte"	"reynosa"	"reynosa"	"tamaulipas"	-98.34542	26.053981
-"cedif hidalgo"	"adolfo lpez mateos"	"otro"	"adolfo lpez mateos"	"reynosa"	"reynosa"	"tamaulipas"	-98.310914	26.078764
-"parroquia cristo rey"	"veracruz entre tampico y ebano"	"otro"	"petrolera"	"reynosa"	"reynosa"	"tamaulipas"	-98.275325	26.069947
-"parroquia sagrado corazn de jess y mara"	"san martn"	"otro"	"lomas del real de jarachina sur"	"reynosa"	"reynosa"	"tamaulipas"	-98.353278	26.040628
-"parroquia san felipe de jess"	"francisco villa"	"otro"	"aquiles serdn"	"reynosa"	"reynosa"	"tamaulipas"	-98.290908	26.095139
-"parroquia san martn de porres"	"margarita maza de jurez esquina con hroes de la reforma"	"otro"	"benito jurez"	"reynosa"	"reynosa"	"tamaulipas"	-98.283475	26.022442
-"primaria corregidora"	"cuauhtmoc entre ignacio allende y benito jurez"	"escuela"	"la paz"	"ciudad ro bravo"	"ro bravo"	"tamaulipas"	-98.069942	25.98031
-"templo emanuel"	"morelos con libramiento."	"otro"	"arnulfo martinez"	"ciudad ro bravo"	"ro bravo"	"tamaulipas"	-98.120543	25.984682
-"departamento de proteccin civil"	"revolucin con colegio militar y poniente "	"otro"	"cuauhtmoc"	"ciudad ro bravo"	"ro bravo"	"tamaulipas"	-98.1105	25.982206
-"templo visin nuevo progreso"	"camargo con baja california"	"otro"	"olvido"	"ciudad ro bravo"	"ro bravo"	"tamaulipas"	-97.954628	26.054356
-"templo ever ezer nuevo progreso"	"guayabo con tampico"	"otro"	"mabel"	"ciudad ro bravo"	"ro bravo"	"tamaulipas"	-97.947272	26.047747
-"departamento de proteccin civil, nuevo progreso"	"baja california con ro bravo"	"otro"	"esteros"	"ciudad ro bravo"	"ro bravo"	"tamaulipas"	-97.949182	26.053284
-"preparatoria nocturna eduardo chvez"	"madero entre  y "	"escuela"	"madero"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.804377	25.669117
-"comit de seguridad social a.c."	"eduardo chvez  y "	"otro"	"zona centro"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.811744	25.673872
-"sindicato de maquiladoras"	"revolucin entre jos crdenas y jurez"	"otro"	"mxico"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.813076	25.677745
-"parroquia nuestra seora de guadalupe"	"amrica y  de mayo"	"otro"	"zona centro"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.824649	25.675212
-"secundaria tcnica "	"cachorros entre  y "	"escuela"	"leonistica"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.807747	25.663769
-"cetis "	"nogal y zapata"	"escuela"	"soberon"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.787435	25.668555
-"primaria carolina balboa"	"lvaro glvez entre  y "	"escuela"	"esperanza del sur"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.807066	25.662318
-"proteccin civil y bomberos"	"luis echeverra km "	"otro"	"flores magn"	"valle hermoso"	"valle hermoso"	"tamaulipas"	-97.826541	25.666273
-"logia masnica"	"revolucin entre sufragio efectivo y artculo "	"otro"	"anhuac"	"anhuac"	"valle hermoso"	"tamaulipas"	-97.775545	25.778204
-"saln parroquial"	"revolucin entre avenida progreso y sufragio efectivo"	"otro"	"anhuac"	"anhuac"	"valle hermoso"	"tamaulipas"	-97.776201	25.77734
-"primaria aquiles serdn"	"valle hermoso entre europa y asia"	"escuela"	"empalme"	"empalme"	"valle hermoso"	"tamaulipas"	-97.80681	25.899203
-"saln de actos"	"doctor porfirio placeres entre carretera empalme-valle hermoso y boulevard las palmas"	"otro"	"empalme"	"empalme"	"valle hermoso"	"tamaulipas"	-97.807286	25.89983
-"secundaria tcnica  leonel flores chapa"	"cuauhtmoc y sexta"	"escuela"	"ignacio manuel altamirano"	"ignacio manuel altamirano"	"valle hermoso"	"tamaulipas"	-97.842786	25.876295
-"telesecundaria julin garca noriega"	" con km "	"escuela"	"ensenada"	"ensenada"	"valle hermoso"	"tamaulipas"	-97.86751	25.870175
+"venustiano carranza"	"morelos"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.307467	24.1619
+"francisco j. mujica"	"ladrillera"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.301475	24.164253
+"emma i. osuna"	"ayuntamiento"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.280644	24.147136
+"vicente guerrero"	" de noviembre"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.287367	24.146017
+"fernando jordn"	"venustiano carranza"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.294433	24.145097
+"jess castro agndez"	"ayuntamiento"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.300708	24.130519
+"hugo cervantes del rio."	"mar"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.299922	24.067294
+"carlos jerez mrquez"	"huahua"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.306022	24.096264
+"jardin de nios jaime nun"	"al sur"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.306775	24.095969
+"jardin de nios fundacin de la paz"	"niebla"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.299269	24.066328
+"jardin de nios francisco zarco"	"ciencias sociales"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.311911	24.091756
+"manuel salgado caldern"	"ciencias sociales"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.312589	24.091589
+" de mayo"	"santa isabel"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.327461	24.093706
+"jardin de nios ma. de jess villegas rendn"	"santa isabel"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.327675	24.093003
+"constanza diaz"	"manuel alemn valdez"	"escuela"	"rural"	"san juan de los planes"	"la paz"	"baja california sur"	-109.935136	23.967158
+"narciso mendoza"	"valentin ruiz"	"escuela"	"rural"	"los barriles"	"la paz"	"baja california sur"	-109.699442	23.679356
+"emiliano zapata"	""	"escuela"	"rural"	"el pescadero"	"la paz"	"baja california sur"	-110.167467	23.364247
+"carlos a. mendoza"	"la paz - san jose"	"escuela"	"rural"	"san bartolo"	"la paz"	"baja california sur"	-109.847303	23.738078
+"repblica de argentina"	"ayuntamiento"	"escuela"	"rural"	"el triunfo"	"la paz"	"baja california sur"	-110.107925	23.803794
+"enrique c. rebsamen"	"san antonio"	"escuela"	"rural"	"san antonio"	"la paz"	"baja california sur"	-110.058247	23.810247
+"gimnasio morelos"	"morelos"	"deportivo"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.301803	24.158067
+"netzahualcoyotl"	"carrisal"	"escuela"	"rural"	"el carrisal"	"la paz"	"baja california sur"	-110.311414	23.785903
+"rafael ramrez"	" de mayo"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.291394	24.147289
+"sec. jos ma. morelos y pavn"	"-may."	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.312861	24.141578
+"sec. david peralta osuna"	"nayarit"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.328	24.144731
+"sec. humberto muoz zazueta"	"san benito"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.324258	24.115908
+"sec. gabriel ojeda agndez"	"republica"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.305003	24.165464
+"sec. tcnica no. "	"isabel la catlica"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.303128	24.153819
+"sec.tcnica no. "	"sierra de la giganta"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.317089	24.111247
+"sec. tcnica no. "	"el triunfo"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.289739	24.136692
+"sec. jos ma. garma diaz"	"alfredo v. bonfil"	"escuela"	"rural"	"centenario"	"la paz"	"baja california sur"	-110.421593	24.10723
+"telesecundaria profesor antonio amador lucero"	"las pocitas"	"escuela"	"rural"	"las pocitas"	"la paz"	"baja california sur"	-111.105031	24.394869
+"telesecundaria no.  fernando jordn jurez"	"san juan de la costa"	"escuela"	"rural"	"san juan de la costa"	"la paz"	"baja california sur"	-110.688944	24.371139
+"telesecundaria no.  lus donaldo colosio murrieta"	"conquista agraria"	"escuela"	"rural"	"conquista agraria"	"la paz"	"baja california sur"	-110.813936	23.982969
+"telesecundaria no. "	"meliton albaez"	"escuela"	"rural"	"meliton albaez"	"la paz"	"baja california sur"	-110.421289	23.661769
+"telesecundaria no. "	"el sargento"	"escuela"	"rural"	"el sargento"	"la paz"	"baja california sur"	-109.993186	24.077558
+"telesecundaria no.  elvira castro marrn"	"malibe"	"escuela"	"urbano"	"calafia"	"la paz"	"baja california sur"	-110.3026	24.123773
+"centro de estudios de bachillerato"	"carranza"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.290353	24.149097
+"cbtis no. "	"jalisco"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.317017	24.134961
+"cbtis no. "	"del triunfo"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.301322	24.130756
+"cecyte "	"morelos"	"escuela"	"urbano"	"todos santos"	"la paz"	"baja california sur"	-110.221269	23.444739
+"normal urbana profesor domingo carballo flix"	"felix ortega"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.310547	24.147425
+"conalep"	"lic. antonio lvarez rico"	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.320839	24.132944
+"instituto tecnolgico de la paz."	"transpeninsular km. ."	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.310597	24.120828
+"universidad autnoma de b.c.s."	"traspeninsularkm "	"escuela"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.315975	24.101569
+"polideportivo"	"carabineros"	"deportivo"	"urbano"	"la paz"	"la paz"	"baja california sur"	-110.318594	24.114553
+"prim.mauricio castro c."	"la draga"	"escuela"	"urbano"	"los cabos"	"los cabos"	"baja california sur"	-109.707222	23.0621
+"jardn de nios braulio maldonado sndez"	"doctor ernesto chnez chvez"	"escuela"	"urbano"	"ampl. el zacatal"	"los cabos"	"baja california sur"	-109.719803	23.101339
+"centro de atencin mltiple margarita"	"paseo de malvarrosa"	"escuela"	"urbano"	"san jose del cabo"	"los cabos"	"baja california sur"	-109.707844	23.055294
+"estado de campeche"	"pezvela"	"escuela"	"urbano"	"san jose del cabo"	"los cabos"	"baja california sur"	-109.669994	23.062778
+"felipe de jess pedroza"	"dom. conocido"	"escuela"	"urbano"	"el rosario"	"los cabos"	"baja california sur"	-109.710244	23.073489
+"jess green lvarez"	"la paz - san jose"	"escuela"	"urbano"	"san jose del cabo"	"los cabos"	"baja california sur"	-109.717622	23.682017
+"abraham castellanos"	"av. del alamo"	"escuela"	"rural"	"las veredas"	"los cabos"	"baja california sur"	-109.704344	23.151064
+"andrs quintana roo"	"independencia"	"escuela"	"rural"	"santiago"	"los cabos"	"baja california sur"	-109.714819	23.481475
+"centro de salud"	"-feb."	"hospital"	"rural"	"santiago"	"los cabos"	"baja california sur"	-109.714894	23.481722
+"albergue escolar bonifacio salinas leal"	"maestros misioneros de "	"escuela"	"rural"	"santiago"	"los cabos"	"baja california sur"	-109.715378	23.481044
+"prim. graciano snchez"	"francisco j mujica,"	"escuela"	"rural"	"la laguna, santiago"	"los cabos"	"baja california sur"	-109.717217	23.488344
+"prim. mara m. ojeda collins"	"francisco j mujica,"	"escuela"	"rural"	"agua caliente, santiago"	"los cabos"	"baja california sur"	-109.723622	23.479217
+"prim. constituyentes de quertaro"	"la paz - san jose"	"escuela"	"rural"	"buena vista"	"los cabos"	"baja california sur"	-109.699419	23.662242
+"paula olachea montejano"	"guayacanes"	"escuela"	"rural"	"san bernabe"	"los cabos"	"baja california sur"	-109.709178	23.132414
+"prim.  de mayo"	"el campamento"	"escuela"	"rural"	"las cuevas"	"los cabos"	"baja california sur"	-109.677806	23.542464
+"jacinto rochn pino"	"miguel bertn fernandez"	"escuela"	"rural"	"san jose del cabo"	"los cabos"	"baja california sur"	-109.718183	23.095239
+"valentn gmez faras"	"leone vicario"	"escuela"	"rural"	"santa rosa"	"los cabos"	"baja california sur"	-109.704292	23.088297
+"justo sierra"	"san jos del cabo-lapaz"	"escuela"	"rural"	"el zacatal km."	"los cabos"	"baja california sur"	-109.711197	23.104336
+"prim. antonio mijarez"	"miguel hidalgo"	"escuela"	"rural"	"el zacatal ii"	"los cabos"	"baja california sur"	-109.69465	23.055578
+"prim.venustiano carranza"	"cerrada palo verde"	"escuela"	"rural"	"santa anita"	"los cabos"	"baja california sur"	-109.701189	23.178883
+"prim. estado de sonora"	"domicilio conocido"	"escuela"	"rural"	"las casitas"	"los cabos"	"baja california sur"	-109.739283	23.279185
+"edificio de la subdelegacin, las veredas"	"del alamo"	"otro"	"rural"	"las veredas"	"los cabos"	"baja california sur"	-109.706828	23.150942
+"dif delegacin la rivera"	"josefina castillo"	"otro"	"rural"	"la rivera"	"los cabos"	"baja california sur"	-109.585567	23.596742
+"edificio de la subdelegacin de santa cruz"	"cabo este"	"otro"	"rural"	"santa cruz"	"los cabos"	"baja california sur"	-109.650361	23.556853
+"edificio de la subdelegacin caduao"	"domicilio conocido"	"otro"	"rural"	"caduao"	"los cabos"	"baja california sur"	-109.771186	23.329136
+"prof. jess castro"	"mar de cortez"	"escuela"	"rural"	"la rivera"	"los cabos"	"baja california sur"	-109.589264	23.592606
+"josefa o. de domnguez"	" de mayo"	"escuela"	"rural"	"la rivera"	"los cabos"	"baja california sur"	-109.589397	23.591703
+"ma. del carmen famana"	"las animitas altas"	"escuela"	"rural"	"animas altas"	"los cabos"	"baja california sur"	-109.686206	23.084417
+"estado de yucatn"	"domicilio conocido"	"escuela"	"rural"	"santa catarina"	"los cabos"	"baja california sur"	-109.689919	23.136814
+"prim. ricardo flores magn"	"ricardo flores magon"	"escuela"	"rural"	"animas bajas"	"los cabos"	"baja california sur"	-109.684981	23.075567
+"fernando i. cota s."	"domicilio conocido"	"escuela"	"urbano"	"lomas del sol"	"los cabos"	"baja california sur"	-109.9408	22.892092
+"heroes de "	"cosmo"	"escuela"	"urbano"	"lomas del sol"	"los cabos"	"baja california sur"	-109.930992	22.919961
+"ramn green lvarez"	"todos santos,"	"escuela"	"urbano"	"lomas altas"	"los cabos"	"baja california sur"	-109.960914	22.902103
+"jardn de nios de jos clemente orozco"	"cosmos"	"escuela"	"urbano"	"del sol"	"los cabos"	"baja california sur"	-109.930597	22.919883
+"amelia wilkes"	"zapotecas"	"escuela"	"urbano"	" de marzo"	"los cabos"	"baja california sur"	-109.931069	22.892239
+"virgilio horacio gastelum"	"cabo san lucas"	"escuela"	"urbano"	"los cangrejos"	"los cabos"	"baja california sur"	-109.959125	22.906797
+"centro de atencin mltiple juan pedrn"	"teotihuacanos"	"escuela"	"urbano"	" de marzo"	"los cabos"	"baja california sur"	-109.933122	22.892508
+"jess castro agndez"	"adolfo mateos"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.92055	22.897075
+"arturo guerrero"	"rocas"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.940306	22.891658
+"jardn de nios len cota collins"	"alvaro obregon"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.918756	22.88875
+"casa juan diego"	"maria de santa gertrudis"	"escuela"	"urbano"	"mesa colorada"	"los cabos"	"baja california sur"	-109.934869	22.932492
+"prim. rosario morales"	"benemerita de las americas"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.910819	22.893267
+"secundaria tcnica no. "	"bordo de contencion"	"escuela"	"rural"	"santiago"	"los cabos"	"baja california sur"	-109.714225	23.476583
+"sec. alfredo green gonzlez"	"agua caliente"	"escuela"	"rural"	"miraflores"	"los cabos"	"baja california sur"	-109.777564	23.372056
+"telesecundaria no. "	"las misiones"	"escuela"	"urbano"	"san jose del cabo"	"los cabos"	"baja california sur"	-109.702181	23.052992
+"telesecundaria no.  carmen fisher cota"	"de los charros"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.917594	22.883236
+"secundaria jos refugio rodrguez"	"santa rosa"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.711877	23.08941
+"secundaria tcnica no. "	"jalisco"	"escuela"	"urbano"	"san jose viejo"	"los cabos"	"baja california sur"	-109.712072	23.119172
+"secundaria antonio mijarez"	"prof fernando cota sandez"	"escuela"	"urbano"	"ampliacion zacatal"	"los cabos"	"baja california sur"	-109.721636	23.099317
+"secundaria tcnica no."	"lobina"	"escuela"	"urbano"	"los cangrejos"	"los cabos"	"baja california sur"	-109.965161	22.913442
+"extensin de la universidad autnoma de b.c.s."	"leona vicario"	"escuela"	"urbano"	"cabos san lucas"	"los cabos"	"baja california sur"	-109.928358	22.929411
+"prim. valentn gmez farias"	"belisario domnguez"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.665925	25.025156
+"prim. pablo l. martnez"	"felipe angeles"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.6511	25.033281
+"prim. alfredo green gonzlez"	"nios heroes"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.641717	25.035894
+"prim. jaime torres bodet"	"frijol"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.649231	25.019303
+"prim. jess reyes heroles"	"jess reyes heroles"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.653303	25.039186
+"pedro moreno"	"pablo l. martnez"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.636825	25.030844
+"prim. francisco i. madero"	"agustn olachea"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.669522	25.025222
+"centro de atencin mltiple jean piaget"	"justo sierra"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.651286	25.037831
+"prim. plutarco elias calles"	"josefa ortiz de domnguez"	"escuela"	"urbano"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.776908	25.262461
+"repblica de cuba"	"emilio portes gil"	"escuela"	"rural"	"puerto adolfo lopez mateos"	"comondu"	"baja california sur"	-112.109881	25.190339
+"domingo carballo flix"	"morelos & josefa ortiz de domnguez"	"escuela"	"urbano"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.780878	25.260804
+" de mayo"	"culiacan"	"escuela"	"rural"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.844808	25.396389
+"emiliano zapata"	"domicilio conocido"	"escuela"	"rural"	"la poza"	"comondu"	"baja california sur"	-112.026086	25.768903
+"lzaro crdenas"	"puerto vallarta"	"escuela"	"rural"	"puerto san carlos"	"comondu"	"baja california sur"	-112.105631	24.788569
+"secundaria ricardo flores magn"	" de noviembre"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.668414	25.026014
+"secuendaria justo sierra"	"justo sierra"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.651017	25.038917
+"forjadores de baja california"	"juan de la barrera"	"escuela"	"urbano"	"ciudad constitucion"	"comondu"	"baja california sur"	-111.676083	25.044347
+"marcelo rubio ruiz"	"anastacio martinez granado"	"escuela"	"rural"	"villa morelos"	"comondu"	"baja california sur"	-111.628708	24.931603
+"melchor ocampo"	"santos degollado"	"escuela"	"rural"	"benito juarez"	"comondu"	"baja california sur"	-111.827108	25.113497
+"secundaria tcnica no. "	"mariano abasolo"	"escuela"	"urbano"	"ciudad insurgentes"	"comondu"	"baja california sur"	-111.774739	25.257778
+"secundaria tcnica no. "	"puerto mazatln"	"escuela"	"rural"	"puerto san carlos"	"comondu"	"baja california sur"	-112.107269	24.785642
+"secundaria tcnica no. "	"-mar."	"escuela"	"rural"	"ley federal de aguas #"	"comondu"	"baja california sur"	-111.637292	25.334619
+"cobach no. "	"lic. antonio lvarez rico"	"escuela"	"urbano"	"cd.constitucion"	"comondu"	"baja california sur"	-111.652614	25.026336
+"civilizadores de b.c.s."	"comercio"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.346672	26.018339
+"juan felipe lagos"	"clodomiro cota"	"escuela"	"urbano"	"zaragoza"	"loreto"	"baja california sur"	-111.340208	26.001792
+"centro de atencin mltiple mercedes davis"	"padre de uguarte"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.356311	26.007275
+"benito jarez"	"domicilio conocido"	"escuela"	"rural"	"tembabiche"	"loreto"	"baja california sur"	-110.955086	25.255828
+"estado de hidalgo"	"domicilio conocido"	"escuela"	"rural"	"san javier"	"loreto"	"baja california sur"	-111.544406	25.863844
+"jos vasconcelos"	"domicilio conocido"	"escuela"	"rural"	"ligui"	"loreto"	"baja california sur"	-111.270669	25.734633
+"leandro valle"	"domicilio conocido"	"escuela"	"rural"	"agua verde"	"loreto"	"baja california sur"	-111.072	25.512769
+"nueva creacin"	"pargos"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.367686	26.021789
+"benito jarez"	"media luna"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.350289	26.022114
+"uabcs campus loreto"	"calle independencia"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.347633	26.011975
+"centro de estudios de bachillerato"	"mayorga"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.354003	26.010369
+"cren"	"salvatierra"	"escuela"	"urbano"	"loreto"	"loreto"	"baja california sur"	-111.348758	26.007139
+"albergue escolar victoriano martnez"	"domicilio conocido"	"escuela"	"rural"	"santa martha"	"mulege"	"baja california sur"	-111.028405	25.45169
+"cet del mar"	""	"escuela"	"urbano"	"guerrero negro"	"mulege"	"baja california sur"	-110.341956	24.141874
