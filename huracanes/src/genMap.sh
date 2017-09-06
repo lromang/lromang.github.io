@@ -1,3 +1,3 @@
 #! /bin/bash
 
-./inter_danger_zone.R  && ./mapPoints.sh
+./get_polygon.sh && ./inter_danger_zone.R  && ./mapPoints.sh
