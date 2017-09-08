@@ -174,6 +174,20 @@ danger_zone_sps              <- raster::union(states_interest,
                                              danger_zone_sps)
 
 ## ----------------------------------------
+## Acopio
+## ----------------------------------------
+acopio        <- read.csv('../data/acopio.csv',
+                         stringsAsFactors = FALSE)
+acopio_coords <- laply(acopio$Dirección,
+                      function(t)t <- ggmap::geocode(t))
+acopio$lon    <- unlist(acopio_coords[,1])
+acopio$lat    <- unlist(acopio_coords[,2])
+## Make polygon
+acopio_coords_p  <- SpatialPointsDataFrame(data = acopio,
+                                          coords = acopio[,11:12])
+
+writeOGR(acopio_coords_p, '../inter_data/acopio.geojson', 'acopio', driver='GeoJSON')
+## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
 hospitals <- readOGR('../hospitals/hospitales_clinicas_consultorios_refugios.geojson',
@@ -231,6 +245,15 @@ coords          <- na.omit(coords)
 coords          <- coords[coords$lon > -200, ] ## ERROR IN SHELTERS
 shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
+
+
+## ----------------------------------------
+## Acopio
+## ----------------------------------------
+## print('---- ACOPIO -----')
+## acopio_coords <- na.omit(acopio_coords)
+## inside_acopio <- get_inside(acopio_coords)
+
 
 ## ----------------------------------------
 ## Hospitals

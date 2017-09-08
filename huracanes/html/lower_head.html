@@ -75,7 +75,23 @@ map.addLayer({
 'layout':{"icon-image": "hospital", "icon-size": .09}
 })})
 
+// --------------------------------------------------
 
+//Acopio
+  map.addSource("acopio", {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/acopio.geojson"
+  });
+
+map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/acopio.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('hospital', image);
+map.addLayer({
+'id': 'acopio',
+'type':'symbol',
+'source':'acopio',
+'layout':{"icon-image": "acopio", "icon-size": .09}
+})})
 
 // --------------------------------------------------
 
