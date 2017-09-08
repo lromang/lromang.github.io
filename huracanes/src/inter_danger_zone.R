@@ -158,7 +158,11 @@ states <- readOGR('../data/estate/',
 states              <- spTransform(states, CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
 ## Get States of Interest
 states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
-                                               'OAXACA'),]
+                                               'OAXACA',
+                                               'PUEBLA',
+                                               'GUERRERO',
+                                               'TABASCO',
+                                               'VERACRUZ DE IGNACIO DE LA LLAVE'),]
 
 ## ----------------------------------------
 ## Union with Danger ZONE
