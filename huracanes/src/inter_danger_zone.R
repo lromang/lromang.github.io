@@ -154,15 +154,11 @@ danger_zone_sps              <- spTransform(danger_zone_sps,
 states <- readOGR('../data/estate/',
                  'dest_2010cw')
 ## Change projection
-proj4string(states) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
+## proj4string(states) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
 states              <- spTransform(states, CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
 ## Get States of Interest
 states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
-                                               'OAXACA',
-                                               'GUERRERO',
-                                               'PUEBLA',
-                                               'TABASCO',
-                                               'VERACRUZ DE IGNACIO DE LA LLAVE'),]
+                                               'OAXACA'),]
 
 ## ----------------------------------------
 ## Union with Danger ZONE
@@ -208,11 +204,17 @@ get_inside <- function(data){
     for(i in 1:nrow(data)){
         prov_coords              <- data.frame(data[i, ])
         coordinates(prov_coords) <- c('lon', 'lat')
-        proj4string(prov_coords) <- proj4string(danger_zone_sps)
+        proj4string(prov_coords) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
+        ## proj4string(prov_coords) <- proj4string(danger_zone_sps)
         ## Inside
-        inside[i] <- !is.na(over(prov_coords,
+        inside[i] <- tryCatch({!is.na(over(prov_coords,
                                 as(danger_zone_sps,
                                    'SpatialPolygons')))
+        },warning = function(w){
+            FALSE
+        }, error = function(e){
+            FALSE
+        })
     }
     inside
 }
@@ -222,6 +224,7 @@ get_inside <- function(data){
 ## ----------------------------------------
 print('---- SHELTERS -----')
 coords          <- na.omit(coords)
+coords          <- coords[coords$lon > -200, ] ## ERROR IN SHELTERS
 shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
 
