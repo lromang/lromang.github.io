@@ -141,6 +141,37 @@ names(danger_zone) <- c('lon', 'lat')
 danger_zone_p   <- Polygon(danger_zone)
 danger_zone_ps  <- Polygons(list(danger_zone_p), 1)
 danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
+## Change Projection
+proj4string(danger_zone_sps) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
+danger_zone_sps              <- spTransform(danger_zone_sps,
+                                           CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+
+
+## ----------------------------------------
+## Read in states
+## ----------------------------------------
+states <- readOGR('../data/estate/',
+                 'dest_2010cw')
+## Change projection
+proj4string(states) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
+states              <- spTransform(states, CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+## Get States of Interest
+states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
+                                               'OAXACA',
+                                               'GUERRERO',
+                                               'PUEBLA',
+                                               'TABASCO',
+                                               'VERACRUZ DE IGNACIO DE LA LLAVE'),]
+
+## ----------------------------------------
+## Union with Danger ZONE
+## ----------------------------------------
+print('---- UNION WITH STATES -----')
+## states_polygons              <- SpatialPolygons(states_interest@polygons,
+##                                               proj4string = states_interest@proj4string)
+danger_zone_sps              <- raster::union(states_interest,
+                                             danger_zone_sps)
 
 ## ----------------------------------------
 ## Hospitals
@@ -198,7 +229,10 @@ inside_shelter  <- get_inside(shelter_coords)
 ## Hospitals
 ## ----------------------------------------
 print('---- HOSPITALS -----')
-proj4string(hospitals) <- proj4string(danger_zone_sps)
+proj4string(hospitals) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
+hospitals              <- spTransform(hospitals,
+                                     CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+## proj4string(hospitals) <- proj4string(danger_zone_sps)
 hospital_inter         <- raster::intersect(hospitals,
                                           danger_zone_sps)
 hospital_geojson       <- geojson_json(hospital_inter)
