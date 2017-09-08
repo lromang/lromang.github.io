@@ -1,59 +1,15 @@
 "nominm"	"nomvial"	"tipoinm"	"nomasen"	"nom_loc"	"nom_mun"	"nom_ent"	"lon"	"lat"
-"hospital integral abasolo"	"zaragoza esquina con hidalgo"	"hospital"	"zona centro"	"abasolo"	"abasolo"	"tamaulipas"	-98.376526	24.056076
-"primaria leona vicario"	"jos mara morelos y pavn entre nicols bravo y  de septiembre"	"escuela"	"zona centro"	"abasolo"	"abasolo"	"tamaulipas"	-98.370844	24.054182
-"primaria lauro aguirre"	"hidalgo entre  de mayo y zaragoza"	"escuela"	"zona centro"	"abasolo"	"abasolo"	"tamaulipas"	-98.376546	24.055701
-"primaria nios campesinos"	"ro tames esquina con soto la marina"	"escuela"	"n.c.p. nuevo dolores"	"abasolo"	"abasolo"	"tamaulipas"	-98.395833	24.082499
-"primaria estefana castaeda"	"ro purn"	"escuela"	"n.c.p. guadalupe victoria"	"guadalupe victoria"	"abasolo"	"tamaulipas"	-98.2325	24.082778
-"primaria mariano matamoros"	"domicilio conocido"	"escuela"	"jess ramrez"	"jesus ramirez"	"abasolo"	"tamaulipas"	-98.234708	23.966514
-"primaria jos mara morelos y pavn"	"domicilio conocido"	"escuela"	"n.c.p. adolfo lopez mateos"	"nuevo morelos (adolfo lpez mateos)"	"abasolo"	"tamaulipas"	-98.3436	24.004846
-"primaria leyes de reforma"	"domicilio conocido"	"escuela"	"n.c.p. nicols bravo"	"nicols bravo (palo alto)"	"abasolo"	"tamaulipas"	-98.259444	24.001389
-"primaria general felipe ngeles"	"domicilio conocido"	"escuela"	"delicias"	"delicias"	"abasolo"	"tamaulipas"	-98.448611	23.951389
-"primaria mariano abasolo"	"domicilio conocido"	"escuela"	"gua del porvenir"	"gua del porvenir"	"abasolo"	"tamaulipas"	-98.426389	23.993609
-"primaria juan lvarez"	"domicilio conocido"	"escuela"	"general gildardo magaas"	"general gildardo magaa"	"abasolo"	"tamaulipas"	-98.44859	23.835588
-"primaria leona vicario"	"domicilio conocido"	"escuela"	"parras de la fuente"	"parras de la fuente"	"abasolo"	"tamaulipas"	-98.492222	23.900833
-"prim. alfredo peniche erosa"	"hidalgo y jurez"	"escuela"	"zona centro"	"aldama"	"aldama"	"tamaulipas"	-98.070202	22.91848
-"c.b.t.a "	"estacin manuel - soto la marina km. ."	"escuela"	"aldama"	"aldama"	"aldama"	"tamaulipas"	-98.069389	22.961817
-"enrique c rebsamen zona "	"jos mara morelos entre independencia y libertad"	"escuela"	"zona centro"	"aldama"	"aldama"	"tamaulipas"	-98.074009	22.917724
-"francisco nicodemo zona "	"domicilio conocido"	"escuela"	"carrizo de opichan"	"el carrizo de opichan"	"aldama"	"tamaulipas"	-98.273973	23.002024
-"venustiano carranza zona "	"domicilio conocido"	"escuela"	"francisco villa"	"francisco villa (pancho villa)"	"aldama"	"tamaulipas"	-97.955848	23.086422
-"la corregidora zona "	"domicilio conocido"	"escuela"	"el rosal"	"el rosal"	"aldama"	"tamaulipas"	-97.942426	22.767029
-"constitucin zona "	"domicilio conocido"	"escuela"	"higinio tanguma"	"higinio tanguma"	"aldama"	"tamaulipas"	-98.254146	22.853887
-" de febrero zona "	"domicilio conocido"	"escuela"	"mariano matamoros"	"mariano matamoros"	"aldama"	"tamaulipas"	-97.881966	22.871691
-"jos mara morelos y pavn zona "	"domicilio conocido"	"escuela"	"real de alamitos"	"real de alamitos"	"aldama"	"tamaulipas"	-98.004951	23.260014
-"vicente guerrero zona "	"domicilio conocido"	"escuela"	"el sombrerito"	"el sombrerito"	"aldama"	"tamaulipas"	-97.990199	23.25482
-"valentn gmez faras zona "	"domicilio conocido"	"escuela"	"el pichi jumo"	"el pichijumo"	"aldama"	"tamaulipas"	-98.036015	23.268774
-"francisco gonzlez bocanegra zona "	"domicilio conocido"	"escuela"	"alto del chino"	"alto del chino"	"aldama"	"tamaulipas"	-97.966087	23.232839
-"ignacio altamirano zona "	"domicilio conocido"	"escuela"	"las yucas"	"las yucas"	"aldama"	"tamaulipas"	-98.143568	23.228875
-"el nio campesino zona "	"domicilio conocido"	"escuela"	"el olivo del plomo"	"el olivo (el ademe)"	"aldama"	"tamaulipas"	-98.291363	22.934882
-"nios hroes zona "	"domicilio conocido"	"escuela"	"la muralla"	"la muralla"	"aldama"	"tamaulipas"	-97.933892	23.158462
-"josefa ortiz de domnguez zona "	"domicilio conocido"	"escuela"	"san vicente"	"san vicente"	"aldama"	"tamaulipas"	-97.960343	23.276567
-"emilio carranza zona "	"domicilio conocido"	"escuela"	"rancho nuevo"	"rancho nuevo"	"aldama"	"tamaulipas"	-98.263908	23.015556
-"miguel hidalgo zona "	"domicilio conocido"	"escuela"	"nuevo progreso"	"nuevo progreso (la gaviota)"	"aldama"	"tamaulipas"	-97.949984	23.175213
-"fortunato de leija zona "	"domicilio conocido"	"escuela"	"piedras negras"	"piedras negras"	"aldama"	"tamaulipas"	-98.100428	23.129438
-"sor juana ins de la cruz zona "	"domicilio conocido"	"escuela"	"la pasadita"	"la pasadita"	"aldama"	"tamaulipas"	-98.177322	22.889535
-"ricardo flores magn zona "	"domicilio conocido"	"escuela"	"torrecitas"	"torrecitas"	"aldama"	"tamaulipas"	-98.058933	23.259349
-"preescolar jaime nuo"	"domicilio conocido"	"escuela"	"barra del tordo"	"barra del tordo"	"aldama"	"tamaulipas"	-97.77017	23.052123
-"preescolar lvaro obregn"	"domicilio conocido"	"escuela"	"carrizal ii"	"el carrizal segundo"	"aldama"	"tamaulipas"	-98.273356	22.801051
-"preescolar rosaura zapata cano"	"domicilio conocido"	"escuela"	"francisco i. madero"	"francisco i. madero"	"aldama"	"tamaulipas"	-98.102403	22.830782
-"telesecundaria francisco gonzlez villarreal"	"domicilio conocido"	"escuela"	"antonio villarreal"	"antonio villarreal"	"aldama"	"tamaulipas"	-97.832798	22.959185
-"secundaria tcnica  profesor luis castro bermdez"	"domicilio conocido"	"escuela"	"morn"	"morn"	"aldama"	"tamaulipas"	-97.86416	22.72909
-"tierra y libertad zona "	"domicilio conocido"	"escuela"	"el carrizal i"	"el carrizal primero"	"aldama"	"tamaulipas"	-98.271804	22.844704
-"francisco sarabia zona "	"domicilio conocido"	"escuela"	"la colmena"	"la colmena"	"aldama"	"tamaulipas"	-98.163082	22.913534
-"narciso mendoza zona "	"domicilio conocido"	"escuela"	"flores de morn"	"morn"	"aldama"	"tamaulipas"	-97.86416	22.72909
-"emiliano zapata zona "	"domicilio conocido"	"escuela"	"el lucero"	"el lucero"	"aldama"	"tamaulipas"	-98.127404	22.91375
-"telesecundaria miguel lpez amaya"	"domicilio conocido"	"escuela"	"el nacimiento"	"el nacimiento"	"aldama"	"tamaulipas"	-98.168461	22.985595
-"pedro jos mndez zona "	"domicilio conocido"	"escuela"	"el vidal"	"el vidal"	"aldama"	"tamaulipas"	-98.073984	23.30123
-"adolfo lpez mateos zona "	"domicilio conocido"	"escuela"	"n.c.p. adolfo lpez mateos"	"adolfo lpez mateos (jaramillo)"	"aldama"	"tamaulipas"	-98.003531	22.686164
-"juan aldama zona "	"domicilio conocido"	"escuela"	"el paisajito"	"el paisajito"	"aldama"	"tamaulipas"	-98.123541	23.118142
-"margarita huerta zona "	"domicilio conocido"	"escuela"	"el paso hondo"	"paso hondo"	"aldama"	"tamaulipas"	-98.08484	22.955536
-"miguel hidalgo zona "	"domicilio conocido"	"escuela"	"rancho de piedra"	"rancho de piedra"	"aldama"	"tamaulipas"	-97.79177	22.965406
+"pista bugambilias ubicado en diagonal ignacio de la llave"	"ubicado en diagonal ignacio de la llave"	"refugio"	""	""	"acatlan de perez figueroa"	"oaxaca"	-96.607729	18.537822
+"salon cnpr"	"domicilio conocido centro de la poblacin"	"refugio"	""	""	"acatlan de perez figueroa"	"oaxaca"	-96.53486802	18.511829
+"salon ejidal"	"domicilio conocido centro de la poblacin"	"refugio"	""	""	"acatlan de perez figueroa"	"oaxaca"	-96.457085	18.504697
+"salon ejidal"	"domicilio conocido centro de la poblacin"	"refugio"	""	""	"acatlan de perez figueroa"	"oaxaca"	-96.598012	18.392537
+"salon ejidal"	"domicilio conocido centro de la poblacin"	"refugio"	""	""	"acatlan de perez figueroa"	"oaxaca"	-96.5877	18.53246
+"salon ejidal"	"domicilio conocido centro de la poblacin"	"refugio"	""	""	"acatlan de perez figueroa"	"oaxaca"	-96.57266	18.51034
 "meced"	"allende y cavazos lerma"	"otro"	"zona centro"	"altamira"	"altamira"	"tamaulipas"	-97.931365	22.392182
 "auditorio reynaldo castillo portes"	"benito jurez entre barra de boca"	"auditorio"	"fidel velzquez"	"altamira"	"altamira"	"tamaulipas"	-97.943565	22.390486
 "cedif colonia unidad satlite"	"calzada del sol esquina con estrella"	"otro"	"unidad satlite, miramar"	"altamira"	"altamira"	"tamaulipas"	-97.885019	22.361255
 "cedif colonia serapio venegas"	"alfredo bonfil esquina con josefa ortiz de domnguez"	"otro"	"serapio venegas, miramar"	"altamira"	"altamira"	"tamaulipas"	-97.866154	22.330738
-"cedif colonia doctor f gual"	"ornato esquina con durango"	"otro"	"doctor f. gual"	"altamira"	"altamira"	"tamaulipas"	-97.922149	22.414635
 "cedif colonia nuevo lomas del real"	" de septiembre esquina con emiliano zapata"	"otro"	"nuevo lomas del real, miramar"	"altamira"	"altamira"	"tamaulipas"	-97.909106	22.361816
-"auditorio municipal"	"hidalgo"	"auditorio"	"de casas zona centro"	"casas"	"casas"	"tamaulipas"	-98.738098	23.727177
 "auditorio amrico villarreal guerra"	"francisco sarabia entre jurez y  de mayo"	"auditorio"	"colonia primero de mayo"	"ciudad madero"	"ciudad madero"	"tamaulipas"	-97.839568	22.246835
 "unidad deportiva de cd. madero"	"rodolfo torre cant esquina con matamoros"	"otro"	"adolfo lpez mateos"	"ciudad madero"	"ciudad madero"	"tamaulipas"	-97.839113	22.276533
 "gimnasio el mexicano"	"honduras entre allende y avenida francisco i. madero"	"otro"	"vicente guerrero"	"ciudad madero"	"ciudad madero"	"tamaulipas"	-97.830952	22.254012
@@ -74,139 +30,8 @@
 "parroquia nuestra seora de guadalupe"	"colombia poniente esquina con pachuca"	"otro"	"felipe carrillo puerto"	"ciudad madero"	"ciudad madero"	"tamaulipas"	-97.838766	22.255268
 "parroquia de san juan bosco"	"hidalgo oriente entre aquiles serdn y amado nervo"	"otro"	"rbol grande"	"ciudad madero"	"ciudad madero"	"tamaulipas"	-97.839787	22.238133
 "procuradura de proteccin a la mujer la familia y asuntos jurdicos"	"armando barba sn entre  y "	"otro"	"heriberto kehoe"	"ciudad madero"	"ciudad madero"	"tamaulipas"	-97.836722	22.290092
-"dif municipal"	"hidalgo"	"otro"	"zona centro"	"gmez faras"	"gmez faras"	"tamaulipas"	-99.155685	23.047447
-"auditorio municipal"	"hidalgo"	"auditorio"	"zona centro"	"gmez faras"	"gmez faras"	"tamaulipas"	-99.155554	23.047046
-"casa de la cultura loma alta"	"domicilio conocido"	"otro"	"loma alta"	"loma alta (loma alta de gmez faras)"	"gmez faras"	"tamaulipas"	-99.025999	22.882861
-"secundaria tcnica  revolucin agraria"	"nacional mxico-laredo"	"escuela"	"loma alta"	"loma alta (loma alta de gmez faras)"	"gmez faras"	"tamaulipas"	-99.028094	22.87904
-"iglesia catlica nuestra seora de la asuncin"	"nacional mxico-laredo"	"otro"	"loma alta"	"loma alta (loma alta de gmez faras)"	"gmez faras"	"tamaulipas"	-99.027918	22.886479
-"cbta "	"nacional mxico-laredo"	"escuela"	"loma alta"	"loma alta (loma alta de gmez faras)"	"gmez faras"	"tamaulipas"	-99.027637	22.929273
-"gimnasio de actos pblicos"	"guadalupe victoria entre pedro jos mndez y manuel azueta"	"otro"	"zona centro"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.430175	22.829694
-"primaria licenciado luis cabrera"	"jurez entre jos mara morelos y guadalupe victoria"	"escuela"	"zona centro"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.427044	22.828348
-"primaria licenciado lauro aguirre"	"zaragoza poniente entre pedro jos mndez y manuel azueta"	"escuela"	"zona centro"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.430284	22.828873
-"primaria jos dolores ponce rodrguez"	"cuarta entre constitucin y lpez mateos"	"escuela"	"praxedis balboa"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.422254	22.834017
-"primaria eliseo zamudio"	"nogal entre mango y francisco i madero"	"escuela"	"industrial"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.430711	22.820832
-"secundaria benito jurez"	"morelos"	"escuela"	"industrial"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.431394	22.822215
-"primaria pedro jos mndez"	"adolfo lpez mateos entre pedro jos mndez y lpez portillo"	"escuela"	"san pedro"	"san pedro"	"gonzlez"	"tamaulipas"	-98.412765	22.460468
-"gimnasio de la unidad deportiva"	"km.  al bano"	"otro"	"estacin manuel (rsulo galvn)"	"estacin manuel (rsulo galvn)"	"gonzlez"	"tamaulipas"	-98.322937	22.722748
-"secundaria general nios hroes"	"pedro jos mndez"	"escuela"	"estacin manuel (rsulo galvn)"	"estacin manuel (rsulo galvn)"	"gonzlez"	"tamaulipas"	-98.314736	22.726168
-"primaria rsulo galvn"	"primero de mayo entre revolucin y venustiano carranza"	"escuela"	"estacin manuel (rsulo galvn)"	"estacin manuel (rsulo galvn)"	"gonzlez"	"tamaulipas"	-98.31983	22.730444
 "primaria juan lvarez"	"benito jurez entre morelos y revolucin"	"escuela"	"san antonio rayn"	"san antonio rayn"	"gonzlez"	"tamaulipas"	-98.4175	22.416667
 "primaria cuauhtmoc"	"domicilio conocido"	"escuela"	"la gloria"	"la gloria"	"gonzlez"	"tamaulipas"	-98.354167	22.410278
-"primaria plan de ayala"	"ignacio lpez rayn entre mariano matamoros y pedro jos mndez"	"escuela"	"n.c.p. lpez rayn"	"lpez rayn"	"gonzlez"	"tamaulipas"	-98.460278	22.500556
-"primaria benito jurez"	"domicilio conocido"	"escuela"	"adolfo ruz cortines"	"adolfo ruiz cortines"	"gonzlez"	"tamaulipas"	-98.461389	22.614722
-"primaria felipe ngeles"	"miguel hidalgo y costilla entre carranza y juarez"	"escuela"	"santa fe"	"santa fe"	"gonzlez"	"tamaulipas"	-98.433611	22.786111
-"telesecundaria escudo nacional"	"carranza"	"escuela"	"santa fe"	"santa fe"	"gonzlez"	"tamaulipas"	-98.433611	22.786111
-"primaria rafael ramrez"	"miguel hidalgo entre morelos y adolfo lpez mateos"	"escuela"	"gonzlez"	"gonzlez"	"gonzlez"	"tamaulipas"	-98.404444	22.798056
-"primaria jos mara morelos"	"domicilio conocido"	"escuela"	"guadalupe victoria"	"guadalupe victoria"	"gonzlez"	"tamaulipas"	-98.388046	22.821583
-"primaria patrocinio huerta"	"ignacio allende entre carrera torres y mariano abasolo"	"escuela"	"aureliano caballero"	"aureliano caballero"	"gonzlez"	"tamaulipas"	-98.346944	22.913889
-"primaria nicols bravo"	"domicilio conocido"	"escuela"	"n.c.p. nicols bravo"	"nicols bravo"	"gonzlez"	"tamaulipas"	-98.525833	22.920278
-"primaria la corregidora"	"domicilio conocido"	"escuela"	"estacin rosillo"	"rosillo"	"gonzlez"	"tamaulipas"	-98.535546	22.896004
-"primaria francisco villa"	"emilio portes gil entre nios hroes y simn bolvar"	"escuela"	"el centauro"	"el centauro"	"gonzlez"	"tamaulipas"	-98.706667	22.995278
-"primaria alejandro medeles"	"solidaridad"	"escuela"	"fortn agrario (estacin calles)"	"fortn agrario (estacin calles)"	"gonzlez"	"tamaulipas"	-98.751944	23.044167
-"secundaria tierra y libertad"	"miguel hidalgo y carretera a francisco i. madero"	"escuela"	"graciano snchez"	"graciano snchez"	"gonzlez"	"tamaulipas"	-98.546102	22.617127
-"primaria graciano snchez"	"ingeniero eugenio camacho entre marco antonio torres y doroteo arango"	"escuela"	"graciano snchez"	"graciano snchez"	"gonzlez"	"tamaulipas"	-98.546102	22.617127
-"auditorio municipal"	" hidalgo y jurez"	"auditorio"	"zona centro"	"gmez"	"gmez"	"tamaulipas"	-99.008309	23.91898
-"comit ejidal"	"domicilio conocido"	"otro"	"miraflores"	"miraflores"	"gmez"	"tamaulipas"	-99.066116	23.965957
-"comit ejidal"	"domicilio conocido"	"otro"	"guadalupe victoria"	"guadalupe victoria"	"gmez"	"tamaulipas"	-99.143333	24.074722
-"comit ejidal"	"domicilio conocido"	"otro"	"las crucitas."	"las crucitas"	"gmez"	"tamaulipas"	-99.166674	24.009566
-"dif municipal"	" y  morelos"	"otro"	"zona centro"	"gmez"	"gmez"	"tamaulipas"	-99.006044	23.918829
-"centro cvico municipal"	"matamoros entre sierra gorda y lvaro obregn"	"otro"	"zona centro"	"santander jimnez"	"jimnez"	"tamaulipas"	-98.482998	24.214191
-"unidad bsica de rehabilitacin (dif)"	"porfirio daz esquina con sierra gorda y emilio carranza"	"otro"	"zona centro"	"santander jimnez"	"jimnez"	"tamaulipas"	-98.486575	24.21426
-"casa club del adulto mayor"	"doctor dvila esquina con escobedo"	"otro"	"zona centro"	"santander jimnez"	"jimnez"	"tamaulipas"	-98.484691	24.211374
-"secundaria federal mara jovita caballero"	"guerrero entre lvaro obregn y sierra gorda"	"escuela"	"zona centro"	"santander jimnez"	"jimnez"	"tamaulipas"	-98.481375	24.214035
-"tele aula"	"servando canales entre miguel hidalgo y jos mara morelos"	"otro"	"zona centro"	"llera de canales"	"llera"	"tamaulipas"	-99.023573	23.319151
-"auditorio municipal"	"josefa llera esquina con negrete"	"auditorio"	"zona centro"	"llera de canales"	"llera"	"tamaulipas"	-99.02264	23.314294
-"comit ejidal "	"domicilio conocido"	"otro"	"adolfo lpez mateos"	"adolfo lpez mateos"	"llera"	"tamaulipas"	-98.783727	23.141488
-"comit ejidal "	"domicilio conocido"	"otro"	"adolfo ruz cortines"	"adolfo ruiz cortines"	"llera"	"tamaulipas"	-98.814902	23.198607
-"comit ejidal "	"domicilio conocido"	"otro"	"casa del campesino (la clementina)"	"casa del campesino (la clementina)"	"llera"	"tamaulipas"	-98.845306	23.263488
-"comit ejidal "	"domicilio conocido"	"otro"	"conrado castillo"	"conrado castillo"	"llera"	"tamaulipas"	-99.124089	23.154293
-"comit ejidal "	"domicilio conocido"	"otro"	"dos de octubre"	"dos de octubre"	"llera"	"tamaulipas"	-98.931568	23.168065
-"comit ejidal "	"domicilio conocido"	"otro"	"el aquichal (el pinto)"	"el aquichal (el pinto)"	"llera"	"tamaulipas"	-99.053065	23.153556
-"comit ejidal "	"domicilio conocido"	"otro"	"el cabrito"	"el cabrito"	"llera"	"tamaulipas"	-98.495833	23.171389
-"comit ejidal "	"domicilio conocido"	"otro"	"el carmen"	"el carmen"	"llera"	"tamaulipas"	-99.091281	23.268662
-"comit ejidal "	"domicilio conocido"	"otro"	"el chijol"	"el chijol"	"llera"	"tamaulipas"	-98.441367	23.22111
-"comit ejidal "	"domicilio conocido"	"otro"	"ciprs"	"el ciprs"	"llera"	"tamaulipas"	-98.677663	23.118182
-"comit ejidal "	"domicilio conocido"	"otro"	"el bano"	"el bano"	"llera"	"tamaulipas"	-99.01837	23.555447
-"comit ejidal "	"domicilio conocido"	"otro"	"el encinito (la flor)"	"el encinito (la flor)"	"llera"	"tamaulipas"	-99.165834	23.206943
-"comit ejidal "	"domicilio conocido"	"otro"	"el guayabo"	"el guayabo"	"llera"	"tamaulipas"	-99.098059	23.191132
-"comit ejidal "	"domicilio conocido"	"otro"	"el paraso"	"el paraso"	"llera"	"tamaulipas"	-99.111879	23.128265
-"comit ejidal "	"domicilio conocido"	"otro"	"el pen"	"el pen"	"llera"	"tamaulipas"	-99.150856	23.133197
-"comit ejidal "	"domicilio conocido"	"otro"	"el prado"	"el prado"	"llera"	"tamaulipas"	-98.881387	23.276707
-"comit ejidal "	"domicilio conocido"	"otro"	"el platanal"	"el platanal [nuevo centro de poblacin]"	"llera"	"tamaulipas"	-99.106882	23.499804
-"comit ejidal "	"domicilio conocido"	"otro"	"capitn emilio carranza (el forln)"	"capitn emilio carranza (forln)"	"llera"	"tamaulipas"	-98.811667	23.235303
-"comit ejidal "	"domicilio conocido"	"otro"	"emilio portes gil"	"emilio portes gil"	"llera"	"tamaulipas"	-98.920225	23.483317
-"comit ejidal "	"domicilio conocido"	"otro"	"emiliano zapata"	"emiliano zapata"	"llera"	"tamaulipas"	-98.921871	23.279842
-"comit ejidal "	"domicilio conocido"	"otro"	"felipe ngeles (el carrizo)"	"felipe ngeles (el carrizo)"	"llera"	"tamaulipas"	-99.095886	23.238834
-"comit ejidal "	"domicilio conocido"	"otro"	"felipe carrillo puerto"	"felipe carrillo puerto (carrillo puerto)"	"llera"	"tamaulipas"	-98.970888	23.230506
-"comit ejidal "	"domicilio conocido"	"otro"	"francisco castellano"	"francisco castellanos (castellanos)"	"llera"	"tamaulipas"	-98.609188	23.256945
-"comit ejidal "	"domicilio conocido"	"otro"	"francisco villa"	"francisco villa"	"llera"	"tamaulipas"	-98.788022	23.165542
-"comit ejidal "	"domicilio conocido"	"otro"	"hermenegildo galeana"	"hermenegildo galeana"	"llera"	"tamaulipas"	-99.103222	23.208227
-"comit ejidal "	"domicilio conocido"	"otro"	"ignacio zaragoza"	"ignacio zaragoza"	"llera"	"tamaulipas"	-98.785884	23.188734
-"comit ejidal "	"domicilio conocido"	"otro"	"la independencia"	"la independencia"	"llera"	"tamaulipas"	-98.962775	23.297732
-"comit ejidal "	"domicilio conocido"	"otro"	"jos mara morelos"	"jos mara morelos (el viejo)"	"llera"	"tamaulipas"	-99.056129	23.414682
-"comit ejidal "	"domicilio conocido"	"otro"	"jos silva snchez"	"jos silva snchez"	"llera"	"tamaulipas"	-98.82361	23.238886
-"comit ejidal "	"domicilio conocido"	"otro"	"la angostura"	"la angostura"	"llera"	"tamaulipas"	-99.012714	23.368133
-"comit ejidal "	"domicilio conocido"	"otro"	"la alberca"	"la alberca"	"llera"	"tamaulipas"	-98.978448	23.484871
-"comit ejidal "	"domicilio conocido"	"otro"	"la libertad"	"la libertad"	"llera"	"tamaulipas"	-99.147357	23.134454
-"comit ejidal "	"domicilio conocido"	"otro"	"la morita"	"la morita"	"llera"	"tamaulipas"	-98.528331	23.103331
-"comit ejidal "	"domicilio conocido"	"otro"	"las compuertas"	"las compuertas"	"llera"	"tamaulipas"	-98.85972	23.280381
-"comit ejidal "	"domicilio conocido"	"otro"	"las tortugas"	"las tortugas [nuevo centro de poblacin]"	"llera"	"tamaulipas"	-98.863644	23.484361
-"comit ejidal "	"domicilio conocido"	"otro"	"magdaleno aguilar"	"magdaleno aguilar"	"llera"	"tamaulipas"	-98.438888	23.145277
-"comit ejidal "	"domicilio conocido"	"otro"	"general lucio blanco"	"lucio blanco"	"llera"	"tamaulipas"	-99.080576	23.486132
-"comit ejidal "	"domicilio conocido"	"otro"	"mariano escobedo"	"mariano escobedo"	"llera"	"tamaulipas"	-98.796523	23.189719
-"comit ejidal "	"domicilio conocido"	"otro"	"nuevo progreso"	"nuevo progreso"	"llera"	"tamaulipas"	-98.434207	23.147222
-"comit ejidal "	"domicilio conocido"	"otro"	"nuevo san luis"	"nuevo san luis (san luisito)"	"llera"	"tamaulipas"	-98.935719	22.944803
-"comit ejidal "	"domicilio conocido"	"otro"	"pedro jos mndez"	"general pedro jos mndez"	"llera"	"tamaulipas"	-98.941835	23.319779
-"comit ejidal "	"domicilio conocido"	"otro"	"piedras blancas"	"piedras blancas"	"llera"	"tamaulipas"	-98.541408	23.255276
-"comit ejidal "	"domicilio conocido"	"otro"	"porvenir del campesino (la pursima)"	"porvenir del campesino (la pursima)"	"llera"	"tamaulipas"	-98.970135	23.307546
-"comit ejidal "	"domicilio conocido"	"otro"	"primero de abril"	"primero de abril"	"llera"	"tamaulipas"	-98.914807	23.511899
-"comit ejidal "	"domicilio conocido"	"otro"	"rancho nuevo del norte"	"rancho nuevo del norte"	"llera"	"tamaulipas"	-98.978693	23.420537
-"comit ejidal "	"domicilio conocido"	"otro"	"rancho nuevo del sur"	"rancho nuevo del sur"	"llera"	"tamaulipas"	-99.06413	23.223695
-"comit ejidal "	"domicilio conocido"	"otro"	"san isidro"	"san isidro"	"llera"	"tamaulipas"	-99.029971	23.246244
-"comit ejidal "	"domicilio conocido"	"otro"	"san rafael"	"san rafael"	"llera"	"tamaulipas"	-98.984545	23.308714
-"comit ejidal "	"domicilio conocido"	"otro"	"san ramn"	"san ramn"	"llera"	"tamaulipas"	-99.072276	23.32055
-"comit ejidal "	"domicilio conocido"	"otro"	"santa fe"	"santa fe"	"llera"	"tamaulipas"	-99.101199	23.173351
-"comit ejidal "	"domicilio conocido"	"otro"	"santa isabel"	"santa isabel"	"llera"	"tamaulipas"	-99.066673	23.264886
-"comit ejidal "	"domicilio conocido"	"otro"	"santa ins"	"santa ins"	"llera"	"tamaulipas"	-98.520854	23.148333
-"comit ejidal "	"domicilio conocido"	"otro"	"voz campesina (providencia)"	"voz campesina (providencia)"	"llera"	"tamaulipas"	-98.806085	23.208554
-"h cuerpo de bomberos"	"guadalupe victoria oriente"	"bomberos"	"zona centro"	"ciudad mante"	"el mante"	"tamaulipas"	-98.970901	22.748913
-"cbtis "	"nezahualcyotl oriente"	"escuela"	"carolina yucatn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.962417	22.73705
-"secundaria federal  profesor juan camacho cervantes"	"nezahualcyotl"	"escuela"	"carolina yucatn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.960767	22.736793
-"de enfermera"	"magiscatzin"	"escuela"	"carolina yucatn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.960755	22.737892
-"facultad de agronoma"	"enrique crdenas gonzlez entre calle violeta y azucena poniente"	"escuela"	"jardn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.983212	22.746927
-"preparatoria mante"	"jos vasconcelos"	"escuela"	"miguel alemn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.967524	22.75091
-"primaria hermanos vzquez gmez"	"ocampo entre juan jos de la garza y alejandro prieto"	"escuela"	"zona centro"	"ciudad mante"	"el mante"	"tamaulipas"	-98.970671	22.746311
-"ctm. (confederacin nacional de trabajadores de mxico)"	"ocampo y alejandro prieto"	"otro"	"zona centro"	"ciudad mante"	"el mante"	"tamaulipas"	-98.970325	22.747201
-"colegio nios hroes"	"guayalejo entre luis cabrera y paniagua norte"	"escuela"	"miguel alemn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.964689	22.749071
-"dif municipal"	"zeferino fajardo luna norte"	"otro"	"miguel alemn"	"ciudad mante"	"el mante"	"tamaulipas"	-98.971464	22.755478
-"escuela primaria juan b. tijerina"	"reforma y cuauhtmoc"	"escuela"	"adolfo lpez mateos (el chamal viejo)"	"adolfo lpez mateos (chamal nuevo)"	"ocampo"	"tamaulipas"	-99.193081	22.843053
-"secundaria tcnica  eduardo martnez"	"alberto carrera torres esquina"	"escuela"	"adolfo lpez mateos (el chamal viejo)"	"adolfo lpez mateos (chamal nuevo)"	"ocampo"	"tamaulipas"	-99.189942	22.845131
-"cnc (comisin nacional campesina)"	" jurez y zaragoza"	"otro"	"luis donaldo colosio"	"nueva villa de padilla"	"padilla"	"tamaulipas"	-98.900849	24.049444
-"primaria miguel hidalgo"	"hidalgo entre calle  y "	"escuela"	"luis donaldo colosio"	"nueva villa de padilla"	"padilla"	"tamaulipas"	-98.900968	24.048179
-"dif municipal"	" y  zaragoza"	"otro"	"luis donaldo colosio"	"nueva villa de padilla"	"padilla"	"tamaulipas"	-98.902799	24.049699
-"saln de actos martires de chinameca"	"domicilio conocido"	"otro"	"martn de chinameca"	"barretal"	"padilla"	"tamaulipas"	-99.126241	24.08256
-"orfanato casa de la luz"	"domicilio conocido"	"otro"	"rancho laosiana ejido conrado castillo"	"conrado castillo"	"padilla"	"tamaulipas"	-99.030278	24.051667
-"saln de actos rsulo galvn"	"domicilio conocido"	"otro"	"ursulo galvn"	"barretal"	"padilla"	"tamaulipas"	-99.124317	24.083835
-"auditorio municipal"	"enrique crdenas gonzlez"	"auditorio"	" de septiembre"	"soto la marina"	"san fernando"	"tamaulipas"	-98.199788	23.765371
-"cobat "	"matamoros y pablo saldvar entre lzaro crdenas"	"escuela"	" de septiembre"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.202202	23.765871
-"cbta "	"antonio casso y ocampo"	"escuela"	" de noviembre"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.207645	23.776098
-"secundaria tcnica "	"daz mirn y venustiano carranza norte"	"escuela"	"zona centro"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.206275	23.770337
-"instituto soto la marina"	"cruz verde"	"escuela"	"magisterial"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.208353	23.773045
-"primaria lzaro crdenas"	"fernando montes de oca y antonio casso"	"escuela"	"magisterial"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.202729	23.773315
-"c.a.m magdaleno lozano"	"josefa ortiz de domnguez entre luis echeverra y  de septiembre"	"otro"	" de septiembre"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.199913	23.769722
-"primaria jos mara villarreal"	" de septiembre"	"escuela"	" de septiembre"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.199082	23.769914
-"primaria general felipe de la garza"	"felipe de la garza y amado nervo"	"escuela"	"del ro"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.207204	23.764451
-"jardn de nios herlinda trevio de balboa"	"lvaro obregn esquina con mina felipe de la garza"	"escuela"	"del ro"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.206837	23.764233
-"jardn de nios cri cri"	"francisco sarabia"	"escuela"	"nueva rosita"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.213072	23.772589
-"jardn de nios lzaro crdenas"	"antonio casso y daz mirn"	"escuela"	"zona centro"	"soto la marina"	"soto la marina"	"tamaulipas"	-98.203576	23.77364
-"secundaria tcnica "	"domicilio conocido"	"escuela"	"la pesca"	"la pesca"	"soto la marina"	"tamaulipas"	-97.787222	23.787222
-"secundaria general jos garca garca"	"domicilio conocido"	"escuela"	"lavaderos"	"lavaderos"	"soto la marina"	"tamaulipas"	-98.021667	23.471667
-"primaria. mrtires de la revolucin"	"domicilio conocido"	"escuela"	"la pesca"	"la pesca"	"soto la marina"	"tamaulipas"	-97.787222	23.787222
-"primaria francisco i madero"	"domicilio conocido"	"escuela"	"el carrizo"	"el carrizo"	"soto la marina"	"tamaulipas"	-98.237763	23.427648
-"primaria netzahualcyotl"	"domicilio conocido"	"escuela"	"el esmeril (nabor medina v.)"	"el esmeril (nabor medina v.)"	"soto la marina"	"tamaulipas"	-97.886205	23.531235
-"jardn de nios fray pedro de gante"	"domicilio conocido"	"escuela"	"la pesca"	"la pesca"	"soto la marina"	"tamaulipas"	-97.787222	23.787222
-"secundaria general nido de guilas"	"estacin manuel la coma km .."	"escuela"	"tampiquito"	"tampiquito (soto la marina)"	"soto la marina"	"tamaulipas"	-98.180026	23.823652
-"primaria guadalupe victoria"	"domicilio conocido"	"escuela"	"santo domingo del charco largo"	"santo domingo del charco largo"	"soto la marina"	"tamaulipas"	-97.9675	24.182778
 "refugio temporal de invierno (casa habitacin)"	"carranza"	"casa"	"zona centro"	"tampico"	"soto la marina"	"tamaulipas"	-97.836617	22.246772
 "primaria vicente guerrero"	"lucio blanco y zapata"	"escuela"	"jos lpez portillo"	"tampico"	"tampico"	"tamaulipas"	-97.855217	22.2957
 "primaria amado arechandieta"	"tercera"	"escuela"	"enrique crdenas gonzlez"	"tampico"	"tampico"	"tamaulipas"	-97.856558	22.305647
@@ -278,22 +103,20 @@
 "sindicato de comapa"	"jos de escandn y simn bolvar sn"	"otro"	"tamaulipas"	"tampico"	"tampico"	"tamaulipas"	-97.849152	22.217498
 "sindicato de empleados de comercio"	"tamaulipas entre lpez de lara e isauro alfaro oriente"	"otro"	"zona centro"	"tampico"	"tampico"	"tamaulipas"	-97.852844	22.217158
 "gimnasio de la uat"	"universitario y avenida universidad"	"otro"	""	"tampico"	"tampico"	"tamaulipas"	-97.862104	22.274737
-"centro de convivencia "	" y  ceros carrera torres"	"otro"	"colonia buenavista"	"ciudad victoria"	"victoria"	"tamaulipas"	-99.119201	23.735846
-"centro de convivencia "	"zeferino fajardo entre eje del arroyo y nuevo laredo"	"otro"	"enrique crdenas gonzlez"	"ciudad victoria"	"victoria"	"tamaulipas"	-99.166453	23.761876
-"centro de convivencia "	"huizache y mora"	"otro"	"las flores"	"ciudad victoria"	"victoria"	"tamaulipas"	-99.168098	23.728164
-"centro de convivencia "	" sonora y baja california"	"otro"	"viviendas populares"	"ciudad victoria"	"victoria"	"tamaulipas"	-99.150649	23.750945
-"primaria justo sierra"	"zaragoza entre lzaro picasso y aldama"	"escuela"	"zona centro"	"xicotncatl"	"xicotncatl"	"tamaulipas"	-98.944148	22.996025
-"casa del adulto mayor"	"lzaro picasso sur entre mina y escobedo"	"otro"	"zona centro"	"xicotncatl"	"xicotncatl"	"tamaulipas"	-98.944212	22.993332
-"cbtis "	"moctezuma oriente entre emiliano zapata y hernn cortez"	"escuela"	"zona centro"	"xicotncatl"	"xicotncatl"	"tamaulipas"	-98.932653	22.999799
-"primaria la corregidora"	"aldama sur entre morelos y zaragoza"	"escuela"	"zona centro"	"xicotncatl"	"xicotncatl"	"tamaulipas"	-98.943186	22.996653
-"primaria hermanos flores magn"	"pedro jos mndez sur entre escobedo y mina"	"escuela"	"zona centro"	"xicotncatl"	"xicotncatl"	"tamaulipas"	-98.946765	22.993188
-"secundaria tcnica "	"del estudiante"	"escuela"	" de mayo"	"xicotncatl"	"xicotncatl"	"tamaulipas"	-98.954812	22.960807
 "palacio municipal"	"porfirio daz "	"otro"	"centro"	"acatln"	"acatln"	"veracruz de ignacio de la llave"	-96.842491	19.698186
 "casa del abuelo"	"hidalgo "	"casa"	"centro"	"acatln"	"acatln"	"veracruz de ignacio de la llave"	-96.841323	19.696092
 "casa del campesino"	"palacio municipal "	"casa"	"centro"	"acatln"	"acatln"	"veracruz de ignacio de la llave"	-96.842436	19.697657
 "palacio municipal"	"porfirio daz "	"otro"	"indeterminado"	"acatln"	"acatln"	"veracruz de ignacio de la llave"	-96.842436	19.697657
 "casa del abuelo"	"hidalgo "	"casa"	"indeterminado"	"acatln"	"acatln"	"veracruz de ignacio de la llave"	-96.842436	19.697657
 "casa del campesino"	"murillo vidal"	"casa"	"indeterminado"	"acatln"	"acatln"	"veracruz de ignacio de la llave"	-96.842436	19.697657
+"esc. prim. felipe carrillo puerto"	" de febrero"	"escuela"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773317	18.505621
+"saln social benito jurez"	". de febrero  "	"otro"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773333	18.506111
+"jardn de nios abdn snchez vidal"	"nicols bravo  "	"escuela"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773333	18.505833
+"tebaev de acula"	"independencia  esq. javier mina"	"escuela"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773889	18.5075
+"saln ejidal acula"	"independencia "	"otro"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.772778	18.508056
+"casa de cultura"	"independencia "	"casa"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.772778	18.507778
+"iglesia catlica san antonio"	"miguel  hidalgo "	"otro"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773889	18.506389
+"asociacin ganadera local"	"domicilio conocido "	"otro"	"centro"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.775	18.506111
 "esc. prim. miguel hidalgo i costilla"	"isidro parra"	"escuela"	"el idolo"	"lamo temapache"	"lamo temapache"	"veracruz de ignacio de la llave"	-97.658833	20.891167
 "esc. prim. enrique c. rebsamen"	"gabino gonzalez"	"escuela"	"pueblo nuevo"	"lamo temapache"	"lamo temapache"	"veracruz de ignacio de la llave"	-97.682417	20.898139
 "ausencio juarez ruiz"	"alamo potrero del llano km "	"auditorio"	"pueblo nuevo"	"lamo temapache"	"lamo temapache"	"veracruz de ignacio de la llave"	-97.682361	20.897417
@@ -328,6 +151,7 @@
 "primaria"	"benito jurez"	"escuela"	"centro"	"santa lucia"	"cotaxtla"	"veracruz de ignacio de la llave"	-96.35556	18.85111
 "saln de usos mltiples"	"rumbo al moralito"	"otro"	"centro"	"cotaxtla"	"cotaxtla"	"veracruz de ignacio de la llave"	-96.3948	18.8348
 "esc. esti"	"domicilio conocido "	"escuela"	"centro"	"cotaxtla"	"cotaxtla"	"veracruz de ignacio de la llave"	-96.392362	18.830412
+"escuela primaria vicente guerrero"	""	"escuela"	"centro"	"la tinaja"	"cotaxtla"	"veracruz de ignacio de la llave"	-96.133488	18.541875
 "saln social "	""	"otro"	"centro"	"cuichapa"	"cuichapa"	"veracruz de ignacio de la llave"	-96.86933	18.77335
 "saln ejidal "	"domicilio conocido "	"otro"	"centro"	"cuichapa"	"cuichapa"	"veracruz de ignacio de la llave"	-96.869025	18.772792
 "saln social "	"domicilio conocido "	"otro"	"centro"	"providencia"	"cuichapa"	"veracruz de ignacio de la llave"	-96.773197	18.752175
@@ -520,8 +344,6 @@
 "saln de obreros motzorongo "	"plan de libres presidio"	"otro"	"centro"	"motzorongo"	"tezonapa"	"veracruz de ignacio de la llave"	-96.726503	18.642181
 "saln social presidio "	"laguna chica"	"otro"	"centro"	"paraso la reforma"	"tezonapa"	"veracruz de ignacio de la llave"	-96.757856	18.662767
 "saln social dif municipal"	"cab. mpal"	"otro"	"centro"	"tezonapa"	"tezonapa"	"veracruz de ignacio de la llave"	-96.692188	18.615533
-"auditorio municipal"	"cab. mpal"	"auditorio"	"centro"	"tlaquilpa"	"tlaquilpa"	"veracruz de ignacio de la llave"	-97.117209	18.610616
-"auditorio municipal"	"heriberto jara corona col constituyentes "	"auditorio"	"centro"	"tlaquilpa"	"tlaquilpa"	"veracruz de ignacio de la llave"	-97.116944	18.61
 "delegacion este "	"luis hidalgo monroy col lagunilla"	"albergue"	"xalapa"	"xalapa-enrquez"	"xalapa"	"veracruz de ignacio de la llave"	-96.924687	19.566724
 "delegacion norte "	"av diamante col unidad hab foviste"	"deportivo"	"xalapa"	"xalapa-enrquez"	"xalapa"	"veracruz de ignacio de la llave"	-96.942305	19.550593
 "delegacion oeste "	"av principal congregacion el castillo "	"deportivo"	"xalapa"	"xalapa-enrquez"	"xalapa"	"veracruz de ignacio de la llave"	-96.89844	19.536731
@@ -535,6 +357,8 @@
 "auditorio municipal de la loc. de progreso de zaragoza"	"hidalgo"	"auditorio"	"centro"	"progreso de zaragoza"	"coahuitln"	"veracruz de ignacio de la llave"	-97.71444702	20.27555466
 "auditorio municipal de la loc. de macedonio alonso"	"circuito campanario"	"auditorio"	"centro"	"macedonio alonso"	"coahuitln"	"veracruz de ignacio de la llave"	-97.6902771	20.27472305
 "agencia municipal de la loc. de coahuitlan."	"domicilio conocido "	"auditorio"	"centro"	"coahuitln"	"coahuitln"	"veracruz de ignacio de la llave"	-97.7286	20.261699
+"telesecundaria juana de asbaje"	"calle"	"escuela"	"centro"	"rancho nuevo"	"amatitln"	"veracruz de ignacio de la llave"	-95.70362	18.501124
+"esc. prim jos ma morelos y pavn"	"calle"	"escuela"	"centro"	"rancho nuevo"	"amatitln"	"veracruz de ignacio de la llave"	-95.703286	18.50202
 "iglesia catlica san judas tadeo"	"calle"	"otro"	"centro"	"rancho nuevo"	"amatitln"	"veracruz de ignacio de la llave"	-96.790956	18.896117
 "esc. prim revolucin"	"calle"	"escuela"	"centro"	"boca del ro"	"amatitln"	"veracruz de ignacio de la llave"	-96.790956	18.896117
 "salon social"	"calle del auditorio  y av. francisco i madero"	"otro"	"centro"	"cruz verde"	"atoyac"	"veracruz de ignacio de la llave"	-96.796861	18.891467
@@ -558,22 +382,11 @@
 "esc. sec. tecnica n ."	"del estudiante"	"escuela"	"tantoyuca"	"tantoyuca"	"tantoyuca"	"veracruz de ignacio de la llave"	-98.23695	21.34471
 "escuela primaria leopoldo kiel."	"platon sanchez - tantoyuca"	"escuela"	"el remanzo"	"remanzo"	"tantoyuca"	"veracruz de ignacio de la llave"	-98.349063	21.30289
 "escuela primaria melchor ocampo."	"las mesas - el escondido"	"escuela"	"las mesas san gabriel"	"las mesas"	"tantoyuca"	"veracruz de ignacio de la llave"	-98.249838	21.318341
-"casa del nio indigena cuauhtemoc xoxocotla, ver."	"benito juarez"	"albergue"	"municipio xoxocotla"	"xoxocotla"	"xoxocotla"	"veracruz de ignacio de la llave"	-97.152339	18.646269
-"salon ejidal"	"benito juarez"	"recreativo"	"municipio xoxocotla"	"xoxocotla"	"xoxocotla"	"veracruz de ignacio de la llave"	-97.14926	18.649137
-"palacio municipal"	"benito juarez"	"otro"	"municipio xoxocotla"	"xoxocotla"	"xoxocotla"	"veracruz de ignacio de la llave"	-97.151966	18.647764
-"salon social"	"carretera a tlaquilpa"	"recreativo"	"centro"	"tlilcalco"	"xoxocotla"	"veracruz de ignacio de la llave"	-97.145278	18.638056
 "salon social agrario"	" de septiembre col. centro"	"otro"	"centro"	"apazapan"	"apazapan"	"veracruz de ignacio de la llave"	-96.718486	19.320307
 "salon social las palmas"	"independencia col. centro"	"otro"	"centro"	"apazapan"	"apazapan"	"veracruz de ignacio de la llave"	-96.719327	19.321901
-"alvaro galves y fuentes "	"camino a la telesecudaria "	"escuela"	"aquila "	"aquila "	"aquila"	"veracruz de ignacio de la llave"	-97.309275	18.796858
-"atiopan "	"panteon y casa de salud"	"otro"	"atiopan "	"atiopa "	"aquila"	"veracruz de ignacio de la llave"	-97.311338	18.794195
-"esc. primaria miguel hidalgo"	"camino a la lagunilla"	"escuela"	"lagunilla "	"lagunilla"	"aquila"	"veracruz de ignacio de la llave"	-97.335667	18.778075
-" telesecundaria moises saenz garza "	"cale principal "	"escuela"	"cumbres de aquila "	"cumbres de aquila "	"aquila"	"veracruz de ignacio de la llave"	-97.336154	18.79
-"ternal "	"junto la escuela miguel hidalgo"	"otro"	"tebernal"	"tebernal"	"aquila"	"veracruz de ignacio de la llave"	-97.326907	18.810428
 "auditorio municipal"	"zona centro, chiconamel veracruz"	"otro"	"auditorio"	"chiconamel"	"chiconamel"	"veracruz de ignacio de la llave"	-98.459369	21.230586
 "escuela primaria vicente guerrero"	"domicilio conocido "	"otro"	"auditorio"	"tancazahuela"	"chiconamel"	"veracruz de ignacio de la llave"	-98.434627	21.18327
 "auditorio de usos mltiples"	"domicilio conocido "	"otro"	"auditorio"	"romantla"	"chiconamel"	"veracruz de ignacio de la llave"	-98.351762	21.163152
-"bodega exmaquiladora"	"calle agustin  iturbide  sin n colonia centro"	"otro"	"pueblo"	"huiloapan de cuauhtemoc"	"huiloapan"	"veracruz de ignacio de la llave"	-97.153254	18.818351
-"auditoro municipal"	"avenida hidalgo num  col. centro"	"auditorio"	"pueblo"	"huiloapan de cuauhtemoc"	"huiloapan"	"veracruz de ignacio de la llave"	-97.159049	18.819193
 "auditorio"	"domicilio conocido "	"auditorio"	"centro"	"san pedro tziltzacuapan"	"ixhuatlan de madero"	"veracruz de ignacio de la llave"	-97.956468	20.575955
 "auditorio"	"domicilio conocido "	"auditorio"	"centro"	"san francisco"	"ixhuatlan de madero"	"veracruz de ignacio de la llave"	-98.003726	20.554798
 "iglesia"	"domicilio conocido "	"otro"	"centro"	"santa maria apipilhuasco"	"ixhuatlan de madero"	"veracruz de ignacio de la llave"	-97.974189	20.581852
@@ -586,9 +399,14 @@
 "escuela"	"domicilio conocido "	"escuela"	"centro"	"ojtlatzintla"	"ixhuatlan de madero"	"veracruz de ignacio de la llave"	-98.104461	20.734869
 "escuela"	"domicilio conocido "	"escuela"	"centro"	"chahuantla"	"ixhuatlan de madero"	"veracruz de ignacio de la llave"	-98.105947	20.726986
 "escuela"	"domicilio conocido "	"escuela"	"centro"	"zapotal"	"ixhuatlan de madero"	"veracruz de ignacio de la llave"	-98.014964	20.7592
-"auditorio fidelidad"	"domicilio conocido"	"auditorio"	"av. independencia y nte  centro"	"acultzingo"	"acultzingo"	"veracruz de ignacio de la llave"	-97.304551	18.719469
-"saln de la parroquia \"san juan bautista\""	"domicilio conocido"	"otro"	"calle ignacio zaragoza  col. centro"	"acultzingo"	"acultzingo"	"veracruz de ignacio de la llave"	-97.302411	18.719142
-"saln ejidal emiliano zapata"	"domicilio conocido"	"otro"	"calle venustiano carranza  av.san diego col emiliano zapata "	"acultzingo"	"acultzingo"	"veracruz de ignacio de la llave"	-97.293428	18.721968
+"esc. prim. felipe carrillo puerto"	" de febrero"	"escuela"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773568	18.505341
+"saln social benito jurez"	". de febrero  "	"otro"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.774468	18.504501
+"jardn de nios abdn snchez vidal"	"nicols bravo  "	"escuela"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773222	18.506008
+"tebaev de acula"	"independencia  esq. javier mina"	"escuela"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.773791	18.507754
+"saln ejidal acula"	"independencia "	"otro"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.775265	18.504593
+"casa de cultura"	"independencia "	"casa"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.774423	18.505816
+"iglesia catlica san antonio"	"miguel  hidalgo "	"otro"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.77397	18.506497
+"asociacin ganadera local"	"domicilio conocido"	"otro"	"indeterminado"	"acula"	"acula"	"veracruz de ignacio de la llave"	-95.774263	18.507637
 "salon social"	"domicilio conocido"	"otro"	"conocido"	"santander"	"alto lucero de gutirrez barrios"	"veracruz de ignacio de la llave"	-96.5096	19.8961
 "salon social"	"domicilio conocido"	"otro"	"conocido"	"santa ana"	"alto lucero de gutirrez barrios"	"veracruz de ignacio de la llave"	-96.5072	19.8904
 "agencia municipal"	"domicilio conocido"	"otro"	"conocido"	"palma sola"	"alto lucero de gutirrez barrios"	"veracruz de ignacio de la llave"	-96.4331	19.7746
@@ -599,14 +417,27 @@
 "casa del campesino"	"domicilio conocido"	"otro"	"conocido"	"santa ana"	"alto lucero de gutirrez barrios"	"veracruz de ignacio de la llave"	-96.5065	19.8907
 "cruz roja"	"domicilio conocido"	"otro"	"conocido"	"palma sola"	"alto lucero de gutirrez barrios"	"veracruz de ignacio de la llave"	-96.4333	19.7752
 "salon social"	"domicilio conocido"	"otro"	"conocido"	"pedregal"	"alto lucero de gutirrez barrios"	"veracruz de ignacio de la llave"	-96.6281	19.7644
+"salon de usos multiples atizintla"	"domicilio conocido"	"otro"	"nicolas bravo esq. rockerfeller"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.7617	18.774269
+"esc. primaria gral. vicente guerrero"	"domicilio conocido"	"escuela"	"calle adolfo lopez mateos s/n col las aneas"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.773506	18.777508
+"esc. primaria dolores maria mojica"	"domicilio conocido"	"escuela"	"pino suarez esq. juarez col. centro"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.756	18.768189
+"esc. primaria benito juarez"	"domicilio conocido"	"escuela"	"nicolas bravo      #  casi esq. vicente guerrero"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.760625	18.770481
+"esc. maestro jose ruiz parra"	"domicilio conocido"	"escuela"	"melchor ocampo esq. netzahualcoyotl"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.758906	18.772367
+"esc. secundaria tecnica pesquera   # "	"domicilio conocido"	"escuela"	"col.  de abril dom. conocido"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.769064	18.772678
+"centro de atencin multiple # "	"domicilio conocido"	"escuela"	"carretera federal  frente a la fabrica de hielo"	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.771517	18.777583
+"cetmar"	"domicilio conocido"	"escuela"	"carretera federal  en el kilometro "	"alvarado"	"alvarado"	"veracruz de ignacio de la llave"	-95.779508	18.780253
 "cobaev no "	"domicilio conocido"	"escuela"	"calle  de mayo entre francisco i. madero y  de junio, en anton lizardo"	"antn lizardo"	"alvarado"	"veracruz de ignacio de la llave"	-95.987735	19.059831
 "esc. primaria almirante gabriel carballo"	"domicilio conocido"	"escuela"	"calle indenpendencia entre nicolas bravo y benito juarez"	"antn lizardo"	"alvarado"	"veracruz de ignacio de la llave"	-95.989146	19.05764
 "telebachillerato anton lizardo "	"domicilio conocido"	"escuela"	"virgilio uribe"	"antn lizardo"	"alvarado"	"veracruz de ignacio de la llave"	-95.993164	19.061472
 "telesecundaria virgilio uribe anton lizardo"	"domicilio conocido"	"escuela"	"cale azueta entre uribe y francisco i madero"	"antn lizardo"	"alvarado"	"veracruz de ignacio de la llave"	-95.993304	19.060433
-"alvaro galves y fuentes "	"camino a la telesecudaria "	"escuela"	"aquila "	"aquila "	"aquila"	"veracruz de ignacio de la llave"	-97.308994	18.797762
-"atiopan "	"panteon y casa de salud"	"otro"	"atiopan "	"atiopa "	"aquila"	"veracruz de ignacio de la llave"	-97.331732	18.770078
-"esc. primaria miguel hidalgo"	"camino a la lagunilla"	"escuela"	"lagunilla "	"lagunilla"	"aquila"	"veracruz de ignacio de la llave"	-97.343062	18.778561
-""	"cale principal "	"escuela"	"cumbres de aquila "	"cumbres de aquila "	"aquila"	"veracruz de ignacio de la llave"	-97.335587	18.789548
+"telesecundaria juana de asbaje"	"calle"	"escuela"	"indeterminado"	"rancho nuevo"	"amatitln"	"veracruz de ignacio de la llave"	-95.703526	18.501121
+"esc. prim jos ma morelos y pavn"	"calle"	"escuela"	"indeterminado"	"rancho nuevo"	"amatitln"	"veracruz de ignacio de la llave"	-95.703982	18.499555
+"iglesia catlica san judas tadeo"	"calle"	"otro"	"indeterminado"	"rancho nuevo"	"amatitln"	"veracruz de ignacio de la llave"	-95.703767	18.502019
+"esc. prim revolucin"	"calle"	"escuela"	"indeterminado"	"boca del ro"	"amatitln"	"veracruz de ignacio de la llave"	-95.717202	18.518982
+"saln social fidel herrera beltrn"	"domicilio conocido"	"otro"	"cabecera mpal. junto al parque  de junio"	"ngel r. cabada"	"angel r. cabada"	"veracruz de ignacio de la llave"	-95.445275	18.597061
+"saln de la asociacin ganadera local"	"domicilio conocido"	"otro"	"cabecera mpal. frente parque  de junio"	"ngel r. cabada"	"angel r. cabada"	"veracruz de ignacio de la llave"	-95.444717	18.596794
+"saln comisariado ejidal tula"	"domicilio conocido"	"otro"	"comunidad tula"	"tula"	"angel r. cabada"	"veracruz de ignacio de la llave"	-95.376106	18.587472
+"saln comisariado ejidal laguna majahual"	"domicilio conocido"	"otro"	"comunidad laguna majahual"	"laguna de majahual (ro de caas)"	"angel r. cabada"	"veracruz de ignacio de la llave"	-95.29787	18.659431
+"saln comisariado ejidal panatlan"	"domicilio conocido"	"otro"	"comunidad panatlan"	"el panatln"	"angel r. cabada"	"veracruz de ignacio de la llave"	-95.364131	18.657595
 "iglesia santa ana"	"domicilio conocido"	"otro"	"nte  entre ote  y "	"atzacan"	"atzacan"	"veracruz de ignacio de la llave"	-97.082302	18.90674
 "enrique laubscher"	"domicilio conocido"	"escuela"	"catemaco s/n fracc tampiquera"	"boca del ro"	"boca del ro"	"veracruz de ignacio de la llave"	-96.110491	19.11088
 "jorge pasquel casanueva"	"domicilio conocido"	"escuela"	"manuel nieto s/n calle  y calle  col virginia cordero de murillo vidal"	"boca del ro"	"boca del ro"	"veracruz de ignacio de la llave"	-96.116581	19.148543
@@ -673,12 +504,6 @@
 "telebachillerato"	"domicilio conocido"	"escuela"	"comunidad la union km "	"el torno"	"cazones de herrera"	"veracruz de ignacio de la llave"	-97.3425	20.696472
 "iglesia adventista "	"domicilio conocido"	"otro"	"comunidad la union km "	"el torno"	"cazones de herrera"	"veracruz de ignacio de la llave"	-97.336972	20.694972
 "casa del campesino"	"domicilio conocido"	"otro"	"comunidad la union km "	"el torno"	"cazones de herrera"	"veracruz de ignacio de la llave"	-97.339722	20.693833
-"auditorio miguel alemn "	"domicilio conocido"	"auditorio "	"av- del trabajo esq. j. sierra"	"ciudad mendoza"	"camerino z. mendoza"	"veracruz de ignacio de la llave"	-97.175193	18.805308
-"esc. esfuerzo obrero"	"domicilio conocido"	"escuela"	"av. hidalgo  centro"	"ciudad mendoza"	"camerino z. mendoza"	"veracruz de ignacio de la llave"	-97.177091	18.806977
-"saln social venus rey "	"domicilio conocido"	"otro"	"av. jurez  centro"	"ciudad mendoza"	"camerino z. mendoza"	"veracruz de ignacio de la llave"	-97.174419	18.808773
-"dif municipal centro"	"domicilio conocido"	"otro"	"av. fernando i entre madero y ocampo"	"ciudad mendoza"	"camerino z. mendoza"	"veracruz de ignacio de la llave"	-97.187061	18.809348
-"saln social nuevo amanecer"	"domicilio conocido"	"otro"	"calle civer col civer"	"ciudad mendoza"	"camerino z. mendoza"	"veracruz de ignacio de la llave"	-97.170269	18.805151
-"auditorio san rafael "	"domicilio conocido"	"auditorio "	"av. santos degollado"	"ciudad mendoza"	"camerino z. mendoza"	"veracruz de ignacio de la llave"	-97.182418	18.809018
 "escuela primaria valentin gomez  farias "	"domicilio conocido"	"escuela"	"comunidad la laja"	"la laja"	"coatzintla"	"veracruz de ignacio de la llave"	-97.501531	20.484801
 "auditorio de la comunidad la laja"	"domicilio conocido"	"auditorio"	"junto a  la esc prim valentin gomez farias"	"la laja"	"coatzintla"	"veracruz de ignacio de la llave"	-97.501537	20.485028
 "auditorio de la comunidad "	"domicilio conocido"	"auditorio"	"corralillos"	"corralillos"	"coatzintla"	"veracruz de ignacio de la llave"	-97.525639	20.48375
@@ -695,16 +520,14 @@
 "parroquia san francisco"	"domicilio conocido"	"otro"	"calle benito jurez entre  de septiembre y jos mariah morelos"	"colipa"	"colipa"	"veracruz de ignacio de la llave"	-96.724974	19.923272
 "dif municipal"	"domicilio conocido"	"otro"	"calle morelos con esquina benito jurez"	"colipa"	"colipa"	"veracruz de ignacio de la llave"	-96.724704	19.92308
 "ganadera local colipa"	"domicilio conocido"	"otro"	"calle morelos   "	"colipa"	"colipa"	"veracruz de ignacio de la llave"	-96.724426	19.923452
-"bodega exmaquiladora"	"calle agustin  iturbide  sin n colonia centro"	"otro"	"pueblo"	"huiloapan de cuauhtmoc"	"huiloapan de cuauhtmoc"	"veracruz de ignacio de la llave"	-97.1532	18.8184
-"auditoro municipal"	"avenida hidalgo num  col. centro"	"auditorio"	"pueblo"	"huiloapan de cuauhtmoc"	"huiloapan de cuauhtmoc"	"veracruz de ignacio de la llave"	-97.1527	18.8166
-"iglesia de la inmaculada concepcin"	"domicilio conocido"	"otro"	"calle emiliano zapata s/n"	"huiloapan de cuauhtmoc"	"huiloapan de cuauhtmoc"	"veracruz de ignacio de la llave"	-97.151731	18.816769
-"jardn de nios macarenco"	"domicilio conocido"	"escuela"	"galeana esq n mendoza"	"huiloapan de cuauhtmoc"	"huiloapan de cuauhtmoc"	"veracruz de ignacio de la llave"	-97.151967	18.818623
-"telesecundaria  de enero"	"domicilio conocido"	"escuela"	"galeana esq n mendoza"	"huiloapan de cuauhtmoc"	"huiloapan de cuauhtmoc"	"veracruz de ignacio de la llave"	-97.152486	18.818809
 "centro de mando"	"independencia"	"otro"	"indeterminado"	"ixhuatlancillo"	"ixhuatlancillo"	"veracruz de ignacio de la llave"	-97.149273	18.895396
 "carrillo puerto"	"independencia"	"escuela"	"indeterminado"	"ixhuatlancillo"	"ixhuatlancillo"	"veracruz de ignacio de la llave"	-97.149104	18.895378
 "iglesia asuncin"	"independencia"	"otro"	"indeterminado"	"ixhuatlancillo"	"ixhuatlancillo"	"veracruz de ignacio de la llave"	-97.148699	18.89541
 "irma lapa de mejia"	"santa cruz"	"escuela"	"indeterminado"	"orizaba"	"orizaba"	"veracruz de ignacio de la llave"	-97.123	18.8741
 "juan escutia"	"carr. a ixhuatlancillo"	"escuela"	"indeterminado"	"cieneguilla"	"ixhuatlancillo"	"veracruz de ignacio de la llave"	-97.145764	18.895351
+"salon social"	"domicilio conocido"	"otro"	"frente al parque central"	"ixmatlahuacan"	"ixmatlahuacan"	"veracruz de ignacio de la llave"	-95.829613	18.448925
+"salon ejidal"	"domicilio conocido"	"otro"	"av. porfirio diaz s/n"	"ixmatlahuacan"	"ixmatlahuacan"	"veracruz de ignacio de la llave"	-95.830328	18.448084
+"casa parroquial"	"domicilio conocido"	"otro"	"frente al parque central"	"ixmatlahuacan"	"ixmatlahuacan"	"veracruz de ignacio de la llave"	-95.830022	18.449036
 "iglesia \"inmaculada concepcion\""	"domicilio conocido"	"otro"	"av. veracruz sur esq. jamapa oriente"	"jamapa"	"jamapa"	"veracruz de ignacio de la llave"	-96.241135	19.041289
 "\"casa de campaa\""	"domicilio conocido"	"casa"	"av. jamapa oriente"	"jamapa"	"jamapa"	"veracruz de ignacio de la llave"	-96.239764	19.041179
 "\"salon social el rincon\""	"domicilio conocido"	"recreativo"	"dom. con. loc. el rincon"	"el rincn"	"jamapa"	"veracruz de ignacio de la llave"	-96.22239	19.037929
@@ -745,13 +568,31 @@
 "salon ejidal de las vigas de ramirez"	"calle  de septiembre y nios heroes"	"otro"	"indeterminado"	"las vigas de ramrez"	"las vigas de ramrez"	"veracruz de ignacio de la llave"	-97.100288	19.632758
 "iglesia san miguel arcangel"	"zona centro"	"otro"	"indeterminado"	"las vigas de ramrez"	"las vigas de ramrez"	"veracruz de ignacio de la llave"	-97.09779	19.637673
 "campo de beisboll de las vigas"	"campo de beisboll "	"otro"	"indeterminado"	"las vigas de ramrez"	"las vigas de ramrez"	"veracruz de ignacio de la llave"	-97.108026	19.637157
+"rosa borunda de herrera"	"hidalgo entre ocampo y  de mayo"	"otro"	"hidalgo entre ocampo y  de mayo"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.523196	18.62852
+"salon seccion "	" de mayo entre lerdo y alvaro obregon"	"otro"	" de mayo entre lerdo y alvaro obregon"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.522559	18.630283
+"salon gardel"	"revolucion sur (carretera lerdo - saltabarranca)"	"otro"	"revolucion sur (carretera lerdo - saltabarranca)"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.521372	18.622549
+"salon rey david"	"morelos esntre independencia y pino suarez"	"otro"	"morelos esntre independencia y pino suarez"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.518023	18.627693
+"salon de jubilados y pensionados de la seccion "	"marco antonio muoz entre circuito zamudio y chihuahua"	"otro"	"marco antonio muoz entre circuito zamudio y chihuahua"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.515189	18.633047
+"salon seccion "	"luis delfin pardio"	"otro"	"luis delfin pardio"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.51747	18.636789
+"salon ideal"	"independencia entre hidalgo y lerdo"	"otro"	"independencia entre hidalgo y lerdo"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.518719	18.629076
+"salon ejido el zacatal"	"reforma agraria entre chiapas y campeche"	"otro"	"reforma agraria entre chiapas y campeche"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.504834	18.635976
+"salon ejido lerdo"	"independencia entre lerdo y nicolas bravo"	"otro"	"independencia entre lerdo y nicolas bravo"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.51964	18.630917
+"salon ejido pocheta (santa teresa)"	"carretera federal "	"otro"	"carretera federal "	"santa teresa"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.4924	18.6166
 "saln de usos mltiples "	"domicilio conocido"	"recreativo"	"av. rodolfo lozada centro"	"la perla "	"la perla "	"veracruz de ignacio de la llave"	-97.132784	18.930833
 "iglesia san diego"	"domicilio conocido"	"otro"	"independencia centro"	"la perla "	"la perla "	"veracruz de ignacio de la llave"	-97.134221	18.930513
 "localidad los fresnos"	"domicilio conocido"	"otro"	"col. centro "	"los fresnos"	"la perla "	"veracruz de ignacio de la llave"	-97.141675	18.947499
+"rosa borunda de herrera"	"hidalgo entre ocampo y  de mayo"	"recreativo"	"hidalgo entre ocampo y  de mayo"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.523196	18.62852
+"salon seccion "	" de mayo entre lerdo y alvaro obregon"	"recreativo"	" de mayo entre lerdo y alvaro obregon"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.522559	18.630283
+"salon gardel"	"revolucion sur (carretera lerdo - saltabarranca)"	"recreativo"	"revolucion sur (carretera lerdo - saltabarranca)"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.521372	18.622549
+"salon rey david"	"morelos esntre independencia y pino suarez"	"recreativo"	"morelos esntre independencia y pino suarez"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.518023	18.627693
+"salon de jubilados y pensionados de la seccion "	"marco antonio muoz entre circuito zamudio y chihuahua"	"recreativo"	"marco antonio muoz entre circuito zamudio y chihuahua"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.515189	18.633047
+"salon seccion "	"luis delfin pardio"	"recreativo"	"luis delfin pardio"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.51747	18.636789
+"salon ideal"	"independencia entre hidalgo y lerdo"	"recreativo"	"independencia entre hidalgo y lerdo"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.518719	18.629076
+"salon ejido el zacatal"	"reforma agraria entre chiapas y campeche"	"recreativo"	"reforma agraria entre chiapas y campeche"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.504834	18.635976
+"salon ejido lerdo"	"independencia entre lerdo y nicolas bravo"	"recreativo"	"independencia entre lerdo y nicolas bravo"	"lerdo de tejada"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.51964	18.630917
+"salon ejido pocheta (santa teresa)"	"carretera federal "	"recreativo"	"carretera federal "	"santa teresa"	"lerdo de tejada"	"veracruz de ignacio de la llave"	-95.4924	18.6166
 "iglesia"	"domicilio conocido"	"otro"	"cabecera municipal"	"magdalena"	"magdalena"	"veracruz de ignacio de la llave"	-97.0476	18.758795
 "escuela primaria"	"domicilio conocido"	"escuela"	"cabecera municipal"	"magdalena "	"magdalena"	"veracruz de ignacio de la llave"	-97.048237	18.758657
-"auditorio "	"domicilio conocido"	"auditorio "	"nicolas bravo col. centro"	"maltrata"	"maltrata"	"veracruz de ignacio de la llave"	-97.278346	18.810292
-"iglesia san pedro apostol"	"domicilio conocido"	"otro"	" de nov entre juarez y  de feb"	"maltrata"	"maltrata"	"veracruz de ignacio de la llave"	-97.277116	18.810672
 "iglesia arroyo blanco"	"domicilio conoc. arroyo blanco"	"otro"	"indeterminado"	"arroyo blanco"	"martnez de la torre"	"veracruz de ignacio de la llave"	-97.059817	20.21606
 "iglesia"	"dom. huipiltepec"	"otro"	"indeterminado"	"huipiltepec"	"martnez de la torre"	"veracruz de ignacio de la llave"	-97.110465	20.172856
 "esc. tel. narciso mendoza"	"av.  de septiembre s/n cong. jose ma. morelos y pavon"	"otro"	"indeterminado"	"manantiales"	"martnez de la torre"	"veracruz de ignacio de la llave"	-97.112875	20.173704
@@ -817,11 +658,6 @@
 "casa particular"	"domicilio conocido"	"casa"	"carretera-nautla-misantla"	"chapachapa (buena vista)"	"nautla"	"veracruz de ignacio de la llave"	-96.870867	20.1376
 "casa particular"	"domicilio conocido"	"casa"	"congragacion carretera- el huanal"	"el huanal"	"nautla"	"veracruz de ignacio de la llave"	-96.6978	20.070367
 "esc. primaria francisco i madero"	"domicilio conocido"	"escuela"	"congregacion isla de chapachapa"	"isla de chapachapa"	"nautla"	"veracruz de ignacio de la llave"	-96.88125	20.121567
-"esc. sec. francisco j clavidero"	"domicilio conocido"	"escuela"	"calle francisco y madero"	"nogales"	"nogales"	"veracruz de ignacio de la llave"	-97.171302	18.81417
-"saln parroquial iglesia san juan bautista"	"domicilio conocido"	"otro"	"av. jurez centro"	"nogales"	"nogales"	"veracruz de ignacio de la llave"	-97.162784	18.821937
-"esc. primaria anhuac"	"domicilio conocido"	"escuela "	"av. nezahualcoyotl col. anhuac"	"nogales"	"nogales"	"veracruz de ignacio de la llave"	-97.156035	18.828375
-"dif municipal centro "	"domicilio conocido"	"otro"	"av. jurez  centro"	"nogales"	"nogales"	"veracruz de ignacio de la llave"	-97.159729	18.828881
-"facultad ingenieria uv"	"domicilio conocido"	"escuela "	"av. jurez esq. bravo"	"nogales"	"nogales"	"veracruz de ignacio de la llave"	-97.162796	18.818197
 "auditorio gutirrez zamora"	"norte "	"auditorio"	"benito jurez"	"orizaba"	"orizaba"	"veracruz de ignacio de la llave"	-97.090936	18.836881
 "club del abuelo"	"cri-cri"	"casa"	"aulicaba"	"orizaba"	"orizaba"	"veracruz de ignacio de la llave"	-97.109697	18.857324
 "recinto feria expori"	"calle guerrero "	"auditorio"	"moctezuma"	"orizaba"	"orizaba"	"veracruz de ignacio de la llave"	-97.086206	18.856756
@@ -882,8 +718,30 @@
 "auditorio ugm"	"domicilio conocido"	"auditorio "	"av. veracruz "	"ro blanco"	"ro blanco "	"veracruz de ignacio de la llave"	-97.153228	18.83424
 "iglesia sagrado corazn de jess"	"domicilio conocido"	"otro"	"av. veracruz centro"	"ro blanco"	"ro blanco "	"veracruz de ignacio de la llave"	-97.152613	18.834584
 "auditorio benito jurez"	"domicilio conocido"	"auditorio "	"oriente  centro"	"ro blanco"	"ro blanco "	"veracruz de ignacio de la llave"	-97.152024	18.831659
+"saln social"	"domicilio conocido"	"otro"	" de septiembre,  esq. guillermo prieto "	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.532932	18.593369
+"saln comisariado ejidal"	"domicilio conocido"	"otro"	"independencia esq. circunvalacin"	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.53192	18.594884
+"saln asociacin ganadera"	"domicilio conocido"	"otro"	"independencia esq. miguel hidalgo"	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.531938	18.59143
+"templo monte horeb"	"domicilio conocido"	"otro"	"miguel hidalgo / melchor ocampo y gpe. victoria"	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.52946	18.591312
+"templo jess de nazaret"	"domicilio conocido"	"otro"	"jos ma. morelos, esq. nicols b."	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.530993	18.589477
+"templo alfa homega"	"domicilio conocido"	"otro"	"jos ma. morelos, esq. vila camacho"	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.531073	18.586689
+"iglesia catlica san isidro l."	"domicilio conocido"	"otro"	"benito jurez, esq.guillermo prieto"	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.532789	18.590184
+"pergola del parque mpal."	"domicilio conocido"	"otro"	"entre ignacio zaragoza y benito jurez "	"saltabarranca"	"saltabarranca"	"veracruz de ignacio de la llave"	-95.532496	18.590373
 "escuela \"independencia y libertad"	"domicilio conocido"	"escuela"	"por las vias del tren"	"san andrs tenejapan"	"san andrs tenejapan"	"veracruz de ignacio de la llave"	-97.093942	18.789218
 "escuela enrique c. rebsamen\""	"domicilio conocido"	"escuela"	"frente al campo deportivo"	"san andrs tenejapan"	"san andrs tenejapan"	"veracruz de ignacio de la llave"	-97.093942	18.789218
+"salon de usos multiples"	"domicilio conocido"	"recreativo"	" enrique lpez huitrn"	"enrique lpez huitrn"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.247778	18.6511111
+"templo evangelico"	"domicilio conocido"	"otro"	" ley seis de enero de "	"ley seis de enero de "	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.2675	18.619722
+"auditorio del templo evangelista"	"domicilio conocido"	"otro"	"calle felix soriano la nueva victoria"	"la nueva victoria"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.256112	18.654105
+"escuela primaria vicente guerrero"	"domicilio conocido"	"escuela"	"calle zenen echeverria s/n toro prieto"	"toro prieto"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.217683	18.703094
+"escuela primaria vicente guerrero"	"domicilio conocido"	"escuela"	"avenida belisario dominguez costa de oro (arroyo de oro)"	"costa de oro (arroyo de oro)"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.176393	18.690114
+"salon de uso multiple"	"domicilio conocido"	"recreativo"	"carretera montepio a la nueva victoria arroyo de liza"	"arroyo de liza"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.185	18.702778
+"saln ejidal"	"domicilio conocido"	"recreativo"	" san juan de la gloria"	"san juan de la gloria"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.2627	18.675475
+"escuela primaria emiliano zapata"	"domicilio conocido"	"escuela"	"calle principal ley seis de enero de "	"ley seis de enero de "	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.267531	18.62039
+"casa ejidal"	"domicilio conocido"	"recreativo"	"calle chiapas s/n salinas roca partida"	"salinas roca partida"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.243	18.7026
+"escuela general emiliano zapata"	"domicilio conocido"	"escuela"	"calle emiliano zapata # esq. alvaro obregon san juan de la gloria"	"san juan de la gloria"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.2632	18.6754
+"salon ejidal"	"domicilio conocido"	"recreativo"	"calle del cerrito costa de oro (arroyo de oro)"	"costa de oro (arroyo de oro)"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.1763	18.6901
+"escuela primaria francisco villa"	"domicilio conocido"	"escuela"	"calle independencia s/n los organos"	"los organos"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.1526	18.657
+"escuela primaria miguel hidalgo y costillas"	"domicilio conocido"	"escuela"	"calle ignacio aldama arroyo de liza"	"arroyo de liza"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.1844	18.7026
+"escuela primaria principal"	"domicilio conocido"	"escuela"	" salinas roca partida"	"salinas roca partida"	"san andrs tuxtla"	"veracruz de ignacio de la llave"	-95.237683	18.702585
 "auditorio municipal \"benito juarez \""	"domicilio conocido"	"auditorio"	"carretera federal n.   col. centro san rafael, ver"	"san rafael"	"san rafael"	"veracruz de ignacio de la llave"	-96.868472	20.192972
 "\"el pital\""	"domicilio conocido"	"escuela"	"cecilio gonzales no."	"el pital"	"san rafael"	"veracruz de ignacio de la llave"	-96.899389	20.156889
 "\"potrero nuevo\""	"domicilio conocido"	"escuela"	"c. nios heroes s/n. guadalupe victoria (potrero nuevo)."	"guadalupe victoria"	"san rafael"	"veracruz de ignacio de la llave"	-96.914306	20.166444
@@ -972,6 +830,19 @@
 "domo de la comunidad"	"domicilio conocido"	"auditorio"	"acuatempan"	"tihuatln"	"tihuatlan"	"veracruz de ignacio de la llave"	-97.527962	20.645068
 "auditorio ejidal"	"domicilio conocido"	"auditorio"	"la union"	"tihuatln"	"tihuatlan"	"veracruz de ignacio de la llave"	-97.496657	20.728224
 "auditorio ejidal"	"domicilio conocido"	"auditorio"	"km  ejido lazaro cardenas"	"tihuatln"	"tihuatlan"	"veracruz de ignacio de la llave"	-97.484944	20.572833
+"salon social tlalixcoyan"	"domicilio conocido"	"recreativo"	"av. benito juarez, col. centro"	"tlalixcoyan"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.060559	18.801945
+"salon del comisariado ejidal tlalix."	"domicilio conocido"	"recreativo"	"av. eusebio gallegos, col centro"	"tlalixcoyan"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.063123	18.802148
+"salon social"	"domicilio conocido"	"recreativo"	"centro"	"el zapote"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.123337	18.769444
+"casa de cultura piedras negras"	"domicilio conocido"	"recreativo"	"carr. rdo fdez v, col. fco. i madero"	"el zapote"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.184444	18.765833
+"salon de la asc. ganadera "	"domicilio conocido"	"recreativo"	"av. vicente guerrero col. centro"	"el zapote"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.174414	18.771228
+"salon social piedras negras"	"domicilio conocido"	"recreativo"	"av. independencia col. centro"	"el zapote"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.173072	18.76974
+"salon social paso de la boca"	"domicilio conocido"	"recreativo"	"av.  de febrero, col centro"	"paso de la boca"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.104781	18.725405
+"salon social ejidal cocuite"	"domicilio conocido"	"recreativo"	"c. francisco canal, centro"	"el cocuite"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.087145	18.717857
+"esc. prim josefa ortiz de domnguez"	"domicilio conocido"	"escuela"	"calle s/ nombre, centro"	"recreo segundo"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.093451	18.741579
+"salon ejidal "	"domicilio conocido"	"recreativo"	"c.  de mayo, laguna del cedral"	"laguna del cedral"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.100238	18.676667
+"jardin de nios lorenzo delfin cano"	"domicilio conocido"	"escuela"	"c.  de mayo, laguna del cedral."	"laguna del cedral"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.100238	18.676524
+"esc. prim ignacio de la llave"	"domicilio conocido"	"escuela"	"c.  de mayo, laguna del cedral"	"laguna del cedral"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.099747	18.676903
+"salon social moralillo"	"domicilio conocido"	"recreativo"	"calle principal moralillo."	"el moralillo"	"tlalixcoyan"	"veracruz de ignacio de la llave"	-96.119722	18.718889
 "h. ayuntamiento"	"domicilio conocido"	"refugio"	"poniente esquina con division del norte col guadalupe victoria"	"tlalnelhuayocan"	"tlalnelhuayocan"	"veracruz de ignacio de la llave"	-96.975245	19.567139
 "h. ayuntamiento"	"domicilio conocido"	"refugio"	"ruiz cortinez s/n col. guadalupe victoria"	"tlalnelhuayocan"	"tlalnelhuayocan"	"veracruz de ignacio de la llave"	-96.975044	19.56511
 "auditorio municipal."	"domicilio conocido"	"auditorio"	"col manuel almanza"	"tlapacoyan"	"tlapacoyan"	"veracruz de ignacio de la llave"	-97.210017	19.96954
@@ -1123,33 +994,23 @@
 "tamalin"	"zona centro colonia segunda manzana "	"escuela"	"indeterminado"	"tamaln"	"tamaln"	"veracruz de ignacio de la llave"	-97.813445	21.337811
 "heriberto xaras corona"	"calle principal"	"escuela"	"indeterminado"	"saladero"	"tamaln"	"veracruz de ignacio de la llave"	-97.54738	21.422833
 "faladero"	"calle principal"	"escuela"	"indeterminado"	"saladero"	"tamaln"	"veracruz de ignacio de la llave"	-97.5482	21.4228
-"cabecera municipal"	"calle hernandez hernandez "	"otro"	"cabecera municipal"	"zontecomatln de lpez y fuentes"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3434	20.7622
 "acoxcontitla"	"calle principal"	"otro"	"acoxcontitla"	"acoxcontitla"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3034	20.7675
 "agua fria"	"calle sin nombre"	"otro"	"agua fria"	"agua fra"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2082	20.6952
-"altamira"	"calle sin nombre"	"otro"	"altamira"	"altamira"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3489	20.7021
-"caballete"	"calle sin nombre"	"otro"	"caballete"	"caballete"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3495	20.732
-"cruztitlan"	"calle sin nombre"	"otro"	"cruztitlan"	"cruztitln"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3474	20.7576
 "cuatecomaco"	"calle sin nombre"	"otro"	"cuatecomaco"	"cuatecomaco"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.272622	20.771805
 "el cuayo"	"calle sin nombre"	"otro"	"el cuayo"	"el cuayo"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.1978	20.7102
 "la esperanza"	"calle sin nombre"	"otro"	"la esperanza"	"el cuayo (la esperanza)"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.201492	20.714824
 "el encinal"	"calle sin nombre"	"otro"	"el encinal"	"el encinal"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2102	20.7444
 "el mamey"	"calle sin nombre"	"otro"	"el mamey"	"el mamey"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3001	20.7699
-"el mirador"	"calle sin nombre"	"otro"	"el mirador"	"el mirador"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3508	20.6948
 "el ojital"	"calle sin nombre"	"otro"	"el ojital"	"el ojital"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.223885	20.699892
 "el partidero"	"calle sin nombre"	"otro"	"el partidero"	"el partidero"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.276951	20.725803
 "el progreso"	"calle sin nombre"	"otro"	"el progreso"	"el progreso"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2334	20.7581
 "el puente"	"calle sin nombre"	"otro"	"el puente"	"el puente"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2097	20.7421
-"hueytlamaya"	"calle sin nombre"	"otro"	"hueytlamaya"	"hueytlamaya"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3574	20.7688
-"pino suarez"	"calle sin nombre"	"otro"	"pino suarez"	"jos mara pino surez"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3933	20.7395
 "la candelaria"	"calle sin nombre"	"otro"	"la candelaria"	"la candelaria"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3267	20.7674
 "limontitla"	"calle sin nombre"	"otro"	"limontitla"	"limontitla"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2348	20.7369
-"los naranjos"	"calle sin nombre"	"otro"	"los naranjos"	"los naranjos"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3736	20.7206
-"moloxla"	"calle sin nombre"	"otro"	"moloxla"	"moloxla"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3979	20.7245
 "otlatzintla"	"calle sin nombre"	"otro"	"otlatzintla"	"otlatzintla"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2489	20.7794
 "pachitla"	"calle sin nombre"	"otro"	"pachitla"	"pachitla"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3231	20.7651
 "papalocuatla"	"calle sin nombre"	"otro"	"papalocuatla"	"papalocuatla"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.2307	20.7648
 "pochoco"	"calle sin nombre"	"otro"	"pochoco"	"pochoco"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.241521	20.780133
-"rancho nuevo"	"calle sin nombre"	"otro"	"rancho nuevo"	"rancho nuevo"	"zontecomatln de lpez y fuentes"	"veracruz de ignacio de la llave"	-98.3501	20.7563
 "escuela primaria aurelia valenzuela"	"domicilio conocido"	"escuela"	"conocido"	"benito jurez"	"benito jurez"	"veracruz de ignacio de la llave"	-98.2048	20.8852
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"ahuapilol"	"benito jurez"	"veracruz de ignacio de la llave"	-98.2414	20.8998
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"ahuatitla"	"benito jurez"	"veracruz de ignacio de la llave"	-98.2011	20.7474
@@ -1194,110 +1055,18 @@
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tolico zapata"	"benito jurez"	"veracruz de ignacio de la llave"	-98.1313	20.7668
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"xoxhioloco"	"benito jurez"	"veracruz de ignacio de la llave"	-98.2373	20.8579
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"yupiltitla"	"benito jurez"	"veracruz de ignacio de la llave"	-98.2527	20.8425
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"agua bendita"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5223	20.3621
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"altamira"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4491	20.4733
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"buena vista"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4905	20.5452
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"los parajes"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.497222	20.541944
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"buena vista"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4097	20.5846
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"camarones"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4497	20.5009
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"carbonero jacales"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4717	20.4199
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"cerro de la lagunilla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5146	20.4494
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"chichapala"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.3919	20.6607
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"corral viejo"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.470585	20.383231
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"cruz de ataque"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4381	20.4355
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"donang barrio arriba"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4689	20.3728
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"los duraznos"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.484444	20.513056
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el batda"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4058	20.5554
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tzimentey de abajo"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.3959	20.6184
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el cupil"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.3578	20.6547
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"la paloma"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4396	20.5452
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el dota"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.3794	20.6398
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el naranjo"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4091	20.4823
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el zapote"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5348	20.4322
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"miguel lerdo"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4051	20.6719
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"helechales"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4682	20.6045
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"la calera"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4707	20.5047
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"la loma"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4275	20.616389
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"la selva "	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5057	20.5681
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"las blancas (palo gordo)"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5028	20.3489
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"loma alta"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4675	20.5192
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"loma de yeguas"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5131	20.3933
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"los charcos"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.424654	20.689849
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"maguey verde (atecongo)"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5732	20.4812
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"miguel lerdo"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4051	20.6718
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"monte obscuro"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.41218	20.4524
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"ojo de agua"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.484004	20.463921
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"palo bendito"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4996	20.4562
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"potrero de monroy"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4048	20.3955
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"potrero seco"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4583	20.5318
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"rafael valenzuela (san josecito)"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5296	20.4671
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"rosa de castilla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.458005	20.372917
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"san antonio ixtatetla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.3936	20.6926
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"san jocesito"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.539167	20.521944
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"san juan la laguna"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5571	20.4587
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"santiago"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5267	20.4419
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tenango san miguel"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4098	20.6265
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tenantitln"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4306	20.5025
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"teximalpa"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.514856	20.414103
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tzimintey (las piedras)"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4259	20.6231
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tzimintey (las piedras)"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4152	20.6183
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"viborillas"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.5032	20.5085
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"zilacatipan (tenaxcalzingo)"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.430247	20.656097
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"zonzonapa"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4382	20.6871
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"huayacocotla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4792	20.5389
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"huayacocotla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4749	20.5427
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"huayacocotla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4798	20.5341
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"huayacocotla"	"huayacocotla"	"veracruz de ignacio de la llave"	-98.4882	20.5335
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"ilamatln"	"ilamatln"	"veracruz de ignacio de la llave"	-98.443988	20.779478
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"amatepec"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4074	20.7939
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"apachitla"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4799	20.7272
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"atempa"	"ilamatln"	"veracruz de ignacio de la llave"	-98.415278	20.755556
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"chahuatln"	"ilamatln"	"veracruz de ignacio de la llave"	-98.393056	20.783333
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"chochotla"	"ilamatln"	"veracruz de ignacio de la llave"	-98.5133	20.7384
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"coacoaco"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4369	20.8273
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"conquextla"	"ilamatln"	"veracruz de ignacio de la llave"	-98.444877	20.737249
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el embocadero"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3848	20.8493
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"huitztipan"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3632	20.8369
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"pahuayo grande"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3273	20.8157
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"petlacuatla"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4068	20.7622
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"san gregorio"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3908	20.8202
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"san mateo"	"ilamatln"	"veracruz de ignacio de la llave"	-98.5368	20.6904
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"san pablo mitecatln"	"ilamatln"	"veracruz de ignacio de la llave"	-98.5209	20.7064
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"santa cruz"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4198	20.7968
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tecapa"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4624	20.7339
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tenexco"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4378	20.7507
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tlamacuimpa"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3808	20.8013
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tlatlazoquico"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3565	20.8206
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"toltepec"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3703	20.8386
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tonalixco"	"ilamatln"	"veracruz de ignacio de la llave"	-98.4557	20.7241
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"xaltipa"	"ilamatln"	"veracruz de ignacio de la llave"	-98.459722	20.716389
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"xoxocapa"	"ilamatln"	"veracruz de ignacio de la llave"	-98.3518	20.8093
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"texcatepec"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3642	20.5853
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"agua linda"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3872	20.5722
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"amaxac"	"texcatepec"	"veracruz de ignacio de la llave"	-98.2651	20.6186
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"ayotuxtla"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3024	20.6487
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"casa redonda"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3799	20.6002
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"cerro gordo"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3242	20.6715
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"chila enrquez"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3429	20.5762
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el pericn"	"texcatepec"	"veracruz de ignacio de la llave"	-98.2574	20.6442
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el sotano"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3549	20.5608
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el tomate"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3816	20.5794
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"la florida"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3392	20.5958
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"la mirra"	"texcatepec"	"veracruz de ignacio de la llave"	-98.350278	20.627778
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"las canoas"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3491	20.5955
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"pie de la cuesta"	"texcatepec"	"veracruz de ignacio de la llave"	-98.3622	20.6095
 "salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tzicatlan"	"texcatepec"	"veracruz de ignacio de la llave"	-98.2377	20.6741
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tlachichilco"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2007	20.616813
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"apetlaco"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1811	20.6948
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"chintipan"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1856	20.6594
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"despensa grande"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2391	20.5314
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el coyol"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1849	20.6742
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el mirador de la llave"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2279	20.5408
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el naranjal"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1645	20.7295
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"el suchil"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2296	20.5783
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"gomez faras"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2703	20.5051
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"la jabonera"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1427	20.7241
-"escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"la llave"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2095	20.5516
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"la soledad"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1543	20.7034
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"landero y coos"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1981	20.5954
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"monterrey"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1566	20.6499
@@ -1307,32 +1076,6 @@
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"xalame"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.1823	20.6677
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"xicotncatl (palos altos)"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.2066	20.5646
 "escuela primaria"	"domicilio conocido"	"escuela"	"conocido"	"tuzancalli"	"tlachichilco"	"veracruz de ignacio de la llave"	-98.139779	20.679461
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"atixtaca"	"zacualpan "	"veracruz de ignacio de la llave"	-98.39414	20.498227
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"zacualpan"	"zacualpan "	"veracruz de ignacio de la llave"	-98.350623	20.43314
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"canalejas de otates"	"zacualpan "	"veracruz de ignacio de la llave"	-98.429778	20.430803
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"carrizal chico"	"zacualpan "	"veracruz de ignacio de la llave"	-98.31908	20.441474
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"carrizal chifln"	"zacualpan "	"veracruz de ignacio de la llave"	-98.377013	20.404141
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"carrizal grande"	"zacualpan "	"veracruz de ignacio de la llave"	-98.284291	20.488147
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"cerro chato"	"zacualpan "	"veracruz de ignacio de la llave"	-98.298195	20.556354
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tzocohuite"	"zacualpan "	"veracruz de ignacio de la llave"	-98.408507	20.461952
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"cuarta manzana"	"zacualpan "	"veracruz de ignacio de la llave"	-98.363602	20.43882
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tlachichilquillo"	"zacualpan "	"veracruz de ignacio de la llave"	-98.365734	20.412358
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el capuln"	"zacualpan "	"veracruz de ignacio de la llave"	-98.339085	20.471455
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el cojolite"	"zacualpan "	"veracruz de ignacio de la llave"	-98.28938	20.503664
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el demantza"	"zacualpan "	"veracruz de ignacio de la llave"	-98.339316	20.489145
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el guayabal"	"zacualpan "	"veracruz de ignacio de la llave"	-98.322257	20.422325
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el madotzi"	"zacualpan "	"veracruz de ignacio de la llave"	-98.385918	20.453743
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el madroo"	"zacualpan "	"veracruz de ignacio de la llave"	-98.319673	20.458714
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"el tundo"	"zacualpan "	"veracruz de ignacio de la llave"	-98.31263	20.541768
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"general prim (san francisco)"	"zacualpan "	"veracruz de ignacio de la llave"	-98.3029	20.4844
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"la baldeza"	"zacualpan "	"veracruz de ignacio de la llave"	-98.3457	20.4198
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"la pezma"	"zacualpan "	"veracruz de ignacio de la llave"	-98.3387	20.5282
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"monte bueno"	"zacualpan "	"veracruz de ignacio de la llave"	-98.27571	20.546929
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"pueblo nuevo"	"zacualpan "	"veracruz de ignacio de la llave"	-98.261627	20.564917
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"pueblo viejo"	"zacualpan "	"veracruz de ignacio de la llave"	-98.3652	20.4684
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tercera manzana"	"zacualpan "	"veracruz de ignacio de la llave"	-98.347152	20.449015
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"tlachichilquillo"	"zacualpan "	"veracruz de ignacio de la llave"	-98.3657	20.4125
-"salon de usos multiples"	"domicilio conocido"	"recreativo"	"conocido"	"zacualpilla"	"zacualpan "	"veracruz de ignacio de la llave"	-98.3667	20.4244
 "salon social cabecera municipal"	"domicilio conocido"	"recreativo"	"calle miguel hidalgo s/n col. centro "	"acajete"	"acajete"	"veracruz de ignacio de la llave"	-97.013889	19.584722
 "salon social la  joya"	"domicilio conocido"	"recreativo"	"venustiano carranza s/n col.centro "	"la joya"	"acajete"	"veracruz de ignacio de la llave"	-97.026893	19.611763
 "salon social encinal ii"	"domicilio conocido"	"recreativo"	"camino rural de ejido sanpedro buena vista "	"el encinal dos"	"acajete"	"veracruz de ignacio de la llave"	-97.019444	19.573889
@@ -1405,10 +1148,6 @@
 "potrero "	" de sep. calles miguel alemn y lzaro crdenas "	"otro"	"indeterminado"	"amatln de los reyes"	"amatln de los reyes"	"veracruz de ignacio de la llave"	-96.914896	18.844805
 "ignacio zaragoza ojo de agua chico "	"col. centro camino a la pesca "	"otro"	"indeterminado"	"ignacio zaragoza"	"amatln de los reyes"	"veracruz de ignacio de la llave"	-96.837921	18.915911
 "amalan de los reyes "	"col. centro calle  de mayo esq. con matamoros "	"otro"	"indeterminado"	"amatln de los reyes"	"amatln de los reyes"	"veracruz de ignacio de la llave"	-96.913209	18.842267
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"astacinga"	"astacinga"	"veracruz de ignacio de la llave"	-97.102083	18.566278
-"esc. prim.justo sierra"	"huapango"	"escuela"	"indeterminado"	"huapango"	"astacinga"	"veracruz de ignacio de la llave"	-97.091944	18.5675
-"casa del nio indgena "	"domicilio conocido"	"otro"	"indeterminado"	"astacinga"	"astacinga"	"veracruz de ignacio de la llave"	-97.099167	18.5675
-"auditorio municipal"	"zacamilola"	"otro"	"indeterminado"	"zacamilola"	"atlahuilco"	"veracruz de ignacio de la llave"	-97.0844	18.6691
 ""	"revolucin "	"otro"	"indeterminado"	"ayahualulco"	"ayahualulco"	"veracruz de ignacio de la llave"	-97.149306	19.353194
 "saln social"	"revolucin "	"otro"	"indeterminado"	"ayahualulco"	"ayahualulco"	"veracruz de ignacio de la llave"	-97.148084	19.351423
 "calcahualco"	"domicilio conocido"	"otro"	"indeterminado"	"calcahualco"	"calcahualco"	"veracruz de ignacio de la llave"	-97.079283	19.119689
@@ -1667,14 +1406,14 @@
 "paso del macho"	"colonia"	"otro"	"indeterminado"	"paso del macho"	"paso del macho"	"veracruz de ignacio de la llave"	-96.72388889	18.97138889
 "paso del macho"	"colonia"	"otro"	"indeterminado"	"paso del macho"	"paso del macho"	"veracruz de ignacio de la llave"	-96.72388889	18.97138889
 "auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"san andrs tenejapan"	"san andrs tenejapan"	"veracruz de ignacio de la llave"	-97.09222222	18.78861111
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"texhuacn"	"texhuacn"	"veracruz de ignacio de la llave"	-97.03888889	18.62194444
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"texhuacn"	"texhuacn"	"veracruz de ignacio de la llave"	-97.03888889	18.62194444
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"soledad atzompa"	"soledad atzompa"	"veracruz de ignacio de la llave"	-97.151828	18.755402
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"soledad atzompa"	"soledad atzompa"	"veracruz de ignacio de la llave"	-97.151828	18.755402
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"tehuipango"	"tehuipango"	"veracruz de ignacio de la llave"	-97.056236	18.51775
-"auditorio municipal"	"domicilio conocido"	"otro"	"indeterminado"	"tehuipango"	"tehuipango"	"veracruz de ignacio de la llave"	-97.056236	18.51775
 "auditorio municipal de tlacolulan "	"domicilio conocido"	"otro"	"indeterminado"	"tenampa"	"tenampa "	"veracruz de ignacio de la llave"	-96.883553	19.251057
 "prim. juan de la luz enriquez"	"domicilio conocido"	"escuela"	"indeterminado"	"teocelo"	"teocelo"	"veracruz de ignacio de la llave"	-96.974377	19.385731
+"salon asoc. ganadera local"	"domicilio conocido"	"otro"	"indeterminado"	"tierra blanca"	"tierra blanca"	"veracruz de ignacio de la llave"	-96.352364	18.448254
+"salon social p. negras"	"domicilio conocido"	"otro"	"indeterminado"	"tierra blanca"	"tierra blanca"	"veracruz de ignacio de la llave"	-96.35722222	18.44888889
+"salon social paso de la boca"	"domicilio conocido"	"otro"	"indeterminado"	"tierra blanca"	"tierra blanca"	"veracruz de ignacio de la llave"	-96.35722222	18.44888889
+"comisariado ejidal cocuite"	"domicilio conocido"	"otro"	"indeterminado"	"tierra blanca"	"tierra blanca"	"veracruz de ignacio de la llave"	-96.35722222	18.44888889
+"temporal"	"domicilio conocido"	"otro"	"indeterminado"	"tierra blanca"	"tierra blanca"	"veracruz de ignacio de la llave"	-96.35722222	18.44888889
+"auditorio municipal."	"domicilio conocido"	"otro"	"indeterminado"	"tierra blanca"	"tierra blanca"	"veracruz de ignacio de la llave"	-96.35722222	18.44888889
 "amatilla"	"colonia"	"otro"	"indeterminado"	"tlacotepec de meja"	"tlacotepec de meja"	"veracruz de ignacio de la llave"	-96.820654	19.182079
 "chixtla"	"comunidad"	"otro"	"indeterminado"	"tlacotepec de meja"	"tlacotepec de meja"	"veracruz de ignacio de la llave"	-96.855492	19.178572
 "tlacotepec"	"colonia"	"otro"	"indeterminado"	"tlacotepec de meja"	"tlacotepec de meja"	"veracruz de ignacio de la llave"	-96.835	19.19166667
@@ -1733,31 +1472,13 @@
 "escuela primaria revolucin"	"domicilio conocido"	"escuela"	""	"tonalapa"	"ahuacatln"	"puebla"	-97.847918	20.043378
 "escuela primaria ignacio zaragoza"	"domicilio conocido"	"escuela"	""	"tlayehualancingo"	"ahuacatln"	"puebla"	-97.829365	20.032545
 "escuela primaria benito jurez"	"domicilio conocido"	"escuela"	""	"san francisco ixquihuacan"	"ahuacatln"	"puebla"	-97.829365	20.032545
-"escuela primaria nios heroes"	"domicilio conocido"	"escuela"	""	"san jeronimo coaltepec"	"ahuacatln"	"puebla"	-97.872146	20.007749
-"auditorio municipal"	"domicilio conocido"	"otro"	""	"cabecera municipal"	"ahuazotepec"	"puebla"	-98.1628725	20.046279
-"escuela primaria justo sierra"	"domicilio conocido"	"escuela"	""	"beristain"	"ahuazotepec"	"puebla"	-98.133528	20.091214
-"escuela primaria crsitobal con"	"domicilio conocido"	"escuela"	""	"laguna seca"	"ahuazotepec"	"puebla"	-98.117812	20.033694
-"escuela primaria emiliano zapata"	"domicilio conocido"	"escuela"	""	"tejamaniles"	"ahuazotepec"	"puebla"	-98.141753	20.067971
-"escuela primaria general francisco villa"	"domicilio conocido"	"escuela"	""	"tenejaque"	"ahuazotepec"	"puebla"	-98.105341	20.098832
-"escuela primaria benito jurez"	"domicilio conocido"	"escuela"	""	"mesa chica"	"ahuazotepec"	"puebla"	-98.103863	20.045692
-"escuela primaria ignacio zaragoza"	"domicilio conocido"	"escuela"	""	"san antonio buena vista"	"ahuazotepec"	"puebla"	-98.123031	20.056168
 "el mirasol"	"domicilio conocido"	"otro"	""	"cabecera municipal"	"amixtln"	"puebla"	-97.797203	20.050771
 "beneficio de caf"	"domicilio conocido"	"otro"	""	"amixtln"	"amixtln"	"puebla"	-97.797203	20.050771
 "auditorio municipal"	"domicilio conocido"	"otro"	""	"amixtln"	"amixtln"	"puebla"	-97.797203	20.050771
-"escuela telesecundaria general ignacio abasolo"	"domicilio conocido"	"escuela"	""	"cabecera municipal"	"aquixtla"	"puebla"	-97.932716	19.799862
-"auditorio municipal"	"domicilio conocido"	"otro"	""	"cabecera municipal"	"aquixtla"	"puebla"	-97.9366612	19.7966433
-"escuela primaria lic. adolfo lpez mateos"	"domicilio conocido"	"escuela"	""	"chichicaxtla"	"aquixtla"	"puebla"	-97.972037	19.744936
-"escuela telesecundaria benito jurez garca"	"domicilio conocido"	"escuela"	""	"tlachiapa"	"aquixtla"	"puebla"	-97.945278	19.828333
-"escuela primaria"	"domicilio conocido"	"escuela"	""	"cuautieco"	"aquixtla"	"puebla"	-97.923764	19.784472
-"auditorio municipal"	"domicilio conocido"	"otro"	""	"el terrero"	"aquixtla"	"puebla"	-97.954246	19.787707
-"escuela primaria"	"domicilio conocido"	"escuela"	""	"atexcac"	"aquixtla"	"puebla"	-97.923518	19.813068
 "escuela primaria \"rafael jimnez"	"domicilio conocido"	"escuela"	""	"cabecera municipal"	"cuautempan"	"puebla"	-97.796557	19.912974
 "escuela primaria emiliano zapata"	"domicilio conocido"	"escuela"	""	"texamanila"	"cuautempan"	"puebla"	-97.780556	19.88
 "escuela primaria miguel hidalgo"	"domicilio conocido"	"escuela"	""	"tecapagco"	"cuautempan"	"puebla"	-97.768761	19.902618
-"escuela primaria"	"domicilio conocido"	"escuela"	""	"papalotla"	"cuautempan"	"puebla"	-97.806173	19.88938
 "escuela primaria"	"domicilio conocido"	"escuela"	""	"totocuautla"	"cuautempan"	"puebla"	-97.773773	19.930977
-"auditorio municipal"	"domicilio conocido"	"otro"	""	"cabecera municipal"	"chignahuapan"	"puebla"	-98.0313358	19.8387062
-"bomberos"	"domicilio conocido"	"bomberos"	""	"cabecera municipal"	"chignahuapan"	"puebla"	-98.0313358	19.8387062
 "primaria guillermo prieto"	"benito jurez"	"escuela"	""	"los naranjos"	"francisco z. mena"	"puebla"	-97.8738	20.636976
 "primaria mariano azuela"	"principal"	"escuela"	""	"los planes"	"francisco z. mena"	"puebla"	-97.896424	20.689949
 "primaria adolfo lpez mateos"	"principal"	"escuela"	""	"la maquina"	"francisco z. mena"	"puebla"	-97.90369	20.723959
@@ -1770,31 +1491,15 @@
 "auditorio municipal"	"domicilio conocido"	"otro"	""	"bienvenido"	"hermenegildo galeana"	"puebla"	-97.744262	20.121693
 "escuela primaria miguel hidalgo"	"domicilio conocido"	"escuela"	""	"osorno"	"hermenegildo galeana"	"puebla"	-97.71501	20.144787
 "presidencia auxiliar"	"domicilio conocido"	"otro"	""	"coyay"	"hermenegildo galeana"	"puebla"	-97.7534938	20.0840571
-"recinto ferial"	"art.  colonia el potro"	"otro"	""	"huauchinango"	"huauchinango"	"puebla"	-98.0744791	20.1732986
-"palacio del deporte"	"santos de gollado"	"otro"	""	"huauchinango"	"huauchinango"	"puebla"	-98.049611	20.174442
-"club rotatorio"	"santos de gollado"	"otro"	""	"huauchinango"	"huauchinango"	"puebla"	-98.049611	20.174442
-"club de leones"	"morelos"	"otro"	""	"huauchinango"	"huauchinango"	"puebla"	-98.0516401	20.1746556
-"auditorio prtesidencia municipal"	"plaza de la constitucin"	"auditorio"	""	"huauchinango"	"huauchinango"	"puebla"	-98.0455162	20.1752392
-"dif municipal"	"morelos"	"otro"	""	"huauchinango"	"huauchinango"	"puebla"	-98.0504568	20.1753188
-"saln parroquial"	"domicilio conocido"	"otro"	""	"tateno"	"ixtacamaxtitlan"	"puebla"	-97.7218859	19.610138
 "bachillerato lindoro hernndez"	"domicilio conocido"	"escuela"	""	"apapantilla"	"jalpan"	"puebla"	-97.844722	20.404444
 "primaria jos clemente orosco"	"independencia"	"escuela"	""	"jalpan"	"jalpan"	"puebla"	-97.942808	20.477991
 "telesecundaria jose luis cuevas"	""	"escuela"	""	"techalotla"	"jalpan"	"puebla"	-97.965295	20.435608
 "presidencia auxiliar"	"benito jurez esquina con galeana"	"otro"	""	"chicontla"	"jopala"	"puebla"	-97.8306285	20.2428314
 "iglesia"	"galeana"	"otro"	""	"chicontla"	"jopala"	"puebla"	-97.830297	20.244419
 "primaria venustiano carranza"	"galeana"	"escuela"	""	"chicontla"	"jopala"	"puebla"	-97.829427	20.2444412
-"primaria margarita nuez de vila camacho"	"las torres no.  colonia hidalgo nuevo necaxa"	"escuela"	""	"nueva necaxa"	"juan galindo"	"puebla"	-98.004733	20.210177
-"primaria arquiles serdn"	"venustiano carranza no.  colonia el naranjal"	"escuela"	""	"nueva necaxa"	"juan galindo"	"puebla"	-98.011008	20.212716
-"servicios pastorales, junto a la iglesia de la santa cruz"	"morelos"	"casa"	""	"nueva necaxa"	"juan galindo"	"puebla"	-98.0042032	20.2123716
-"auditorio"	"principal"	"auditorio"	""	"naupan"	"naupan"	"puebla"	-98.1027527	20.2379438
 "primaria jos mara morelos y pavon"	" de abril"	"escuela"	""	"olintla"	"olintla"	"puebla"	-97.682103	20.102695
 "primaria miguel hidalgo y costilla"	" de abril"	"escuela"	""	"olintla"	"olintla"	"puebla"	-97.6845694	20.1030673
 "saln de usos multiples y plaza civica"	""	"otro"	""	"vicente guerrero"	"olintla"	"puebla"	-97.6820461	20.1037113
-"bachicherato miguel hidalgo"	"c.b. zetina y gabriel mancera"	"escuela"	""	"pahuatlan"	"pahuatlan"	"puebla"	-98.14974	20.27535
-"parroquia santiago apostol"	" de enero"	"otro"	""	"pahuatlan"	"pahuatlan"	"puebla"	-98.1525172	20.2752287
-"auditorio municipal"	"leonardo valle"	"auditorio"	""	"pahuatlan"	"pahuatlan"	"puebla"	-98.1525172	20.2752287
-"unidad basica de rehabilitacin barrio almoloya"	"almoloya  seccin"	"otro"	""	"pahuatlan"	"pahuatlan"	"puebla"	-98.155986	20.277646
-"saln de usos multiples"	"planta alta presidencia municipal"	"otro"	""	"pahuatlan"	"pahuatlan"	"puebla"	-98.1520352	20.2757238
 "primaria ignacio zaragoza"	"francisco i madero no. "	"escuela"	""	"pantepec"	"pantepec"	"puebla"	-97.940079	20.522082
 "municipal"	" de mayo colonia centro"	"auditorio"	""	"pantepec"	"pantepec"	"puebla"	-97.9353538	20.5093412
 "presidencia auxiliar"	"principal"	"otro"	""	"mecapalapa"	"pantepec"	"puebla"	-97.857735	20.527019
@@ -1809,18 +1514,10 @@
 "albergue escolar"	"domicilio conocido"	"otro"	""	"tepetzintla"	"tepetzintla"	"puebla"	-97.840753	19.967273
 "albergue escolar"	"domicilio conocido"	"otro"	""	"tepetzintla"	"tepetzintla"	"puebla"	-97.840753	19.967273
 "telesecundaria ignacio zaragoza"	"domicilio conocido"	"escuela"	""	"chicometepec"	"tepetzintla"	"puebla"	-97.824285	19.965101
-"presidencia municipal"	"domicilio conocido"	"otro"	""	"tetela de ocampo"	"tetela de ocampo"	"puebla"	-97.806301	19.817012
-"auditorio municipal"	"domicilio conocido"	"auditorio"	""	"tetela de ocampo"	"tetela de ocampo"	"puebla"	-97.806301	19.817012
-"escuela primaria juan n mendez"	"domicilio conocido"	"escuela"	""	"tetelco"	"tetela de ocampo"	"puebla"	-97.852247	19.86639
-"auditorio municipal"	"domicilio conocido"	"auditorio"	""	"san nicolas"	"tetela de ocampo"	"puebla"	-97.80610725	19.81706519
-"escuela primaria"	"domicilio conocido"	"escuela"	""	"benito jurez"	"tetela de ocampo"	"puebla"	-97.787808	19.815139
 "auditorio"	"domicilio conocido"	"otro"	""	"xonocuautla"	"tetela de ocampo"	"puebla"	-97.524251	19.785997
 "primaria vicente guerrero"	"conocido itzatlan"	"escuela"	""	"itzatlan"	"tlacuilotepec"	"puebla"	-97.983831	20.334202
 "primaria lazaro cardenas"	"teteloloya"	"escuela"	""	"teteloloya"	"tlacuilotepec"	"puebla"	-97.952729	20.361812
 "primaria vicente guerrero"	"san juan tiguacan"	"escuela"	""	"san juan tihuacan"	"tlacuilotepec"	"puebla"	-97.992152	20.437789
-"primaria nios heroes"	"amado nervo"	"escuela"	""	"tlacuilotepec"	"tlacuilotepec"	"puebla"	-98.068962	20.327998
-"presidencia municipal"	"palacio municipal"	"otro"	""	"tlacuilotepec"	"tlacuilotepec"	"puebla"	-98.068623	20.325958
-"primaria jos mara morelos"	"principal"	"escuela"	""	"cuautepec"	"tlacuilotepec"	"puebla"	-98.068623	20.325958
 "primaria melchor ocampo"	" de mayo"	"escuela"	""	"tlaola"	"tlaola"	"puebla"	-97.923962	20.136993
 "primaria ignacio zaragoza"	"principal"	"escuela"	""	"tlaltepango"	"tlaola"	"puebla"	-97.87767	20.148977
 "primaria lazaro cardenas"	"principal gregorio marroquin"	"escuela"	""	"la gallera"	"tlaola"	"puebla"	-97.9525	20.172222
@@ -1834,8 +1531,6 @@
 "bachillerato abundio vargas gonzalez"	"domicilio conocido"	"escuela"	""	"tlapacoya grande"	"tlapacoya"	"puebla"	-97.852467	20.119842
 "fray bartolome de las casas"	"zaragoza"	"escuela"	""	"ahuacatlaya"	"tlapacoya"	"puebla"	-97.827838	20.179298
 "bachillerato benito jurez"	"principal s/n"	"escuela"	""	"tlaxco"	"tlaxco"	"puebla"	-98.021786	20.420815
-"municipal"	"principal"	"auditorio"	""	"tlaxco"	"tlaxco"	"puebla"	-98.3075523	20.4229911
-"saln de actos"	"principal"	"otro"	""	"tlaxco"	"tlaxco"	"puebla"	-98.307552	20.422991
 "dif municipal"	"principal"	"otro"	""	"tlaxco"	"tlaxco"	"puebla"	-98.0282105	20.42386604
 "primaria arquiles serdn"	"plaza principal"	"escuela"	""	"acalman"	"tlaxco"	"puebla"	-98.057771	20.421042
 "telesecundaria jos garibaldi"	"principal"	"escuela"	""	"acalman"	"tlaxco"	"puebla"	-98.056929	20.420741
@@ -1867,19 +1562,6 @@
 "primaria tirzo garca"	"lpez mateo"	"escuela"	""	"san isidro"	"xicotepec"	"puebla"	-97.95693	20.243893
 "primaria sidar y rubiosa"	"ignacio zaragoza y miguel aleman"	"escuela"	""	"gilberto camacho"	"xicotepec"	"puebla"	-97.887286	20.374003
 "primaria braulio rodriguez"	"la calzada"	"escuela"	""	"san agustn atlihuacan"	"xicotepec"	"puebla"	-98.002503	20.261045
-"polideportivo municipal"	"domicilio conocido"	"otro"	""	"zacatlan"	"zacatlan"	"puebla"	-97.960299	19.932275
-"juzgado de paz"	"domicilio conocido"	"otro"	""	"san miguel tenango"	"zacatlan"	"puebla"	-97.939543	19.906592
-"escuela primaria emiliano zapata"	"domicilio conocido"	"escuela"	""	"yehuala"	"zacatlan"	"puebla"	-97.892285	19.897259
-"juzgado de paz"	"domicilio conocido"	"otro"	""	"xonotla"	"zacatlan"	"puebla"	-97.907624	19.924194
-"juzgado de paz"	"domicilio conocido"	"otro"	""	"zoquitla"	"zacatlan"	"puebla"	-97.9048586	19.8900159
-"escuela primaria general ignacio zaragoza"	"domicilio conocido"	"escuela"	""	"cuacuilco"	"zacatlan"	"puebla"	-97.958333	19.879444
-"presidencia auxiliar"	"domicilio conocido"	"otro"	""	"otlatlan"	"zacatlan"	"puebla"	-97.938504	19.853699
-"saln de usos multiples"	"domicilio conocido"	"otro"	""	"otlatlan"	"zacatlan"	"puebla"	-97.938504	19.853699
-"saln de usos multiples"	"domicilio conocido"	"otro"	""	"popotohuilco"	"zacatlan"	"puebla"	-97.9165538	19.8638909
-"escuela primaria hermenegildo galeana"	"domicilio conocido"	"escuela"	""	"popotohuilco"	"zacatlan"	"puebla"	-97.916667	19.863611
-"presidencia auxiliar"	"domicilio conocido"	"otro"	""	"cuacuila"	"zacatlan"	"puebla"	-98.031676	20.172495
-"desayunador de la escuela primaria"	"domicilio conocido"	"otro"	""	"cruztitla"	"zacatlan"	"puebla"	-97.9525	20.04
-"presidencia auxiliar"	"domicilio conocido"	"otro"	""	"tlalixtlipa"	"zacatlan"	"puebla"	-97.98052	20.013256
 "telesecundaria cadete juan de la barrera"	"venustiano carranza no. "	"escuela"	""	"la unin"	"zihuateutla"	"puebla"	-97.869651	20.26
 "pimaria lic. benito jurez"	"plaza principal"	"escuela"	""	"ocomantla"	"zihuateutla"	"puebla"	-97.895069	20.244598
 "primaria cuauhtemoc"	"principal"	"escuela"	""	"zihuateutla"	"zihuateutla"	"puebla"	-97.886422	20.250847
@@ -2038,8 +1720,6 @@
 "primaria adolfo lopez mateos"	"juan escutia"	"escuela"	""	"san miguel tenextatiloyan"	"zautla"	"puebla"	-97.596525	19.709857
 "primaria gregorio diaz"	"francisco marquez"	"escuela"	""	"san miguel tenextatiloyan"	"zautla"	"puebla"	-97.594709	19.709605
 "primaria mariano matamoros"	"principal"	"escuela"	""	"ixtactenango"	"zautla"	"puebla"	-97.715045	19.755366
-"telesec. melchor cobarrubias"	"centro"	"escuela"	""	"ixtactenango"	"zautla"	"puebla"	-97.715373	19.755075
-"primaria"	"centro"	"escuela"	""	"tlamanca"	"zautla"	"puebla"	-97.697744	19.67616
 "sec. gilberto moreno alvarez"	"centro"	"escuela"	""	"jalcomulco"	"zautla"	"puebla"	-97.684319	19.786501
 "prim. vicente guerrero"	"cuauhtemoc"	"escuela"	""	"jalcomulco"	"zautla"	"puebla"	-97.684431	19.786695
 "primaria benito juarez"	"centro"	"escuela"	""	"santa ines morelos"	"zautla"	"puebla"	-97.691818	19.761213
@@ -2056,9 +1736,6 @@
 "mariano matamoros"	"xolalpano"	"escuela"	""	"san isidro"	"zautla"	"puebla"	-97.609397	19.710679
 "primaria juan n. mendez"	" de abril"	"escuela"	""	"acatzacata"	"zautla"	"puebla"	-97.681266	19.728145
 "esc. lic. benito juarez"	"ocochichila"	"escuela"	""	"zayolapan"	"zautla"	"puebla"	-97.617389	19.760989
-"preescolar bartolome de las casas"	"domicilio conocido"	"escuela"	""	"buena vista"	"zautla"	"puebla"	-97.724002	19.737761
-"primaria pipila"	"jurez"	"escuela"	""	"buena vista"	"zautla"	"puebla"	-97.723694	19.738105
-"esc. juan aldama"	"plaza principal"	"escuela"	""	"guadalupe hidalgo"	"zautla"	"puebla"	-97.731297	19.766931
 "saln de usos mltiples"	" de febrero"	"otro"	""	"colonia centro"	"caxhuacan"	"puebla"	-97.60667258	20.0642565
 "primaria ignacio m. altamirano"	" de mayo"	"escuela"	""	"colonia centro"	"caxhuacan"	"puebla"	-97.606748	20.064544
 "secundaria jos vasconcelos"	"emiliano zapata"	"escuela"	""	"colonia centro"	"caxhuacan"	"puebla"	-97.609242	20.065927
@@ -2132,23 +1809,6 @@
 "primaria benemerito de las americas"	"ignacio zaragoza"	"escuela"	""	"cabecera municipal"	"zoquiapan"	"puebla"	-97.595914	20.009913
 "salon de actos"	" de mayo"	"otro"	""	"cabecera municipal"	"zoquiapan"	"puebla"	-97.595914	20.009913
 "primaria benemerito de las americas"	" de octubre"	"escuela"	""	"cabecera municipal"	"zoquiapan"	"puebla"	-97.595914	20.009913
-"presidencia auxiliar"	"constitucin"	"otro"	""	"santa mara techachalco"	"chalchicomula de sesma"	"puebla"	-97.4702891	18.9533557
-"saln social"	"miguel hidalgo"	"otro"	""	"san pedro temamatla"	"chalchicomula de sesma"	"puebla"	-97.511478	18.928675
-"iglesia"	"plaza de la reforma"	"otro"	""	"jess nazareno"	"chalchicomula de sesma"	"puebla"	-97.459132	18.905764
-"iglesia"	"emiliano zapata"	"otro"	""	"san blas tecolotepec"	"chalchicomula de sesma"	"puebla"	-97.4105492	18.887729
-"iglesia"	"central"	"otro"	""	"jess mara"	"chalchicomula de sesma"	"puebla"	-97.4474971	18.9879328
-"iglesia"	"calle hermanos serdan"	"otro"	""	"san diego texmelucan"	"chalchicomula de sesma"	"puebla"	-97.4523006	19.0184538
-"saln social"	"independencia"	"otro"	""	"san francisco cuautlancingo"	"chalchicomula de sesma"	"puebla"	-97.415278	18.99645
-"iglesia"	" de septiembre"	"otro"	""	"san martn ojo de agua"	"chalchicomula de sesma"	"puebla"	-97.3924678	19.010506
-"iglesia"	"daz ordaz y otolio montao"	"otro"	""	"san isidro canoa altas"	"chalchicomula de sesma"	"puebla"	-97.3533266	18.9821958
-"iglesia"	"galeana"	"otro"	""	"san juan arcos de ojo"	"chalchicomula de sesma"	"puebla"	-97.3928855	19.0052669
-"saln ejidal"	"hidalgo"	"otro"	""	"jess mara"	"chalchicomula de sesma"	"puebla"	-97.4476581	18.9883221
-"saln parroquial"	"revolucin lvaro obregn"	"otro"	""	"san miguel ocotenco"	"chalchicomula de sesma"	"puebla"	-97.4522373	19.0660668
-"saln social"	" de mayo"	"otro"	""	"ahuatepec del camino"	"chalchicomula de sesma"	"puebla"	-97.4349481	19.041053
-"iglesia"	" oriente y  sur"	"otro"	""	"ciudad serdan"	"chalchicomula de sesma"	"puebla"	-97.4484	18.9882761
-"biblioteca"	"francisco i madero s/n"	"otro"	""	"colonia la gloria"	"chalchicomula de sesma"	"puebla"	-97.4608359	18.996681
-"saln social"	" norte s/n"	"otro"	""	"ciudad serdan"	"chalchicomula de sesma"	"puebla"	-97.4484	18.9882761
-"bodega"	"emiliano zapata s/n"	"otro"	""	"el veladero"	"chalchicomula de sesma"	"puebla"	-97.4840363	18.9630233
 "auditorio municipal"	"mitla"	"auditorio"	""	"chichiquila"	"chichiquila"	"puebla"	-97.0677203	19.1991128
 "juzgado de paz"	"principal junto a la iglesia"	"otro"	""	"el palmar"	"chichiquila"	"puebla"	-97.0552004	19.1393909
 "escuela"	"principal"	"escuela"	""	"la unin"	"chichiquila"	"puebla"	-97.102158	19.184732
@@ -2159,15 +1819,6 @@
 "auditorio municipal"	"domicilio conocido"	"otro"	""	"la providencia"	"chilchotla"	"puebla"	-97.2032619	19.3094391
 "iglesia"	"domicilio conocido"	"otro"	""	"la trinidad"	"chilchotla"	"puebla"	-97.214241	19.28558
 "escuela"	"domicilio conocido"	"escuela"	""	"san juan del valle"	"chilchotla"	"puebla"	-97.231484	19.259254
-"municipal"	"principal"	"auditorio"	""	"cabecera municipal"	"ajalpan"	"puebla"	-97.2584519	18.3779143
-"presidencia auxiliar"	"principal"	"otro"	""	"panzingo"	"ajalpan"	"puebla"	-97.2950398	18.3831768
-"av francisco i madero loc. santiago tecomatlan"	""	"auditorio"	"xochicoatln"	"xochicoatln"	"xochicoatln"	"hidalgo"	-98.683057	20.776019
-"av. reforma #  loc.. emiliano zapata"	""	"auditorio"	"tlaxcoya"	"tlaxcoya"	"xochicoatln"	"hidalgo"	-98.612805	20.1822
-"calle .anenecuilco loc. emiliano zapata"	""	"escuela"	"nonoalco"	"nonoalco"	"xochicoatln"	"hidalgo"	-98.698253	20.717526
-"conocido loc. tulancalco"	"lazaro cardenas"	"escuela"	"nonoalco"	"nonoalco"	"xochicoatln"	"hidalgo"	-98.700166	20.716613
-"calle del maestro loc. ignacio zaragosa"	""	"escuela"	"acatepec"	"acatepec"	"xochicoatln"	"hidalgo"	-98.622666	20.780948
-"zona centro col. el gorrion, loc. santiago tezontlale"	""	"escuela"	"coatencalco"	"coatencalco"	"xochicoatln"	"hidalgo"	-98.643975	20.82069
-"calle a col. cuauhtemoc loc. santiago tezontlale"	""	"escuela"	"coatlamayan"	"coatlamayan"	"xochicoatln"	"hidalgo"	-98.658117	20.784227
 "escuela primaria lvaro obregon"	"hacia escuela primaria"	"escuela"	"atlajco"	"atlajco"	"atlapexco"	"hidalgo"	-98.393583	20.9888
 "escuela primaria mrtires de rio blanco"	"principal sin numero"	"escuela"	"huitzotlaco"	"huitzotlaco"	"atlapexco"	"hidalgo"	-98.376083	21.04052
 "escuela primaria ignacio allende"	"principal sin numero"	"escuela"	"san isidro"	"san isidro"	"atlapexco"	"hidalgo"	-98.4317	21.01835
@@ -2178,115 +1829,11 @@
 "albergue lzaro crdenas"	"terraceria tlachapa-atlajco"	"escuela"	"tlachapa"	"tlachapa"	"atlapexco"	"hidalgo"	-98.38345	20.99138
 "auditorio municipal"	"reforma sin numero"	"auditorio"	"atlapexco"	"colonia unidad deportiva"	"atlapexco"	"hidalgo"	-98.34473	21.01965
 "escuela secundaria tcnica no. "	"avenida mexico"	"escuela"	"atlapexco"	"atlapexco"	"atlapexco"	"hidalgo"	-98.34875	21.02403
-"primaria miguel hidalgo"	"h. colegio militar y parque jurez"	"escuela"	"centro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.368182	20.079705
-"primaria martn urrutia ezcurra"	"av. jurez norte"	"escuela"	"centro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.36892	20.084267
-"secundaria jos maria lezama"	"libertad"	"escuela"	"centro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.368752	20.083951
-"club de leones tulancingo"	"parque jurez"	"auditorio"	"centro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.369616	20.080235
-"conalep tulancingo"	"carretera tulancingo acatlan"	"escuela"	"jaltepec"	"tulancingo"	"tulancingo"	"hidalgo"	-98.413817	20.114256
-"primaria vicente guerrero"	"domicilio conocido"	"escuela"	"sultepec"	"tulancingo"	"tulancingo"	"hidalgo"	-98.348993	20.139159
-"primaria lzaro crdenas"	" de mayo"	"escuela"	"san isidro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.367342	20.081467
-"universidad etac"	" de marzo norte"	"escuela"	"centro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.365198	20.085556
-"jorge berganza campo alegre"	"aguilas"	"escuela"	"campo alegre"	"tulancingo"	"tulancingo"	"hidalgo"	-98.411756	20.113054
-"primaria guadalupe victoria"	"netzahualcyotl"	"escuela"	"guadalupe"	"tulancingo"	"tulancingo"	"hidalgo"	-98.354824	20.082002
-"iglesia catedral"	"plaza de la constitucin"	"otro"	"centro"	"tulancingo"	"tulancingo"	"hidalgo"	-98.36789	20.080549
-"auditorio"	" de septiembre"	"auditorio"	"centro"	"localidad san miguel tornacuxtla"	"san agstin tlaxiaca"	"hidalgo"	-98.870498	20.152119
-"escuela"	"jurez"	"escuela"	"centro"	"san juan tilcucutla"	"san agstin tlaxiaca"	"hidalgo"	-98.805705	20.141969
-"francisco i madero"	"conocido"	"escuela"	"pitzotla"	"peyula"	"tlanchinol"	"hidalgo"	-98.658469	20.990614
-"primaria ignacio zaragoza"	"conocido"	"escuela"	"citlala"	"peyula"	"tlanchinol"	"hidalgo"	-98.655509	20.994634
-"iglesia"	"conocido"	"casa"	"peyula"	"peyula"	"tlanchinol"	"hidalgo"	-98.661546	20.988075
-"escuela primaria"	"mxico-tampico"	"escuela"	"acartipa"	"acatipa"	"tlanchinol"	"hidalgo"	-98.655477	20.994556
-"iglesia"	"conocido"	"otro"	"rancho nuevo"	"rancho nuevo"	"tlanchinol"	"hidalgo"	-98.660798	20.98855
-"delegacin"	"conocido"	"casa"	"rancho nuevo"	"rancho nuevo"	"tlanchinol"	"hidalgo"	-98.295	20.6089
-"auditorio municipal lorenzo espinosa villegas"	"colonia centro"	"auditorio"	"tianguistengo"	"tianguistengo"	"tianguistengo"	"hidalgo"	-98.630895	20.72845
-"galera municipal"	"barrio tlane"	"otro"	"tianguistengo"	"tianguistengo"	"tianguistengo"	"hidalgo"	-98.630895	20.72845
-"auditorio ro. de abril"	"santiago-tulancingo"	"auditorio"	"centro"	"santiago tulantepec"	"santiago tulantepec"	"hidalgo"	-98.358412	20.04143
-"dif municipal"	"santiago-tulancingo"	"auditorio"	"centro"	"santiago tulantepec"	"santiago tulantepec"	"hidalgo"	-98.353098	20.038469
-"sindicato libertad"	"lugo guerrero"	"otro"	"centro"	"santiago tulantepec"	"santiago tulantepec"	"hidalgo"	-98.358085	20.038731
-"auditorio de ventoquipa"	" de mayo"	"auditorio"	"ventoquipa"	"ventoquipa"	"santiago tulantepec"	"hidalgo"	-98.323381	20.043231
-"iglesia de san jos"	"pino"	"otro"	"san jos"	"pedregal de san jos"	"santiago tulantepec"	"hidalgo"	-98.407553	20.066273
-"telesecundaria no. "	""	"escuela"	""	"santa rita"	"cuautepec de hinojosa"	"hidalgo"	-98.303639	20.021218
-"escuela primaria guadalupe victoria"	""	"escuela"	""	"guadalupe victoria"	"cuautepec de hinojosa"	"hidalgo"	-98.343595	20.054814
-"auditorio municipal"	""	"auditorio"	""	"guadalupe victoria"	"cuautepec de hinojosa"	"hidalgo"	-98.30954	20.035558
-"salon de eventos"	""	"otro"	""	"calle juarez"	"cuautepec de hinojosa"	"hidalgo"	-98.307886	20.0358
-"auditorio ejidal de tezoyo"	"tezoyo"	"auditorio"	"tezoyo"	"tezoyo"	"apan"	"hidalgo"	-98.313205	19.842153
-"auditorio"	""	"auditorio"	"ignacio lpez rayn"	"ignacio lpez rayn"	"omitln de jurez"	"hidalgo"	-98.373424	20.112747
-"telesecundaria no. "	""	"otro"	"ignacio lpez rayn"	"ignacio lpez rayn"	"omitln de jurez"	"hidalgo"	-98.373424	20.112741
-"telesecundaria no. "	""	"escuela"	"venta de guadalupe"	"venta de guadalupe"	"omitln de jurez"	"hidalgo"	-98.383835	20.131314
-"primaria independencia"	""	"escuela"	"la lagunilla"	"la lagunilla"	"omitln de jurez"	"hidalgo"	-98.38394	20.130274
-"primaria el pipila"	""	"escuela"	"morelos"	"morelos"	"omitln de jurez"	"hidalgo"	-98.393484	20.133968
-"conafe ignacio zaragosa"	""	"escuela"	"manuel teniente"	"manuel teniente"	"omitln de jurez"	"hidalgo"	-98.391033	20.122668
-"primaria justo sierra"	""	"escuela"	"cerro gordo"	"cerro gordo"	"omitln de jurez"	"hidalgo"	-98.373219	20.105392
-"primaria adolfo lpez mateo"	""	"escuela"	"velasco"	"velasco"	"omitln de jurez"	"hidalgo"	-98.362642	20.095904
-"primaria lic. carlos snchez mejorada"	""	"escuela"	"san antonio el paso"	"san antonio el paso"	"omitln de jurez"	"hidalgo"	-98.383601	20.104623
-"primaria raymundo enriquez"	""	"escuela"	"vicente guerrero"	"vicente guerrero"	"omitln de jurez"	"hidalgo"	-98.365829	20.085008
-"primaria vicente guerrero"	""	"escuela"	"el tejocote"	"el tejocote"	"omitln de jurez"	"hidalgo"	-98.395051	20.090909
-"primaria lazaro cardenas"	""	"escuela"	"omitlan de jurez"	"omitln de jurez"	"omitln de jurez"	"hidalgo"	-98.384979	20.091069
-"telesecundaria no. "	""	"escuela"	"san antonio el paso"	"san antonio el paso"	"omitln de jurez"	"hidalgo"	-98.383469	20.102546
-"telesecundaria no. "	""	"auditorio"	"omitlan de jurez"	"omitln de jurez"	"omitln de jurez"	"hidalgo"	-98.365763	20.090085
-"primaria melchor ocampo"	""	"escuela"	""	""	"omitln de jurez"	"hidalgo"	-98.383469	20.102546
-"esc. primaria carlos a carrillo"	""	"escuela"	"eloxochitln"	"eloxochitln"	"eloxochitlan"	"hidalgo"	-98.8083	20.7417
-"esc. primaria emiliano zapata"	""	"escuela"	"hualula"	"hualula"	"eloxochitln"	"hidalgo"	-98.8333	20.7083
-"esc. primaria emiliano zapata"	""	"escuela"	"gilo"	"gilo"	"eloxochitln"	"hidalgo"	-98.9	20.75
-"esc. primaria nicolas bravo"	""	"escuela"	"san juan amajaque"	"san juan amajaque"	"eloxochitln"	"hidalgo"	-98.95	20.7167
-"esc. san miguel almolon"	""	"escuela"	"san miguel almolon"	"san miguel almolon"	"eloxochitln"	"hidalgo"	-98.9	20.7333
-"esc. primaria benito juarez"	""	"escuela"	"chacaya"	"chacaya"	"eloxochitln"	"hidalgo"	-98.935833	20.725556
-"esc. primaria francisco muoz bautista"	""	"escuela"	"chalmita"	"chalmita"	"eloxochitln"	"hidalgo"	-98.931667	20.665556
-"esc. primaria ricardo flores magon"	""	"escuela"	"otatla"	"otatla"	"eloxochitln"	"hidalgo"	-98.958857	20.744399
-"esc. primaria emiliano zapata"	""	"escuela"	"tecomate"	"tecomate"	"eloxochitln"	"hidalgo"	-98.934723	20.662222
-"esc. primaria ley  de agosto de "	""	"escuela"	"itztacapa"	"itztacapa"	"eloxochitlan"	"hidalgo"	-98.937222	20.671389
-"esc. primaria escuadron "	""	"escuela"	"almoloya"	"almolya"	"eloxochitlan"	"hidalgo"	-98.784167	20.776667
-"esc. primaria justo sierra"	""	"escuela"	"tepeyica"	"tepeyica"	"eloxochitlan"	"hidalgo"	-98.9167	20.7333
-"cobaeh plantel "	""	"escuela"	"san antonio sabanillas"	"cardonal"	"cardonal"	"hidalgo"	-99.115051	20.6124
-"delegacion municipal"	""	"auditorio"	"san miguel jigui"	"el deca"	"cardonal"	"hidalgo"	-99.14149	20.61226
-"escuela tecnica numero "	""	"escuela"	"la mesa"	"san miguel tlazintla"	"cardonal"	"hidalgo"	-99.084228	20.632919
-"escuela primaria  de noviembre"	""	"escuela"	"cieneguilla"	"la mesa"	"cardonal"	"hidalgo"	-98.773434	20.659077
-"escuela primaria sor juana ines de la cruz"	""	"escuela"	"cieneguillita"	"cieneguilla"	"cardonal"	"hidalgo"	-99.034384	20.714594
-"escuela primaria adolfo lopez mateo"	""	"escuela"	"santuario"	"cieneguillita"	"cardonal"	"hidalgo"	-99.069444	20.733056
-"escuela secundaria general rafael ramirez"	""	"escuela"	"barrio tixqui"	"santuario"	"cardonal"	"hidalgo"	-99.136111	20.662222
-"escuala primaria ignacio manuel altamirano"	""	"escuela"	"el sauz"	"barrio tixqui"	"cardonal"	"hidalgo"	-99.12345	20.700665
-"escuela primaria emiliano zapata"	""	"escuela"	"la florida"	"pozuelos"	"cardonal"	"hidalgo"	-99.059722	20.493
-"escuela primaria adolfo lopez mateo"	""	"escuela"	"san cristobal"	"la florida"	"cardonal"	"hidalgo"	-98.361559	20.063509
-"auditorio ejidal"	""	"auditorio"	""	"san cristobal"	"cardonal"	"hidalgo"	-98.999415	20.598369
-"unidad deportiva municipal"	""	"deportivo"	"carlos robirosa"	"pachuca de soto"	"pachuca de soto"	"hidalgo"	-98.781089	20.07169
-"gimnasio presidente aleman"	""	"auditorio"	"centro"	"pachuca de soto"	"pachuca de soto"	"hidalgo"	-98.734354	20.121096
-"albergue dif hidalgo"	""	"refugio"	"periodistas"	"pachuca de soto"	"pachuca de soto"	"hidalgo"	-98.741844	20.117846
-"macroplaza parque de poblamiento"	""	"otro"	"parque de poblamiento"	"pachuca de soto"	"pachuca de soto"	"hidalgo"	-98.771632	20.120656
-"auditorio municipal"	""	"auditorio"	"centro"	"agua blanca"	"agua blanca de iturbide hidalgo"	"hidalgo"	-98.3833	20.3667
-"iglesia"	""	"otro"	"centro"	"agua blanca"	"agua blanca de iturbide hidalgo"	"hidalgo"	-98.3833	20.3667
-"deportivo"	""	"deportivo"	"centro"	"agua blanca"	"agua blanca de iturbide hidalgo"	"hidalgo"	-98.3833	20.3667
-"auditorio apulco"	""	"auditorio"	"centro"	"agua blanca"	"agua blanca de iturbide hidalgo"	"hidalgo"	-98.3833	20.3667
-"escuela"	""	"escuela"	"centro"	"agua blanca"	"agua blanca de iturbide hidalgo"	"hidalgo"	-98.3833	20.3667
 "albergue escolar \"ignacio manuel altamirano\""	""	"escuela"	"atlalco"	"atlalco"	"yahualica"	"hidalgo"	-98.328419	20.914514
 "telesecundaria"	""	"escuela"	"pepeyocatitla"	"pepeyocatitla"	"yahualica"	"hidalgo"	-98.403557	20.933466
 "escuela primaria \"melchor ocampo\""	""	"escuela"	"tlalchiyahualica"	"tlalchiyahualica"	"yahualica"	"hidalgo"	-98.399702	20.970312
 "escuela primaria \"benito jurez\""	""	"escuela"	"tetla"	"tetla"	"yahualica"	"hidalgo"	-98.402811	20.934796
 "escuela primaria \"ignacio zaragoza\""	""	"escuela"	"yahualica"	"yahualica"	"yahualica"	"hidalgo"	-98.379815	20.955888
-"escuela primaria \"ignacio zaragoza\""	""	"escuela"	"zoquitipan"	"zoquitipan"	"yahualica"	"hidalgo"	-98.740398	20.117967
-"zalon de eventos frateloz"	""	"auditorio"	"deportivo"	"epazoyucan"	"epazoyucan"	"hidalgo"	-98.636544	20.014091
-"auditorio ejidal"	""	"auditorio"	"centro, santa monica"	"santa monica"	"epazoyucan"	"hidalgo"	-98.619182	19.982585
-"auditorio ejidal"	""	"auditorio"	"centro,san juan tizahuapan"	"san juan tizahuapan"	"epazoyucan"	"hidalgo"	-98.666378	20.048937
-"auditorio ejidal"	""	"auditorio"	"centro,xoloxtitla de morelos"	"xolostitla de morelos"	"epazoyucan"	"hidalgo"	-98.638775	20.066236
-"ecoparque aventura palaguth (guajolote)"	""	"recreativo"	"guajolote"	"guajolote"	"epazoyucan"	"hidalgo"	-98.593562	20.102163
-"auditorio ejidal"	""	"auditorio"	"centro, xochihuacan"	"xochihuacan"	"epazoyucan"	"hidalgo"	-98.708811	19.988312
-"esc. prim. la palma"	""	"escuela"	"la palma"	"la palma"	"jacala"	"hidalgo"	-99.065009	20.879639
-"auditorio municipal"	""	"auditorio"	"juarez hidalgo"	"juarez hidalgo"	"juarez hidalgo"	"hidalgo"	-98.4944	20.4701
-"copusi"	""	"otro"	"juarez hidalgo"	"juarez hidalgo"	"juarez hidalgo"	"hidalgo"	-98.4948	20.4702
-"sala de cabildo"	""	"otro"	"juarez hidalgo"	"juarez hidalgo"	"juarez hidalgo"	"hidalgo"	-98.4948	20.4702
-"unidad medica rural "	""	"otro"	"juarez hidalgo"	"juarez hidalgo"	"juarez hidalgo"	"hidalgo"	-98.4939	20.4656
-"unidad medica rural "	""	"otro"	"itztacoyotla"	"itztacoyotla"	"juarez hidalgo"	"hidalgo"	-98.4907	20.4931
-"auditorio municipal"	""	"auditorio"	"itztacoyotla"	"itztacoyotla"	"juarez hidalgo"	"hidalgo"	-98.4904	20.4926
-"primaria jose e. galindo"	""	"escuela"	"itztacoyotla"	"itztacoyotla"	"juarez hidalgo"	"hidalgo"	-98.4905	20.4925
-"unidad medica"	""	"otro"	"santa maria"	"santa maria"	"juarez hidalgo"	"hidalgo"	-98.5235	20.5102
-"iglesia"	""	"otro"	"santa maria"	"santa maria"	"juarez hidalgo"	"hidalgo"	-98.5234	20.5059
-"primaria heroinas mexicanas"	""	"escuela"	"santa maria"	"santa maria"	"juarez hidalgo"	"hidalgo"	-98.5235	20.5059
-"primaria heroes de la revolucion"	""	"escuela"	"san nicolas"	"san nicolas"	"juarez hidalgo"	"hidalgo"	-98.5052	20.5209
-"iglesia"	""	"otro"	"san nicolas"	"san nicolas"	"juarez hidalgo"	"hidalgo"	-98.5051	20.5208
-"techumbre"	""	"otro"	"san nicolas"	"san nicolas"	"juarez hidalgo"	"hidalgo"	-98.5102	20.5213
-"cemsad  acapa"	""	"escuela"	"acapa"	"acapa"	"tlahuiltepa"	"hidalgo"	-98.902222	20.901111
-"torres quintero"	""	"escuela"	"chichicaxtla"	"chichicaxtla"	"tlahuiltepa"	"hidalgo"	-99.064722	20.788889
-"casa del pueblo"	""	"casa"	"coyocala"	"coyocala"	"tlahuiltepa"	"hidalgo"	-98.895556	20.9525
-"auditorio municipal"	""	"auditorio"	"tlahuiltepa"	"tlahuiltepa"	"tlahuiltepa"	"hidalgo"	-98.995007	20.923361
-"casa del pueblo"	""	"casa"	"san andres miraflores"	"san andres miraflores"	"tlahuiltepa"	"hidalgo"	-99.0025	20.801111
-"escuela primaria aquiles serdan"	""	"escuela"	"itztamichapa"	"itztamichapa"	"tlahuiltepa"	"hidalgo"	-98.958066	20.801652
-"d.i.f. municipal"	"calle vicente guerrero"	"auditorio"	"centro"	"centro"	"tequexquitla"	"tlaxcala"	-97.658611	19.324226
-"auditorio municipal"	"calle cuauhtemoc sur"	"auditorio"	"centro"	"centro"	"tequexquitla"	"tlaxcala"	-97.658962	19.324672
+"salon las sombrillas"	"benito jurez"	"recreativo"	"centro"	"tanquin de escobedo"	"tanquin de escobedo"	"san luis potos"	-98.660993	21.602261
+"primaria mariano escobedo"	"mariano escobedo"	"escuela"	"centro"	"tanquin de escobedo"	"tanquin de escobedo"	"san luis potos"	-98.663729	21.601301
+"secundari tcnica numero "	"san vicente el higo"	"escuela"	"independencia"	"san vicente tancuayalab"	"san vicente tancuayalab"	"san luis potos"	-98.583787	21.721066
