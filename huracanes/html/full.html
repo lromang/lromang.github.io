@@ -2775,7 +2775,7 @@ map.on('mouseleave', 'hospitales', function(){
 map.on('mouseenter', 'acopio', function(e){
 map.getCanvas().style.cursor = 'pointer';
 popup.setLngLat(e.features[0].geometry.coordinates)
-.setHTML('<h1>Centro de acopio</h1><hr><p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.Nombre + '</p><p><strong>Dirección: </strong>' + e.features[0].properties.Dirección + '</p><p><strong>Tipo: </strong>' + e.features[0].properties.Tipo + '</p><p><strong>Horario: </strong>' + e.features[0].properties.horario + '</p><p><strong>Días: </strong>' +  e.features[0].properties.Días)
+.setHTML('<h1>Centro de acopio</h1><hr><p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.Nombre + '</p><p><strong>Tipo: </strong>' + e.features[0].properties.Tipo + '</p><p><strong>Horario: </strong>' + e.features[0].properties.horario)
 .addTo(map);
 });
 
@@ -2786,7 +2786,7 @@ map.on('mouseleave', 'acopio', function(){
 
 
 var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points', 'acopio'];
-var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono riesgo', 'Hospitales', 'Refugios', 'Centros de acopio'];
+var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono riesgo huracanes', 'Hospitales', 'Refugios', 'Centros de acopio'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
                     var id   = toggleableLayerIds[i];
