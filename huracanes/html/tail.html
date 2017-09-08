@@ -16,6 +16,23 @@ map.on('mouseleave', 'hospitales', function(){
         popup.remove();
 })
 
+// ACOPIO
+map.on('mouseenter', 'acopio', function(e){
+map.getCanvas().style.cursor = 'pointer';
+popup.setLngLat(e.features[0].geometry.coordinates)
+.setHTML('<h1>Centro de acopio</h1><hr><p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.Nombre + '</p><p><strong>Tipo de centro: </strong>' + e.features[0].properties.Tipo.de.centro + '</p><p><strong>Dirección: </strong>' + e.features[0].properties.Dirección + '</p><p><strong>Tipo: </strong>' + e.features[0].properties.Tipo + '</p><p><strong>Horario: </strong>' + e.features[0].properties.horario + '</p><p><strong>Días: </strong>' +  e.features[0].properties.Días + '</p><p><strong>Entidades que apoya: </strong>' + e.features[0].properties.Entidades.que.apya + '</p>')
+.addTo(map);
+});
+
+map.on('mouseleave', 'acopio', function(){
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+})
+
+
+
+
+
     map.on('mouseenter', 'points', function(e) {
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
