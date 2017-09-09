@@ -4,6 +4,7 @@ var popup = new mapboxgl.Popup({
         closeOnClick: false
     });
 
+// Hospitales
 map.on('mouseenter', 'hospitales', function(e){
 map.getCanvas().style.cursor = 'pointer';
 popup.setLngLat(e.features[0].geometry.coordinates)
@@ -19,7 +20,7 @@ map.on('mouseleave', 'hospitales', function(){
 
 
 
-
+// Shelter
     map.on('mouseenter', 'points', function(e) {
         // Change the cursor style as a UI indicator.
         map.getCanvas().style.cursor = 'pointer';
@@ -35,6 +36,20 @@ map.on('mouseleave', 'hospitales', function(){
         map.getCanvas().style.cursor = '';
         popup.remove();
 });
+
+
+// Acopio
+map.on('mouseenter', 'acopio', function(e){
+map.getCanvas().style.cursor = 'pointer';
+popup.setLngLat(e.features[0].geometry.coordinates)
+.setHTML('<h1>Centro de acopio</h1><hr><p><strong>Nombre establecimiento: </strong>' + e.features[0].properties.nombre + '</p><p><strong>Tipo Centro: </strong>' + e.features[0].properties.tipo_centro + '</p><p><strong>Dirección: </strong>' + e.features[0].properties.dir + '</p><p><strong>Horario: </strong>' + e.features[0].properties.horario + '</p><p><strong>Días: </strong>' + e.features[0].properties.dias + '</p><p><strong>Tipo acopio: </strong>' +  e.features[0].properties.tipo + '</p><p><strong>Entidades que apoya: </strong>' + e.features[0].properties.entidades_que_apoya + '</p>')
+.addTo(map);
+});
+
+map.on('mouseleave', 'acopio', function(){
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+})
 
 
 
