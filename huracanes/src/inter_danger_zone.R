@@ -172,6 +172,7 @@ print('---- UNION WITH STATES -----')
 ##                                               proj4string = states_interest@proj4string)
 danger_zone_sps              <- raster::union(states_interest,
                                              danger_zone_sps)
+plot(danger_zone_sps)
 
 ## ----------------------------------------
 ## Acopio
