@@ -178,13 +178,13 @@ danger_zone_sps              <- raster::union(states_interest,
 ## ----------------------------------------
 acopio        <- read.csv('../data/acopio.csv',
                          stringsAsFactors = FALSE)
-acopio_coords <- laply(acopio$Dirección,
+acopio_coords <- laply(acopio$dir,
                       function(t)t <- ggmap::geocode(t))
 acopio$lon    <- unlist(acopio_coords[,1])
 acopio$lat    <- unlist(acopio_coords[,2])
 ## Make polygon
 acopio_coords_p  <- SpatialPointsDataFrame(data = acopio,
-                                          coords = acopio[,11:12])
+                                          coords = acopio[,6:7])
 
 writeOGR(acopio_coords_p, '../inter_data/acopio.geojson', 'acopio', driver='GeoJSON')
 ## ----------------------------------------
