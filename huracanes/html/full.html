@@ -193,7 +193,7 @@ map.addLayer({
 'id': 'acopio',
 'type':'symbol',
 'source':'acopio',
-'layout':{"icon-image": "acopio", "icon-size": .04}
+'layout':{"icon-image": "acopio", "icon-size": .02}
 })})
 
 // --------------------------------------------------
@@ -2498,8 +2498,8 @@ map.on('mouseleave', 'acopio', function(){
 
 
 
-var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points'];
-var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono riesgo huracanes', 'Hospitales', 'Refugios'];
+var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points', 'acopio'];
+var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono riesgo huracanes', 'Hospitales', 'Refugios', 'Centro de acopio'];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
                     var id   = toggleableLayerIds[i];
