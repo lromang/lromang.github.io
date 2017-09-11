@@ -47,7 +47,6 @@ suppressPackageStartupMessages(library(rje))
 suppressPackageStartupMessages(library(sp))
 suppressPackageStartupMessages(library(SDMTools))
 suppressPackageStartupMessages(library(PBSmapping))
-suppressPackageStartupMessages(library(sp))
 suppressPackageStartupMessages(library(prevR))
 suppressPackageStartupMessages(library(foreign))
 
@@ -163,7 +162,7 @@ states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
 ##                                               'PUEBLA',
 ##                                               'GUERRERO',
 ##                                               'TABASCO',
-##                                               'VERACRUZ DE IGNACIO DE LA LLAVE'),]
+                                              'VERACRUZ DE IGNACIO DE LA LLAVE'),]
 
 ## ----------------------------------------
 ## Union with Danger ZONE
