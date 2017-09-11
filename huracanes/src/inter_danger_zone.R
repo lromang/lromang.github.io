@@ -157,6 +157,7 @@ states <- readOGR('../data/estate/',
 ## proj4string(states) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
 states              <- spTransform(states, CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
 ## Get States of Interest
+unique(states$ENTIDAD)
 states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
                                                'OAXACA'),]
 ##                                               'PUEBLA',
