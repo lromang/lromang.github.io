@@ -174,20 +174,40 @@ danger_zone_sps              <- raster::union(states_interest,
                                              danger_zone_sps)
 plot(danger_zone_sps)
 
+
+##################################################
+## ACOPIO (BEGIN)
+##################################################
+
 ## ----------------------------------------
-## Acopio
+## Centros Acopio
 ## ----------------------------------------
 acopio        <- read.csv('../data/acopio.csv',
                          stringsAsFactors = FALSE)
+## ----------------------------------------
+## Supers
+## ----------------------------------------
+acopio_sup   <- read.csv('../data/acopio.csv')
+
+## ----------------------------------------
+## Unificación y consolidación
+## ----------------------------------------
+acopio        <- rbind(acopio, acopio_sup)
+
 acopio_coords <- laply(acopio$dir,
                       function(t)t <- ggmap::geocode(t))
 acopio$lon    <- unlist(acopio_coords[,1])
 acopio$lat    <- unlist(acopio_coords[,2])
+## write.table(acopio, '../outData/acopio_new.tsv', row.names = FALSE, sep = '\t')
 ## Make polygon
 acopio_coords_p  <- SpatialPointsDataFrame(data = acopio,
                                           coords = acopio[,6:7])
-
 writeOGR(acopio_coords_p, '../inter_data/acopio.geojson', 'acopio', driver='GeoJSON')
+
+##################################################
+## ACOPIO (END)
+##################################################
+
 ## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
@@ -209,21 +229,6 @@ glide <- readOGR('../deslizamientos/glides.geojson',
                'OGRGeoJSON',
                verbose = FALSE)
 
-
-## ----------------------------------------
-## OSM
-## ----------------------------------------
-osm_buld <- readOGR('../earthquake_osm',
-               'mexico-earthquake-2017-juchitán-de-zaragoza-south-area-oaxaca_buildings_polygons',
-               verbose = FALSE)
-
-osm_interest <- readOGR('../earthquake_osm',
-               'mexico-earthquake-2017-juchitán-de-zaragoza-south-area-oaxaca_points_of_interest_points',
-               verbose = FALSE)
-
-osm_roads    <- readOGR('../earthquake_osm/',
-                       'mexico-earthquake-2017-juchitán-de-zaragoza-south-area-oaxaca_roads_lines',
-                       verbose = FALSE)
 
 ###########################################
 ## Intersect
