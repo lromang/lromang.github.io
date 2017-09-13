@@ -100,8 +100,12 @@ coords <- dplyr::select(shelters,
                        nom_ent,
                        lon,
                        lat)
+
 ## Merge data
 coords <- rbind(coords, gulf_coords)
+## Si llega otro, set de refugios poner mismas instrucciones
+## que golfo y pacífico y descomentar esta linea
+## coords <- rbind(coords, otro)
 
 ## Only coords with adequate format
 coords$lon <- str_replace(coords$lon, ',', '.') %>%
@@ -144,7 +148,7 @@ danger_zone_sps <- SpatialPolygons(list(danger_zone_ps))
 proj4string(danger_zone_sps) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
 danger_zone_sps              <- spTransform(danger_zone_sps,
                                            CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
-
+plot(danger_zone_sps)
 
 
 ## ----------------------------------------
@@ -158,36 +162,72 @@ states              <- spTransform(states, CRS("+proj=longlat +datum=WGS84 +no_d
 ## Get States of Interest
 unique(states$ENTIDAD)
 states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
-                                               'OAXACA'),]
-##                                               'PUEBLA',
-##                                               'GUERRERO',
-##                                               'TABASCO',
+                                               'OAXACA',
+                                               'PUEBLA',
+                                               'GUERRERO',
+                                               'TABASCO',
                                               'VERACRUZ DE IGNACIO DE LA LLAVE'),]
-
+plot(states_interest)
 ## ----------------------------------------
 ## Union with Danger ZONE
 ## ----------------------------------------
 print('---- UNION WITH STATES -----')
 ## states_polygons              <- SpatialPolygons(states_interest@polygons,
 ##                                               proj4string = states_interest@proj4string)
+
+## En caso de que no haya danger_zone simplemente hacer!!!!!!!!!
+## danger_zone_sps <- states_interest
+
 danger_zone_sps              <- raster::union(states_interest,
                                              danger_zone_sps)
 plot(danger_zone_sps)
 
+
+##################################################
+## ACOPIO (BEGIN)
+##################################################
+
 ## ----------------------------------------
-## Acopio
+## Centros Acopio
 ## ----------------------------------------
 acopio        <- read.csv('../data/acopio.csv',
                          stringsAsFactors = FALSE)
+## ----------------------------------------
+## Supers
+## ----------------------------------------
+acopio_sup        <- read.csv('../data/supers.csv',
+                             stringsAsFactors = FALSE)
+acopio_sup_coords <- laply(acopio_sup$dir,
+                          function(t)t <- ggmap::geocode(clean_text(t)))
+## Get Coords
+acopio_sup$lon    <- unlist(acopio_sup_coords[,1])
+acopio_sup$lat    <- unlist(acopio_sup_coords[,2])
+
+acopio_sup        <- acopio_sup[!is.na(acopio_sup$lat), ]
+acopio_sup        <- acopio_sup[!is.na(acopio_sup$lon), ]
+
+## ----------------------------------------
+## Unificación y consolidación
+## ----------------------------------------
 acopio_coords <- laply(acopio$dir,
                       function(t)t <- ggmap::geocode(t))
+## Get Coords
 acopio$lon    <- unlist(acopio_coords[,1])
 acopio$lat    <- unlist(acopio_coords[,2])
+
+## UNIFICATION
+acopio        <- rbind(acopio, acopio_sup)
+
+## write.table(acopio, '../outData/acopio_new.tsv', row.names = FALSE, sep = '\t')
 ## Make polygon
 acopio_coords_p  <- SpatialPointsDataFrame(data = acopio,
                                           coords = acopio[,6:7])
-
 writeOGR(acopio_coords_p, '../inter_data/acopio.geojson', 'acopio', driver='GeoJSON')
+
+##################################################
+## ACOPIO (END)
+##################################################
+
 ## ----------------------------------------
 ## Hospitals
 ## ----------------------------------------
@@ -247,14 +287,7 @@ coords          <- coords[coords$lon > -200, ] ## ERROR IN SHELTERS
 shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
 
-
-## ----------------------------------------
-## Acopio
-## ----------------------------------------
-## print('---- ACOPIO -----')
-## acopio_coords <- na.omit(acopio_coords)
-## inside_acopio <- get_inside(acopio_coords)
-
+## IR A LA SECCIÓN DE GUARDAR
 
 ## ----------------------------------------
 ## Hospitals
