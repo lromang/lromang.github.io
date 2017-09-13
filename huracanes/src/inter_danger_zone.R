@@ -187,17 +187,29 @@ acopio        <- read.csv('../data/acopio.csv',
 ## ----------------------------------------
 ## Supers
 ## ----------------------------------------
-acopio_sup   <- read.csv('../data/acopio.csv')
+acopio_sup        <- read.csv('../data/supers.csv',
+                             stringsAsFactors = FALSE)
+acopio_sup_coords <- laply(acopio_sup$dir,
+                          function(t)t <- ggmap::geocode(clean_text(t)))
+## Get Coords
+acopio_sup$lon    <- unlist(acopio_sup_coords[,1])
+acopio_sup$lat    <- unlist(acopio_sup_coords[,2])
+
+acopio_sup        <- acopio_sup[!is.na(acopio_sup$lat), ]
+acopio_sup        <- acopio_sup[!is.na(acopio_sup$lon), ]
 
 ## ----------------------------------------
 ## Unificación y consolidación
 ## ----------------------------------------
-acopio        <- rbind(acopio, acopio_sup)
-
 acopio_coords <- laply(acopio$dir,
                       function(t)t <- ggmap::geocode(t))
+## Get Coords
 acopio$lon    <- unlist(acopio_coords[,1])
 acopio$lat    <- unlist(acopio_coords[,2])
+
+## UNIFICATION
+acopio        <- rbind(acopio, acopio_sup)
+
 ## write.table(acopio, '../outData/acopio_new.tsv', row.names = FALSE, sep = '\t')
 ## Make polygon
 acopio_coords_p  <- SpatialPointsDataFrame(data = acopio,
