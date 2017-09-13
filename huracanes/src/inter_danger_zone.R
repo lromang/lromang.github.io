@@ -38,6 +38,7 @@ suppressPackageStartupMessages(library(spatstat))
 suppressPackageStartupMessages(library(rgeos))
 suppressPackageStartupMessages(library(rgdal))
 suppressPackageStartupMessages(library(geojsonio))
+suppressPackageStartupMessages(library(raster))
 ## Gráficas
 suppressPackageStartupMessages(library(ggplot2))
 ## Otros
@@ -286,7 +287,7 @@ coords          <- na.omit(coords)
 coords          <- coords[coords$lon > -200, ] ## ERROR IN SHELTERS
 shelter_coords  <- dplyr::select(coords, lon, lat)
 inside_shelter  <- get_inside(shelter_coords)
-
+plot(coords$lon[inside_shelter], coords$lat[inside_shelter])
 ## IR A LA SECCIÓN DE GUARDAR
 
 ## ----------------------------------------
@@ -299,6 +300,7 @@ hospitals              <- spTransform(hospitals,
 ## proj4string(hospitals) <- proj4string(danger_zone_sps)
 hospital_inter         <- raster::intersect(hospitals,
                                           danger_zone_sps)
+plot(hospital_inter)
 hospital_geojson       <- geojson_json(hospital_inter)
 geojson_write(hospital_geojson, file = '../inter_data/hospital_inside.geojson')
 
@@ -317,7 +319,7 @@ flod_inter        <- raster::intersect(flod,
 if(class(flod_inter) == "NULL"){
     flod_inter    <- flod
 }
-
+plot(flod_inter)
 flod_geojson      <- geojson_json(flod_inter)
 geojson_write(flod_geojson, file = '../inter_data/flod_inside.geojson')
 
@@ -335,6 +337,7 @@ glide_inter        <- raster::intersect(glide,
 if(class(glide_inter) == "NULL"){
     glide_inter    <- glide
 }
+plot(glide_inter)
 glide_geojson      <- geojson_json(glide_inter)
 geojson_write(glide_geojson, file = '../inter_data/glide_inside.geojson')
 
