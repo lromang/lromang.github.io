@@ -210,6 +210,21 @@ glide <- readOGR('../deslizamientos/glides.geojson',
                verbose = FALSE)
 
 
+## ----------------------------------------
+## OSM
+## ----------------------------------------
+osm_buld <- readOGR('../earthquake_osm',
+               'mexico-earthquake-2017-juchitán-de-zaragoza-south-area-oaxaca_buildings_polygons',
+               verbose = FALSE)
+
+osm_interest <- readOGR('../earthquake_osm',
+               'mexico-earthquake-2017-juchitán-de-zaragoza-south-area-oaxaca_points_of_interest_points',
+               verbose = FALSE)
+
+osm_roads    <- readOGR('../earthquake_osm/',
+                       'mexico-earthquake-2017-juchitán-de-zaragoza-south-area-oaxaca_roads_lines',
+                       verbose = FALSE)
+
 ###########################################
 ## Intersect
 ###########################################
