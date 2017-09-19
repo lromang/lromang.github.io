@@ -206,10 +206,10 @@ map.addLayer({
 // Daños
   map.addSource("danios", {
         "type": "geojson",
-        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/daños.geojson"
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/danios.geojson"
   });
 
-map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/daños.png', (error, image) => {
+map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/danios.png', (error, image) => {
         if (error) throw error;
         map.addImage('danios', image);
 map.addLayer({
