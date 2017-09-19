@@ -162,12 +162,9 @@ states <- readOGR('../data/estate/',
 states              <- spTransform(states, CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
 ## Get States of Interest
 unique(states$ENTIDAD)
-states_interest <- states[states$ENTIDAD %in% c('CHIAPAS',
-                                               'OAXACA',
+states_interest <- states[states$ENTIDAD %in% c('DISTRITO FEDERAL',
                                                'PUEBLA',
-                                               'GUERRERO',
-                                               'TABASCO',
-                                              'VERACRUZ DE IGNACIO DE LA LLAVE'),]
+                                               'MORELOS'),]
 plot(states_interest)
 ## ----------------------------------------
 ## Union with Danger ZONE
@@ -297,7 +294,7 @@ print('---- HOSPITALS -----')
 proj4string(hospitals) <- CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0")
 hospitals              <- spTransform(hospitals,
                                      CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
-## proj4string(hospitals) <- proj4string(danger_zone_sps)
+proj4string(hospitals) <- proj4string(danger_zone_sps)
 hospital_inter         <- raster::intersect(hospitals,
                                           danger_zone_sps)
 plot(hospital_inter)
