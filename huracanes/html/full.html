@@ -825,7 +825,22 @@ map.on('mouseleave', 'acopio', function(){
 })
 
 
+// DANIOS
+map.on('mouseenter', 'danios', function(e){
+map.getCanvas().style.cursor = 'pointer';
+popup.setLngLat(e.features[0].geometry.coordinates)
+.setHTML('<h1>Edificios dañados</h1><hr><p><strong>Lugar: </strong>' + e.features[0].properties.lugar + '</p><p><strong>Tipo Daños: </strong>' + e.features[0].properties.lugar + '</p><p><strong>Entre calles: </strong>' + e.features[0].properties.entrecalles + '</p><p><strong>Colonia: </strong>' + e.features[0].properties.colonia + '</p><p><strong>Calle: </strong>' + e.features[0].properties.calle + '</p><p><strong>Número: </strong>' +  e.features[0].properties.numero_exterior + '</p><p><strong>Google Maps: </strong>' + e.features[0].properties.link_google_maps + '</p>')
+.addTo(map);
+});
 
+map.on('mouseleave', 'danios', function(){
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+})
+
+
+
+// DIVS
 var toggleableLayerIds = [ 'inundaciones', 'laderas', 'dangerZone', 'hospitales', 'points', 'acopio', 'danios'];
 var toggleableLayerNames = ['Inundaciones', 'Laderas', 'Polígono riesgo huracanes', 'Hospitales', 'Refugios', 'Centro de acopio', 'Daños Temblor'];
 
