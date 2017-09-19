@@ -182,6 +182,33 @@ plot(danger_zone_sps)
 
 
 ##################################################
+## Puntos Dañados (BEGIN)
+##################################################
+
+## ----------------------------------------
+## puntos
+## ----------------------------------------
+pt_daños        <- read.csv('../data/daños.csv',
+                           stringsAsFactors = FALSE)
+
+## ----------------------------------------
+## Polygons
+## ----------------------------------------
+pt_daños$lat <- readr::parse_number(pt_daños$lat)
+pt_daños$lon <- readr::parse_number(pt_daños$lon)
+pt_daños     <- pt_daños[!is.na(pt_daños$lon), ]
+pt_daños     <- pt_daños[!is.na(pt_daños$lat), ]
+
+daños_coords_p  <- SpatialPointsDataFrame(data = pt_daños,
+                                          coords = pt_daños[,8:9])
+writeOGR(daños_coords_p, '../inter_data/danios.geojson', 'acopio', driver='GeoJSON')
+
+
+##################################################
+## Puntos Dañados (End)
+##################################################
+
+##################################################
 ## ACOPIO (BEGIN)
 ##################################################
 

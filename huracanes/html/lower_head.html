@@ -15,7 +15,7 @@ var v1 = new mapboxgl.LngLat(-99.135554, 19.354808);
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    zoom: 6,
+    zoom: 7,
     center: v1
 });
 
@@ -32,7 +32,9 @@ map.on('load', () => {
 'id': 'inundaciones',
         'type': 'fill',
         'source': 'inundaciones',
-        'layout': {},
+'layout': {
+'visibility':'none'
+},
         'paint': {
 'fill-color': {
 'property': 'VULNERABIL',
@@ -95,6 +97,28 @@ map.addLayer({
 
 // --------------------------------------------------
 
+
+// --------------------------------------------------
+
+// Daños
+  map.addSource("danios", {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/inter_data/danios.geojson"
+  });
+
+map.loadImage('https://raw.githubusercontent.com/lromang/lromang.github.io/master/huracanes/images/danios.png', (error, image) => {
+        if (error) throw error;
+        map.addImage('danios', image);
+map.addLayer({
+'id': 'danios',
+'type':'symbol',
+'source':'danios',
+'layout':{"icon-image": "danios", "icon-size": .02}
+})})
+
+// --------------------------------------------------
+
+
 //Deslizamientos  laderas
   map.addSource("laderas", {
         "type": "geojson",
@@ -106,7 +130,9 @@ map.addLayer({
 'id': 'laderas',
         'type': 'fill',
         'source': 'laderas',
-        'layout': {},
+'layout': {
+'visibility':'none'
+},
         'paint': {
             'fill-color': '#0D47A1',
             'fill-opacity': 0.5
