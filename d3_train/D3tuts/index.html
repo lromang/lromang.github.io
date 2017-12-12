@@ -11,21 +11,44 @@
 </html>
 
 <script>
- var circRadi = [40, 20, 10]
+ 
+ var colDeciData = [
+     ['Indicator', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
+     ['Pop', 12,       132,  289,  493,  691,  954, 1261, 1868, 3129, 8638],
+     ['Esc', 2.000000, 6.200000, 6.745441, 7.278740, 7.896824, 8.962025, 9.710900, 11.133907, 12.723781, 14.900000],
+     ['Nse', 1.000000, 1.913043, 2.569504, 3.470588, 4.555740, 5.000000, 5.222366, 5.702194, 6.000000, 7.000000],
+     ['Ben',  4,       10,  17,  30,  54,  76,  117,  173,  271, 1580]
+ ];
 
- // Select Div
- var svg      = d3.select('body')
-                  .append('svg')
-                  .attr('height', 600)
-                  .attr('width', 1000)
+ var secDeciData = [
+     ['Indicator', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
+     ['Pop', 851.2, 1052.2,           1225.2,  1353.0,  1491.0,  1725.8,  2038.0,  2599.0,  3920.8, 13928.0],
+     ['Esc', 5.973812,             6.797329,  7.203877,  7.804179,  8.403163,  8.920475,  9.363764, 10.033263, 11.282495, 13.825959],
+     ['Nse', 2.346481, 3.430397, 3.876379, 4.269985, 4.728372, 5.153158, 5.338674, 5.523166, 6.009790, 7.000000],
+     ['Ben', 17.0,        42.4,  61.0,  75.6,  91.0,  120.4,  157.4,  197.2,  389.6, 1807]
+ ];
 
- // Append Circles to Div
- var circles  = svg.selectAll('circle')
-                   .data(circRadi)
-                   .enter()
-                   .append('circle')
-                   .attr('cx', (d, i) => 2*d * (2 - i) + 50)
-                   .attr('cy', 50)
-                   .attr('r', (d) => d )
-                   .style('fill', (d) => d === 40 ? 'green' : d === 20 ? 'red' : 'purple')
+ // Line Data
+
+ var lineData     = [ { "x": 1,   "y": 5},  { "x": 20,  "y": 20},
+                      { "x": 40,  "y": 10}, { "x": 60,  "y": 40},
+                      { "x": 80,  "y": 5},  { "x": 100, "y": 60}];
+
+ var lineFunction =  d3.line()
+                       .x(d => d.x)
+                       .y(d => d.y)
+
+ // SVG
+ var svgContainer = d3.select('#dec_graph')
+                      .append('svg')
+                      .attr('height', 600)
+                      .attr('width', 600)
+
+ // Draw line
+ var lineGraph    = svgContainer.append('path')
+                                .attr('d', lineFunction(lineData))
+                                .attr('stroke', 'blue')
+                                .attr('stroke-width', 2)
+                                .attr('fill', 'none')
+ 
 </script>
