@@ -28,27 +28,34 @@
      ['Ben', 17.0,        42.4,  61.0,  75.6,  91.0,  120.4,  157.4,  197.2,  389.6, 1807]
  ];
 
- // Line Data
-
- var lineData     = [ { "x": 1,   "y": 5},  { "x": 20,  "y": 20},
-                      { "x": 40,  "y": 10}, { "x": 60,  "y": 40},
-                      { "x": 80,  "y": 5},  { "x": 100, "y": 60}];
-
- var lineFunction =  d3.line()
-                       .x(d => d.x)
-                       .y(d => d.y)
+ // Scales
+ var minScale = Math.min.apply(null, secDeciData[1].filter((d, i) => i === 0 ? null : d));
+ var maxScale = Math.max.apply(null, secDeciData[1].filter((d, i) => i === 0 ? null : d));
+ var scalePop = d3.scaleLinear()
+                  .domain([minScale, maxScale])
+ 
+ console.log(scalePop(100000));
+ // Scale Rectangles
+ var jsonRectangles = [
+     { "x_axis": 10, "y_axis": 10, "height": 20, "width":20, "color" : "green" },
+     { "x_axis": 160, "y_axis": 40, "height": 20, "width":20, "color" : "purple" },
+     { "x_axis": 70, "y_axis": 70, "height": 20, "width":20, "color" : "red" }];
 
  // SVG
- var svgContainer = d3.select('#dec_graph')
-                      .append('svg')
-                      .attr('height', 600)
-                      .attr('width', 600)
+ var svgContainer   = d3.select('#dec_graph')
+                        .append('svg')
+                        .attr('height', 100)
+                        .attr('width', 100)
 
- // Draw line
- var lineGraph    = svgContainer.append('path')
-                                .attr('d', lineFunction(lineData))
-                                .attr('stroke', 'blue')
-                                .attr('stroke-width', 2)
-                                .attr('fill', 'none')
- 
+
+ // Add Rectangles
+ var rectanges      = svgContainer.selectAll('rect')
+                                  .data(jsonRectangles)
+                                  .enter()
+                                  .append('rect')
+                                  .attr('x', (d) => d.x_axis)
+                                  .attr('y', (d) => d.y_axis)
+                                  .attr('height', (d) => d.height)
+                                  .attr('width', (d) => d.width)
+                                  .style('fill', (d) => d.color)
 </script>
