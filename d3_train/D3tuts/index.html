@@ -42,12 +42,47 @@
                 .attr('width', width)
                 .attr('height', width)
 
- // Linear Mapper
- var values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+ // Multilinear Mapper
+ var multiLinear = function(index, data){
+     var pop_values = []
+     switch(true){
+         case (index > 10 && index <= 20):
+             pop_values = colDeciData[2].filter((d, i) => i === 0 ? null : d)
+             console.log('inside 2')
+             break;
+         case (index > 20 && index <= 30):
+             pop_values = colDeciData[3].filter((d, i) => i === 0 ? null : d)
+             console.log('inside 3')
+             break;
+         case (index > 30 && index <= 40):
+             pop_values = colDeciData[4].filter((d, i) => i === 0 ? null : d)
+             console.log('inside 4')
+             break;
+         default:
+             pop_values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+             console.log('inside 1')
+     }
+     var pop_linearMapper = d3.scaleLinear()
+                              .domain([d3.min(pop_values),
+                                       d3.max(pop_values)])
+                              .range([0, width - 50]);
+     return pop_linearMapper(data)
+ }
 
- var linearMapper = d3.scaleLinear()
-                      .domain([d3.min(values),
-                               d3.max(values)])
-                      .range([0, width - 50]);
+ var pop_values       = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+ var pop_linearMapper = d3.scaleLinear()
+                          .domain([d3.min(pop_values),
+                                   d3.max(pop_values)])
+                          .range([0, width - 50]);
+
+ // Map Rectangles
+ var rect = svg.selectAll('rect')
+               .data(pop_values)
+               .enter()
+               .append('rect')
+               .attr('height', 50)
+               .attr('width', 5)
+               .attr('x', (d) => pop_linearMapper(d))
+               .attr('y', (height/4))
 
 </script>
