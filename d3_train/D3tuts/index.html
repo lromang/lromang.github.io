@@ -11,7 +11,6 @@
 </html>
 
 <script>
- 
  var colDeciData = [
      ['Indicator', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
      ['Pop', 12,       132,  289,  493,  691,  954, 1261, 1868, 3129, 8638],
@@ -28,34 +27,27 @@
      ['Ben', 17.0,        42.4,  61.0,  75.6,  91.0,  120.4,  157.4,  197.2,  389.6, 1807]
  ];
 
- // Scales
- var minScale = Math.min.apply(null, secDeciData[1].filter((d, i) => i === 0 ? null : d));
- var maxScale = Math.max.apply(null, secDeciData[1].filter((d, i) => i === 0 ? null : d));
- var scalePop = d3.scaleLinear()
-                  .domain([minScale, maxScale])
- 
- console.log(scalePop(100000));
- // Scale Rectangles
- var jsonRectangles = [
-     { "x_axis": 10, "y_axis": 10, "height": 20, "width":20, "color" : "green" },
-     { "x_axis": 160, "y_axis": 40, "height": 20, "width":20, "color" : "purple" },
-     { "x_axis": 70, "y_axis": 70, "height": 20, "width":20, "color" : "red" }];
+ /*
+  * --------------------------------------------------
+  * Graph rectangles
+  * --------------------------------------------------
+  */
 
- // SVG
- var svgContainer   = d3.select('#dec_graph')
-                        .append('svg')
-                        .attr('height', 100)
-                        .attr('width', 100)
+ var width  = 600;
+ var height = 600;
 
+ // Append SVG
+ var svg    = d3.select('#dec_graph')
+                .append('svg')
+                .attr('width', width)
+                .attr('height', width)
 
- // Add Rectangles
- var rectanges      = svgContainer.selectAll('rect')
-                                  .data(jsonRectangles)
-                                  .enter()
-                                  .append('rect')
-                                  .attr('x', (d) => d.x_axis)
-                                  .attr('y', (d) => d.y_axis)
-                                  .attr('height', (d) => d.height)
-                                  .attr('width', (d) => d.width)
-                                  .style('fill', (d) => d.color)
+ // Linear Mapper
+ var values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+
+ var linearMapper = d3.scaleLinear()
+                      .domain([d3.min(values),
+                               d3.max(values)])
+                      .range([0, width - 50]);
+
 </script>
