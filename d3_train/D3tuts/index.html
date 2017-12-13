@@ -16,7 +16,7 @@
      ['Pop', 12,       132,  289,  493,  691,  954, 1261, 1868, 3129, 8638],
      ['Esc', 2.000000, 6.200000, 6.745441, 7.278740, 7.896824, 8.962025, 9.710900, 11.133907, 12.723781, 14.900000],
      ['Nse', 1.000000, 1.913043, 2.569504, 3.470588, 4.555740, 5.000000, 5.222366, 5.702194, 6.000000, 7.000000],
-     ['Ben',  4,       10,  17,  30,  54,  76,  117,  173,  271, 1580]
+     ['Ben',  4,  10,  17,  30,  54,  76,  117,  173,  271, 1580]
  ];
 
  var secDeciData = [
@@ -26,6 +26,15 @@
      ['Nse', 2.346481, 3.430397, 3.876379, 4.269985, 4.728372, 5.153158, 5.338674, 5.523166, 6.009790, 7.000000],
      ['Ben', 17.0,        42.4,  61.0,  75.6,  91.0,  120.4,  157.4,  197.2,  389.6, 1807]
  ];
+
+
+ var colSolValues = colDeciData.filter((d, i) => i === 0 ? null: d)
+                               .map((d) => d.filter((d, i) => i === 0 ? null: d))
+                               .reduce((acc, d) => acc.concat(d));
+
+ var secSolValues = secDeciData.filter((d, i) => i === 0 ? null: d)
+                               .map((d) => d.filter((d, i) => i === 0 ? null: d))
+                               .reduce((acc, d) => acc.concat(d));
 
  /*
   * --------------------------------------------------
@@ -42,47 +51,98 @@
                 .attr('width', width)
                 .attr('height', width)
 
- // Multilinear Mapper
- var multiLinear = function(index, data){
-     var pop_values = []
+ // X multilinear mapper
+ var xMultiLinear = function(index, data){
+     var values = []
      switch(true){
-         case (index > 10 && index <= 20):
-             pop_values = colDeciData[2].filter((d, i) => i === 0 ? null : d)
-             console.log('inside 2')
+         case (index > 9 && index <= 19):
+             values = colDeciData[2].filter((d, i) => i === 0 ? null : d)
              break;
-         case (index > 20 && index <= 30):
-             pop_values = colDeciData[3].filter((d, i) => i === 0 ? null : d)
-             console.log('inside 3')
+         case (index > 19 && index <= 29):
+             values = colDeciData[3].filter((d, i) => i === 0 ? null : d)
              break;
-         case (index > 30 && index <= 40):
-             pop_values = colDeciData[4].filter((d, i) => i === 0 ? null : d)
-             console.log('inside 4')
+         case (index > 29 && index <= 39):
+             values = colDeciData[4].filter((d, i) => i === 0 ? null : d)
              break;
          default:
-             pop_values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
-             console.log('inside 1')
+             values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
      }
-     var pop_linearMapper = d3.scaleLinear()
-                              .domain([d3.min(pop_values),
-                                       d3.max(pop_values)])
-                              .range([0, width - 50]);
-     return pop_linearMapper(data)
+     var linearMapper = d3.scaleLinear()
+                          .domain([d3.min(values),
+                                   d3.max(values)])
+                          .range([0, width - 50]);
+     return linearMapper(data)
  }
 
- var pop_values       = colDeciData[1].filter((d, i) => i === 0 ? null : d)
- var pop_linearMapper = d3.scaleLinear()
-                          .domain([d3.min(pop_values),
-                                   d3.max(pop_values)])
-                          .range([0, width - 50]);
+
+ // X multilinear mapper
+ var opacityMultiLinear = function(index, data){
+     var values = []
+     switch(true){
+         case (index > 9 && index <= 19):
+             values = colDeciData[2].filter((d, i) => i === 0 ? null : d)
+             break;
+         case (index > 19 && index <= 29):
+             values = colDeciData[3].filter((d, i) => i === 0 ? null : d)
+             break;
+         case (index > 29 && index <= 39):
+             values = colDeciData[4].filter((d, i) => i === 0 ? null : d)
+             break;
+         default:
+             values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+     }
+     var linearMapper = d3.scaleLinear()
+                          .domain([d3.min(values),
+                                   d3.max(values)])
+                          .range([.7, .2]);
+     return linearMapper(data)
+ }
+
+
+ // Y multilinear mapper
+ var yMultiLinear = function(index){
+     switch(true){
+         case (index > 9 && index <= 19):
+             data = 0;
+             break;
+         case (index > 19 && index <= 29):
+             data = 1;
+             break;
+         case (index > 29 && index <= 39):
+             data = 2;
+             break;
+         default:
+             data = 3;
+     }
+     var linearMapper = d3.scaleLinear()
+                          .domain([0, 3])
+                          .range([50, height - 50]);
+     return linearMapper(data)
+ }
 
  // Map Rectangles
  var rect = svg.selectAll('rect')
-               .data(pop_values)
+               .data(colSolValues)
                .enter()
                .append('rect')
                .attr('height', 50)
                .attr('width', 5)
-               .attr('x', (d) => pop_linearMapper(d))
-               .attr('y', (height/4))
+               .attr('x', (d, i) =>  xMultiLinear(i, d))
+               .attr('y', (d, i) =>  yMultiLinear(i))
+               .style('fill', '#550000')
+
+ var rect = svg.selectAll('rect-wide')
+               .data(colSolValues)
+               .enter()
+               .append('rect')
+               .attr('height', 30)
+               .attr('width', (d, i) => xMultiLinear(i, d))
+               .attr('x', 0)
+               .attr('y', (d, i) =>  yMultiLinear(i) + 8)
+               .style('fill', '#550000')
+               .style('fill-opacity', (d,i) => opacityMultiLinear(i, d))
+
+
+
 
 </script>
