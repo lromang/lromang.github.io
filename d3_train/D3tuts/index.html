@@ -52,20 +52,20 @@
                 .attr('height', width)
 
  // X multilinear mapper
- var xMultiLinear = function(index, data){
+ var xMultiLinear = function(data, index, array){
      var values = []
      switch(true){
          case (index > 9 && index <= 19):
-             values = colDeciData[2].filter((d, i) => i === 0 ? null : d)
+             values = array[2].filter((d, i) => i === 0 ? null : d)
              break;
          case (index > 19 && index <= 29):
-             values = colDeciData[3].filter((d, i) => i === 0 ? null : d)
+             values = array[3].filter((d, i) => i === 0 ? null : d)
              break;
          case (index > 29 && index <= 39):
-             values = colDeciData[4].filter((d, i) => i === 0 ? null : d)
+             values = array[4].filter((d, i) => i === 0 ? null : d)
              break;
          default:
-             values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+             values = array[1].filter((d, i) => i === 0 ? null : d)
      }
      var linearMapper = d3.scaleLinear()
                           .domain([d3.min(values),
@@ -74,22 +74,21 @@
      return linearMapper(data)
  }
 
-
- // X multilinear mapper
- var opacityMultiLinear = function(index, data){
+ // Opacity multilinear mapper
+ var opacityMultiLinear = function(data, index, array){
      var values = []
      switch(true){
          case (index > 9 && index <= 19):
-             values = colDeciData[2].filter((d, i) => i === 0 ? null : d)
+             values = array[2].filter((d, i) => i === 0 ? null : d)
              break;
          case (index > 19 && index <= 29):
-             values = colDeciData[3].filter((d, i) => i === 0 ? null : d)
+             values = array[3].filter((d, i) => i === 0 ? null : d)
              break;
          case (index > 29 && index <= 39):
-             values = colDeciData[4].filter((d, i) => i === 0 ? null : d)
+             values = array[4].filter((d, i) => i === 0 ? null : d)
              break;
          default:
-             values = colDeciData[1].filter((d, i) => i === 0 ? null : d)
+             values = array[1].filter((d, i) => i === 0 ? null : d)
      }
      var linearMapper = d3.scaleLinear()
                           .domain([d3.min(values),
@@ -120,29 +119,115 @@
      return linearMapper(data)
  }
 
+ // Update data
+ d3.select('#dec_graph')
+   .append('button')
+   .text('Datos Colonia')
+   .on('click', function(){
+       /*
+        * Update Bars
+        */
+       var rect = svg.selectAll('g')
+                     .selectAll('rect')
+                     .data(colSolValues);
+       // Quitar datos anteriores
+       rect.exit().remove()
+       // Agregar rectangulos
+       rect.enter().append('rect')
+       // Update attributes
+       rect.transition()
+           .duration(500)
+           .attr('x', (d, i) =>  xMultiLinear(d, i, colDeciData))
+       /*
+        * Update Lines
+        */
+       var lines = svg.selectAll('g')
+                      .selectAll('line')
+                      .data(colSolValues);
+       // Quitar datos anteriores
+       lines.exit().remove()
+       // Agregar nuevos datos
+       lines.enter().append('line')
+       // Update attributes
+       lines.transition()
+            .duration(500)
+            .attr('y1', (d, i) =>  yMultiLinear(i) + 25)
+            .attr('y2', (d, i) =>  yMultiLinear(i) + 25)
+            .attr('x1', 0)
+            .attr('x2', (d, i) => xMultiLinear(d, i, colDeciData))
+            .attr('stroke-width', 30)
+            .style('stroke', '#550000')
+            .style('stroke-opacity', (d,i) => opacityMultiLinear(d, i, colDeciData))
+
+   });
+
+
+
+ // Seccion data
+ d3.select('#dec_graph')
+   .append('button')
+   .text('Datos Sección')
+   .on('click', function(){
+       /*
+        * Update Bars
+        */
+       var rect = svg.selectAll('g')
+                     .selectAll('rect')
+                     .data(secSolValues);
+       // Quitar datos anteriores
+       rect.exit().remove()
+       // Agregar rectangulos
+       rect.enter().append('rect')
+       // Update attributes
+       rect.transition()
+           .duration(500)
+           .attr('x', (d, i) =>  xMultiLinear(d, i, secDeciData))
+       /*
+        * Update Lines
+        */
+       var lines = svg.selectAll('g')
+                      .selectAll('line')
+                      .data(secSolValues);
+       // Quitar datos anteriores
+       lines.exit().remove()
+       // Agregar nuevos datos
+       lines.enter().append('line')
+       // Update attributes
+       lines.transition()
+            .duration(500)
+            .attr('y1', (d, i) =>  yMultiLinear(i) + 25)
+            .attr('y2', (d, i) =>  yMultiLinear(i) + 25)
+            .attr('x1', 0)
+            .attr('x2', (d, i) => xMultiLinear(d, i, secDeciData))
+            .attr('stroke-width', 30)
+            .style('stroke', '#550000')
+            .style('stroke-opacity', (d,i) => opacityMultiLinear(d, i, secDeciData))
+
+   });
+
+
  // Map Rectangles
- var rect = svg.selectAll('rect')
+ var rect = svg.append('g')
+               .selectAll('rect')
                .data(colSolValues)
                .enter()
                .append('rect')
                .attr('height', 50)
                .attr('width', 5)
-               .attr('x', (d, i) =>  xMultiLinear(i, d))
-               .attr('y', (d, i) =>  yMultiLinear(i))
+               .attr('x',     (d, i) =>  xMultiLinear(d, i, colDeciData))
+               .attr('y',     (d, i) =>  yMultiLinear(i))
                .style('fill', '#550000')
 
- var rect = svg.selectAll('rect-wide')
-               .data(colSolValues)
-               .enter()
-               .append('rect')
-               .attr('height', 30)
-               .attr('width', (d, i) => xMultiLinear(i, d))
-               .attr('x', 0)
-               .attr('y', (d, i) =>  yMultiLinear(i) + 8)
-               .style('fill', '#550000')
-               .style('fill-opacity', (d,i) => opacityMultiLinear(i, d))
-
-
-
-
+ var lines = svg.append('g')
+                .selectAll('line')
+                .data(colSolValues)
+                .enter()
+                .append('line')
+                .attr('y1', (d, i) =>  yMultiLinear(i) + 25)
+                .attr('y2', (d, i) =>  yMultiLinear(i) + 25)
+                .attr('x1', 0)
+                .attr('x2', (d, i) => xMultiLinear(d, i, colDeciData))
+                .attr('stroke-width', 30)
+                .style('stroke', '#550000')
+                .style('stroke-opacity', (d,i) => opacityMultiLinear(d, i, colDeciData))
 </script>
