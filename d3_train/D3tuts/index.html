@@ -3,15 +3,15 @@
     <head>
         <title></title>
         <meta charset="utf-8" />
-        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3.v4.js"></script>
+    </head>
+    <body>
         <div class="row">
             <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
             <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
             <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
             <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
         </div>
-    </head>
-    <body>
         <div style="width:1500px; height:800px" id="dec_graph"></div>
     </body>
 </html>
@@ -96,6 +96,7 @@
      }
  }
 
+ // Ticks Mouse Out
  var ticksMouseOut = function(d, i){
      if(i % 10 != 0 && i % 10 != 9){
          var ticks = d3.select(this)
@@ -104,6 +105,57 @@
                        .attr('font-size', '3px')
      }
  }
+
+
+ // Circle Mouse Over
+ var circMouseOver = function(d, i){
+     var circle = d3.select(this);
+
+     circle.transition()
+           .duration(10)
+           .attr('stroke', 'black')
+           .attr('stroke-width', '3');
+
+     // Data and Index
+     var x  = circle.attr('cx');
+     var y  = circle.attr('cy');
+     // Add ttext
+     var ttext  = svg.selectAll('g')
+                     .selectAll('.ttext')
+                     .data([0]);
+     // Remove previous ttext
+     ttext.exit().remove()
+     ttext.enter().append("text")
+     // Add data
+     ttext.attr('x', x)
+          .attr('y', y - 15)
+          .text(x)
+          .attr("font-family", "sans-serif")
+          .attr("font-size", "10px")
+          .attr("fill", "#550000")
+ }
+
+ // Circle Mouse Out
+ var circMouseOut = function(d, i){
+     var circle = d3.select(this)
+                    .transition()
+                    .duration(10)
+                    .attr('stroke', '#550000')
+                    .attr('stroke-width', '2')
+
+     // Remove text
+     var ttext  = svg.selectAll('g')
+                     .selectAll('.ttext')
+                     .data([0]);
+
+     ttext.exit().remove()
+     ttext.enter().append("text")
+
+     ttext.text('')
+
+
+ }
+
 
  // Y multilinear mapper
  var yMultiLinear = function(index){
@@ -331,4 +383,15 @@
                   .attr('stroke', '#550000')
                   .attr('stroke-width', 2)
                   .attr('fill', 'white')
+                  .on('mouseover',circMouseOver)
+                  .on('mouseout', circMouseOut);
+
+ var ttext    = svg.append('g')
+                   .selectAll('text')
+                   .data([0])
+                   .enter()
+                   .append('text')
+                   .attr('class', 'ttext')
+
+
 </script>
