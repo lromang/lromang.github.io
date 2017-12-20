@@ -1,397 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title></title>
         <meta charset="utf-8" />
-        <script src="https://d3js.org/d3.v4.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>D3 v4 - piechart</title>
+        <style>
+         #graph {
+             width: 900px;
+             height: 500px;
+         }
+        </style>
     </head>
+
     <body>
-        <div class="row">
-            <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
-            <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
-            <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
-            <div onmouseover="update_data()" style="width:100px;height:30px;border-style:dashed"></div>
-        </div>
-        <div style="width:1500px; height:800px" id="dec_graph"></div>
+        <div id="graph"></div>
+        <script src="https://d3js.org/d3.v4.js"></script>
+        <script>
+         var data = [{"name": "hoge","value": 100},
+                     {"name": "hellow", "value": 312},
+                     {"name": "world", "value": 222},
+                     {"name": "fuga", "value": 254}]
+
+         var width, height
+         var chartWidth, chartHeight
+         var margin
+         var svg        = d3.select("#graph").append("svg")
+         var chartLayer = svg.append("g").classed("chartLayer", true)
+
+
+         var colorScale = d3.scaleOrdinal()
+                            .domain(['hoge', 'hellow', 'world', 'fuga'])
+                            .range(['#550000', '#801515', '#D46A6A', '#FFAAAA'])
+
+         width = document.querySelector("#graph").clientWidth
+         height = document.querySelector("#graph").clientHeight
+
+         margin = {top:40, left:0, bottom:40, right:0 }
+
+
+         chartWidth = width - (margin.left+margin.right)
+         chartHeight = height - (margin.top+margin.bottom)
+
+         svg.attr("width", width).attr("height", height)
+
+
+         chartLayer
+            .attr("width", chartWidth)
+            .attr("height", chartHeight)
+            .attr("transform", "translate("+[margin.left, margin.top]+")")
+
+
+
+         var arcs = d3.pie()
+                      .sort(null)
+                      .value(function(d) { return d.value; })
+         (data)
+
+         var arc = d3.arc()
+                     .outerRadius(chartHeight/2)
+                     .innerRadius(chartHeight/4)
+                     .padAngle(0.03)
+                     .cornerRadius(8)
+
+         var pieG = chartLayer.selectAll("g")
+                              .data([data])
+                              .enter()
+                              .append("g")
+                              .attr("transform", "translate("+[chartWidth/2, chartHeight/2]+")")
+
+         var block = pieG.selectAll(".arc")
+                         .data(arcs)
+
+         var newBlock = block.enter().append("g").classed("arc", true)
+
+         newBlock.append("path")
+                             .attr("d", arc)
+                             .attr("id", function(d, i) { return "arc-" + i })
+                             .attr("stroke", "gray")
+                             .attr("fill", function(d,i){ return colorScale(d.data.name) })
+
+
+         newBlock.append("text")
+                             .attr("dx", 55)
+                             .attr("dy", -5)
+                             .append("textPath")
+                             .attr("xlink:href", function(d, i) { return "#arc-" + i; })
+                             .text(function(d) { console.log(d);return d.data.name })
+        </script>
     </body>
 </html>
-
-<script>
- var colDeciData = [
-     ['Indicator', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
-     ['Pop', 12,       132,  289,  493,  691,  954, 1261, 1868, 3129, 8638],
-     ['Esc', 2.000000, 6.200000, 6.745441, 7.278740, 7.896824, 8.962025, 9.710900, 11.133907, 12.723781, 14.900000],
-     ['Nse', 1.000000, 1.913043, 2.569504, 3.470588, 4.555740, 5.000000, 5.222366, 5.702194, 6.000000, 7.000000],
-     ['Ben',  4,  10,  17,  30,  54,  76,  117,  173,  271, 1580]
- ];
-
- var secDeciData = [
-     ['Indicator', 'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
-     ['Pop', 851.2, 1052.2,           1225.2,  1353.0,  1491.0,  1725.8,  2038.0,  2599.0,  3920.8, 13928.0],
-     ['Esc', 5.973812,             6.797329,  7.203877,  7.804179,  8.403163,  8.920475,  9.363764, 10.033263, 11.282495, 13.825959],
-     ['Nse', 2.346481, 3.430397, 3.876379, 4.269985, 4.728372, 5.153158, 5.338674, 5.523166, 6.009790, 7.000000],
-     ['Ben', 17.0,        42.4,  61.0,  75.6,  91.0,  120.4,  157.4,  197.2,  389.6, 1807]
- ];
-
- // Titles
- var dtitles = colDeciData.filter((d, i) => i === 0 ? null: d)
-                          .map((d) => d.filter((d, i) => i != 0 ? null: d))
-                          .reduce((acc, d) => acc.concat(d))
-
- // Values
- var colValues = colDeciData.filter((d, i) => i === 0 ? null: d)
-                            .map((d) => d.filter((d, i) => i === 0 ? null: d))
-                            .reduce((acc, d) => acc.concat(d));
-
- var secValues = secDeciData.filter((d, i) => i === 0 ? null: d)
-                            .map((d) => d.filter((d, i) => i === 0 ? null: d))
-                            .reduce((acc, d) => acc.concat(d));
-
- /*
-  * --------------------------------------------------
-  * Graph rectangles
-  * --------------------------------------------------
-  */
- var width  = 700;
- var height = 400;
-
- // Append SVG
- var svg    = d3.select('#dec_graph')
-                .append('svg')
-                .attr('width', width)
-                .attr('height', width)
-
- // X multilinear mapper
- var xMultiLinear = function(data, index, array, range){
-     var values = []
-     switch(true){
-         case (index >= 0 && index < 10):
-             values = array[1].filter((d, i) => i === 0 ? null : d)
-             break;
-         case (index >= 10 && index < 20):
-             values = array[2].filter((d, i) => i === 0 ? null : d)
-             break;
-         case (index >= 20 && index < 30):
-             values = array[3].filter((d, i) => i === 0 ? null : d)
-             break;
-         case (index >= 30 && index < 40):
-             values = array[4].filter((d, i) => i === 0 ? null : d)
-             break;
-     }
-     var linearMapper = d3.scaleLinear()
-                          .domain([d3.min(values),
-                                   d3.max(values)])
-                          .range(range);
-     return linearMapper(data)
- }
-
-
- // Ticks Mouse Over
- var ticksMouseOver = function(d, i){
-     if(i % 10 != 0 && i % 10 != 9){
-         var ticks = d3.select(this)
-                       .transition()
-                       .duration(10)
-                       .attr('font-size', '12px')
-     }
- }
-
- // Ticks Mouse Out
- var ticksMouseOut = function(d, i){
-     if(i % 10 != 0 && i % 10 != 9){
-         var ticks = d3.select(this)
-                       .transition()
-                       .duration(10)
-                       .attr('font-size', '3px')
-     }
- }
-
-
- // Circle Mouse Over
- var circMouseOver = function(d, i){
-     var circle = d3.select(this);
-
-     circle.transition()
-           .duration(10)
-           .attr('stroke', 'black')
-           .attr('stroke-width', '3');
-
-     // Data and Index
-     var x  = circle.attr('cx');
-     var y  = circle.attr('cy');
-     // Add ttext
-     var ttext  = svg.selectAll('g')
-                     .selectAll('.ttext')
-                     .data([0]);
-     // Remove previous ttext
-     ttext.exit().remove()
-     ttext.enter().append("text")
-     // Add data
-     ttext.attr('x', x)
-          .attr('y', y - 15)
-          .text(x)
-          .attr("font-family", "sans-serif")
-          .attr("font-size", "10px")
-          .attr("fill", "#550000")
- }
-
- // Circle Mouse Out
- var circMouseOut = function(d, i){
-     var circle = d3.select(this)
-                    .transition()
-                    .duration(10)
-                    .attr('stroke', '#550000')
-                    .attr('stroke-width', '2')
-
-     // Remove text
-     var ttext  = svg.selectAll('g')
-                     .selectAll('.ttext')
-                     .data([0]);
-
-     ttext.exit().remove()
-     ttext.enter().append("text")
-
-     ttext.text('')
-
-
- }
-
-
- // Y multilinear mapper
- var yMultiLinear = function(index){
-     data = 0;
-     switch(true){
-         case (index >= 10 && index < 20):
-             data = 1;
-             break;
-         case (index >= 20 && index < 30):
-             data = 2;
-             break;
-         case (index >= 30 && index < 40):
-             data = 3;
-             break;
-     }
-     var linearMapper = d3.scaleLinear()
-                          .domain([0, 3])
-                          .range([50, height - 50]);
-     return linearMapper(data)
- }
-
- var yMultiLinearTicks = function(index){
-     data = index === 0 || index === 9? 0 : .02;
-     switch(true){
-         case (index >= 10 && index < 20):
-             data = index === 19 || index === 10? 1 : 1.02 ;
-             break;
-         case (index >= 20 && index < 30):
-             data = index === 29 || index === 20? 2 : 2.02 ;
-             break;
-         case (index >= 30 && index < 40):
-             data = index === 39 || index === 30? 2 : 3.02 ;
-             break;
-     }
-     var linearMapper = d3.scaleLinear()
-                          .domain([0, 4])
-                          .range([50, height - 50]);
-     return linearMapper(data)
- }
-
-
- var update_data = function(){
-     var circles = svg.selectAll('g')
-                      .selectAll('circle')
-                      .data([0, 1, 2, 3]);
-     circles.exit().remove()
-     circles.enter().append("circle")
-
-     circles.transition()
-            .duration(500)
-            .attr('cx', (d, i) =>  xMultiLinear(Math.random() * (d3.max(colValues)-d3.min(colValues)) + d3.min(colValues), i, colDeciData, [50, width - 50]))
- }
-
-
-
- // Update data
- d3.select('#dec_graph')
-   .append('button')
-   .text('Datos Colonia')
-   .on('click', function(){
-       /*
-        * Update Bars
-        */
-       var rect = svg.selectAll('g')
-                     .selectAll('rect')
-                     .data(colValues);
-       // Quitar datos anteriores
-       rect.exit().remove()
-       // Agregar rectangulos
-       rect.enter().append('rect')
-       // Update attributes
-       rect.transition()
-           .duration(500)
-           .attr('x', (d, i) =>  xMultiLinear(d, i, colDeciData, [50, width - 50]))
-       /*
-        * Update Lines
-        */
-       var lines = svg.selectAll('g')
-                      .selectAll('line')
-                      .data(colValues);
-       // Quitar datos anteriores
-       lines.exit().remove()
-       // Agregar nuevos datos
-       lines.enter().append('line')
-       // Update attributes
-       lines.transition()
-            .duration(500)
-            .attr('x2', (d, i) => xMultiLinear(d, i, colDeciData, [50, width - 50]))
-            .style('stroke-opacity', (d,i) => xMultiLinear(d, i, colDeciData, [.4, .1]))
-       /*
-        * Update text
-        */
-       var text = svg.selectAll('g')
-                     .selectAll('.ticks')
-                     .data(colValues);
-       // Quitar datos anteriores
-       text.exit().remove()
-       // Agregar nuevos datos
-       text.enter()
-           .append('text')
-           .attr('class', 'ticks')
-       // Update attributes
-       text.transition()
-           .duration(500)
-           .text((d) => d.toFixed(1))
-           .attr('x', (d, i) => xMultiLinear(d, i, colDeciData, [50, width - 50]) - 3)
-   });
-
- // Seccion data
- d3.select('#dec_graph')
-   .append('button')
-   .text('Datos Sección')
-   .on('click', function(){
-       /*
-        * Update Bars
-        */
-       var rect = svg.selectAll('g')
-                     .selectAll('rect')
-                     .data(secValues);
-       // Quitar datos anteriores
-       rect.exit().remove()
-       // Agregar rectangulos
-       rect.enter().append('rect')
-       // Update attributes
-       rect.transition()
-           .duration(500)
-           .attr('x', (d, i) =>  xMultiLinear(d, i, secDeciData, [50, width - 50]))
-       /*
-        * Update Lines
-        */
-       var lines = svg.selectAll('g')
-                      .selectAll('line')
-                      .data(secValues);
-       // Quitar datos anteriores
-       lines.exit().remove()
-       // Agregar nuevos datos
-       lines.enter().append('line')
-       // Update attributes
-       lines.transition()
-            .duration(500)
-            .attr('x2', (d, i) => xMultiLinear(d, i, secDeciData, [50, width - 50]))
-            .style('stroke-opacity', (d,i) => xMultiLinear(d, i, secDeciData, [.4, .1]))
-       /*
-        * Update text
-        */
-       var text = svg.selectAll('g')
-                     .selectAll('.ticks')
-                     .data(secValues);
-       // Quitar datos anteriores
-       text.exit().remove()
-       // Agregar nuevos datos
-       text.enter()
-           .append('text')
-           .attr('class', 'ticks')
-       // Update attributes
-       text.transition()
-           .duration(500)
-           .text((d) => d.toFixed(1))
-           .attr('x', (d, i) => xMultiLinear(d, i, secDeciData, [50, width - 50]) - 3)
-   });
-
-
- // Map Rectangles
- var rect = svg.append('g')
-               .selectAll('rect')
-               .data(colValues)
-               .enter()
-               .append('rect')
-               .attr('height', 50)
-               .attr('width', 2)
-               .attr('x',     (d, i) =>  xMultiLinear(d, i, colDeciData, [50, width - 50]))
-               .attr('y',     (d, i) =>  yMultiLinear(i))
-               .style('fill', '#550000')
-
- var lines = svg.append('g')
-                .selectAll('line')
-                .data(colValues)
-                .enter()
-                .append('line')
-                .attr('y1', (d, i) =>  yMultiLinear(i) + 25)
-                .attr('y2', (d, i) =>  yMultiLinear(i) + 25)
-                .attr('x1', 50)
-                .attr('x2', (d, i) => xMultiLinear(d, i, colDeciData, [50, width - 50]))
-                .attr('stroke-width', 25)
-                .style('stroke', '#550000')
-                .style('stroke-opacity', (d,i) => xMultiLinear(d, i, colDeciData, [.4, .1]))
-
- var text = svg.append('g')
-               .selectAll('text')
-               .data(colValues)
-               .enter()
-               .append('text')
-               .attr('class', 'ticks')
-               .text((d) => d.toFixed(1))
-               .attr('x',     (d, i) =>  xMultiLinear(d, i, colDeciData, [50, width - 50]) - 3)
-               .attr('y',     (d, i) =>  {return i % 10 === 0 || i % 10  === 9 ? (yMultiLinear(i) - 12) : (yMultiLinear(i) - 7)})
-               .attr("font-family", "sans-serif")
-               .attr("font-size", (d, i) => i % 10 === 0 || i % 10  === 9 ? "10px" : "3px")
-               .attr("fill", "#550000")
-               .on('mouseover', ticksMouseOver)
-               .on('mouseout', ticksMouseOut)
-
-
- var titles = svg.append('g')
-                 .selectAll('text')
-                 .data(dtitles)
-                 .enter()
-                 .append('text')
-                 .text((d) => d)
-                 .attr('class', 'titles')
-                 .attr('x', 0)
-                 .attr('y', (d, i) =>  yMultiLinear(i * 10) + 25)
-                 .attr("font-family", "sans-serif")
-                 .attr("font-size", "16px")
-                 .attr("fill", "#550000");
-
- var circles = svg.append('g')
-                  .selectAll('circle')
-                  .data([0, 1, 2, 3])
-                  .enter()
-                  .append('circle')
-                  .attr('cx', (d, i) =>  xMultiLinear(Math.random() * (d3.max(colValues)-d3.min(colValues)) + d3.min(colValues), i, colDeciData, [50, width - 50]))
-                  .attr('cy', (d, i) =>  yMultiLinear(i * 10) + 25)
-                  .attr('r',  12)
-                  .attr('stroke', '#550000')
-                  .attr('stroke-width', 2)
-                  .attr('fill', 'white')
-                  .on('mouseover',circMouseOver)
-                  .on('mouseout', circMouseOut);
-
- var ttext    = svg.append('g')
-                   .selectAll('text')
-                   .data([0])
-                   .enter()
-                   .append('text')
-                   .attr('class', 'ttext')
-
-
-</script>
