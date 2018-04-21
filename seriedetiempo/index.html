@@ -34,7 +34,7 @@
 <!-- Plotly chart will be drawn inside this DIV -->
 <div id="myDiv"></div>
 <script>
-    Plotly.d3.csv("data/water_query_tseries.csv", function(err, rows){
+    Plotly.d3.csv("data/tseries.csv", function(err, rows){
 
         function unpack(rows, key) {
             return rows.map(function(row) { return row[key]; });
@@ -48,7 +48,7 @@
             x: unpack(rows, 'created_at'),
             y: unpack(rows, '0.0'),
             line: {color: '#17BECF'}
-        }
+        };
 
         var trace2 = {
             type: "scatter",
@@ -57,7 +57,7 @@
             x: unpack(rows, 'created_at'),
             y: unpack(rows, '1.0'),
             line: {color: '#7F7F7F'}
-        }
+        };
 
         var trace3= {
             type: "scatter",
@@ -66,12 +66,12 @@
             x: unpack(rows, 'created_at'),
             y: unpack(rows, '-1.0'),
             line: {color: '#000'}
-        }
+        };
 
         var data = [trace1,trace2, trace3];
 
         var layout = {
-            title: 'Water Crisis',
+            title: 'MX City protests',
         };
 
         Plotly.newPlot('myDiv', data, layout);
