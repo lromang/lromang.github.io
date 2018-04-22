@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Sertech</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style>
+        body {
+            /*padding-top: 70px;*/
+            font-family: Roboto;
+        }
+    </style>
+
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+<!-- Plotly chart will be drawn inside this DIV -->
+<div id="myDiv"></div>
+<script>
+    Plotly.d3.csv("data/tseries.csv", function(err, rows){
+
+        function unpack(rows, key) {
+            return rows.map(function(row) { return row[key]; });
+        }
+
+
+        var trace1 = {
+            type: "scatter",
+            mode: "lines",
+            name: 'Neutral',
+            x: unpack(rows, 'created_at'),
+            y: unpack(rows, '0.0'),
+            line: {color: '#17BECF'}
+        };
+
+        var trace2 = {
+            type: "scatter",
+            mode: "lines",
+            name: 'Positive',
+            x: unpack(rows, 'created_at'),
+            y: unpack(rows, '1.0'),
+            line: {color: '#7F7F7F'}
+        };
+
+        var trace3= {
+            type: "scatter",
+            mode: "lines",
+            name: 'Negative',
+            x: unpack(rows, 'created_at'),
+            y: unpack(rows, '-1.0'),
+            line: {color: '#000'}
+        };
+
+        var data = [trace1,trace2, trace3];
+
+        var layout = {
+            title: 'MX City protests',
+        };
+
+        Plotly.newPlot('myDiv', data, layout);
+    })
+</script>
+</body>
+</html>
