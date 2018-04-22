@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "d3": "3",
+    "d3-cloud": "^1.2.5"
+  },
+  "name": "wordcloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
