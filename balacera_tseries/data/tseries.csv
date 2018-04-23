@@ -1,209 +1,568 @@
-"date","V1"
-2017-07-01,7
-2017-07-03,38
-2017-07-04,14
-2017-07-06,43
-2017-07-07,14
-2017-07-13,16
-2017-07-14,143
-2017-07-15,19
-2017-07-16,33
-2017-07-17,9
-2017-07-19,15
-2017-07-20,272
-2017-07-21,116
-2017-07-22,87
-2017-07-23,346
-2017-07-24,319
-2017-07-26,7
-2017-07-28,12
-2017-07-29,13
-2017-07-30,177
-2017-07-31,58
-2017-08-01,14
-2017-08-03,130
-2017-08-04,16
-2017-08-06,7
-2017-08-08,61
-2017-08-09,13
-2017-08-10,44
-2017-08-14,78
-2017-08-15,73
-2017-08-16,43
-2017-08-17,18
-2017-08-18,7
-2017-08-19,11
-2017-08-20,15
-2017-08-21,8
-2017-08-22,94
-2017-08-23,85
-2017-08-24,20
-2017-08-25,561
-2017-08-26,162
-2017-08-27,38
-2017-08-28,8
-2017-08-29,66
-2017-08-30,10
-2017-08-31,175
-2017-09-01,79
-2017-09-02,30
-2017-09-03,79
-2017-09-04,14
-2017-09-05,7
-2017-09-07,49
-2017-09-08,167
-2017-09-09,8
-2017-09-10,25
-2017-09-11,21
-2017-09-13,22
-2017-09-14,239
-2017-09-15,65
-2017-09-16,56
-2017-09-20,35
-2017-09-22,14
-2017-09-23,152
-2017-09-24,72
-2017-09-25,16
-2017-09-27,51
-2017-09-28,13
-2017-09-29,18
-2017-09-30,10
-2017-10-01,16
-2017-10-02,25
-2017-10-03,6
-2017-10-06,116
-2017-10-08,18
-2017-10-09,17
-2017-10-11,95
-2017-10-12,25
-2017-10-16,12
-2017-10-17,5
-2017-10-18,22
-2017-10-19,14
-2017-10-20,20
-2017-10-21,53
-2017-10-24,15
-2017-10-25,116
-2017-10-26,43
-2017-10-27,41
-2017-10-28,34
-2017-10-29,11
-2017-10-30,17
-2017-10-31,5
-2017-11-02,88
-2017-11-03,23
-2017-11-04,17
-2017-11-05,83
-2017-11-06,61
-2017-11-07,14
-2017-11-08,210
-2017-11-09,19
-2017-11-10,43
-2017-11-11,33
-2017-11-12,41
-2017-11-13,28
-2017-11-14,34
-2017-11-15,21
-2017-11-16,14
-2017-11-17,21
-2017-11-22,16
-2017-11-23,9
-2017-11-24,5
-2017-11-25,25
-2017-11-26,5
-2017-11-29,29
-2017-11-30,5
-2017-12-01,55
-2017-12-07,26
-2017-12-08,7
-2017-12-09,7
-2017-12-13,48
-2017-12-14,14
-2017-12-17,31
-2017-12-20,47
-2017-12-21,6
-2017-12-22,46
-2017-12-29,6
-2018-01-03,17
-2018-01-04,9
-2018-01-05,15
-2018-01-12,14
-2018-01-13,18
-2018-01-14,5
-2018-01-18,16
-2018-01-21,23
-2018-01-23,5
-2018-01-26,86
-2018-01-27,19
-2018-01-28,52
-2018-01-29,9
-2018-01-31,6
-2018-02-01,26
-2018-02-02,22
-2018-02-04,6
-2018-02-05,6
-2018-02-06,15
-2018-02-07,67
-2018-02-08,83
-2018-02-09,10
-2018-02-10,9
-2018-02-11,22
-2018-02-12,6
-2018-02-13,36
-2018-02-14,68
-2018-02-15,74
-2018-02-16,18
-2018-02-17,33
-2018-02-18,34
-2018-02-19,307
-2018-02-20,14
-2018-02-21,161
-2018-02-22,113
-2018-02-23,14
-2018-02-24,26
-2018-02-25,42
-2018-02-26,19
-2018-02-27,6
-2018-02-28,223
-2018-03-01,63
-2018-03-02,43
-2018-03-03,13
-2018-03-04,299
-2018-03-05,72
-2018-03-07,5
-2018-03-09,57
-2018-03-10,187
-2018-03-11,30
-2018-03-12,44
-2018-03-13,68
-2018-03-16,15
-2018-03-17,24
-2018-03-18,19
-2018-03-19,1249
-2018-03-20,793
-2018-03-21,19
-2018-03-22,7
-2018-03-23,54
-2018-03-24,22
-2018-03-27,54
-2018-03-28,31
-2018-03-29,26
-2018-03-30,13
-2018-03-31,6
-2018-04-03,104
-2018-04-04,30
-2018-04-06,22
-2018-04-07,7
-2018-04-08,11
-2018-04-09,484
-2018-04-10,57
-2018-04-11,13
-2018-04-12,34
-2018-04-13,43
-2018-04-14,378
-2018-04-15,137
-2018-04-16,177
-2018-04-17,71
-2018-04-18,21
-2018-04-19,115
-2018-04-20,44
+colonia,date,ct,text
+PALMITAS,2017-04-04,5,"#ÚltimaHora, tiroteo entre militares y delincuentes en la comunidad de Palmitas, municipio de Angostura; un abatido… https://t.co/l55Wf2FjNs"
+SAN MIGUEL TEOTONGO (SECC MERCEDES),2017-04-04,9,URGENTE colectivos disparan nuestra manifestacion pacifica estamos en la autopista Auxilio! https://t.co/TXweZe2IuI
+AMPL LA CONCHITA,2017-04-05,27,Tenemos 4 heridos a tiros tras balacera en el centro de Tláhuac. Están graves. Verificando móvil. Tierra y Libertad esq Agustín Lara. #CDMX
+ZONA RES ACUEDUCTO DE GUADALUPE,2017-04-06,5,Ninguna patrulla en sta ma ribera después de balacera —@arabianrisk https://t.co/md9U4E4LYk
+AMPL SINATEL,2017-04-07,8,"#CdMx |
+
+Reportan balacera en Sur 109 y Agustín Yáñez, col Popular. SSP en el punto. ¡Les informo!"
+TLAXPANA,2017-04-07,7,"Se escuchan balazos, motos y gritos en col. tlaxpana calles atzayacatl y quetzalcoalt. —@cristin38722980"
+Z URB EJ STA MARIA AZTAHUACAN,2017-04-07,6,"Imágenes de la balacera durante la cabalgata de la Feria de #Cuernavaca en Av. Plan de Ayala. Hay un herido. 
+
+VIDE… https://t.co/UUDNGKnmnU"
+ANZURES,2017-04-08,6,"#CdMx |
+
+Servicios Periciales retiran cadáver de la colonia Anzures asesinado a balazos. 
+
+QEPD https://t.co/xyitjilmIN"
+BARRIO NORTE,2017-04-10,11,Podrían revisar hay disparos en av padre hidalgo entre calle 9 y calle 8 urge —@Alverik_wagen https://t.co/x8F9tShLWu
+SAN JUAN XALPA,2017-04-10,21,Se escuchan balazos en la colonia san juan xalpa llevan al menos 20 detonaciones —@DavidPerrea_ https://t.co/C435Ns2R2q
+SANTA CATARINA AMPLIACION,2017-04-11,6,"Hombre asesinado a balazos en la Autopista México Pachuca a la altura de la Av. San José
+@RamkarC informa con… https://t.co/DKjIjrOayz"
+ROMA NORTE,2017-04-12,27,Persecución y balacera en calles de la Roma Norte #CUH. Par de ladrones abandonan auto y escapan. #OncesDeLaNoche. https://t.co/tjH8or63A0
+PORTALES ORIENTE,2017-04-14,7,"Reporte de tiroteo en interior Plaza Universidad. Sector Portales. 
+@UCS_CDMX"
+APATLACO,2017-04-16,5,"Estoy escuchando una balacera, no sé de dónde provenga. aproximadamente entre eje 5 y eje central. —@diprosopia https://t.co/QbatbFFvj6"
+JUAREZ,2017-04-17,12,Vecinos están reportando disparos y gente corriendo asustada afuera de Liverpool de Plaza Tezontle. Nos estamos acercando. @retioDF
+BARRIO SAN MIGUEL,2017-04-19,5,"Asesinan de dos disparos a un hombre en Av Rojo Gómez y Artemio Alpízar, Barrio San Miguel en @Del_Iztapalapa. Vía… https://t.co/TpCLTj2fcV"
+SAN MIGUEL TEOTONGO(SECC CORR),2017-04-19,5,En la Av. Peaz de El Paraíso se escuchan fuertes detonaciones y disparos en este momento.
+PLAN DE BARRANCAS,2017-04-21,11,@DonRamonMX @elabuelopower0  asalto y balacera en Paseo hace unos minutos
+LA PRADERA,2017-04-22,17,"#CdMx | Asesinan a dos personas a balazos a unas calles de distancia se encuentran uno del otro col Pradera, del GAM. SSP resguarda la zona."
+BARRIO 18,2017-04-25,6,Nuestros amigos de #Xochimilco nos reportan disparos en Canal 27 cerca Tulyehualco. Hay una persona tirada en el piso. #CDMX @retioDF
+LA CANDELARIA TICOMAN,2017-04-25,8,Asesinan a persona de 2 balazos en candelaria y palma col. candelaria ticoman gam peritos de ya en l… —@ElPolloCDMX https://t.co/nTua5Ksnbd
+MORELOS,2017-04-25,7,"📹#NotiMinutoSeguridad Cuatro personas baleadas, entre ellas un menor de edad, dejó un tiroteo en la Colonia Morelos… https://t.co/VsqvaSCzAb"
+PRO HOGAR,2017-04-25,13,Reportan balacera en calle 19 entre calle 16 y central sur col. pro hogar —@LALON_GA_NICE https://t.co/3uyWyJ1Xgn
+POLANCO REFORMA,2017-04-27,16,Mujer víctima de la crueldad de la delincuencia.Le roban 80 mil y le disparan.Ferrocarril de Cuernavaca #Polanco… https://t.co/tXg7ZGKUTa
+3A SECC LOS CERRILLOS,2017-04-28,53,"Se registra balacera en Plaza Meave, en Eje Central. @jorgegonzalez00 https://t.co/TQD0zUYAzC"
+SAN FELIPE DE JESUS,2017-04-28,6,"Héroes del 47 y Huiloapan, San Felipe de Jesús: informan de tiroteo, en preliminar dos personas lesionadas PAF."
+3A SECC LOS CERRILLOS,2017-04-29,6,"Reportan balacera en Eje Central y El Salvador, afuera de Plaza Meave. Un muerto y 3 heridos.  https://t.co/GNSQjdebqt"
+MEXICO NUEVO,2017-04-29,38,"OJO. Hace unos minutos se registró un tiroteo en la col. México Nuevo, en Miguel Hidalgo y al momento hay dos muertos y un herido.💀"
+PARQUE SAN ANDRES,2017-04-29,7,Impresionante balacera sobre división del norte y miguel ángel de quevedo. pffff #policiacdmx —@TOTARTT https://t.co/R6hv1j5qmB
+CANDELARIA COYOACAN,2017-04-30,8,"Policía en la colonia candelaria delegación coyoacán, dio 2 disparos a un joven enfrente de su casa … —@CrisRosas20 https://t.co/KMlclwH4tq"
+FELIPE ANGELES,2017-04-30,5,"Asaltan Joyería en Pabellón Cuauhtémoc, Ladrones disparan para Romper las Vitrinas del Local @SSP_CDMX en el lugar.… https://t.co/dObdLZhx8P"
+LOMAS DE TONALCO,2017-05-01,6,"En marisquería de Lirio y Camino a Nativitas en Xochimilco, balacera deja una persona muerta y varios heridos.
+
+@retioDF"
+LOS PICOS DE IZTACALCO 1RA SECC,2017-05-01,11,"#CdMx | Servicios Periciales retiran cadáver de persona asesinada a balazos sobre Oriente 116 y Sur 115A, col Juven… https://t.co/CGfcc5gaDj"
+XALTOCAN,2017-05-01,7,"Se registra balacera en un negocio de comida en la col. barrio xaltocan, xochimilco con reporte de una… —@tavojeda5 https://t.co/7sAX3jcBJU"
+CUCHILLA PANTITLAN,2017-05-02,7,"#CdMx | 
+
+En la madrugada fue asesinado a balazos un hombre sobre Circunvalación y Tulio, col Cuchilla Pantitlán. N… https://t.co/v5qFhRlFru"
+DEL CARMEN,2017-05-03,6,@UCS_CDMX Se escuchan disparos en la calle centenario entre Viena y Berlín en la del Carmen Coyoacan
+PLAN DE BARRANCAS,2017-05-03,17,Robo a mano armada en ave. explanada y reforma en lomas de chapultepec a las 2 pm. 3 balazos al a… —@ponchocortes90 https://t.co/dsZ3BUqRIs
+POLANCO REFORMA,2017-05-03,37,"Vandalización callejera, asaltos, balaceras en plazas y mercados, capos en Polanco...Ah, sí @ManceraMiguelMX construyendo su candidatura"
+SANTA MARIA LA RIBERA,2017-05-03,7,@UCS_CDMX @ciudad_segura balazos en Enriqueta Camarillo entre torres Bodet y Sabino en Santa Maria La Ribera @RicardoMonrealA @RafaelLunaSP
+DEL VALLE,2017-05-04,38,"Este uno de los vehículos atacados a balazos al exterior “Bar La Única”
+col Del Valle, San Pedro confirman 3 muerto… https://t.co/hB7MphqOou"
+NARCISO MENDOZA SUPER MANZANA 3 VILLA COAPA,2017-05-04,11,Asesinan a jóven a balazos en Eje 1 norte y tenochtitla Col. Morelos​ CUH #CDMX a espera de servicios periciales… https://t.co/61W4bZJbIu
+AMPL GABRIEL HERNANDEZ,2017-05-05,5,2presuntos asaltantes y militar muertos al enfrentarse a balazos en un asalto a T.Publico en Periférico y 1ro de Ma… https://t.co/bCOHHtjPTz
+CUCHILLA DEL TESORO,2017-05-05,9,"Policias al frustrar robo al Comité de Gestión Social se desata balacera, 3 muertos, Av. Norte 1 #86 y Pte 21 Col.… https://t.co/i6nBNbaL32"
+ESCANDON,2017-05-05,7,@SSP_CDMX @PGJDF_CDMX  Se escuchan balazos quizá calle José María Vigil y Salvador Alvarado Col. Escandon. Miguel Hidalgo
+ARAGON FOVISSSTE,2017-05-06,17,"#CdMx | Se registra balacera en la colonia Aragón Fovissste, #GAM, servicios de emergencia atienden a 4 personas lesionadas. 
+
+#Precaución"
+TLAXPANA,2017-05-07,7,Asesinan de nueve disparos a un sujeto..calle atzayacatl y tlaloc col. Tlaxpana https://t.co/le5aUMPKe6
+LOS GIRASOLES III,2017-05-08,6,Hallan #muerto a hombre con 2 disparos dentro de #Jetta (834-VNL) en Calz del Hueso y Eje 3 Ote (Cafetales)/… https://t.co/t5rI96ieiW
+RENOVACION,2017-05-09,6,"#EDOMEX #Balacera #Iztapalapa
+
+Reportan balacera en la colonia Renovación en la delegación Iztapalapa https://t.co/7zKSRAL6Ot"
+FUENTES DE ZARAGOZA,2017-05-10,9,"Muere persona por disparos de arma de fuego durante asalto en Oyameles casi Calz. I. Zaragoza, Iztapalapa… https://t.co/WTj41Zg8M3"
+RENOVACION,2017-05-10,38,"#Video 🎥 |
+
+Difunden imágenes de supuesto operativo vs narcomenudistas que terminó en #balacera, col Renovación, en… https://t.co/smLMIa3fZd"
+BARRIO TULA CULHUACAN,2017-05-11,26,Vecinos reportan balacera en Eje 3 y Tepetlapa donde un hombre pierde la vida y otro mas se encuentra herido.… https://t.co/YvARpJpH2R
+SANTO DOMINGO,2017-05-11,5,"Se acaban de escuchar balazos en calle Mixquic esq Ayotosco, favor de enviar unidades, ya estamos hartos @UCS_CDMX @SSP_CDMX @ciudad_segura"
+EJIDO SANTA URSULA COAPA,2017-05-14,5,"Se opone al robo de su motocicleta y le disparan, esta herido. tlalpan y división del norte en coyoa… —@isidrocorro https://t.co/P1eRPcCSuY"
+PERALVILLO,2017-05-14,8,"#CdMx |
+
+Se registra balacera en la col Peralvillo, Servicios de Emergencia atienden a tres personas lesionadas. 
+
+#Precaución"
+ESCANDON,2017-05-15,46,Un muerto y un herido a tiros deja balacera en marisquería de la col Escandón. Revolución y Martí. #CDMX @retioDF https://t.co/O2cIH7Es9g
+CHURUBUSCO COUNTRY CLUB,2017-05-17,6,"#Asaltan a 2 personas al salir de un #banco en Tlalpan y Viaducto, les disparan para robarles, fallece 1 @RedVialRC… https://t.co/iRHQec7ZHJ"
+LOMAS DE SANTA CRUZ,2017-05-18,29,"Vecinos col Ángeles en Iztapalapa reportan riña colectiva, hay disparos y un herido; están quemando un auto. Carolina y Rosario. @retioDF"
+SAN FELIPE DE JESUS,2017-05-18,13,"#CdMx |
+
+SSP resguarda el cuerpo de un hombre asesinado a balazos, presuntamente policía, en la col. San Felipe de… https://t.co/UCMppH84Fv"
+GABRIEL HERNANDEZ,2017-05-19,34,Uno de los #Asesinos del Policia en Cabo Finisterre y Punta Peñasco tras balacera en la Col.Gabriel Hernandez en la… https://t.co/NLVoreedOR
+LA PURISIMA TICOMAN,2017-05-19,5,"; en la colonia la purísima ticoman, cada día se agrava más la inseguridad y delincuencia.balazos a … —@mosquedushk https://t.co/ng7jrlpoHW"
+ATZACOALCO,2017-05-20,13,"En cumplimiento de su labor, falleció un policía de #GAM en un tiroteo en la Col. Santiago Atzacoalco. Mi más senti… https://t.co/VsknMCuELn"
+BUENOS AIRES,2017-05-24,7,Muere persona a balazos en dr. barragan y bolaños cacho col. buenos aires #cdmx —@ElPolloCDMX https://t.co/DheSnjacSi
+DOCTORES,2017-05-24,9,"Así la balacera de la Doctores, un muerto y un lesionado. https://t.co/Ml9Ijsy83s"
+COLA DE PATO,2017-05-26,10,"#CdMx | 
+
+Se espera la llegada de servicios periciales, km 17, México-Toluca, automovilista es asesinado a balazos. https://t.co/uHgrLGlxlH"
+3A SECC LOS CERRILLOS,2017-05-27,9,Otra balacera deja 2 muertos 1 lesionado en Eje Central y Río de los Remedios Col. Progreso nacional GAM #CDMX @retioDF
+BARRIO GUADALUPE,2017-05-27,6,Continúan los Asesinatos en la #CDMX Conductor se resiste a asalto y lo asesinan a balazos sobre la Av.Tlahuac y La… https://t.co/9ziXYOvIWk
+INFONAVIT CULHUACAN ZONA 3,2017-05-27,5,"Habilitada 30 calle 7 avenida #zona3, tras tiroteo entre autoridades y delincuentes. Según #PNC en el área, un bale… https://t.co/ew8P9U256C"
+LOMAS DE CAPULA,2017-05-27,5,#Lamentable Hay un #Policia muerto a balazos en Lomas de Capula en la delegación Álvaro Obregón durante Operativo. https://t.co/tjx5fDJkSt
+CALTONGO,2017-05-28,7,Comerciantes dl barrio de Tepito reportan disparos; hay 3 heridos a tiros. Tenochtitlán y eje 1 norte. Hay movilización policiaca. @retioDF
+MIGUEL HIDALGO 2A SECCION,2017-05-28,5,Reportan un lesionado a balazos en calle victoria y Felipe Angeles 3a secc Miguel Hidalgo en #Tlalpan
+SANTA MARIA AZTAHUACAN,2017-05-29,6,@ciudad_segura @UCS_CDMX se oyen balazos por reforma Pensil y torre blanca en la Miguel Hidalgo ya van más de 20 detonaciones
+BARRIO SAN LUCAS,2017-06-01,10,Ya hay presencia de granaderos tras balacera en Calz. Ermita Iztapalapa y San Lorenzo. En lugar se encontraron 14 c… https://t.co/QZHlXCFJ7W
+DEL VALLE,2017-06-01,107,Hallan cadáver de hombre con disparos y cuchilladas en la Valle-Coche https://t.co/wXRKNcbfzc
+OLIVAR DEL CONDE 1RA SECC,2017-06-01,16,Muere hombre a balazos en calle 18 y calle 6 Col. Olivar del Conde #CDMX @retioDF https://t.co/Q1AnX3HvqK
+PANTEON CIVIL DE IZTAPALAPA,2017-06-01,12,"Usuario de Twitter comparte video de la mujer muerta a balazos sobre Av. San Lorenzo y Ermita en @Del_Iztapalapa, i… https://t.co/MDymQF0SBV"
+EX HIPODROMO DE PERALVILLO,2017-06-03,10,"📹 Un hombre fue asesinado a balazos esta tarde en Caruso y Constantino, colonia Ex Hipódromo de Peralvillo, Del. Cu… https://t.co/E231XQ7T8G"
+GUERRERO,2017-06-03,5,"Reportan balacera en la colonia #Guerrero 😲👇
+https://t.co/1B6kf9Wzqw #TuCiudadTeRequiere https://t.co/lqdq5YGAMl"
+EX HIPODROMO DE PERALVILLO,2017-06-04,5,"De almenos 7 balazos ejecutan a conductor de Corvette, Florencio Constantino y Granados Col. Ex  hipódromo de Peral… https://t.co/XEYVmuPaJX"
+BARRIO NORTE,2017-06-05,18,Auxilio en avenida padre hidalgo hay una balacera y calle nueve hagan algo —@Alverik_wagen https://t.co/W6SygLoUGs
+MIGUEL HIDALGO,2017-06-05,6,Nos indican de otra balacera en la colonia Miguel hidalgo en #Tlalpan https://t.co/XSg8IjeDY6
+PERALVILLO,2017-06-05,11,"Un hombre es asesinado a balazos por sujetos que lo atacaron cuando bajaba de su auto en la colonia Peralvillo, CdM… https://t.co/7eOJsLbRKE"
+PEDREGAL DE SAN NICOLAS 2DA SECC,2017-06-06,6,"#CdMx | 
+
+Se registra balacera en Halacho y Dzitas,col Pedregal de San Nicolás 3raSección; reportan un muerto, SSP en el punto
+
+#Precaución"
+POPOTLA,2017-06-06,5,"Esta mañana en #MarianoEscobedo y #LagoGarda, Col Popotla, se reportaron 2 personas muertas a balazos; la… https://t.co/9KtSjqFrEM"
+PROGRESO NACIONAL,2017-06-06,11,Movilización de servicios de emergencia por balacera en Calle 10 al cruce con Perlillar Col. Ampliación Progreso Nacional #TraficoRVial
+EX HIPODROMO DE PERALVILLO,2017-06-07,6,@tritonazteca11 Grave inseguridad en #CDMX 4 heridos tras ser atacados a balazos anoche Calz Vallejo y Pte 112 en @gamadero @ManceraMiguelMX
+GUERRERO,2017-06-08,27,Un muerto y 2 heridos a tiros deja balacera en la col Guerrero. Soto y Camelia. Zona centro #CDMX @SergioyLupita https://t.co/wIZLgQ7cEZ
+FRACC HERMOSILLO,2017-06-10,6,"""Pensé q nos iban a matar"": habitante de colonia de #Hermosillo, al quedar entre balacera d policías y delincuentes https://t.co/AQ4g9y1Wwh"
+JORGE NEGRETE,2017-06-12,5,10 disparos con arma de fuego sobre virginia fábregas esq. andres soler col. jorge negrete gam ya casi … —@sigxlira https://t.co/yl7jR9kyVE
+MERCED BALBUENA,2017-06-12,7,"Detonación de disparos donde muere el presunto delincuente en la Col. Merced Balbuena. Llegan más policías al apoyo, otros corren. @retioDF"
+OBRERA,2017-06-12,18,Vecinos reportan disparos y persona herida en vecindad. Chimalpopoca y Bolívar en el centro. #CDMX. @retioDF
+20 DE noviembre,2017-06-13,94,Agentes de la @SSP_CDMX continúan laborando por balacera en calle Choferes y Floricultura Col. 20 de Noviembre… https://t.co/S92boRgG5Y
+AJUSCO,2017-06-14,6,Hace menos de 20 minutos ha habido disparos a los alrededores de santa ursula cerca de col. ajusco —@Ulichet https://t.co/vyT9vBGXWM
+PARQUE SAN ANDRES,2017-06-14,16,"Alerta en Virginia por tiroteo; congresista republicano resulta herido
+https://t.co/DPYtCq5PYk"
+SAN JOAQUIN,2017-06-14,8,"@retioDF #asalto lateral de Río San Joaquin a Periférico Nte, hubo balazos. @SSP_CDMX URGE vigilancia fija ahí, casi diario pasa algo."
+SANTA MARIA LA RIBERA,2017-06-14,5,"Rafaga de balazos en santa maría la ribera, se escucharon por flores magón y naranjo. —@mikelangelob https://t.co/yBYmM8FaGE"
+GUADALUPE YECAHUIZOTL,2017-06-16,5,"Buenas noches @UCS_CDMX , hace unos minutos se escuchó una ráfaga de balazos en Eje 10 Copilco casi esq. Universidad. @SSP_CDMX"
+SAN DIEGO OCOYOACAC,2017-06-17,10,"#CdMx | 
+
+Asesinan a automovilista a balazos sobre Golfo de Tehuantepec y Lago Managua, col San Diego Ocoyoacac. De… https://t.co/FusczDyYtE"
+HIPODROMO DE LA CONDESA,2017-06-18,7,"@SSP_CDMX balacera en Condesa, me pasaron enfrente sujetos armados, 1.75, uno cazadora verde olivo, otro camisa blanca se fueron por Minería"
+PUEBLO LA MAGDALENA CONTRERAS,2017-06-18,28,Policía de la CDMX atiende balaceras en la Magdalena Contreras Video https://t.co/iAwhinykux
+HIDALGO,2017-06-19,9,S.o.s muchos balazos en calle bondojito esquina huinchapan de león col. hidalgo alvaro obregon atrás de… —@gafabeth https://t.co/1gJNLjeULg
+SAN ANDRES TOTOLTEPEC,2017-06-19,6,Dos personas fallecieron durante un tiroteo en la fiesta patronal de San Andrés Totoltepec en la delegación Tlalpan… https://t.co/3voWYOqMuV
+SAN JOAQUIN,2017-06-19,6,"@SSP_CDMX @isidrocorro balacera en General Arista cruce con mexico-tacuba, ojalá ahora si agarren a estos malditos"
+TEPEYAC INSURGENTES,2017-06-19,10,"@SSP_CDMX Se están escuchando varios balazos en la colonia Tepeyac Insurgentes, van como 10 detonaciones en la GAM. Ayuda!!"
+JUVENTINO ROSAS,2017-06-20,14,"Muere hombre a balazos en calle de Recreo y Sur 117 Col. Juventino Rosas, Iztacalco #CDMX @retioDF"
+MORELOS,2017-06-20,6,"Una balacera en la colonia Morelos, en la Ciudad de México, dejó como resultado una persona sin vida y otras dos má… https://t.co/svhmZDqAGr"
+EL RISCO CTM,2017-06-21,14,Mujer muerta y un herido deja balacera en fernando amilpa y luis yurem col. ctm el risco gam #cdmx —@ElPolloCDMX https://t.co/CISopPy9x5
+XOTEPINGO,2017-06-21,5,Una balacera en División del Norte y Cuauhtémoc.  ¿Qué está pasando en esta Ciudad? @enladelvalle @LOMMX @ManceraMiguelMX @SSP_CDMX
+DOCTORES,2017-06-22,8,"@hiramalmeidae @RicardoMonrealA @SSP_CDMX @UCS_CDMX Cuándo el Operativo a la col. DOCTORES, Todos los días disparos, drogas, agresiones!"
+EL RISCO CTM,2017-06-22,12,Mujer muerta y un herido deja balacera en fernando amilpa y luis yurem col. ctm el risco gam #cdmx —@ElPolloCDMX https://t.co/CISopPy9x5
+VALLE DE LUCES,2017-06-22,6,"Asesinan de varios disparos a un hombre que comía en un puesto ambulante, Tizoc y Tenochtitlan, Col Valle de Luces… https://t.co/N3FykqvrcJ"
+SAN FRANCISCO CULHUACAN,2017-06-24,8,Asesinan a balazos a hombre en un negocio sobre Taxqueña y Hidalgo col.San Francisco Culhuacán. SSP resguarda el cu… https://t.co/tgqQYSh5l6
+LA MALINCHE,2017-06-25,8,Muchos disparos en capitan vertiz col. maliche del magdalena contreras favor de enviar patrulla creo … —@OctAllende https://t.co/Jh9EG0hWva
+SAN JUAN TLIHUACA,2017-06-25,14,@SSP_CDMX se acaban de escuchar balazos en San Juan Tlihuaca en @AzcapotzalcoDF en la calle Fco Murguía casi esq con María Lugo
+SAN FRANCISCO CULHUACAN,2017-06-26,12,"Ejido y Tlacuiloca, San Francisco Culhuacán en Coyoacán: la noche de ayer joven es asesinado de tres disparos de ar… https://t.co/JrCGJc0VWi"
+BELLAVISTA,2017-06-28,21,Un muerto y 2 heridos deja ataque a balazos en Bellavista  https://t.co/RnaOdXXFkJ
+LOMAS DE CHAPULTEPEC,2017-06-28,6,Reportan persona herida por disparos de arma de fuego en Montañas Rocallosas y Montes Cáucaso en Col. Lomas de Chapultepec. @retioDF
+PLAN DE BARRANCAS,2017-07-01,7,"DICEN que hay una balacera en progreso en Paseo Constituyentes, a la altura de Walmart. Tráfico detenido y autos regresando, sentido a MX"
+FELIPE ANGELES,2017-07-03,33,Motociclista asesina a balazos a Policia @SSP_CDMX en el cruce de Circuito Interior y Norte 64 @gamadero Responsabl… https://t.co/JCMpI8jqy9
+TLAZINTLA,2017-07-03,5,"Fuerte balacera en eje 3 oriente (francisco del paso y troncoso) esquina con la calle de recreo, i… —@luismorabrito https://t.co/xSbRi7Sxzs"
+SANTA MARIA AZTAHUACAN,2017-07-04,8,"Después de robar, asaltantes asesinan a balazos a la cajera de un OXXO en la Av. Jalisco cerca del metro Tacubaya, @ciudad_segura @retioDF"
+GRAL PEDRO MARIA ANAYA,2017-07-06,29,"#SM_CDMX
+Muere Asaltante por disparos de arma de fuego, sobre Carrillo puerto y golfo de Aden. 
+@delegacionMH https://t.co/WqBS97l6GD"
+PLAN DE BARRANCAS,2017-07-07,5,"Según me informan el intercambio de disparos es el Paseo Anauco, se presume que fue entre la antisociales y la GNB. #PorConfirmar"
+SAN JUAN XALPA,2017-07-07,9,#CdMx | Continúan las balaceras en la Cd de la Furia;servicios de emergencia se dirigen a Camino Real aToluca y Bellavista x persona baleada
+MORELOS,2017-07-13,9,Muere hombre de 7 balazos en Palma Norte y Libertad Col. Morelos #CDMX @retioDF
+TLAXPANA,2017-07-13,7,"#CdMx |
+
+Me reportan una balacera en la colonia Tlaxpana, delegación Miguel Hidalgo. Les informo!"
+ESCANDON,2017-07-14,19,@SSP_CDMX balacera en la Condesa en este momento...se escucha hacia Av Patriotismo y Alfonso Reyes
+PERALVILLO,2017-07-14,10,Marq al 911 para notificar de varios disparos en circuito interior y alfonso reyes nunca contestaron —@lestrada77 https://t.co/X6lSFBHzFE
+HIPODROMO DE LA CONDESA,2017-07-15,11,A medianoche balacera en la Condesa con persecución en contraflujo sobre Circuito Interior termina con un asegurado… https://t.co/OAFkIWK57M
+OBRERA,2017-07-15,8,Se escucharon balazos en la colonia obrera a la altura del eje 2 y eje central podrían mandar unid… —@tenelugo3tovi https://t.co/S7YbyzQ8LI
+INSURGENTES,2017-07-16,11,"Se están dando con todo moradores de 2 vecindades en Martín Carrera en GAM. Hay disparos, botellazos y golpes. Rayón y Av Martín Carrera."
+PRESIDENTES DE MEXICO,2017-07-16,12,"Llegan sujetos armados,amenazan, golpean, disparan y huyen. Comerciante lesionado por bala en Vélez y Dr.Norma en l… https://t.co/bMuXufPhGT"
+Z URB EJ LOS REYES CULHUACAN,2017-07-16,5,"#CdMx |
+
+Asesinan a una persona a balazos en Moctezuma y Tizoc, col. Los Reyes Culhuacán. Por este homicidio no hay… https://t.co/uVmqiOC9lU"
+CENTRO,2017-07-17,9,Así el momento donde asesinan a hombre a balazos en Nicolás Bravo y José Joaquín Herrera Col. Centro #CDMX por la n… https://t.co/vV716PY78H
+DESARROLLO URBANO QUETZALCOATL,2017-07-19,6,"Persona muere por disparos de arma de fuego en villa cid de la col. desarrollo urbano quetzalcóatl, iz… —@tavojeda5 https://t.co/CUoGXeT3Do"
+AMPL TORREBLANCA,2017-07-20,23,"Un hombre fue asesinado a balazos en restaurante #Vips de Calzada Legaria y Lago Gran Oso, Col. Pensil, Del. Miguel… https://t.co/V49iSmOTZu"
+JOSE LOPEZ PORTILLO,2017-07-20,7,Conductor de taxi muerto a balazos en calles de la colonia José López Portillo de #Iztapalapa #CDMX.… https://t.co/Ti6oX86zjm
+LA NOPALERA,2017-07-20,6,🚨#AlMomento 🚨La zona de #Tláhuac sigue muy caliente. Reportan balacera en la colonia Nopalera y bloqueos de mototax… https://t.co/IwBa2UEotZ
+LOS CIPRESES,2017-07-20,6,8 muertos deja tiroteo entre marinos y narcos en Tláhuac. #CDMX https://t.co/XHVxsl2Y3V
+SAN LORENZO HUIPULCO,2017-07-20,8,Reporte de disparos calle juan bosco entre fray andres de cordoba y fray francisco de los angeles co… —@LaVascoCDMX https://t.co/O4SV6KTAiG
+ESPERANZA,2017-07-22,5,"Se acaban de escuchar 6 disparos en Calz de La Viga 
+Col. Esperanza Del Cuauhtemoc pueden mandar a una unidad @SSP_CDMX @UCS_CDMX"
+FUEGO NUEVO,2017-07-22,14,"Un grupo armado anoche lesionó a cuatro hombres durante dos balaceras en Colonia Fuego Nuevo, Iztapalapa https://t.co/4al3f03jTa"
+SANTA MARIA NATIVITAS,2017-07-22,63,@La_Portales @SSP_CDMX Se escucharon balazos por Av.Emiliano Zapata y Eje Central
+DESARROLLO URBANO QUETZALCOATL,2017-07-23,7,"Ahorita una balacera con reporte de varios heridos y dos fallecidos en un mercado de la Av. Texcoco, límites con Iztapalapa y Neza @retioDF"
+JUAN ESCUTIA,2017-07-23,239,"#AHORA Dos muertos y varios heridos deja balacera en el tianguis de San Juan, en la colonia Juan Escutia, de la del… https://t.co/GT3jwGlWTC"
+LLANO REDONDO,2017-07-23,51,Empistolados en moto disparan contra bar en la col Llano Redondo en A. Obregón; matan a 3 personas. Imparable la violencia en la #CDMX.
+LOMAS DE PLATEROS,2017-07-23,11,"#Nacionales Dos muertos y varios heridos tras balacera en tianguis de Iztapalapa, en la #CDMX… https://t.co/QwN5HFVIaN"
+DIAMANTE,2017-07-26,7,"Sobre Miramontes altura Zapamundi: lesionado PAF en asalto a transporte público, le disparan por venir dormido, apo… https://t.co/o2w71vmFje"
+BOSQUES DE CHAPULTEPEC,2017-07-28,5,#HDLM Sujetos armados disparan contra casa en Bosques de Chapultepec. Vía @ehecatlmello https://t.co/wQLyba8kve
+SAN JUAN DE ARAGON 7MA SECC,2017-07-28,7,"#CDMX: 1 muerto por arma fuego, 16:49 reportan disparos en calle 414 y 481 col. 7ma sección, San Juan de Aragón. https://t.co/HNfWd2627L"
+3A SECC LOS CERRILLOS,2017-07-29,8,"Realiza disparos en Eje Central con subametralladora, lo persiguen, choca, lo ayudan y después se les da a la fuga… https://t.co/gzDdaFPU2k"
+SIDERAL,2017-07-29,5,Pido apoyo de patrullas se escuchan disparos en av. satélites esq con calle hiperión col. sidera… —@PowerBlackRosse https://t.co/Vb67dCanXC
+ATZACOALCO,2017-07-30,5,"Se escucharon disparos en la col. nva atzacoalco, clle 307 y 306 del. gam —@heserel https://t.co/XWcwp7HM9m"
+MORELOS,2017-07-30,6,@UCS_CDMX balacera entre carroceros y eje 1 norte. Casi esquina con Sastrería. Casi 20 balazos. No hay patrullas
+PEDREGAL DE SANTO DOMINGO,2017-07-30,89,Reportan balazos en la col.santo domingo sobre la calle anacahuita atrás de la estación universidad del m… —@Huatoo https://t.co/7ADUyeutZK
+SANTO DOMINGO,2017-07-30,72,Último minuto: Vecinos de la colonia Santo Domingo en #Coyoacán reportan balacera; hay 5 personas heridas tiradas en el piso. @retioDF
+PERIODISTA,2017-07-31,53,Se desata balacera en unidad del transporte público en #Tláhuac y #Periférico. Al menos dos lesionados por arma de fuego
+GUADALUPANA,2017-08-01,5,"Dos hombres fueron asesinados a balazos en la Colonia Guadalupana, informa la Policía de Tlaquepaque"
+NUEVA ATZACOALCO,2017-08-01,9,"📽️Un hombre fue asesinado a balazos esta tarde en Calle 319, entre 314 y 316 , Colonia Nueva Atzacoalco, Delegación… https://t.co/Ek5EdypfdK"
+BOSQUE DE SAN JUAN DE ARAGON,2017-08-03,10,"Mujer asesinada ayer a balazos cuando circulaba en su auto por la Av. 608 frente al metro #BosqueDeAragón.
+https://t.co/pZPcXpgJ3f"
+CALTONGO,2017-08-03,7,"Se registra balacera en la Col. Morelos #Tepito, en Tenochtitlan y Eje 1. Reportan al menos 5 lesionados. (📸@OpEsMx) https://t.co/WlfEpSi3lA"
+SEVILLA,2017-08-03,6,"Se arma balacera en Roa Bárcenas y Fco. Ayala, col. Vista Alegre. Ladrones de autos vs. policías. Saldo: 1 delincuente herido y 2 detenidos."
+JORGE NEGRETE,2017-08-06,7,"Hay una persona fallecida por disparos de arma de fuego en Río San Pedro y Arozamena en la Col. Jorge Negrete, GAM @ciudad_segura @retioDF"
+AMPL GABRIEL HERNANDEZ,2017-08-08,6,Persona muerta por disparos de arma de fuego en transporte público en periférico a la cdmx en la zona … —@tavojeda5 https://t.co/9ASQZdtHfp
+BARRIO SANTA BARBARA,2017-08-08,6,Los detuvimos cuando realizaban disparos al aire en el Barrio de Santa Bárbara #IZP. Aseguramos un arma tipo pluma… https://t.co/DbI9dG1Hee
+VALLE DE LUCES,2017-08-09,8,Tras reporte de disparos queda lesionada una persona en #cetram #tlahuac #cdmx lo… https://t.co/r8WYmCSplL —@bsk_mtz https://t.co/pauTplQrJ3
+5 DE mayo,2017-08-10,6,"Por segunda noche consecutiva me reportan balacera en Lago Zurich, col. Pensil. Hay un lesionado, les informo!"
+JOSE LOPEZ PORTILLO,2017-08-10,9,"Persona muere por disparos de arma de fuego en calle 21 y calle 13 en la col. josé lópez portillo, izt… —@tavojeda5 https://t.co/GSHvFOxdoI"
+LA MALINCHE,2017-08-10,16,"#Atención asesinan a una persona de varios disparos, Cda de Risa Azul y E. Zapata, Col La Malinche @DelLaMagdalenaC… https://t.co/vsGbNIAVBX"
+SANTA MARIA AZTAHUACAN,2017-08-10,13,"En la Miguel Hidalgo, motocicletas cierran paso a camioneta, asesinan a balazos al conductor https://t.co/Eo8A8Jp4A4 https://t.co/N73TaJC5qf"
+EL ARBOLILLO,2017-08-14,7,Más información de la balacera en Avenida Central. https://t.co/JMkV5Gk1r0
+MORELOS,2017-08-14,23,2 lesionados y 1 muerto por paf en tiroteo dentro de vecindad en #peralvillo  #15  col #Morelos https://t.co/LtSlZZa2uf
+SANTA ISABEL TOLA,2017-08-14,48,VIDEO. Así se vivió la balacera en la Cervecería de Banda en el Centro de CDMX https://t.co/kBNaJ2fjxf
+GUERRERO,2017-08-15,24,Se registra balacera en la colonia Guerrero en la CDMX; al menos un muerto: Esta mañana fue reportada una balacera…… https://t.co/rS8hIuPjpx
+NUEVA ATZACOALCO,2017-08-16,33,URGENTE:   Reportan disparos en área del Hospital Roosevelt.
+Del Valle,2017-08-17,7,#ÚltimaHora 🔴 El hombre que escapó del control policial en la Diagonal ha muerto en un tiroteo en Sant Just. https://t.co/QjVwc1rpYA
+GABRIEL HERNANDEZ,2017-08-17,6,Parece que se está dando un tiroteo en la zona del Mercado de la Boquería.
+TABACALERA,2017-08-17,5,Un tiroteo en el paseo de Cambrils 😐Esto no termina...
+PUEBLO SANTA MARTHA ACATITLA,2017-08-18,7,"#InseguridadCDMX asesinan de dos disparos a mujer en Francisco Sarabia y Octavio Paz, Sta Martha Acatitla… https://t.co/XIzwVYpGmg"
+EL ARBOLILLO II CROC,2017-08-19,11,"ÚLTIMA HORA: Reportan un tiroteo en la estación de Nimes, Francia https://t.co/qDvdg9eRhh https://t.co/0Hf9c9mQj9"
+DESARROLLO URBANO QUETZALCOATL,2017-08-20,9,#CDMX tres muertos por disparos de arma de fuego en Vicente Guerrero en el Pueblo de Culhuacan #Iztapalapa… https://t.co/GMZpNMJKLT
+Del Valle,2017-08-20,6,Intento de atraco termino en balacera Calle 7e con carrera 19c1 @Valledupar_Col  a mi valle en q te has convertido… https://t.co/CLqam4sPZF
+POPOTLA,2017-08-22,62,"#Atención uno de los detenidos en balacera registrada en Mar Egeo y Av Cuitláhuac en #MiguelHidalgo, también hubo p… https://t.co/Ll0YuTKHIZ"
+PROGRESO TIZAPAN,2017-08-22,17,Se desata balacera durante intento de desalojo en Popotla; reportan un muerto https://t.co/pVZJ2yeN4F https://t.co/b6WVVlXPfu
+SAN ANDRES,2017-08-22,9,Un hombre resultó con 3 balazos al oponerse al asalto dentro de Micro sobre Emiliano Carranza col San Andrés y las… https://t.co/tdLou9NSfi
+SAN BARTOLO AMEYALCO,2017-08-22,6,"📹#NotiMinutoSeguridad Un hombre fue asesinado a balazos en San Bartolo Ameyalco, Álvaro Obregón… https://t.co/Mcawk0TeBP"
+INDUSTRIAL,2017-08-23,45,#Rata muere tras enfrentarse a #balazos con @SSP_CDMX en Miraflores y Excelsior Col.Industria @gamadero estaba roba… https://t.co/mWhCpRXXPt
+DESARROLLO URBANO QUETZALCOATL,2017-08-24,5,"OJO. Labora la @PGJDF_CDMX en calles de la col. Desarrollo Urbano Quetzalcóatl, #IZP donde un hombre fue asesinado a balazos. 💀"
+EMILIO CARRANZA,2017-08-24,10,Asesinan a hombre a balazos abordo de automóvil en Ferrocarril de Cintura y Circunvalación Col. Emiliano Carranza VCA #CDMX @retioDF
+MORELOS,2017-08-24,5,Muere un hombre de dos disparos de arma de fuego en ferrocarril de cintura y pintores colonia Morelos se presume qu… https://t.co/55kSh9n6pc
+AMPL SANTA CRUZ,2017-08-25,5,Persecución y balacera sobre Periférico en Palmas deja un muerto y tres heridos https://t.co/HPAYw3GPEw https://t.co/MPkhsNzzus
+LOMAS ALTAS,2017-08-25,13,Muere uno en balacera en Lomas https://t.co/406TsxkRBt
+MORELOS,2017-08-25,56,"Los de la moto le querían quitar su coche. Los recibió a balazos. Uno herido. El otro muerto. Colonia Morelos, CdMx… https://t.co/LNEkfEgTV4"
+DEL GAS,2017-08-26,59,Taxistas armados disparando al aire en la Colonia.  Ampliación del gas en Azcapotzalco @MrElDiablo8 @IrvingPineda… https://t.co/O5PAz9SKNV
+MORELOS,2017-08-26,47,Automovilista mata a disparos a un sujeto que intentó asaltarlo en la colonia Morelos de la delegación Venustiano C… https://t.co/HMMn1kmCKQ
+INFONAVIT EL ROSARIO,2017-08-27,12,Gritos balacera y alboroto en restaurante casa de toño sabino santa maría la ribera urge patrulla —@REPORTINQUIETO https://t.co/7G8c2G0nOZ
+LOMAS DE CHAPULTEPEC,2017-08-27,7,Persecución y balacera de #Naucalpan a #CDMX. Un muerto. Lomas de Chapultepec #MH. #OncesDeLaNoche. https://t.co/mHsL0IUs02
+MORELOS,2017-08-27,7,"Reportan disparos sobre Eje 1 Norte y Tenochtitlán, Col Morelos hay un herido y en Canal del Norte y Ferrocarril Hidalgo, GAM, otro más !!!"
+LOMAS DE SAN JUAN IXHUATEPEC A SECCION,2017-08-28,8,"¿Aún trabajas @eruviel_avila? 
+Una persona fue asesinada a balazos en asalto a transporte en la México-Pachuca, cer… https://t.co/7UkKmlqfdX"
+BARRIO CRUZTITLA,2017-08-29,18,Vecinos reportan disparos en el corazón de Tepito. Hay un jovencito tirado en el piso. Fray Bartolomé y Aztecas. #CDMX @retioDF
+DEL OBRERO,2017-08-29,5,#UltimaHora Reportan tiroteo en biblioteca pública de Nuevo México https://t.co/69sKGsEF7Y https://t.co/7evxM3xzdJ
+EJIDOS DE SN PEDRO MARTIR,2017-08-29,5,"📹 #NotiMinutoSeguridad Un hombre fue asesinado a balazos en terreno ubicado en Retorno Palma y Tepozán, en Tlalpan… https://t.co/y7AAuGBvms"
+SAN FRANCISCO TETECALA,2017-08-29,5,Un joven de 16 años acaba de ser #Asesinado a balazos en Bartolomé de las Casas y Aztecas en pleno corazón de… https://t.co/4TsuLprGNc
+JANITZIO,2017-08-30,5,"Precaución, movilización policiaca cerca del metro Canal del Norte en la calle Plomeros, Col Janitzio, 2 personas heridas a balazos @retioDF"
+POLANCO CHAPULTEPEC,2017-08-31,82,"Ahora balacera en polanco, ¿qué tal tus ganas de ser presidente pinche #MiniMancera? @ManceraMiguelMX"
+HUITZICO,2017-09-01,6,"Alguien esta tirando balazos en calle gavilleros y camelia, col. potrero, iztapalapa. —@Dumahim https://t.co/vCl4oqyEvi"
+PEQUENA TEPEXIMILPA,2017-09-01,5,Intento de asalto y balazos en circuito interior pasando eje 1 dirección aeropuerto... no se si hubo heridos manden patrullas @ApoyoVial
+CONSTITUCION DE,2017-09-02,16,"En otra balacera sobre Periférico y Nautla, col Casa Blanca en Iztapalapa, muere conductor de este auto. Ya SSP aco… https://t.co/RRiMGDpyzg"
+POLANCO CHAPULTEPEC,2017-09-02,14,#LoMásVisto La balacera en Polanco que dejó una persona muerta (+VIDEO) https://t.co/YUFjWkw3Md  😡 https://t.co/JbiFS4XeTi
+BOSQUES DEL PEDREGAL,2017-09-03,7,"Ayer y antier, muertos en Bosques del Pedregal. Ahora, balazos en Pedregal de San Nicolás. ¡Cuánta violencia! ¡Cuán… https://t.co/cSTjS0HkGj"
+GUERRERO,2017-09-03,9,"Se escucharon bastantes disparos en la zona de Camelia, Soto y Sol en @LaGuerreroDF solicitamos patrullaje @UCS_CDMX"
+POLANCO CHAPULTEPEC,2017-09-03,10,#LoMásVisto La balacera en Polanco que dejó una persona muerta (+VIDEO) https://t.co/YUFjWkw3Md  😡 https://t.co/SpmsozB3uG
+TLALPAN CENTRO II,2017-09-03,6,.@OpEsMx en #Periscope: Un muerto y tres lesionados en balacera en Tlalpan calle Chemax y Sotuta. https://t.co/8PVlyjFy7l
+POLANCO CHAPULTEPEC,2017-09-04,14,Cuando el socavón mostraba que @ManceraMiguelMX trae un desmadre... ¡Pum! balacera en #Polanco... Ah pero qué tal quiere ser presidente...
+AMPL GABRIEL HERNANDEZ,2017-09-07,20,@trafico889 balacera en periférico https://t.co/PEUH2oPy1Q
+AMPL SANTA CRUZ,2017-09-07,9,#Precaución se registran disparos en carriles centrales de Periférico. Información en proceso. Vía @Pipistrukis https://t.co/JXb7FeCIFp
+LOMAS DE CHAPULTEPEC,2017-09-07,5,Se registra persecución y balacera en Prado Norte y Reforma. SSP y servicios de emergencia al punto. #Precaución
+ZONA RES ACUEDUCTO DE GUADALUPE,2017-09-07,15,Muerto a balazos en periférico al norte a la altura de perisur https://t.co/kbuVhi7ijr
+AMPL GABRIEL HERNANDEZ,2017-09-08,19,Sujetos armados disparan contra auto sobre Periférico; dejan un muerto y se llevan a una persona… https://t.co/nVouVdfqWD
+ATZACOALCO CTM,2017-09-08,6,"Esta tarde seis sujetos intentaron asaltar la tienda #iShop #Mixup de Reforma y Prado Sur, hubo disparos, detienen… https://t.co/BXqe4HJGAd"
+MAGDALENA DE LAS SALINAS,2017-09-08,25,Tenemos un muerto a tiros y 2 heridos graves tras balacera en la col Panamericana. Norte 9 y Poniente 118. #CDMX @retioDF
+FRACC CLUB DE GOLF MEXICO,2017-09-10,6,"#Reporte riña callejera se escucharon balazos en la Calle 9, Col. Heron Prohal @DelegacionAO  @SSP_CDMX @hiramalmeidae"
+COVE,2017-09-13,7,Vecinos de la colonia Cove en Miguel Hidalgo nos reportan disparos y una persona al parecer sin vida. Observatorio y Sur 114. #CDMX
+MORELOS,2017-09-13,8,Se registra movilización policial en la Col. Morelos por tiroteo en Nacional y Circunvalación.Reportan policía lesi… https://t.co/jsH7xzrEyM
+BARRIO SAN ANTONIO CULHUACAN,2017-09-14,20,"Continúan las balaceras y asesinatos en la CdMx, de varios balazos fue asesinada una persona en Eje 3 Oriente y Gan… https://t.co/BN5aaraMDv"
+BUENAVISTA,2017-09-14,166,"Un niño de 7 años y su padre son ejecutados con al menos 15 balazos en la colonia Buenavista, en la CdMx… https://t.co/1Oo8ONDWlu"
+COVE,2017-09-14,23,Hombre #Asesinado a balazos cuando de disponía  a comer en #Pozoleria de la Av.Observatorio y Sur 114 Col.Cove… https://t.co/bxIO6SkEFK
+IXTLAHUACAN,2017-09-14,5,"En otra balacera en la Cd de la Furia acaban de matar a un menor y un adulto en Flores Magón y Guerrero, SSP acordona la zona; #Precauciones"
+PROGRESO DEL SUR,2017-09-14,14,"Mujer víctima de disparos en el eje 3 ote dir ermita entre granjeros y ganaderos, apenas llegaron servic… —@MaeSanx https://t.co/HoBWmcG4dx"
+PROVIDENCIA,2017-09-14,5,"#Video 🎥 | 
+
+Peritos retiran el cuerpo de hombre asesinado a balazos en Pozolería ""Tere"", Observatorio y Sur 114, c… https://t.co/3AAh4CnKdK"
+ANAHUAC MARIANO ESCOBEDO,2017-09-16,19,"6:57 am y el primer tiroteo se escucha en Lago Bolsena y L Silverio, @SSP_CDMX sigue ausente..."
+EL RISCO CTM,2017-09-16,12,"Con golpes y disparos al aire policías de CDMX llevan a cabo operativo en la Doctores 😫😓 
+https://t.co/27E9SCLNwa https://t.co/Zmwdz0Dlra"
+LA PASTORA,2017-09-16,6,En donde esta la seguridad estan tirando balazos en la col la pastora urge patrulla pero ya —@jovannylag https://t.co/ZIySuQiFx4
+PARQUE NACIONAL FUENTES BROTANTES,2017-09-16,6,Así fue la balacera registrada esta tarde en el Circuito Mexiquense https://t.co/8XPuaMDpeT
+TEZOZOMOC,2017-09-16,7,Se escuchan balazos cerca de col tezozomoc —@sergioabrahanro https://t.co/LryYSAjGN0
+TABACALERA,2017-09-20,35,#EnEsteMomento reportan enfrentamiento a balazos en Paseo La Fe... habría al menos una persona sin vida y hombres a… https://t.co/icEoboF8j2
+SAN FRANCISCO APOLOCALCO,2017-09-22,9,"No vayan por la Colonia Roma, mas concretamente por la calle Tabasco. Estan habiendo asalto y tiroteos. 21:50 pm"
+Del Valle,2017-09-23,132,Asaltantes disparan contra uno de dos estudiantes que se oponen al robo. Calle Valle de Tehuacán col Valle de Aragó… https://t.co/hLG00uVWR8
+GUADALUPE TEPEYAC,2017-09-23,7,@SSP_CDMX se escucharon balazos en la colonia Guadalupe Tepeyac! En la calle de Yolanda
+PANTITLAN,2017-09-23,8,Acabo de oír balazos en la colonia que está a un lado del elektra sobre eduardo molina. —@Julio_HSO https://t.co/2yqla20oka
+TORIELLO GUERRA,2017-09-23,5,Lo que nos faltaba en Coapa... una balacera en el Colegio Madrid.
+ARGENTINA ANTIGUA,2017-09-24,6,Se escucharon varios disparos aquí afuera de mi casa ignacio allende entre lago musters y priv.dr. miguel … —@Xyvis https://t.co/uqD8qC0wVJ
+DOCTORES,2017-09-24,18,"No cesa la #violencia, en la Col Doctores, #asesinan a una persona y dejan otra mal herida, les disparan más de 20… https://t.co/GDBtkuOyeB"
+NUEVA ATZACOALCO,2017-09-25,6,"@SSP_CDMX múltiples disparos en calle 318, esquina 311 en Nueva Atzacoalco, delegación GAM"
+TLAXPANA,2017-09-25,5,@UCS_CDMX @C5_CDMX balazos en Tlaxpana 2 sujetos en moto @VecinosTlaxpana @ManceraMiguelMX @XochitlGalvez @vromog
+VALLE GOMEZ,2017-09-25,5,"@SSP_CDMX  se requiere patrulla en colonia Valle Gómez del. V.C , cp 15210 calle vanadio y proaño . Sujetos drogados disparando"
+ANAHUAC,2017-09-27,5,"Afuera de mi casa en la colonia anahuac hay balazos, reporte en #911 y no han mandado nada. lago cha… —@erick_ahedo https://t.co/F6konUfI4A"
+JUAN ESCUTIA,2017-09-27,28,Baja helicóptero @SSP_CDMX  en Zaragoza a la altura de la colonia Juan Escutia. Indican de balacera en el lugar. https://t.co/Zi6tXfO2F8
+TEPEYAC INSURGENTES,2017-09-27,7,Mueren 2 personas en balacera afuera de un OXXO en Calz Zaragoza casi Periférico. Camioneta de valores involucrada. Aún acordonado @retioDF
+AMPL GABRIEL HERNANDEZ,2017-09-28,13,Se registró una balacera a bordo de unidad de  transporte público en Periférico frente a Plaza Satélite rumbo a Qro… https://t.co/Nlw9aURyAm
+REFORMA SOCIAL,2017-09-29,10,"Asalto a gasolinera en patriotismo y puente la morena, varios disparos al asaltante https://t.co/bzHv1IiukP —@fadame https://t.co/WvMDbZitmu"
+PUEBLO SANTA CRUZ MEYEHUALCO,2017-09-30,10,Se escuchan balazos en calle catedral de cuernavaca y cihuatl en la colonia ricardo flores magon del… —@ErigarciaRo https://t.co/VXFRQwaSe2
+GUADALUPE TICOMAN,2017-10-01,5,Sujetos armados disparan contra la @SSP_CDMX y Policía de @TlalnepantladeB en Río de los Remedios y la Aut.… https://t.co/PuuD3q0odI
+MORELOS,2017-10-01,5,"#LoÚltimo Asesinan a hombres por disparos de arma de fuego en la Colonia Morelos @SSP_CDMX @PGJDF_CDMX 
+📹Leonardo S… https://t.co/DSpbmQq53k"
+SANTA MARIA AZTAHUACAN,2017-10-01,6,Se oyen fuertes disparos de bala en la colonia santa maría aztahuacan iztapalapa.calle constituci… —@choCHEF_Ramsay https://t.co/ZovC9mMH7m
+EL RISCO CTM,2017-10-06,73,Pasaron en moto disparando y lo mataron. Alta Tensión y San Antonio. Huyen en moto roja. #CDMX: Santuario del crimen. @retioDF
+LOMAS DE SAN JUAN IXHUATEPEC A SECCION,2017-10-06,25,Así fue cómo dos policías de la #CDMX fueron atacados a disparos por un grupo de hombres en la México-Pachuca https://t.co/Puycqwm1HE
+MICHOACANA,2017-10-06,7,"Esta madrugada fue asesinada a balazos una persona en Plomeros y Tizayuca, col.Michoacana, del.V.Carranza. No hay d… https://t.co/fznWtGsou0"
+OLIVAR DEL CONDE RA SECC,2017-10-06,6,También hay otra persona muerta igual por disparos de arma de fuego en Prol. San Antonio y Alta Tensión en Álvaro Obregón. @retioDF
+BELVEDERE DE ESLAVA,2017-10-08,8,"En Troya y Prol. Sacalum en Lomas de Padierna Sur, del. Tlalpan, balacera deja una persona muerta y un presunto res… https://t.co/MNNAkLieic"
+LOMAS DE PADIERNA,2017-10-08,5,Tres muertos derivado de una  balacera en  fiesta en  la colonia lomas   de Padierna CDMX https://t.co/8nZV3Kdfky
+BARRIO SAN LUCAS,2017-10-09,8,"Se escucha una tremenda balacera cerca de tinacos, ermita iztapalapa, 09500 sta maría aztahuacán —@VeroRGlez https://t.co/2icVgbB5ms"
+OLIVAR DEL CONDE RA SECC,2017-10-11,11,"@SSP_CDMX acaban de asaltar un micronús en Colonia Olivar de Conde! Hubo disparos, necesitamos vigilancia😡😡😡"
+UNIDAD HAB NONOALCO TLATELOLCO,2017-10-11,40,De varios disparos de arma de fuego matan a automovilista en Av. Insurgentes con la Calz. Ticomán en la GAM. Choca… https://t.co/2WNKQWtLNU
+VILLA DE ARAGON,2017-10-11,44,Se registró balacera en el estacionamiento de la Comercial Mexicana de Indios Verdes delegación Gustavo A. Madero… https://t.co/mpX4v8lvUz
+UNIDAD HAB NONOALCO TLATELOLCO,2017-10-12,14,"Sicarios en moto ejecutan de 10 disparos a Pancho Cayagua, líder del Cártel de la Unión de Tepito. Insurgentes y Ti… https://t.co/T22uPSyDqV"
+ZONA URB STA MARTHA ACATITLA NORTE,2017-10-12,6,Continúan las balaceras en la #CdMx. Servicios de emergencia se dirigen a República Federal y Calzada Zaragoza por una persona baleada
+PEDREGAL SANTA URSULA XITLA,2017-10-16,6,Se escucharon como balazos por zona tlalcoligia y pedregal santa úrsula xitla 😟 —@Jocelyn2R https://t.co/EMu528BSAn
+SAN FELIPE DE JESUS,2017-10-16,6,"En Power Center de Tecámac hace unos minutos se registró una balacera, resulta un lesionado PAF y un detenido. https://t.co/dIpSS83qHu"
+EL SANTUARIO,2017-10-17,5,Suspenden clases en Ciudad Madera tras balaceras en central camionera y en el barrio Santuario https://t.co/LPRLwRd9aP
+Del Valle,2017-10-18,7,Un adolescente muerto y cuatro heridos durante un tiroteo en El Valle https://t.co/POXe7hEf2E
+SANTA MARIA LA RIBERA,2017-10-18,10,Un elemento de la SSP también resultó lesionado en la balacera de Santa María La Ribera y Amado Nervo.
+TRES ESTRELLAS,2017-10-18,5,"Le dan más de 10 balazos a un hombre en calle Victoria entre FC Hidalgo y Congreso en la Col. Tres Estrellas, GAM.… https://t.co/tOnA04Ruj5"
+NUEVA ATZACOALCO,2017-10-20,6,Reportan a dos personas heridas por disparos de arma de fuego en la puerta 3 del estadio azteca. preca… —@tavojeda5 https://t.co/YVCrawS5Bp
+JARDIN BALBUENA,2017-10-21,10,Roba moto y muere en balacera con policías. Hay otro ladrón herido. Colonia Jardín Balbuena #VCA #CDMX. https://t.co/nVrt40ICQ9
+LA ESTACION,2017-10-21,19,Intentó #robar a motociclista en #Viaducto y es abatido presunto #delincuente en balacera al ser sorprendido por PD… https://t.co/V4pF9oVxSw
+LA ESTACION,2017-10-24,8,El video de un ataque a balazos en Viaducto. Los responsables se dieron a la fuga https://t.co/mwREey4pdU https://t.co/sczAztPQbu
+EX HIPODROMO DE PERALVILLO,2017-10-26,23,"Presunto ladrón muere durante balacera en Calzada Vallejo: CIUDAD DE MÉXICO, octubre 26: Un policía herido y un… https://t.co/7EWOQv0qkX"
+MARTIN CARRERA,2017-10-26,6,#Video Directora planeó simulacro de balacera en escuela de La Paz; @SEP_mx se deslinda por uso de dicha estrategia… https://t.co/BNF3lmwckM
+NUEVA ANZURES,2017-10-27,8,"Precaución, persona herida por disparos de arma de fuego en la calle Víctor Hugo en la Col. Anzures. Hay movilización policiaca. @retioDF"
+SANTA MARIA TOMATLAN,2017-10-27,12,"Continúan las balaceras en la Cdmx ahora en Cedros col. Santa María Tomatlán, Iztapalapa, el saldo un lesionado y u… https://t.co/RbvSQNF34S"
+SAN JOSE,2017-10-28,34,Asalto y balacera en transporte público; hay un herido a tiros. Aut Mex Pachuca altura San José muy cerca San Juanico hacia #CDMX.
+DESARROLLO URBANO QUETZALCOATL,2017-10-29,5,"@SSP_CDMX Buenas noches.
+Para reportar balazos constantes en la colonia desarrollo urbano quetzalcoatl,entre andado… https://t.co/5x4YEXrX8a"
+NUEVA ATZACOALCO,2017-10-29,6,"Tirando balazos festejo san judas calle 319 esq 314 nueva atzacoalco, las patrullas no se acercan pero… —@LETISHAHM https://t.co/rOcFdfSEOf"
+COLINAS DEL SUR,2017-10-30,6,@SSP_CDMX se acaban de escuchar balazos en colinas del sur cerca de Av Corceles.
+SAN MIGUEL CHAPULTEPEC,2017-10-30,5,Se acaban de oír balazos en josé maría tornel casi esquina protasio tagle —@lestrada77 https://t.co/PKC6SHbgVd
+LA ESTACION,2017-10-31,5,Saldo de 1 muerto tras balacera en Boulevar Aeropuerto Delegación Venustiano Carranza Oficial. #CDMX https://t.co/I6uw8N6KX4
+INFONAVIT EL ROSARIO,2017-11-02,17,"Una tranquila noche d terror en CDMX; lo matan a tiros. Ote 95 y Nte 76, Río Blanco; en las Torres atrás reclu Ote otro muerto con disparos."
+MOLINO DE ROSAS,2017-11-02,16,"SSP resguarda el cadáver de un hombre asesinado a balazos en De la Rosa Damasco y Rosa Violeta, col. Molino de Rosa… https://t.co/m7OQtQ5KaV"
+UNID PROFES ZACATENCO LINDAVISTA,2017-11-02,43,Detienen al autor del tiroteo en Walmart https://t.co/ZgQAbJy2R6 https://t.co/t2DpNgln0A
+EL ROSARIO,2017-11-03,6,"@SSP_CDMX Reportan tiroteo por mas de 30 minutos en el Rosario, Azcapotzalco CDMX
+
+Vìa  @huguitoogbj https://t.co/AICwJ99bPV"
+EL RODEO,2017-11-04,11,"Persona muere por disparos de arma de fuego en el Eje 4 Sur y Sur 109 en Iztacalco de la ""ciudad segura"". En espera del MP. @retioDF"
+CENTRO COMERCIAL SANTA FE,2017-11-05,15,#Nacional Reportan #balacera en Centro Comercial Santa Fe https://t.co/FV4YLqdfoZ #Xalapa #Veracruz #Mexico https://t.co/P2k5gmT40I
+ESTANZUELA,2017-11-05,6,Asesinan de tres disparos de arma de fuego a conductor de transporte público en calle 10 y periférico … —@tavojeda5 https://t.co/XbABBKpIgc
+LINDAVISTA,2017-11-05,10,"#Video En persecución por robo de 🏍 en Lindavista, policías repelieron agresión por disparos de arma de fuego y det… https://t.co/1aeeUq8W0d"
+EL DIVISADERO,2017-11-07,14,"Hubo robo con balazos en gas de casi esquina de miramontes con naval militar, tomen precauciones —@aldo_lechuga https://t.co/HebKmNmDC8"
+CUAUHTEMOC,2017-11-08,6,Me reportan balacera en Polanco a la altura de Reforma y Arquímedes.
+SAN FRANCISCO,2017-11-09,11,"Matan a Hombre de 70 años por resistirse a asalto, Dos Ratas 🐀 en Motoneta le disparan, Calle Querétaro y Francisco… https://t.co/7UN1nm9LsS"
+DEL MAR,2017-11-10,5,"Amigos el saldo de la balacera en la col. El Mar, corrijo, son dos personas muertas y una lesionada. SSP en el punt… https://t.co/iZ0bdj1CWF"
+LA TURBA,2017-11-10,33,2 jóvenes mueren por varios disparos de arma de fuego en la col  la Turba en Tlahuac https://t.co/erpZvLf1k2
+LA TURBA,2017-11-11,26,2 Muertos por balacera en la col La Turba en TLAHUAC https://t.co/KB06VAPUOM
+ANAHUAC,2017-11-12,13,"Se escuchó una fuerte balacera hacia Marina Nacional, Col. Anáhuac @SSP_CDMX @MHcesac @delegacionMH"
+CONGRESO AGRARISTA MEXICANO,2017-11-12,8,Asalto en Cervantes y río San joaquin con disparos a plena luz de el día???tienen la ciudad hecha una porquería… https://t.co/QmWysYY4UN
+MORELOS,2017-11-12,20,"Vecinos de la colonia Morelos reportan disparos en la esquina de las calles Herreros y Congreso de la Unión, hay do… https://t.co/z53W7H3fKt"
+Del Valle,2017-11-14,5,Sujetos en moto asesinan de cinco disparos a un hombre de 24 años en el sector de Bajo Valle https://t.co/AsOkLvQGk3
+NAPOLES,2017-11-14,29,Asalto en barbería desata balacera en la colonia Nápoles https://t.co/ixHMcTpccs https://t.co/awv9BUDRdx
+LINDAVISTA,2017-11-15,13,"Están asaltando a balazos abajo del puente de santa teresa, donde está el hospital ángeles del ped… —@AliciaAlarcon https://t.co/IxzM29BcHX"
+ALBERT,2017-11-16,5,Hay una persona muerta por disparos de arma de fuego en la calle Emilio Carranza casi Andrés Molina Enríquez en la… https://t.co/CrR20MpyiJ
+SAN ANDRES TETEPILCO,2017-11-16,9,"#Video 🎥 |
+
+Asesinan a conductor a balazos en Emilio Carranza y Xochititla, col. San Andrés Tetepilco en… https://t.co/U70Lpo8d3C"
+NARCISO BASSOLS,2017-11-17,5,"#Urgente | 
+
+Asesinan a balazos a una mujer en la 669 y 604, col. Narciso Bassols, en GAM.  SSP en espera de Perito… https://t.co/4KqVk20pDa"
+SAN ANDRES TETEPILCO,2017-11-17,16,Por posible asalto asesinan a balazos al conductor de este Jetta en Emilio Carranza casi con la Av. Andrés Molina E… https://t.co/SwidF2ctqM
+INFONAVIT EL ROSARIO,2017-11-22,11,Vecinos de la unidad habitacional El Rosario reportan disparos. Hay una persona herida sobre la calle Cultura Griega. #CDMX @retioDF
+NARCISO MENDOZA SUPER MANZANA VILLA COAPA,2017-11-22,5,"#Video 🎥 |
+
+Asesinan a una persona a balazos, en aparente asalto, en el 159 de la calle 28, col. Guadalupe Proletar… https://t.co/qnDSmwZkbn"
+DE NOVIEMBRE,2017-11-23,9,"De 15 balazos, un hombre es ultimado en la colonia 20 de noviembre, de la delegación Venustiano Carranza… https://t.co/pbPe5R2RZY"
+REFORMA IZTACCIHUATL SUR,2017-11-25,25,"Continúan las balaceras u asesinatos en la #cdMx...
+#Ahora | Asesinan a una persona dentro de un negocio en Lago Va… https://t.co/2qet5TnBDR"
+MORELOS,2017-11-29,5,"Muere a balazos una persona sobre eje 1 norte y boleo col. morelos, ssp en el lugar. #precauciones —@MrElDiablo8 https://t.co/StyyEs4MjP"
+SAN PEDRO,2017-11-29,24,"#Video 🎥 | 
+
+Asesinan a una persona a balazos en Privada de Amacuzac y Sexta Cerrada de Emilio Carranza, col. San A… https://t.co/XrrhbQtpDi"
+MORELOS,2017-11-30,5,Precaución amigos! Se registró balacera en la esquina de canal del norte y Av del Trabajo en la col Morelos. Tenemo… https://t.co/tepTgrS1ee
+EL CARACOL,2017-12-01,28,"Ahora están reportando otro tiroteo pero en el sur de la #CDMX. Blvrd Gran Sur muy cerca de Av Imán. Según vecinos,… https://t.co/9mDsvRB3CU"
+GABRIEL HERNANDEZ,2017-12-01,16,Dos muertos y un herido por balacera en la colonia Gabriel Hernández de #GAM #CDMX. #OncesDeLaNoche. https://t.co/7TIh0aWPJk
+MORELOS,2017-12-07,8,"Así la presencia de @SSP_CDMX  tras balacera en el Eje 1 Norte, I. López Rayón y Manuel Doblado, col. Morelos, cerc… https://t.co/nFchDGe0o6"
+REACOMODO JALALPA EL GRANDE,2017-12-07,8,Un muerto y un herido a tiros deja tiroteo en Tepito; González Ortega y Eje 1 norte. Esta acordonado y un helicópte… https://t.co/6ngFbmCPdR
+UNIDAD HAB EMILIANO ZAPATA,2017-12-07,10,"Continúan las balaceras y los asesinatos en la #CDMX , ahora en Ticomán, GAM. SSP en el punto. https://t.co/2boLh0Yt5B"
+UNIDAD HAB MIGUEL HIDALGO,2017-12-08,7,"Continúan las balaceras en la CdMx y las ejecuciones. 
+
+#Ahora | Asesinan a una persona en Calle Amuzgos y Av. Rafa… https://t.co/3OQry8PQEC"
+TEZOZOMOC,2017-12-09,7,"RT ReformaJusticia: #LoÚltimo Dos hombres murieron esta tarde tras un tiroteo ocurrido en Rafael Buelna y Amuzgos, Col. #Tezozómoc, Del. #…"
+DOCTORES,2017-12-13,6,Intento de asalto termina en golpes y disparos en un negocio de la Doctores #CUH #CDMX. Hay dos heridos a tiros.… https://t.co/Ul7JEfW9xq
+SAN PEDRO DE LOS PINOS,2017-12-13,27,"Revolución y Calle 7, San Pedro de Los Pinos: se suscita balacera durante intento de asalto a automovilista, policí… https://t.co/QuN8AbBDL1"
+TABACALERA,2017-12-13,5,Imágenes de la balacera registrada esta tarde en #Texmelucan cuando se realizaba un desalojo en la calle Reforma. E… https://t.co/bJiA6XzZDL
+LOMAS DE CAPULA,2017-12-17,5,#Reporte urgen patrullas balacera en la Col. Lomas de Capula @DelegacionAO @hiramalmeidae @SSP_CDMX @UCS_CDMX @C5_CDMX
+MORELOS,2017-12-17,15,"Continúan las balaceras en la CdMx. #Ahora una ambulancia se dirige a Peralvillo y Libertad, col. Morelos, por persona baleada"
+NARCISO MENDOZA SUPER MANZANA VILLA COAPA,2017-12-17,11,"#ImágenesFuertes 
+
+#Video 🎥 | 
+
+Otra #balacera en #Tepito deja 3 personas lesionadas, ahora ocurrio sobre el Eje 1… https://t.co/0bB1lvoogT"
+REVOLUCION,2017-12-20,36,"Continúan las balaceras en la #CdMx. 
+
+#Ahora balean a una persona sobre Oceanía, col. Moctezuma. SSP en el punto. 
+
+#Precaución"
+DEL CARMEN,2017-12-22,9,"Balaceras y más balaceras en la #CdMx, #Ahora En Iztapalapa, sobre Ermita e Hidalgo en la col. Santa Cruz Meyehualc… https://t.co/avEd4gJXW2"
+EL ARBOLILLO II CROC,2017-12-22,17,#CDMX vía:@MXQnoticias | #ÚltimaHora Se registra balacera en la estación #RomeroRubio del @MetroCDMX... https://t.co/Xpibc3rHcV
+RESIDENCIAL VILLA COAPA SUPER MANZANA,2017-12-22,7,"Bueno y qué pasó ayer al rededor de las 12 am en acoxpa, narciso mendoza! se escucharon balazos —@1carlpower https://t.co/P7pYyu1LLT"
+REVOLUCION IMSS,2017-12-22,5,Se escucharon 6 balazos cerca de parque lindavista que paso! —@Ruben_vt1 https://t.co/7XEhcJOsia
+BELLAVISTA,2017-12-29,6,"Movilización policiaca por hombre muerto de dos balazos en cráneo, Héroes de Nacozari y Congreso de la Unión Col. Morelos #VCA #CDMX"
+SAN RAFAEL,2018-01-03,17,"Sujetos armados disparan a VIPS desde un automóvil en la colonia San Rafael, CDMX https://t.co/IIf8jl5PB6"
+AMPL SAN PEDRO XALPA,2018-01-05,9,Me reportan una persona muerta por disparos de arma de fuego  a bordo de un transporte público en Calzada Las Armas… https://t.co/HcaDO89VsI
+CUAUTEPEC DE MADERO BARRIO BAJO,2018-01-05,6,"Así la situación en #Zumpango por saqueo e incendio de Bodega Aurrera.
+
+Hay numerosos disparos. https://t.co/WM6Xg81hxX"
+SAN JUAN TICOMAN,2018-01-12,14,"Asesinan a una persona por disparos de arma de fuego en Avenida del Trabajo y Héroes col. Barrio San Juan Ticomán,… https://t.co/ZJBpucby5S"
+AMPL TORREBLANCA,2018-01-13,5,"#LoÚltimo Tras una balacera en Legaria, lamentablemente falleció este policía federal  👮‍♂💀🔫👇👇… https://t.co/4EhOZqWcJU"
+POPOTLA,2018-01-13,13,Precaución amigos! Vecinos reportan disparos sobre la Calz Mex Tacuba y Golfo de California. Hay gritos y gente cor… https://t.co/ICtbRBT3gl
+MIGUEL HIDALGO,2018-01-14,5,"Se escuchan disparos en la calle ayuntamiento esq. la fama colonia miguel hidalgo, tlalpan —@rafac5 https://t.co/vkBLEP6eAJ"
+INFONAVIT EL ROSARIO,2018-01-18,5,"Dos personas fallecidas por disparos de arma de fuego en un tianguis en la calle Auriga en la Col. El Rosario, CDMX… https://t.co/LxFEZCK4jS"
+MORELOS,2018-01-18,11,Persona muere de varios disparos de arma de fuego en la calle Panaderos y Hojalatería en la Col. Morelos. Acordonad… https://t.co/ZLmtBRROO3
+PANTITLAN,2018-01-21,6,"@SM_Chapultepec @SSP_CDMX @BPlataMH de miedo escuchar balazos en tu calle, oportuna intervención de la SSP, mejoría al poli herido 👮🏼"
+SANTA MARIA INSURGENTES,2018-01-21,17,"Movilización policiaca, 2 lesionados 1 muerto por disparos de arma de fuego en Nopal y Pino Col. Santa Maria Insurgentes, #CDMX"
+PEDREGAL DE SANTO DOMINGO,2018-01-23,5,"Velorio termina en balacera en la colonia Pedregal de Santo Domingo en Coyoacán, 2 muertos el saldo, sin detenidos.… https://t.co/uZWPu5dAQD"
+SANTA MARIA LA RIBERA,2018-01-26,86,Varios disparos y gritos despertaron a vecinos de la col Santa María la Ribera en la del Cuauhtémoc. Matan a mujer… https://t.co/oDHU8Bm2YC
+BELLAVISTA,2018-01-27,10,Se escucharon varios disparos y mujer cayó al piso gravemente lesionada reportan vecinos. Héroes de Nacozari y Brav… https://t.co/r7DN0VKJUv
+AHUEHUETES,2018-01-28,6,"Un hombre fue asesinado a balazos esta tarde en Ahuehuetes y Camino Real, Colonia Los Coyotes, en Gustavo A. Madero… https://t.co/vjOwysm1jH"
+BENITO JUAREZ,2018-01-28,7,Ejecutan de 3 disparos a un hombre de 22 años en apatlaco y melchor Ocampo colonia apatlaco @PGJDF_CDMX  @SSP_CDMX  @retioDF
+HIPODROMO DE LA CONDESA,2018-01-28,7,Un muerto y cuatro heridos deja balacera en bar de la costera Miguel Alemán en la zona de la Condesa.... https://t.co/Qd99pNhVe8
+PUEBLO SAN BERNABE OCOTEPEC,2018-01-28,26,"Se suscitó balacera en San Bernabé Ocotepec de Magdalena Contreras, particulares trasladan en auto a un  lesionado… https://t.co/bhqGbLemIU"
+TABACALERA,2018-01-28,6,"Movilización policiaca en Reforma y Amado Nervo , Centro Monterrey, tras reporte de disparos. Autoridades en la zona."
+BARRIO SANTA BARBARA,2018-01-29,9,"Vecinos del barrio Santa Bárbara en #Iztapalapa reportan disparos, hay una persona herida. Cerrada General Anaya y… https://t.co/VhnZLHIICq"
+MORELOS,2018-01-31,6,"De al menos 6 disparos #asesinan a joven a bordo de su motocicleta en la col Morelos, en la Del Venustiano Carranza… https://t.co/QZoMNuZySI"
+BARRIO SAN LUCAS,2018-02-01,20,"OJO. Se registró una balacera en la Calz. Ermita Iztapalapa y Fundición, col. El Manto. Extraoficialmente se trata… https://t.co/dkG1QDZMAi"
+GUERRERO,2018-02-02,22,"#Video  🎥 | 
+
+Atacan a balazos a un hombre sobre Soto y Magnolia en la col. Guerrero; ambulancia lo traslada a un h… https://t.co/ZDQI95Kw2h"
+POPO,2018-02-04,6,Acaba d haber una balacera enel tianguis d Norte 4 col popo delegación Miguel Hidalgo.Pero el estadio d CU  bienprotegido. @ManceraMiguelMX
+EL RISCO CTM,2018-02-05,6,En la colonia CTM El Risco hay disparos reportan vecinos. Hay un hombre tirado al parecer sin signos vitales sobre… https://t.co/NZLFssdK7P
+A SECC LOS CERRILLOS,2018-02-06,15,"Y en la #CdMx continúan las balaceras y asesinatos. 
+
+#Ahora muere a balazos una persona sobre Eje Central y Dr. Ve… https://t.co/AKzm6RbDr0"
+EL RISCO CTM,2018-02-07,10,"#LoÚltimo |
+
+Una mujer se resistió a un asalto y fue asesinada a balazos calle 24 y Av. Luis Yuren, Col. El Risco,… https://t.co/YJk6Gx340C"
+HIPODROMO,2018-02-07,15,"Es una balacera muy al estilo de las series policiacas, guardianes del orden utilizan carretera de Ensenada, Baja C… https://t.co/lHzO03VExJ"
+IZTACALCO INFONAVIT,2018-02-07,42,"#Ahora | 
+
+Asesinan a otra persona por disparos de arma de fuego en la col. Infonavit Iztacalco. SSP en el punto. 
+
+Les informo!"
+BARRIO SAN BARTOLO MIXQUIC,2018-02-08,9,De varios disparos ejecutan a una persona en camioneta Nte 58B tablas de san Agustín gam https://t.co/umBlM8Nd5C
+IZTACALCO INFONAVIT,2018-02-08,7,"#Video 🎥 | 
+
+Asesinan a balazos a un hombre en av. Del Peyote y Marina en la col. Infonavit Iztacalco. #CdMx. No ha… https://t.co/kiyGV1Xli9"
+SAN JUAN DE ARAGON TA Y TA SECC,2018-02-09,10,"En el operativo realizado en la colonia #Roma, CdMx, no se realizaron disparos y en el momento que fue asegurado el… https://t.co/5ynpZ4bMlM"
+MORELOS,2018-02-10,9,Esta noche de VIERNES una mujer fue asesinada por disparos de arma de fuego en calle Obreros entre Epigmenio Gonzál… https://t.co/KZnEQfza3n
+MORELOS,2018-02-11,13,"Último minuto: Vecinos de la colonia Morelos están asustados. Reportan disparos, hay dos hombres con impactos de ba… https://t.co/6T1TXZljkV"
+VASCO DE QUIROGA,2018-02-11,9,"Se están escuchando balazos cerca del metrobus de la joya, ya van más de 10 @SSP_CDMX"
+LA CANDELARIA TICOMAN,2018-02-12,6,"@C5_CDMX @SSP_CDMX @GobCDMX @ManceraMiguelMX
+En la Candelaria Ticoman G. A. M. Se escucha ráfaga de balazos desde l… https://t.co/LGbzOdOaoZ"
+NUEVA ORIENTAL COAPA,2018-02-13,6,"OJO. Referente al tiroteo de la col. Nueva Oriental Coapa, hay dos muertos. El principal móvil es un ajuste de cuen… https://t.co/wIDR7wVg6v"
+OCOTAL,2018-02-13,10,Vecinos nos reportan que lamentablemente el joven que fue herido por disparos hace unos min en la esquina de Rancho… https://t.co/smB6IcPCpt
+EJIDO SANTA URSULA COAPA,2018-02-14,5,Asustada me tocó frente a la UAM Xochimilco Calzada del Hueso persecución y balacera que horror 😒
+OLIVAR DEL CONDE RA SECC,2018-02-14,5,"#Balacera Olivar del Conde, Álvaro Obregón.
+Una persona perdió la vida a balazos en su casa en el interior de su au… https://t.co/xBz0ZNr2PI"
+APATLACO,2018-02-15,11,Último minuto: Balacera en Iztapalapa. Le disparan en la cabeza y pecho a un hombre. Esta grave. Eje 5 Sur y Teleco… https://t.co/ZRGxFauRWx
+DA AMPL PRESIDENTES,2018-02-15,6,Aquí casual resguardándome de balacera en paseo hacienda de Echegaray al parecer asaltantes y persecución #YaQueSeAcabeElPRIANATO
+HEROES DE PADIERNA,2018-02-15,6,"#CdMx |
+
+Asesinan a balazos a una persona en Calle Tekal, col. Héroes de Padierna. SSP acordona la zona. https://t.co/EYP9pfGv0Q"
+OLIVAR DEL CONDE RA SECC,2018-02-15,5,Asesinan a balazos a ucraniano en la colonia Olivar del Conde - Publimetro México https://t.co/Khl3PL4IPx
+XALTOCAN,2018-02-15,7,"Antes del amanecer de este día, una persona fue asesinada a balazos sobre calle Violeta en Barrio Xaltocan,… https://t.co/rYaYcaX9zo"
+HEROES DE PADIERNA,2018-02-16,7,"#CdMx |
+
+Asesinan a balazos a una persona en Calle Tekal, col. Héroes de Padierna. SSP acordona la zona. https://t.co/EYP9pfGv0Q"
+BUENAVISTA,2018-02-17,8,"#Ahora | 
+
+Asesinan a una persona a balazos en Calle Moctezuma, col. Buenavista.  SSP en el punto."
+GUERRERO,2018-02-17,10,#CdMx | Asesinan a balazos a mujer en la colonia #Guerrero https://t.co/B0hLpVcZLd https://t.co/meaWSG0shI
+MORELOS,2018-02-17,15,"Tras el #Sismo vuelven las balaceras, #ahora asesinan a una persona a balazos en Toltecas y Constancia, col. Morelo… https://t.co/rm3ahdIUTA"
+CONJUNTO RES VILLA PRADO COAPA,2018-02-18,21,"Esta madrugada una persona fue asesinada a balazos en Florencia y Hamburgo, #ZonaRosa. #CdMx https://t.co/8Kfh03hD1S"
+MORELOS,2018-02-18,5,Último minuto: Tenemos balacera en la colonia Morelos. Vecinos reportan 2 personas muertas a tiros dentro de auto.… https://t.co/6FZpssAJlb
+POTRERILLO,2018-02-18,8,"Ayuda por favor balazos en serapio rendon 96 no sabemos que hacer !!!
+@AztecaNoticias @SSP_CDMX @hiramalmeidae https://t.co/MXOR8Eu012"
+HIPODROMO,2018-02-19,24,"Sujetos armados asaltan El Jamil, restaurante de la Hipódromo; cliente se resiste y le disparan https://t.co/nXGmP46IPp"
+TLAXPANA,2018-02-20,14,"#Ahora | 
+
+Asesinan a una persona a balazos en Atzayacatl y Tláloc, col. Tlaxpana. @delegacionMH. SSP ya está en el punto."
+MORELOS,2018-02-21,23,"#Video 🎥 |
+
+Esta noche fue asesinado a balazos un hombre en la esquina de Constancia y Toltecas, col. #Morelos. La… https://t.co/sEP6kfNJeC"
+ACULCO,2018-02-22,12,Les disparan con arma de fuego a 4 personas en Ingenieros Mecánicos y Eje 5 sur col. Nueva Rosita deleg .Iztapalapa… https://t.co/oavN5ZeXDA
+APATLACO,2018-02-22,72,Y en Iztapalapa tenemos tiroteo. Hay 2 muertos y 3 heridos con disparos. Unidad habitacional Los Picos. Eje 5 Sur y… https://t.co/EqQF0cMJZZ
+SAN JUAN DE ARAGON RA SECC,2018-02-22,5,"#LoÚltimo Un hombre que atracó un microbús fue asesinado a balazos por carniceros del Mercado de San Juan, en Neza,… https://t.co/qPI6YxkLjS"
+AJUSCO,2018-02-23,5,"Desde las 8 pm están tirando balazos en calle zapotecas esquina con Tlaltecuitli Coyoacán, Ajusco @SSP_CDMX… https://t.co/mnRjUxcTlM"
+COPILCO UNIVERSIDAD,2018-02-23,9,"No mamen se soltaron los balazos 😱😱 (@ Metro Copilco (Línea 3) in Coyoacán, DF) https://t.co/6AFAK1gcXj"
+VALLE DE LUCES,2018-02-24,13,Último minuto: Lo mataron a tiros dentro de un minicooper. Vecinos de la col Valle de las Luces reportan balazos. A… https://t.co/S8awDoMOVM
+BARRIO SAN PABLO,2018-02-25,13,Sujetos en moto disparan y matan a dos hombres que cenaban en calles de la UH Ermita Zaragoza #Iztapalapa #CDMX… https://t.co/Z8kMoH9EN1
+SAN JUAN DE ARAGON TA SECC,2018-02-26,7,Hubo un tiroteo en Plaza jardín como a las 8:45 cerca de Chilis.. llegaron algunas patrullas y un helicóptero...
+UNIDAD HAB SANTA CRUZ MEYEHUALCO,2018-02-26,12,"Asesinan a una persona a balazos en Calle 53 y Ermita, en #Iztapalapa. SSP ya se encuentra en el punto. 
+
+QEPD"
+SAN JUAN DE ARAGON TA SECC,2018-02-27,6,#CDMX Lo levantan en Polanco y ejecutan a DJ Mr. Zamora de dos balazos en la cabeza https://t.co/SLr1HOEJZW
+AGRICOLA ORIENTAL,2018-02-28,8,"""@MrElDiablo8: Una persona perdió la vida a balazos sobre Ote 257 col agrícola oriental.
+Qepd https://t.co/KOgxL7Bpqh"""
+BUENOS AIRES,2018-02-28,184,Detienen a 2 sujetos por balacera en la Buenos Aires https://t.co/tdaVcsE8ap
+MAGDALENA PETLACALCO,2018-02-28,14,"Recibe 15 disparos policía asesinado en la Magdalena Petlacalco, en Tlalpan  https://t.co/JSdXImLk3E https://t.co/xcj7zHYWQW"
+AMPL SANTA CRUZ,2018-03-01,8,"OJO. Se acaba de registrar otro tiroteo en la #CDMX. Ahora fue en Periférico y Ticomán, col. La Laguna Ticomán,… https://t.co/ZetCdLzWXc"
+JARDINES DEL PEDREGAL,2018-03-01,5,"#Ahora | 
+
+Asesinan a balazos a una pareja en Cascada y Manantial, Col. El Oasis en #Coacalco. Otra persona resultó… https://t.co/PbGjB9BT89"
+OBRERA,2018-03-01,17,"OJO. Hace unos minutos se registró un tiroteo en Manuel Caballero, entre 5 de Febrero y Calz. de Tlalpan, col. Obre… https://t.co/xyF4OVjDtu"
+POLANCO CHAPULTEPEC,2018-03-01,7,"#CDMX Por evitar asalto, disparan a un hombre en Polanco | Enfoque Noticias https://t.co/lTBmvuDHIm https://t.co/Vaq06zLFYG"
+DEL VALLE CENTRO,2018-03-02,5,@VertizNarvarte @AccionesBJ @Christianvonroe hay balazos en calle Bonanpak y san Borja
+Del Valle,2018-03-02,5,De disparos en la cabeza mataron a cinco hombres en El Valle #MonitorDeVíctimas https://t.co/S8H9JD3Cto https://t.co/bO34vx5dSr
+MAZA,2018-03-02,8,"#Video 🎥 | 
+
+Por quitarle su auto le disparan en 3 ocasiones y la matan frente a su hija adolescente, en Calle Cerr… https://t.co/rA8F7Zi0oW"
+OBRERA,2018-03-02,16,"La violencia incrementa en la #CDMX; hubo una balacera en la Obrera. 
+
+#DeIdayVuelta con @joseluismorag 👉… https://t.co/pnq580fSz4"
+EJIDO CULHUACAN,2018-03-03,6,@ManceraMiguelMX @TlalpanInfo @TLP1_CDMX @SSP_CDMX balacera en callejon las torres San andres totoltepec #CDMX https://t.co/ZThBGQMhjw
+AJUSCO,2018-03-04,97,Dos muertos y 4 heridos a tiros dejó como resultado una balacera en la colonia Ajusco en Coyoacán. Toltecas y Ayoja… https://t.co/8SpqxD386O
+SAN MIGUEL TEOTONGO SECC LAS TORR,2018-03-04,5,@C5_CDMX @tuyyocon10 @DelCuauhtemoc balazos a las 7:35 am StaMA RIBERA EGLZMTZ y flores MaGON
+UNIDAD HAB EMILIANO ZAPATA,2018-03-04,7,Casi a la misma hora de la balacera en Coyoacán se registró otra balacera en Ticomán con saldo de una persona sin v… https://t.co/TDcdQBxVB0
+PRADO CHURUBUSCO,2018-03-05,7,"Un presunto ladrón murió cuando intentaba escapar de un tiroteo en la Colonia Prado Churubusco, estampó el auto en… https://t.co/b70ieUY2mb"
+GUADALUPITA,2018-03-07,5,En la colonia #Guadalupita delegación #Xochimilco reportan una persona muerta por disparos de arma de fuego #Cdmx
+AMPL EMILIANO ZAPATA,2018-03-09,9,En presunto asalto atacan a balazos a familia de CDMX en la Autopista--&gt;https://t.co/gjAfHp7XWo
+MORELOS,2018-03-09,13,"#Ahora | 
+
+@SSP_CDMX resguarda un inmueble donde una persona fue asesinada a balazos en Mecánicos y Jarciería, col… https://t.co/GHuIUQKajI"
+POLANCO CHAPULTEPEC,2018-03-09,29,Un hombre de 25 años de edad fue asesinado a balazos en la colonia Polanco. Esto y más en nuestra #GuardiaNocturna https://t.co/pjwRiB0H04
+ARGENTINA ANTIGUA,2018-03-10,7,"#MovilizaciónPoliciaca por balacera en Lago Maracaibo y Lago San Martín, Col Antigua Argentina. #MiguelHidalgo, una… https://t.co/UWoJRy7q4X"
+SAN JOSE INSURGENTES,2018-03-10,54,"#Video 🎥 | 
+
+Asesinan a balazos a conductor de @MercedesBenz tras resistirse a asalto en Calle Perpetua e Insurgent… https://t.co/pDPts9aA24"
+BOSQUE DE SAN JUAN DE ARAGON,2018-03-11,5,"Asesinan a balazos a dos personas en Av. 508 y José Loreto Fabela, Col. San Juan de Aragón GAM #CDMX ⚠"
+CONSTITUCION DE LA REPUBLICA,2018-03-11,7,.@isidrocorro en #Periscope: 2 ratas chocan y mueren tras tiroteo en sn Juan d Aragón. https://t.co/AGvweJ7ioR
+IGNACIO ZARAGOZA,2018-03-11,9,"Tras balacera dentro de Mercado Zaragoza en Av Francisco Morazán y calle 39, col. Ignacio Zaragoza, SSP resguarda l… https://t.co/HOrnkBgv1O"
+AMPLIACION TLACUITLAPA,2018-03-12,6,Al momento balacera en tepito deja 2 muertos 3 heridos en Tenochtitlán casi eje 1 norte  @PGJDF_CDMX  @SSP_CDMX… https://t.co/JscVw1cC2c
+EL ARENAL,2018-03-12,5,Mueren dos menores por disparos en una riña en la colonia Arenal https://t.co/uGiSguWRaq
+MORELOS,2018-03-12,19,Muere a balazos persona en C. Labradores y Ferrocarril de Cintura Col. Morelos #Cuauhtemoc  Evite la zona
+MORELOS,2018-03-13,22,Tres hombres murieron y dos personas resultaron heridas por balacera en la colonia #Morelos #CUH #CDMX https://t.co/OLBP7HqzFR
+GUERRERO,2018-03-16,15,"Muere un hombre por disparos en la colonia Guerrero, CDMX 
+#MatutinoExpress 
+https://t.co/1CJcON9FUc https://t.co/kzibsNnoXc"
+SAN SIMON TICUMAC,2018-03-17,5,Se escucharon varios estruendos como balazos por calle centenario y san simón —@MitzySolt https://t.co/JVuEqBDDfd
+TABACALERA,2018-03-17,19,#NACIONALES Video capta balacera en la Reforma que alertó a peatones y conductores https://t.co/BtUOaYf2Nw https://t.co/Ylemh4DIqe
+GABRIEL RAMOS MILLAN,2018-03-18,19,"#Ahora | 
+
+Asesinan a una persona a balazos en Sur 145 y Oriente 102, colonia Ramos Millán, en @Iztacalco_Dele; SSP… https://t.co/tzTgwzdAyo"
+CUAUHTEMOC,2018-03-19,9,Reforma 222.. Col..Juarez..reporte de disparos https://t.co/lgcDAsKXzJ
+LA PASTORA,2018-03-19,20,"#Ahora | 
+
+Asesinan a balazos a una persona sobre #Nezahualcóyotl y John F. Kennedy, col. La Pastora en @gamadero.… https://t.co/4O39nFnuCU"
+LOMAS DE PADIERNA,2018-03-19,11,Se reportan disparos en la col lomas de padierna en la calle de calcachen entre holpechen y yobain —@UnMejorTlalpan https://t.co/RoQJMRp0FP
+SAN JUAN DE ARAGON MA SECC,2018-03-20,6,Tres heridos en tiroteo en la escuela Great Mills en #Maryland https://t.co/e3HOWCJ98G https://t.co/79MYNEEaxL
+LINDAVISTA,2018-03-21,6,@hiramalmeidae dejaron dos heridos por disparos afuera del hospital ángeles México en la Escandon
+SAN MARTIN XOCHINAHUAC,2018-03-22,7,"Vecinos de la colonia San Martin Xochinahuac, de la delegación Azcapotzalco, reportaron esta madrugada disparos afu… https://t.co/fdeMwoOTwF"
+AMPL TORREBLANCA,2018-03-23,6,"Por la madruga #asesinan a una persona de al menos 8 #disparos en Calz Legaria esq Periférico col Irrigación MH, pr… https://t.co/TiTdWXkFDD"
+PANAMERICANA,2018-03-23,9,Último minuto: Lo mataron de 2 tiros en la cabeza. Vecinos de la colonia Panamericana escuchan disparos y llaman a… https://t.co/OkKRy4UghD
+CUAUHTEMOC,2018-03-27,7,"Fuerte movilización policiaca por operativo, genera balacera en Luis Cabrera y Orquídea, Col La Malinche ,  hay det… https://t.co/v8yCaTAG6L"
+BARRIO NORTE,2018-03-28,12,"Tres muertos dejan dos balaceras en Aragón y Pueblo de Santa Fe, CDMX https://t.co/chFPVgc6zC https://t.co/Fqi3pIonHZ"
+GABRIEL HERNANDEZ,2018-03-29,8,"Dos muertos por disparos de arma de fuego, uno en la Col. Gabriel Hernández y otro en la Puebla, CDMX… https://t.co/mWMGOYNmhk"
+MOCTEZUMA DA SECC,2018-03-29,12,"#Video 🎥 | 
+
+Asesinan a balazos a una persona en Norte 50-A y Ferrocarril Industrial, @gamadero. @SSP_CDMX  se encu… https://t.co/9WCMkFVmmZ"
+CONGRESO AGRARISTA MEXICANO,2018-03-30,13,"Asesinan a un hombre a balazos en la Colonia Consejo Agrarista Mexicano, en Iztapalapa CdMx: agresores escaparon ¿a… https://t.co/0gwbKtTQQx"
